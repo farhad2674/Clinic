@@ -1,0 +1,88 @@
+{
+  "checks": [
+    {
+      "name": "No horizontal overflow at 360",
+      "pass": true,
+      "detail": {
+        "w": 360,
+        "sw": 360
+      }
+    },
+    {
+      "name": "No horizontal overflow at 390",
+      "pass": true,
+      "detail": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "No horizontal overflow at 768",
+      "pass": true,
+      "detail": {
+        "w": 768,
+        "sw": 768
+      }
+    },
+    {
+      "name": "No horizontal overflow at 1024",
+      "pass": true,
+      "detail": {
+        "w": 1024,
+        "sw": 1024
+      }
+    },
+    {
+      "name": "No horizontal overflow at 1440",
+      "pass": true,
+      "detail": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "Final care panel completely visible",
+      "pass": true,
+      "detail": {
+        "x": 84.56201171875,
+        "y": 289.40625,
+        "width": 1036.796875,
+        "height": 468.53125
+      }
+    },
+    {
+      "name": "Offscreen care panels excluded from keyboard",
+      "pass": true
+    },
+    {
+      "name": "Portrait scene remains within screen",
+      "pass": true
+    },
+    {
+      "name": "Midpage reload restores active journey stage",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion releases inert panels",
+      "pass": true
+    },
+    {
+      "name": "200 percent browser-zoom equivalent reflows",
+      "pass": true
+    },
+    {
+      "name": "Service detail has no mobile overflow",
+      "pass": true
+    },
+    {
+      "name": "Video failure keeps loaded poster and content",
+      "pass": true
+    },
+    {
+      "name": "No runtime errors in follow-up checks",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": []
+}

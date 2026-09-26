@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Production route /",
+    "pass": true,
+    "status": 200
+  },
+  {
+    "name": "Production route /services/exosomes",
+    "pass": true,
+    "status": 200
+  },
+  {
+    "name": "Production route /contact",
+    "pass": true,
+    "status": 200
+  },
+  {
+    "name": "Production browser runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "name": "Production video ranges",
+    "pass": true,
+    "status": 206
+  }
+]

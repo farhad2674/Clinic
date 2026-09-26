@@ -1,0 +1,279 @@
+{
+  "checks": [
+    {
+      "name": "journey text wipes into view",
+      "pass": true,
+      "detail": {
+        "entering": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": -17.2174
+        },
+        "settled": {
+          "clip": "inset(0px 0px 0px 0%)",
+          "opacity": 1,
+          "depth": -7.1739
+        }
+      }
+    },
+    {
+      "name": "journey text wipe reverses",
+      "pass": true,
+      "detail": {
+        "entering": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": -17.2174
+        },
+        "reversed": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": -17.2174
+        }
+      }
+    },
+    {
+      "name": "journey boxes travel at a different scroll speed",
+      "pass": true,
+      "detail": {
+        "entering": -17.2174,
+        "settled": -7.1739
+      }
+    },
+    {
+      "name": "journey box parallax reverses",
+      "pass": true,
+      "detail": {
+        "entering": -17.2174,
+        "reversed": -17.2174
+      }
+    },
+    {
+      "name": "trust text wipes into view",
+      "pass": true,
+      "detail": {
+        "entering": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": 11
+        },
+        "settled": {
+          "clip": "inset(0px 0px 0px 0%)",
+          "opacity": 1,
+          "depth": 0.5
+        }
+      }
+    },
+    {
+      "name": "trust text wipe reverses",
+      "pass": true,
+      "detail": {
+        "entering": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": 11
+        },
+        "reversed": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": 11
+        }
+      }
+    },
+    {
+      "name": "trust boxes travel at a different scroll speed",
+      "pass": true,
+      "detail": {
+        "entering": 11,
+        "settled": 0.5
+      }
+    },
+    {
+      "name": "trust box parallax reverses",
+      "pass": true,
+      "detail": {
+        "entering": 11,
+        "reversed": 11
+      }
+    },
+    {
+      "name": "journal text wipes into view",
+      "pass": true,
+      "detail": {
+        "entering": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": 23.375
+        },
+        "settled": {
+          "clip": "inset(0px 0px 0px 0%)",
+          "opacity": 1,
+          "depth": 1.0625
+        }
+      }
+    },
+    {
+      "name": "journal text wipe reverses",
+      "pass": true,
+      "detail": {
+        "entering": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": 23.375
+        },
+        "reversed": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": 23.375
+        }
+      }
+    },
+    {
+      "name": "journal boxes travel at a different scroll speed",
+      "pass": true,
+      "detail": {
+        "entering": 23.375,
+        "settled": 1.0625
+      }
+    },
+    {
+      "name": "journal box parallax reverses",
+      "pass": true,
+      "detail": {
+        "entering": 23.375,
+        "reversed": 23.375
+      }
+    },
+    {
+      "name": "faq-preview text wipes into view",
+      "pass": true,
+      "detail": {
+        "entering": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": 6.875
+        },
+        "settled": {
+          "clip": "inset(0px 0px 0px 0%)",
+          "opacity": 1,
+          "depth": 0.3125
+        }
+      }
+    },
+    {
+      "name": "faq-preview text wipe reverses",
+      "pass": true,
+      "detail": {
+        "entering": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": 6.875
+        },
+        "reversed": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": 6.875
+        }
+      }
+    },
+    {
+      "name": "faq-preview boxes travel at a different scroll speed",
+      "pass": true,
+      "detail": {
+        "entering": 6.875,
+        "settled": 0.3125
+      }
+    },
+    {
+      "name": "faq-preview box parallax reverses",
+      "pass": true,
+      "detail": {
+        "entering": 6.875,
+        "reversed": 6.875
+      }
+    },
+    {
+      "name": "invitation text wipes into view",
+      "pass": true,
+      "detail": {
+        "entering": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": 23.375
+        },
+        "settled": {
+          "clip": "inset(0px 0px 0px 0%)",
+          "opacity": 1,
+          "depth": 1.0625
+        }
+      }
+    },
+    {
+      "name": "invitation text wipe reverses",
+      "pass": true,
+      "detail": {
+        "entering": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.5924,
+          "depth": 23.375
+        },
+        "reversed": {
+          "clip": "inset(0px 0px 0px 62.7119%)",
+          "opacity": 0.4033,
+          "depth": 23.375
+        }
+      }
+    },
+    {
+      "name": "invitation boxes travel at a different scroll speed",
+      "pass": true,
+      "detail": {
+        "entering": 23.375,
+        "settled": 1.0625
+      }
+    },
+    {
+      "name": "invitation box parallax reverses",
+      "pass": true,
+      "detail": {
+        "entering": 23.375,
+        "reversed": 23.375
+      }
+    },
+    {
+      "name": "Journey active text changes and reverses",
+      "pass": true,
+      "detail": {
+        "visible": "0",
+        "next": "3",
+        "back": "0"
+      }
+    },
+    {
+      "name": "FAQ stays interactive under parallax",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion leaves text visible",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion removes box transforms",
+      "pass": true
+    },
+    {
+      "name": "Mobile has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Mobile keeps text readable",
+      "pass": true
+    },
+    {
+      "name": "No browser errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,277 @@
+{
+  "checks": [
+    {
+      "name": "Entrance video scrubs backwards",
+      "pass": true,
+      "detail": {
+        "entranceLater": 4.229166,
+        "entranceEarlier": 1.208333
+      }
+    },
+    {
+      "name": "Portrait video scrubs backwards",
+      "pass": true,
+      "detail": {
+        "portraitLater": 6.026782,
+        "portraitEarlier": 1.603865
+      }
+    },
+    {
+      "name": "Fourth care path reachable",
+      "pass": true
+    },
+    {
+      "name": "Care chapter button moves backwards",
+      "pass": true
+    },
+    {
+      "name": "Later care stage visible",
+      "pass": true
+    },
+    {
+      "name": "Care stage reverses",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion removes long scenes",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion restores all six stages",
+      "pass": true
+    },
+    {
+      "name": "Menu opens as modal",
+      "pass": true
+    },
+    {
+      "name": "Menu closes and restores focus",
+      "pass": true
+    },
+    {
+      "name": "Audience content updates",
+      "pass": true
+    },
+    {
+      "name": "FAQ opens",
+      "pass": true
+    },
+    {
+      "name": "No horizontal overflow at 360",
+      "pass": false,
+      "detail": {
+        "viewport": 360,
+        "document": 388
+      }
+    },
+    {
+      "name": "No horizontal overflow at 390",
+      "pass": false,
+      "detail": {
+        "viewport": 390,
+        "document": 415
+      }
+    },
+    {
+      "name": "No horizontal overflow at 768",
+      "pass": false,
+      "detail": {
+        "viewport": 768,
+        "document": 825
+      }
+    },
+    {
+      "name": "No horizontal overflow at 1024",
+      "pass": false,
+      "detail": {
+        "viewport": 1024,
+        "document": 1079
+      }
+    },
+    {
+      "name": "No horizontal overflow at 1440",
+      "pass": false,
+      "detail": {
+        "viewport": 1440,
+        "document": 1465
+      }
+    },
+    {
+      "name": "Contact preserves care context",
+      "pass": true
+    },
+    {
+      "name": "No invented contact links",
+      "pass": true
+    },
+    {
+      "name": "Advanced service availability explicit",
+      "pass": true
+    },
+    {
+      "name": "OS reduced-motion preference honored",
+      "pass": true
+    },
+    {
+      "name": "No-JavaScript care content exists",
+      "pass": true
+    },
+    {
+      "name": "No-JavaScript service links exist",
+      "pass": true
+    },
+    {
+      "name": "Route /",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /skin",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /hair",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /rejuvenation",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /advanced",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /about",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /care",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /journal",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /faq",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /contact",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /privacy",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/acne",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/acne-scars",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/pigmentation",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/hair-loss",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/scalp-health",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/natural-rejuvenation",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/rejuvenation-45",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/botox",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/fillers",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/microneedling",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/prp",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/prf",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/exosomes",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Route /services/cell-based",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "Unknown route returns 404",
+      "pass": true,
+      "detail": 404
+    },
+    {
+      "name": "Video byte ranges supported",
+      "pass": true,
+      "detail": 206
+    },
+    {
+      "name": "No browser runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": [
+    "No horizontal overflow at 360",
+    "No horizontal overflow at 390",
+    "No horizontal overflow at 768",
+    "No horizontal overflow at 1024",
+    "No horizontal overflow at 1440"
+  ],
+  "errors": []
+}

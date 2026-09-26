@@ -1,0 +1,134 @@
+{
+  "checks": [
+    {
+      "name": "Home responds",
+      "pass": true
+    },
+    {
+      "name": "Motion initialized",
+      "pass": true
+    },
+    {
+      "name": "Portrait cue updates",
+      "pass": true
+    },
+    {
+      "name": "Decision card at 0.12",
+      "pass": true,
+      "detail": {
+        "expected": "0",
+        "actual": "0"
+      }
+    },
+    {
+      "name": "Decision card count at 0.12",
+      "pass": true
+    },
+    {
+      "name": "Decision card at 0.48",
+      "pass": true,
+      "detail": {
+        "expected": "1",
+        "actual": "1"
+      }
+    },
+    {
+      "name": "Decision card count at 0.48",
+      "pass": true
+    },
+    {
+      "name": "Decision card at 0.85",
+      "pass": true,
+      "detail": {
+        "expected": "2",
+        "actual": "2"
+      }
+    },
+    {
+      "name": "Decision card count at 0.85",
+      "pass": true
+    },
+    {
+      "name": "Decision card at 0.12",
+      "pass": true,
+      "detail": {
+        "expected": "0",
+        "actual": "0"
+      }
+    },
+    {
+      "name": "Decision card count at 0.12",
+      "pass": true
+    },
+    {
+      "name": "Decision button advances",
+      "pass": true
+    },
+    {
+      "name": "Decision button reverses",
+      "pass": true
+    },
+    {
+      "name": "Desktop has no overflow",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion shows all decision cards",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion removes long scene",
+      "pass": true
+    },
+    {
+      "name": "No overflow at 360",
+      "pass": true,
+      "detail": {
+        "viewport": 360,
+        "document": 360
+      }
+    },
+    {
+      "name": "No overflow at 390",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "name": "No overflow at 768",
+      "pass": true,
+      "detail": {
+        "viewport": 768,
+        "document": 768
+      }
+    },
+    {
+      "name": "No overflow at 1024",
+      "pass": true,
+      "detail": {
+        "viewport": 1024,
+        "document": 1024
+      }
+    },
+    {
+      "name": "No overflow at 1440",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440
+      }
+    },
+    {
+      "name": "Mobile keeps all decision cards",
+      "pass": true
+    },
+    {
+      "name": "No browser errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": []
+}

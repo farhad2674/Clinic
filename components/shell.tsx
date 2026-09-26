@@ -1,0 +1,18 @@
+'use client';
+import {useEffect,useRef,useState} from 'react';
+import {brand,pages} from '@/lib/site';
+import {Preloader} from './preloader';
+export function Arrow({diagonal=false}:{diagonal?:boolean}){return <svg className="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d={diagonal?'M17 17V7H7M17 7 7 17':'M20 12H4m7-7-7 7 7 7'} stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/></svg>}
+export function Wordmark(){return <span className="wordmark" lang="en" dir="ltr">ELORA<span className="wordmark-dot">.</span></span>}
+export function CTA({children=brand.cta,href='/contact',light=false}:{children?:React.ReactNode;href?:string;light?:boolean}){return <a className={'button '+(light?'button-light':'')} href={href}><span>{children}</span><span className="button-icon"><Arrow/></span></a>}
+export function Shell({children}:{children:React.ReactNode}){
+const [menuOpen,setMenuOpen]=useState(false);
+const dialog=useRef<HTMLDialogElement>(null),toggle=useRef<HTMLButtonElement>(null);
+useEffect(()=>{const mq=window.matchMedia('(prefers-reduced-motion: reduce)');const apply=()=>{document.documentElement.classList.toggle('reduced-motion',mq.matches);window.dispatchEvent(new Event('elora-motion'))};apply();mq.addEventListener('change',apply);return()=>mq.removeEventListener('change',apply)},[]);function close(){dialog.current?.close();setMenuOpen(false);document.body.style.overflow='';toggle.current?.focus()}
+function open(){dialog.current?.showModal();setMenuOpen(true);document.body.style.overflow='hidden'}
+return <><Preloader/><a className="skip-link" href="#main">رفتن به محتوا</a><header className="site-header"><a href="/" className="brand-link" aria-label="الورا، صفحه اصلی"><Wordmark/></a><nav className="desktop-nav" aria-label="ناوبری اصلی"><a href="/services">مسیرهای مراقبت</a><a href="/about">نگاه الورا</a><a href="/journal">مجله علمی</a></nav><div className="header-actions"><a href="/contact" className="header-contact">گفت‌وگو با الورا <Arrow diagonal/></a><button ref={toggle} className="menu-button" aria-label="باز کردن فهرست" aria-expanded={menuOpen} onClick={open}><span/><span/></button></div></header>
+<dialog ref={dialog} className="menu-dialog" onCancel={close} onClick={e=>{if(e.target===e.currentTarget)close()}}><div className="menu-inner"><div className="menu-top"><Wordmark/><button className="text-button" onClick={close}>بستن ×</button></div><p className="eyebrow">راهی برای شناخت بیشتر</p><nav aria-label="همه صفحات"><a href="/" onClick={close}>خانه</a>{pages.map(p=><a key={p.slug} href={'/'+p.slug} onClick={close}>{p.title}<Arrow/></a>)}</nav></div></dialog>
+{children}
+<footer className="site-footer"><div className="footer-top"><a href="/" aria-label="صفحه اصلی"><Wordmark/></a><p>علم، اعتماد و زیبایی طبیعی</p><a href="#main" className="back-top">بازگشت به بالا ↑</a></div><div className="footer-grid"><p>مرکز تخصصی پوست، مو، زیبایی<br/>و جوان‌سازی الورا<br/><span className="muted">تهران · محدوده پاسداران / دولت</span></p><nav aria-label="اطلاعات الورا"><a href="/about">درباره الورا</a><a href="/care">مسیر مراجعه</a><a href="/faq">پرسش‌های متداول</a></nav><nav aria-label="راهنمای مراجعان"><a href="/contact">تماس و مشاوره</a><a href="/privacy">حریم خصوصی</a><a href="/journal">مجله علمی</a></nav><p className="footer-note">مطالب برای آگاهی عمومی‌اند و جایگزین معاینه و تشخیص پزشکی نیستند. مناسب‌بودن هر درمان پس از ارزیابی مشخص می‌شود.</p></div><div className="footer-bottom"><span>© ELORA ۲۰۲۶</span><span>نسخه پیش‌نمایش · اطلاعات خدمات در انتظار تأیید پزشکی</span></div></footer>
+</>
+}

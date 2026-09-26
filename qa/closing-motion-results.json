@@ -1,0 +1,198 @@
+{
+  "checks": [
+    {
+      "name": "Home and cover chapters render",
+      "pass": true
+    },
+    {
+      "name": "Motion initialized",
+      "pass": true
+    },
+    {
+      "name": "Inline headline CTA points to contact",
+      "pass": true
+    },
+    {
+      "name": "Desktop layered layout enabled",
+      "pass": true,
+      "detail": {
+        "height": 1980,
+        "sticky": "sticky"
+      }
+    },
+    {
+      "name": "Hero threshold appears midway",
+      "pass": true,
+      "detail": 0.8537
+    },
+    {
+      "name": "Hero threshold yields to final message",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "Hero threshold reverses on upward scroll",
+      "pass": true,
+      "detail": 0.8537
+    },
+    {
+      "name": "Cover care-pause rises over previous chapter",
+      "pass": true,
+      "detail": {
+        "top": "",
+        "bottom": "care-pause"
+      }
+    },
+    {
+      "name": "Title care-pause is revealed",
+      "pass": true,
+      "detail": {
+        "opacity": 1,
+        "y": 259.453125
+      }
+    },
+    {
+      "name": "Cover trust rises over previous chapter",
+      "pass": true,
+      "detail": {
+        "top": "care-pause",
+        "bottom": "trust"
+      }
+    },
+    {
+      "name": "Title trust is revealed",
+      "pass": true,
+      "detail": {
+        "opacity": 1,
+        "y": 166.234375
+      }
+    },
+    {
+      "name": "Cover journal rises over previous chapter",
+      "pass": true,
+      "detail": {
+        "top": "trust",
+        "bottom": "journal"
+      }
+    },
+    {
+      "name": "Title journal is revealed",
+      "pass": true,
+      "detail": {
+        "opacity": 1,
+        "y": 135.28125
+      }
+    },
+    {
+      "name": "Cover faq-preview rises over previous chapter",
+      "pass": true,
+      "detail": {
+        "top": "journal",
+        "bottom": "faq-preview"
+      }
+    },
+    {
+      "name": "Title faq-preview is revealed",
+      "pass": true,
+      "detail": {
+        "opacity": 1,
+        "y": 317.75
+      }
+    },
+    {
+      "name": "Cover invitation rises over previous chapter",
+      "pass": true,
+      "detail": {
+        "top": "faq-preview",
+        "bottom": "invitation"
+      }
+    },
+    {
+      "name": "Title invitation is revealed",
+      "pass": true,
+      "detail": {
+        "opacity": 1,
+        "y": 249.52780151367188
+      }
+    },
+    {
+      "name": "Title reveal follows reverse scroll",
+      "pass": true,
+      "detail": {
+        "before": 0.5307,
+        "after": 1
+      }
+    },
+    {
+      "name": "Desktop has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion removes pinned cover",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion leaves all chapter titles visible",
+      "pass": true
+    },
+    {
+      "name": "No horizontal overflow at 360",
+      "pass": true,
+      "detail": {
+        "viewport": 360,
+        "document": 360
+      }
+    },
+    {
+      "name": "No horizontal overflow at 390",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "name": "No horizontal overflow at 768",
+      "pass": true,
+      "detail": {
+        "viewport": 768,
+        "document": 768
+      }
+    },
+    {
+      "name": "No horizontal overflow at 1024",
+      "pass": true,
+      "detail": {
+        "viewport": 1024,
+        "document": 1024
+      }
+    },
+    {
+      "name": "No horizontal overflow at 1440",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440
+      }
+    },
+    {
+      "name": "Mobile title visible within chapter",
+      "pass": true,
+      "detail": {
+        "opacity": 1,
+        "transform": "none",
+        "top": 416.53125
+      }
+    },
+    {
+      "name": "Mobile inline CTA visible",
+      "pass": true
+    },
+    {
+      "name": "No browser errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": []
+}

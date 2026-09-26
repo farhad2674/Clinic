@@ -1,0 +1,58 @@
+import {chromium} from 'file:///C:/Users/Farhad/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs';
+import {writeFileSync} from 'node:fs';
+
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:900}});
+const checks=[],errors=[];
+const viewportHeight=900;
+page.on('pageerror',error=>errors.push(error.message));
+const check=(name,pass,detail)=>checks.push({name,pass,detail});
+await page.goto(process.env.ELORA_BASE_URL||'http://127.0.0.1:3002',{waitUntil:'networkidle'});
+await page.waitForTimeout(700);
+const top=async id=>page.evaluate(id=>{const el=document.getElementById(id);return el.getBoundingClientRect().top+scrollY},id);
+const move=async y=>{await page.evaluate(y=>scrollTo({top:y,behavior:'instant'}),y);await page.waitForTimeout(500)};
+const sample=async id=>page.evaluate(id=>{
+  const section=document.getElementById(id);
+  const text=section.querySelector('[data-text-reveal]');
+  const box=section.querySelector('[data-depth-box]');
+  const matrix=new DOMMatrix(getComputedStyle(box).transform);
+  return {clip:getComputedStyle(text).clipPath,opacity:Number(getComputedStyle(text).opacity),depth:matrix.m42};
+},id);
+const clipLeft=clip=>Number(clip.match(/inset\([^)]*?([\d.]+)%\)$/)?.[1]??0);
+for(const id of ['journey','trust','journal','faq-preview','invitation']){
+  const sectionTop=await top(id);
+  await move(sectionTop-viewportHeight*.5);
+  const entering=await sample(id);
+  await move(sectionTop+viewportHeight*.55);
+  const settled=await sample(id);
+  await move(sectionTop-viewportHeight*.5);
+  const reversed=await sample(id);
+  check(id+' text wipes into view',clipLeft(entering.clip)>clipLeft(settled.clip)+5,{entering,settled});
+  check(id+' text wipe reverses',Math.abs(clipLeft(entering.clip)-clipLeft(reversed.clip))<4,{entering,reversed});
+  check(id+' boxes travel at a different scroll speed',Math.abs(entering.depth-settled.depth)>3,{entering:entering.depth,settled:settled.depth});
+  check(id+' box parallax reverses',Math.abs(entering.depth-reversed.depth)<2,{entering:entering.depth,reversed:reversed.depth});
+  await move(sectionTop+80);
+  await page.screenshot({path:'qa/text-depth-'+id+'.png'});
+}
+await move((await top('journey'))+viewportHeight*.1);
+let visible=await page.locator('[data-journey-step][aria-hidden="false"]').getAttribute('data-journey-step');
+await move((await top('journey'))+(await page.locator('#journey').evaluate(e=>e.offsetHeight-innerHeight))*.57);
+let next=await page.locator('[data-journey-step][aria-hidden="false"]').getAttribute('data-journey-step');
+await move((await top('journey'))+viewportHeight*.1);
+let back=await page.locator('[data-journey-step][aria-hidden="false"]').getAttribute('data-journey-step');
+check('Journey active text changes and reverses',visible==='0'&&next==='3'&&back==='0',{visible,next,back});
+await move((await top('faq-preview'))+80);
+await page.locator('#faq-preview details').first().locator('summary').click();
+check('FAQ stays interactive under parallax',await page.locator('#faq-preview details').first().evaluate(e=>e.open));
+await page.locator('.motion-toggle').click();
+await page.waitForTimeout(550);
+check('Reduced motion leaves text visible',await page.locator('[data-text-reveal]').evaluateAll(els=>els.every(e=>getComputedStyle(e).clipPath==='none'&&Number(getComputedStyle(e).opacity)>.95)));
+check('Reduced motion removes box transforms',await page.locator('[data-depth-box]').evaluateAll(els=>els.every(e=>getComputedStyle(e).transform==='none')));
+await page.setViewportSize({width:390,height:844});
+await page.waitForTimeout(600);
+check('Mobile has no horizontal overflow',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+check('Mobile keeps text readable',await page.locator('#trust [data-text-reveal]').first().evaluate(e=>getComputedStyle(e).clipPath==='none'));
+check('No browser errors',errors.length===0,errors);
+writeFileSync('qa/text-depth-results.json',JSON.stringify({checks,failures:checks.filter(c=>!c.pass).map(c=>c.name)},null,2));
+console.log(JSON.stringify({checks,failures:checks.filter(c=>!c.pass).map(c=>c.name)}));
+await browser.close();

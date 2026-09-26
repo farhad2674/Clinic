@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.next/
+.vite/
+*.log
+qa/*.png
+
+.vinext/
+.wrangler/

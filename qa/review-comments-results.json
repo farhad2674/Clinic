@@ -1,0 +1,140 @@
+{
+  "checks": [
+    {
+      "name": "First visit presents logo preloader",
+      "pass": true
+    },
+    {
+      "name": "Preloader completes and releases scroll",
+      "pass": true
+    },
+    {
+      "name": "Unwanted motion button and hero caption removed",
+      "pass": true
+    },
+    {
+      "name": "New portrait assets are wired",
+      "pass": true
+    },
+    {
+      "name": "Mature tab keeps age-appropriate image",
+      "pass": true
+    },
+    {
+      "name": "Young scarf portrait loads in life section",
+      "pass": true
+    },
+    {
+      "name": "Natural portrait loads in care section",
+      "pass": true
+    },
+    {
+      "name": "Portrait analytics step 0",
+      "pass": true
+    },
+    {
+      "name": "Portrait analytics step 1",
+      "pass": true
+    },
+    {
+      "name": "Portrait analytics step 2",
+      "pass": true
+    },
+    {
+      "name": "Old portrait annotation is gone",
+      "pass": true
+    },
+    {
+      "name": "Six journey slides scrub horizontally",
+      "pass": true,
+      "detail": [
+        102.55,
+        1750.67,
+        3398.79
+      ]
+    },
+    {
+      "name": "Journey controls update",
+      "pass": true
+    },
+    {
+      "name": "Journey dot reaches last slide",
+      "pass": true
+    },
+    {
+      "name": "trust visibly stacks over previous section",
+      "pass": true,
+      "detail": {
+        "top": "care-pause",
+        "bottom": "trust",
+        "margin": "-127.6px",
+        "z": "8"
+      }
+    },
+    {
+      "name": "trust title reveals near viewport center",
+      "pass": true,
+      "detail": {
+        "before": 55,
+        "after": 0
+      }
+    },
+    {
+      "name": "journal visibly stacks over previous section",
+      "pass": true,
+      "detail": {
+        "top": "trust",
+        "bottom": "journal",
+        "margin": "-127.6px",
+        "z": "9"
+      }
+    },
+    {
+      "name": "journal title reveals near viewport center",
+      "pass": true,
+      "detail": {
+        "before": 55,
+        "after": 0
+      }
+    },
+    {
+      "name": "Compact desktop has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Mobile has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Mobile horizontal swipe updates stage",
+      "pass": true
+    },
+    {
+      "name": "Tall desktop retains full overlapping cover scene",
+      "pass": true,
+      "detail": {
+        "margin": -990,
+        "radius": "170px"
+      }
+    },
+    {
+      "name": "Tall desktop journey scrubs without horizontal overflow",
+      "pass": true,
+      "detail": 3867.64
+    },
+    {
+      "name": "OS reduced motion skips preloader and heavy scene",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion leaves horizontal journey browsable",
+      "pass": true
+    },
+    {
+      "name": "No browser errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": []
+}
