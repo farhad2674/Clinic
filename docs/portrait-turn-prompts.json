@@ -1,0 +1,94 @@
+{
+  "tool": "built-in image_gen",
+  "skill": "C:/Users/Farhad/.codex/skills/elora-blog-imagery/SKILL.md",
+  "brief": "Fictional 25-year-old adult Iranian model, subtle filler aesthetic, scarf folded as a headband, natural head turn toward screen right. Cinematic illustrative facial callouts. Preserve original homepage assets.",
+  "angleNote": "Angles are prompt targets, not measured anatomical yaw.",
+  "frames": [
+    {
+      "angle": 0,
+      "prompt": "Use case: photorealistic-natural. Create one master frontal keyframe for a cinematic facial portrait turn on ELORA's Persian website. New fictional adult Iranian woman aged 25, beautifully balanced subtly filler-enhanced full lips and rounded high cheeks, dark almond-shaped brown eyes, expressive dark brows, natural warm olive skin with visible pores and tiny imperfections, restrained makeup, closed relaxed lips. Iranian silk scarf folded into a wide headband, tied behind the head (تل از روسری), ivory and powder pink silk with very fine muted champagne pattern, dark brown hair swept neatly behind shoulders, headband on crown, not a full covering over the head. Modest ivory high-neck blouse. Chest-up full head portrait, absolutely straight front-facing head and shoulders, eyes toward camera, head centered x50%, top of scarf y16%, eye line y40%, chin y60%, shoulders y76%; ample clean room around both cheeks for HTML overlays. Portrait 3:4 composition, fixed 85mm lens at eye level. Seamless pale blush #F8ECEE background, soft large diffused daylight, consistent soft shadows, refined tactile editorial photography. Quiet natural expression. This is the identity anchor for subsequent head-rotation frames. No text, no graphics, no logo, no watermark, no instruments, no before-and-after, no airbrushed plastic skin. Output one single photograph.",
+      "generatedSource": "C:\\Users\\Farhad\\.codex\\generated_images\\01a0e724-d977-7b22-b630-c8bd628eec1b\\exec-7190d5e6-4f46-4290-8a7c-f39ef390b7b0.png",
+      "original": "assets/portrait-turn/originals/00-0.png",
+      "keyframe": "assets/portrait-turn/keyframes/00.png",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "angle": 6,
+      "prompt": "Use case: identity-preserve. Edit target: reference 1 master frontal portrait of fictional adult woman. Turn her head ONLY VERY SLIGHTLY toward the right edge of image, just 6 degrees from frontal. Her nose moves only 20 pixels right from its centered location. Almost front-facing, both eyes fully visible and almost equal size. Shoulders stay square/front-facing as in reference. Same young adult woman, exact headband scarf, modest blouse, skin pores, lighting, background, crop and camera. Eyes gently follow head orientation, lips relaxed closed. Do not tilt head or move camera or zoom. Keep chin at same height. Need consistent sequential rotation keyframe for animation, not a different model. 3:4 portrait same dimensions. No text or graphics.",
+      "generatedSource": "C:\\Users\\Farhad\\.codex\\generated_images\\01a0e724-d977-7b22-b630-c8bd628eec1b\\exec-2ddbb669-6b79-4a25-9ade-010a0b098bc1.png",
+      "original": "assets/portrait-turn/originals/01-6.png",
+      "keyframe": "assets/portrait-turn/keyframes/01.png",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "angle": 12,
+      "prompt": "Use case: identity-preserve. Edit target: the attached frontal portrait. Create the 12-degree keyframe of the SAME WOMAN in a smooth natural head turn toward the RIGHT EDGE OF THE IMAGE (her left). Rotate only her head and neck by 12 degrees from frontal; this is a small near-frontal turn with both eyes fully visible. Her eyes follow her head naturally, looking in the direction her nose points. Keep the same fictional adult identity, facial proportions, subtle full lips and cheeks, natural pores, exact scarf headband pattern, hairstyle, blouse, expression and closed lips. Shoulders remain square and identical to reference. Fix camera, lens, lighting, pale background, crop, scale, head height, chin height and central neck position EXACTLY. No zoom, no pan, no tilt, no expression change. Portrait 3:4 same dimensions and composition as reference. One photograph, not a grid. No overlays or text.",
+      "generatedSource": "C:\\Users\\Farhad\\.codex\\generated_images\\01a0e724-d977-7b22-b630-c8bd628eec1b\\exec-382bb4a0-310a-4ccc-b7f6-294704097900.png",
+      "original": "assets/portrait-turn/originals/02-12.png",
+      "keyframe": "assets/portrait-turn/keyframes/02.png",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "angle": 24,
+      "prompt": "Use case: identity-preserve. Edit target: the attached frontal portrait. Create the 24-degree keyframe of the SAME WOMAN in a smooth natural head turn toward the RIGHT EDGE OF THE IMAGE (her left). Rotate only her head and neck by 24 degrees from frontal; this is a gentle intermediate turn with both eyes visible. Her eyes follow her head naturally, looking in the direction her nose points. Keep the same fictional adult identity, facial proportions, subtle full lips and cheeks, natural pores, exact scarf headband pattern, hairstyle, blouse, expression and closed lips. Shoulders remain square and identical to reference. Fix camera, lens, lighting, pale background, crop, scale, head height, chin height and central neck position EXACTLY. No zoom, no pan, no tilt, no expression change. Portrait 3:4 same dimensions and composition as reference. One photograph, not a grid. No overlays or text.",
+      "generatedSource": "C:\\Users\\Farhad\\.codex\\generated_images\\01a0e724-d977-7b22-b630-c8bd628eec1b\\exec-85313bc4-cc4b-4e5f-b60e-c31da0c98d87.png",
+      "original": "assets/portrait-turn/originals/03-24.png",
+      "keyframe": "assets/portrait-turn/keyframes/03.png",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "angle": 36,
+      "prompt": "Use case: identity-preserve. Edit target: the attached frontal portrait. Create the 36-degree keyframe of the SAME WOMAN in a smooth natural head turn toward the RIGHT EDGE OF THE IMAGE (her left). Rotate only her head and neck by 36 degrees from frontal; this is a three-quarter view with the far eye narrower. Her eyes follow her head naturally, looking in the direction her nose points. Keep the same fictional adult identity, facial proportions, subtle full lips and cheeks, natural pores, exact scarf headband pattern, hairstyle, blouse, expression and closed lips. Shoulders remain square and identical to reference. Fix camera, lens, lighting, pale background, crop, scale, head height, chin height and central neck position EXACTLY. No zoom, no pan, no tilt, no expression change. Portrait 3:4 same dimensions and composition as reference. One photograph, not a grid. No overlays or text.",
+      "generatedSource": "C:\\Users\\Farhad\\.codex\\generated_images\\01a0e724-d977-7b22-b630-c8bd628eec1b\\exec-218640ed-338f-4a13-b609-77007564c0b3.png",
+      "original": "assets/portrait-turn/originals/04-36.png",
+      "keyframe": "assets/portrait-turn/keyframes/04.png",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "angle": 42,
+      "prompt": "Use case: identity-preserve. Two input images are consecutive pose references of the SAME fictional adult woman. Generate ONE transition keyframe EXACTLY halfway between their head rotations. Reference 1 is the starting angle, reference 2 is the ending angle. Pose must be intermediate: nose, lips, chin, eyes, ears halfway between the reference positions. Same identity, same features, expression, headband scarf and its pattern, hair, blouse, lighting, background, exact camera and crop. The shoulders stay locked front-facing. Rotate only the head a little further toward the right than reference 1 but less than reference 2. This is an in-between for a smooth natural head turn. Match the source 1086x1448 3:4 framing, no text or overlays. Single photograph.",
+      "generatedSource": "C:\\Users\\Farhad\\.codex\\generated_images\\01a0e724-d977-7b22-b630-c8bd628eec1b\\exec-d983f106-4a6a-4878-a2a4-6d7722595a19.png",
+      "references": [
+        36,
+        48
+      ],
+      "original": "assets/portrait-turn/originals/05-42.png",
+      "keyframe": "assets/portrait-turn/keyframes/05.png",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "angle": 48,
+      "prompt": "Use case: identity-preserve. Edit target: reference 1 master frontal portrait of fictional adult woman. Rotate her head and neck decisively toward the RIGHT EDGE OF THE IMAGE (her left), 48 degrees from frontal. A strong three-quarter angle: nose projects to image right, far eye is visibly foreshortened, near ear visible, nose tip approximately x70% of image. Shoulders stay square/front-facing as in reference. Same young adult woman, exact headband scarf, modest blouse, skin pores, lighting, background, crop and camera. Eyes gently follow head orientation, lips relaxed closed. Do not tilt head or move camera or zoom. Keep chin at same height. Need consistent sequential rotation keyframe for animation, not a different model. 3:4 portrait same dimensions. No text or graphics.",
+      "generatedSource": "C:\\Users\\Farhad\\.codex\\generated_images\\01a0e724-d977-7b22-b630-c8bd628eec1b\\exec-8778443e-de14-455b-9888-7e1c012ef87b.png",
+      "original": "assets/portrait-turn/originals/06-48.png",
+      "keyframe": "assets/portrait-turn/keyframes/06.png",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "angle": 60,
+      "prompt": "Use case: identity-preserve. Edit target: reference 1 master frontal portrait of fictional adult woman. Rotate her head and neck decisively toward the RIGHT EDGE OF THE IMAGE (her left), 60 degrees from frontal. A near-profile portrait: nose distinctly projects to image right, the far eye is almost occluded by nose bridge, near ear visible, nose tip approximately at x76% of image. Shoulders stay square/front-facing as in reference. Same young adult woman, exact headband scarf, modest blouse, skin pores, lighting, background, crop and camera. Eyes gently follow head orientation, lips relaxed closed. Do not tilt head or move camera or zoom. Keep chin at same height. Need consistent sequential rotation keyframe for animation, not a different model. 3:4 portrait same dimensions. No text or graphics.",
+      "generatedSource": "C:\\Users\\Farhad\\.codex\\generated_images\\01a0e724-d977-7b22-b630-c8bd628eec1b\\exec-ce58fedb-aedb-44a8-acba-c199e9a6af10.png",
+      "original": "assets/portrait-turn/originals/07-60.png",
+      "keyframe": "assets/portrait-turn/keyframes/07.png",
+      "width": 720,
+      "height": 960
+    }
+  ],
+  "output": {
+    "video": "public/media/portrait-turn/portrait-turn.mp4",
+    "poster": "public/media/portrait-turn/poster.webp",
+    "frames": "assets/portrait-turn/frames",
+    "fps": 24,
+    "width": 720,
+    "height": 960,
+    "duration": 7.5,
+    "interpolation": "FFmpeg motion-compensated optical-flow in-betweens; not native video generation"
+  }
+}

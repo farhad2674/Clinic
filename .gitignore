@@ -3,7 +3,8 @@ dist/
 .next/
 .vite/
 *.log
-qa/*.png
+qa/**/*.png
 
 .vinext/
 .wrangler/
+/assets/

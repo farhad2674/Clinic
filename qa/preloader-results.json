@@ -1,0 +1,205 @@
+{
+  "checks": [
+    {
+      "name": "Loader stays locked beyond old timeout while second-section film is pending",
+      "pass": true,
+      "detail": {
+        "ready": "loading",
+        "locked": true,
+        "motion": false,
+        "videos": [
+          {
+            "state": "ready",
+            "src": "blob:http://127.0.0.1:3000/80700391-0db8-4e7c-a7bb-e6c522409b88",
+            "ready": 4,
+            "time": 0,
+            "duration": 6.041667
+          },
+          {
+            "state": "loading",
+            "src": "",
+            "ready": 0,
+            "time": 0,
+            "duration": null
+          }
+        ],
+        "images": [
+          {
+            "loaded": true,
+            "visible": "visible"
+          },
+          {
+            "loaded": true,
+            "visible": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Both full films are local and decoded before reveal",
+      "pass": true,
+      "detail": [
+        {
+          "state": "ready",
+          "src": "blob:http://127.0.0.1:3000/80700391-0db8-4e7c-a7bb-e6c522409b88",
+          "ready": 4,
+          "time": 0,
+          "duration": 6.041667
+        },
+        {
+          "state": "ready",
+          "src": "blob:http://127.0.0.1:3000/95326861-c8f5-46de-a03b-318b51e1e607",
+          "ready": 4,
+          "time": 0,
+          "duration": 8.041667
+        }
+      ]
+    },
+    {
+      "name": "Opening images and fonts are ready and content unlocks",
+      "pass": true,
+      "detail": {
+        "ready": "ready",
+        "locked": false,
+        "motion": true,
+        "videos": [
+          {
+            "state": "ready",
+            "src": "blob:http://127.0.0.1:3000/80700391-0db8-4e7c-a7bb-e6c522409b88",
+            "ready": 4,
+            "time": 0,
+            "duration": 6.041667
+          },
+          {
+            "state": "ready",
+            "src": "blob:http://127.0.0.1:3000/95326861-c8f5-46de-a03b-318b51e1e607",
+            "ready": 4,
+            "time": 0,
+            "duration": 8.041667
+          }
+        ],
+        "images": [
+          {
+            "loaded": true,
+            "visible": "visible"
+          },
+          {
+            "loaded": true,
+            "visible": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Film blobs contain complete files",
+      "pass": true,
+      "detail": [
+        2932156,
+        2451536
+      ]
+    },
+    {
+      "name": "Hero entrance plays after reveal",
+      "pass": true
+    },
+    {
+      "name": "Portrait scrubs forward and backward without network buffering",
+      "pass": true,
+      "detail": {
+        "forward": 6.433333,
+        "backward": 1.608333
+      }
+    },
+    {
+      "name": "Reload preserves saved scroll after readiness and layout setup",
+      "pass": true,
+      "detail": {
+        "before": 14507,
+        "after": 14507
+      }
+    },
+    {
+      "name": "Returning visitor still waits for the philosophy image",
+      "pass": true
+    },
+    {
+      "name": "Failed videos reveal poster fallbacks without active scrubbing",
+      "pass": true
+    },
+    {
+      "name": "Stalled video switches to a poster after the 25-second deadline",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion loads stills without downloading films",
+      "pass": true
+    },
+    {
+      "name": "Mobile reduced-motion layout has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Mobile motion loads both films and fits viewport",
+      "pass": true,
+      "detail": {
+        "mobileState": {
+          "ready": "ready",
+          "locked": false,
+          "motion": true,
+          "videos": [
+            {
+              "state": "ready",
+              "src": "blob:http://127.0.0.1:3000/2f3cec5b-b20d-4d86-ad9f-c1fc7fa237d0",
+              "ready": 4,
+              "time": 2.655624,
+              "duration": 6.041667
+            },
+            {
+              "state": "ready",
+              "src": "blob:http://127.0.0.1:3000/f0e433b6-7848-4504-818d-8853b6ed01af",
+              "ready": 4,
+              "time": 0,
+              "duration": 8.041667
+            }
+          ],
+          "images": [
+            {
+              "loaded": true,
+              "visible": "visible"
+            },
+            {
+              "loaded": true,
+              "visible": "visible"
+            }
+          ]
+        },
+        "mobileWidth": {
+          "content": 390,
+          "viewport": 390
+        }
+      }
+    },
+    {
+      "name": "Loader also waits for the heading font",
+      "pass": true
+    },
+    {
+      "name": "Data saver uses prepared posters without film downloads",
+      "pass": true
+    },
+    {
+      "name": "No-JavaScript content is accessible without loader overlay",
+      "pass": true
+    },
+    {
+      "name": "Inner pages do not wait for unrelated homepage media",
+      "pass": true
+    },
+    {
+      "name": "No browser runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Outline heart replaces star",
+    "pass": true
+  },
+  {
+    "name": "Contact icon and hover lift",
+    "pass": true,
+    "before": "none",
+    "hovered": {
+      "transform": "matrix(1, 0, 0, 1, 0, -3)",
+      "color": "rgb(234, 216, 184)",
+      "href": "/contact"
+    }
+  },
+  {
+    "name": "Keyboard focus is visible",
+    "pass": true
+  },
+  {
+    "name": "Mobile fits viewport",
+    "pass": true
+  },
+  {
+    "name": "Reduced motion disables button transforms",
+    "pass": true
+  },
+  {
+    "name": "No runtime errors",
+    "pass": true,
+    "errors": []
+  }
+]

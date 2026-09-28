@@ -1,0 +1,67 @@
+[
+  {
+    "scenario": "malformed-anchor",
+    "pass": true,
+    "state": {
+      "unlocked": true,
+      "motion": true,
+      "media": [
+        "ready",
+        "ready"
+      ]
+    }
+  },
+  {
+    "scenario": "valid-anchor",
+    "pass": true,
+    "state": {
+      "unlocked": true,
+      "motion": true,
+      "media": [
+        "ready",
+        "ready"
+      ]
+    }
+  },
+  {
+    "scenario": "invalid-saved-scroll",
+    "pass": true,
+    "state": {
+      "unlocked": true,
+      "motion": true,
+      "media": [
+        "ready",
+        "ready"
+      ]
+    }
+  },
+  {
+    "scenario": "restore-exception",
+    "pass": true,
+    "state": {
+      "unlocked": true,
+      "motion": false,
+      "media": [
+        "fallback",
+        "fallback"
+      ]
+    }
+  },
+  {
+    "scenario": "preparation-exception",
+    "pass": true,
+    "state": {
+      "unlocked": true,
+      "motion": false,
+      "media": [
+        "fallback",
+        "fallback"
+      ]
+    }
+  },
+  {
+    "scenario": "no-uncaught-errors",
+    "pass": true,
+    "errors": []
+  }
+]

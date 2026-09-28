@@ -3,6 +3,7 @@ import {useEffect} from 'react';
 import gsap from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import {enhanceScenes} from './scene-enhancements';
+import {prepareOpening} from '@/lib/opening-readiness';
 gsap.registerPlugin(ScrollTrigger);
 
 export function scrollScene(id:string,progress:number,fallback?:string){
@@ -18,11 +19,19 @@ export function Motion(){
     let timer:ReturnType<typeof setTimeout>;
     let disposed=false;
     const cleanups:Array<()=>void>=[];
-    const storedPosition=sessionStorage.getItem('elora-home-scroll');
-    const savedY=storedPosition===null?undefined:Number(storedPosition);
+    const root=document.querySelector<HTMLElement>('#main')!;
+    root.dataset.openingState='loading';
+    const controller=new AbortController();
+    let releaseMedia:(()=>void)|undefined;
+    let initialized=false;
+    let intro:gsap.core.Timeline|undefined;
+    let storedPosition:string|null=null;
+    try{storedPosition=sessionStorage.getItem('elora-home-scroll')}catch{}
+    const parsedY=storedPosition===null?NaN:Number(storedPosition);
+    const savedY=Number.isFinite(parsedY)&&parsedY>=0?parsedY:undefined;
     let restoreDone=false;
     const navigation=(performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming|undefined)?.type;
-    const savePosition=()=>{if(restoreDone)sessionStorage.setItem('elora-home-scroll',String(scrollY))};
+    const savePosition=()=>{try{if(restoreDone)sessionStorage.setItem('elora-home-scroll',String(scrollY))}catch{}};
     window.addEventListener('scroll',savePosition,{passive:true});
 
     const setup=()=>{
@@ -31,12 +40,30 @@ export function Motion(){
       document.querySelectorAll('[data-journey-step]').forEach(s=>s.removeAttribute('aria-hidden'));
       document.querySelectorAll('.care-panel').forEach(s=>s.removeAttribute('inert'));
       document.querySelectorAll('[data-perspective-card]').forEach(s=>s.removeAttribute('aria-hidden'));
-      if(document.documentElement.classList.contains('reduced-motion'))return;
+      if(document.documentElement.classList.contains('reduced-motion')){
+        // Page navigation remains useful even when animated scenes are disabled.
+        const chapters=Array.from(document.querySelectorAll<HTMLElement>('[data-chapter]'));
+        const links=Array.from(document.querySelectorAll<HTMLElement>('[data-nav-chapter]'));
+        let frame=0;
+        const update=()=>{
+          frame=0;
+          const active=chapters.filter(el=>el.getBoundingClientRect().top<=innerHeight*.5).at(-1)??chapters[0];
+          links.forEach(link=>{
+            const selected=link.dataset.navChapter===active?.id;
+            link.toggleAttribute('data-active',selected);
+            if(selected)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current');
+          });
+        };
+        const schedule=()=>{if(!frame)frame=requestAnimationFrame(update)};
+        window.addEventListener('scroll',schedule,{passive:true});
+        cleanups.push(()=>{window.removeEventListener('scroll',schedule);cancelAnimationFrame(frame)});
+        update();return;
+      }
       document.documentElement.classList.add('motion-ready');
       context=gsap.context(()=>{
         const desktop=innerWidth>=768;
         enhanceScenes(desktop);
-        gsap.timeline({defaults:{ease:'power3.out'}})
+        intro=gsap.timeline({paused:document.documentElement.classList.contains('opening-loading'),defaults:{ease:'power3.out'}})
           .fromTo('.hero-copy .eyebrow',{y:18,opacity:0},{y:0,opacity:1,duration:.6},0)
           .fromTo('.hero-copy h1 > span',{yPercent:42,opacity:0},{yPercent:0,opacity:1,duration:.9,stagger:.13},.1)
           .fromTo('.hero-description, .hero-actions',{y:22,opacity:0},{y:0,opacity:1,duration:.7,stagger:.1},.48);
@@ -81,14 +108,15 @@ export function Motion(){
           gsap.to('.corridor-intro',{opacity:0,scrollTrigger:{trigger:'.hero-window',start:'top 70%',end:'bottom 45%',scrub:true}});
         }
         gsap.timeline({scrollTrigger:{trigger:'#understanding',start:desktop?'top top':'top 25%',end:desktop?'bottom bottom':'bottom 50%',scrub:true}})
-          .fromTo('.observation-frame',{yPercent:-16,scale:.95},{yPercent:15,scale:1.04,ease:'none'},0)
+
           .to('.portrait-orbit',{rotation:45,ease:'none'},0);
         document.querySelectorAll('[data-scrub-video]').forEach(node=>{
           const v=node as HTMLVideoElement;
+          if(v.dataset.mediaState!=='ready')return;
           const scene=v.dataset.scrubVideo==='entrance'?'#entry':'#understanding';
           let desired=0;
           const seek=()=>{
-            if(!v.seeking&&Number.isFinite(v.duration)&&v.duration>0){
+            if(v.readyState>=2&&!v.seeking&&Number.isFinite(v.duration)&&v.duration>0){
               const t=Math.max(0,Math.min(v.duration-.05,desired*v.duration));
               if(Math.abs(v.currentTime-t)>.03)v.currentTime=t;
             }
@@ -111,27 +139,68 @@ export function Motion(){
       });
       ScrollTrigger.refresh();
     };
-    const rerun=()=>{clearTimeout(timer);timer=setTimeout(setup,100)};
+    const rerun=()=>{if(!initialized||disposed)return;clearTimeout(timer);timer=setTimeout(setup,100)};
     const restore=()=>{
       if(disposed)return;
       ScrollTrigger.refresh();
       if((navigation==='reload'||navigation==='back_forward')&&typeof savedY==='number'){
         scrollTo({top:savedY,left:0,behavior:'instant'});
       }else if(location.hash){
-        document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({behavior:'instant'});
+        let anchor=location.hash.slice(1);
+        try{anchor=decodeURIComponent(anchor)}catch{/* Ignore malformed URL escapes. */}
+        document.getElementById(anchor)?.scrollIntoView({behavior:'instant'});
       }
       ScrollTrigger.update();
       restoreDone=true;
     };
-    setup();
+    const reveal=()=>intro?.play();
+    window.addEventListener('elora-revealed',reveal);
     window.addEventListener('elora-motion',rerun);
     let width=innerWidth;
     const resize=()=>{if(Math.abs(innerWidth-width)>40){width=innerWidth;rerun()}};
     const pageShow=(e:PageTransitionEvent)=>{if(e.persisted){ScrollTrigger.refresh();ScrollTrigger.update()}};
     window.addEventListener('resize',resize);window.addEventListener('pageshow',pageShow);
-    document.fonts.ready.then(()=>requestAnimationFrame(restore));
+    const useStaticContent=(error:unknown)=>{
+      initialized=false;
+      controller.abort();
+      try{context?.revert()}catch{/* Still release the loading gate if motion cleanup fails. */}
+      cleanups.splice(0).forEach(fn=>{try{fn()}catch{}});
+      document.documentElement.classList.remove('motion-ready');
+      root.querySelectorAll('[data-journey-step],[data-perspective-card]').forEach(el=>el.removeAttribute('aria-hidden'));
+      root.querySelectorAll('.care-panel').forEach(el=>el.removeAttribute('inert'));
+      root.querySelectorAll<HTMLVideoElement>('video').forEach(video=>{
+        video.pause();
+        video.dataset.mediaState='fallback';
+      });
+      console.warn('Opening enhancement unavailable; showing static content.',error);
+    };
+    const finishOpening=()=>{
+      if(disposed)return;
+      root.dataset.openingState='ready';
+      window.dispatchEvent(new Event('elora-opening-ready'));
+    };
+    void prepareOpening(root,controller.signal,value=>{
+      if(!disposed)window.dispatchEvent(new CustomEvent('elora-opening-progress',{detail:value}));
+    }).then(disposeMedia=>{
+      if(disposed){disposeMedia();return}
+      releaseMedia=disposeMedia;
+      document.documentElement.classList.toggle('reduced-motion',matchMedia('(prefers-reduced-motion: reduce)').matches);
+      setup();
+      initialized=true;
+    }).catch(error=>{
+      if(!disposed)useStaticContent(error);
+    }).finally(()=>{
+      if(disposed)return;
+      requestAnimationFrame(()=>{
+        if(disposed)return;
+        try{restore()}catch(error){useStaticContent(error);restoreDone=true}
+        finally{requestAnimationFrame(finishOpening)}
+      });
+    });
     return()=>{
-      disposed=true;clearTimeout(timer);context?.revert();cleanups.forEach(fn=>fn());
+      disposed=true;controller.abort();clearTimeout(timer);context?.revert();cleanups.forEach(fn=>fn());releaseMedia?.();
+      delete root.dataset.openingState;
+      window.removeEventListener('elora-revealed',reveal);
       document.documentElement.classList.remove('motion-ready');
       document.querySelectorAll('[data-journey-step]').forEach(s=>s.removeAttribute('aria-hidden'));
       document.querySelectorAll('.care-panel').forEach(s=>s.removeAttribute('inert'));
@@ -143,3 +212,4 @@ export function Motion(){
   },[]);
   return null;
 }
+

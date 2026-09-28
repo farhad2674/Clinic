@@ -1,0 +1,34 @@
+[
+  {
+    "path": "app/page.tsx",
+    "hash": "E658D04C310513DA32612C3217BAE2A44F6EDC30428908FB0398461D9C88B6EC"
+  },
+  {
+    "path": "app/layout.tsx",
+    "hash": "C3F7F696F8AB103D4F8E2169BA7DF95654E844B1EFC630B0087D92E57258418D"
+  },
+  {
+    "path": "components/home.tsx",
+    "hash": "4169A028629CAE08C5B663CEE6F18A7A001F325E94667806E9E72F01F4395BB7"
+  },
+  {
+    "path": "components/late-chapters.tsx",
+    "hash": "EF4551F0F16E28E00745259115DE42440551AB8B6F296B4AAAC1828D8E4BB001"
+  },
+  {
+    "path": "components/journey.tsx",
+    "hash": "4FD592C457F58AA74D72236F755516FE8C32A82120F5204C5885CF4B594604E6"
+  },
+  {
+    "path": "components/perspective.tsx",
+    "hash": "9DC525F1ABE6B6103009B353406E11AC4B27208CBA119A3BD21A1C63DC96343B"
+  },
+  {
+    "path": "lib/site.ts",
+    "hash": "63ACDF9B1DC2CAA0A1CC17DDBF5894209A2418B0DB0C96553BCE707AC0BA7774"
+  },
+  {
+    "path": "lib/content.json",
+    "hash": "35E790F409DE5586D4106888CDD50ECF4F374B1625DE7A3A859CF4DE11BA4C0A"
+  }
+]

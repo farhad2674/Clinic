@@ -1,0 +1,46 @@
+[
+  {
+    "name": "desktop",
+    "pass": true,
+    "state": {
+      "locked": false,
+      "states": [
+        "ready",
+        "ready"
+      ],
+      "width": 1440,
+      "scroll": 1440
+    }
+  },
+  {
+    "name": "mobile",
+    "pass": true,
+    "state": {
+      "locked": false,
+      "states": [
+        "ready",
+        "ready"
+      ],
+      "width": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "name": "reduced",
+    "pass": true,
+    "state": {
+      "locked": false,
+      "states": [
+        "static",
+        "static"
+      ],
+      "width": 1440,
+      "scroll": 1440
+    }
+  },
+  {
+    "name": "No production runtime errors",
+    "pass": true,
+    "errors": []
+  }
+]

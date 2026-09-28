@@ -1,11 +1,12 @@
 'use client';
 import {content,faNumber} from '@/lib/site';
 import {Arrow} from './shell';
+import {SectionLabel} from './section-label';
 import {scrollScene} from './motion';
 
 const slides=[
   {line:'دغدغه‌تان را می‌شنویم.',image:'/media/corridor.webp',alt:'تصویر مفهومی ورودی آرام الورا'},
-  {line:'شرایط و سابقه شما بررسی می‌شود.',image:'/media/portrait-poster.webp',alt:'پرتره نمایشی برای مرحله ارزیابی'},
+  {line:'شرایط و سابقه شما بررسی می‌شود.',image:'/media/journey-assessment-young.webp',alt:'پرتره نمایشی زن جوان ایرانی با تل روسری و چشم‌های عسلی'},
   {line:'گزینه‌ها و محدودیت‌ها روشن می‌شوند.',image:'/media/brand-space.webp',alt:'تصویر مفهومی فضای گفت‌وگو'},
   {line:'درمان پس از تصمیم آگاهانه آغاز می‌شود.',image:'/media/lounge.webp',alt:'تصویر مفهومی فضای الورا'},
   {line:'نتیجه با معیارهای روشن پیگیری می‌شود.',image:'/media/hair.webp',alt:'تصویر هنری بافت طبیعی مو'},
@@ -40,9 +41,9 @@ export function Journey(){
   return <section id="journey" className="journey scene" data-chapter>
     <div className="journey-stage scene-stage">
       <div className="page-width journey-top">
-        <div className="section-label"><span className="chapter-number" dir="ltr">06</span><span>پیوستگی، بخشی از مراقبت است</span></div>
-        <h2 data-text-reveal>شش گام، <em>یک مسیر شخصی.</em></h2>
-        <p data-text-reveal>از اولین گفت‌وگو تا مراقبت بلندمدت.</p>
+        <SectionLabel>همراهی</SectionLabel>
+        <h2 data-text-reveal>از اولین دیدار <em>تا پیگیری نتیجه.</em></h2>
+        <p data-text-reveal>در هر مرحله بدانید چه اتفاقی می‌افتد و قدم بعدی چیست.</p>
       </div>
       <div className="journey-viewport" aria-label="مراحل مسیر مراقبت" onScroll={updateSwipe}>
         <div className="journey-track">

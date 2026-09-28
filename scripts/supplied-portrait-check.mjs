@@ -1,0 +1,76 @@
+import {chromium} from 'file:///C:/Users/Farhad/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs';
+import {mkdirSync,writeFileSync} from 'node:fs';
+
+mkdirSync('qa/supplied-portrait',{recursive:true});
+const origin=process.env.PORTRAIT_BASE_URL||'http://127.0.0.1:3003';
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const results=[];
+const check=(name,pass,detail)=>{results.push({name,pass,detail});if(!pass)console.error('FAIL',name,detail)};
+const errors=[];
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+page.on('pageerror',error=>errors.push(error.message));
+await page.goto(origin+'/',{waitUntil:'networkidle'});
+await page.waitForFunction(()=>document.querySelector('#main')?.dataset.openingState==='ready');
+await page.waitForTimeout(800);
+const video=page.locator('[data-scrub-video="portrait"]');
+check('Supplied portrait loaded',await video.evaluate(el=>el.dataset.mediaState==='ready'&&el.dataset.src.includes('supplied-portrait')&&el.readyState>=2));
+check('Eight second delivery',await video.evaluate(el=>Math.abs(el.duration-8)<.05));
+const seek=async progress=>{
+  await page.evaluate(p=>{const el=document.querySelector('#understanding');scrollTo({top:el.offsetTop+(el.offsetHeight-innerHeight)*p,behavior:'instant'})},progress);
+  await page.waitForTimeout(900);
+  return video.evaluate(el=>el.currentTime);
+};
+const profileTime=await seek(.35);
+const profileX=Number(await page.locator('[data-face-marker="0"] circle').first().getAttribute('cx'));
+await page.screenshot({path:'qa/supplied-portrait/desktop-profile.png'});
+const reportTime=await seek(.88);
+const reportX=Number(await page.locator('[data-face-marker="0"] circle').first().getAttribute('cx'));
+const reportVisible=await page.locator('.face-report').evaluate(el=>Number(getComputedStyle(el).opacity)>.9);
+check('Report appears near end of film',reportVisible&&await page.locator('.face-analysis').getAttribute('data-report')==='true',{reportTime});
+check('Anchor follows turn back to camera',profileX>reportX+70,{profileTime,reportTime,profileX,reportX});
+await page.screenshot({path:'qa/supplied-portrait/desktop-report.png'});
+const reverseTime=await seek(.15);
+check('Reverse scroll rewinds film and report',reverseTime<reportTime-3&&await page.locator('.face-analysis').getAttribute('data-report')==='false',{reverseTime,reportTime});
+check('Desktop has no horizontal overflow',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+for(const width of [390,768]){
+  const mobile=await browser.newPage({viewport:{width,height:900}});
+  mobile.on('pageerror',error=>errors.push(error.message));
+  await mobile.goto(origin+'/',{waitUntil:'networkidle'});
+  await mobile.waitForFunction(()=>document.querySelector('#main')?.dataset.openingState==='ready');
+  await mobile.locator('.portrait-film').scrollIntoViewIfNeeded();
+  await mobile.waitForTimeout(500);
+  check('Portrait loads at '+width,await mobile.locator('[data-scrub-video="portrait"]').evaluate(el=>el.dataset.mediaState==='ready'));
+  check('No overflow at '+width,await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+  await mobile.screenshot({path:'qa/supplied-portrait/portrait-'+width+'.png'});
+  await mobile.evaluate(()=>{
+    const el=document.querySelector('#understanding');
+    const start=innerWidth>=768?el.offsetTop:el.offsetTop-innerHeight*.65;
+    const end=innerWidth>=768?el.offsetTop+el.offsetHeight-innerHeight:el.offsetTop+el.offsetHeight-innerHeight*.35;
+    scrollTo({top:start+(end-start)*.9,behavior:'instant'});
+  });
+  await mobile.waitForTimeout(900);
+  const report=mobile.locator('.face-report');
+  check('Report fits at '+width,await report.evaluate(el=>{
+    const card=el.getBoundingClientRect(),frame=el.closest('.portrait-film').getBoundingClientRect();
+    return Number(getComputedStyle(el).opacity)>.9&&card.left>=frame.left&&card.right<=frame.right&&card.bottom<=frame.bottom;
+  }));
+  await mobile.screenshot({path:'qa/supplied-portrait/report-'+width+'.png'});
+  await mobile.close();
+}
+const reduced=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});
+let requests=0;
+reduced.on('request',request=>{if(request.url().includes('supplied-portrait.mp4'))requests++});
+await reduced.goto(origin+'/',{waitUntil:'networkidle'});
+await reduced.locator('.portrait-film').scrollIntoViewIfNeeded();
+check('Reduced motion uses matching still and visible report',requests===0&&await reduced.locator('[data-scrub-video="portrait"]').evaluate(el=>el.poster.includes('supplied-poster.webp'))&&await reduced.locator('.face-report').evaluate(el=>Number(getComputedStyle(el).opacity)>.9));
+await reduced.screenshot({path:'qa/supplied-portrait/reduced-motion.png'});
+const failed=await browser.newPage({viewport:{width:390,height:844}});
+await failed.route('**/supplied-portrait.mp4',route=>route.abort());
+await failed.goto(origin+'/',{waitUntil:'networkidle'});
+await failed.waitForFunction(()=>document.querySelector('#main')?.dataset.openingState==='ready');
+check('Failed video retains matching poster',await failed.locator('[data-scrub-video="portrait"]').evaluate(el=>el.dataset.mediaState==='fallback'&&el.poster.includes('supplied-poster.webp')));
+check('No page errors',errors.length===0,errors);
+writeFileSync('qa/supplied-portrait/results.json',JSON.stringify(results,null,2));
+console.log(JSON.stringify(results,null,2));
+await browser.close();
+if(results.some(result=>!result.pass))process.exitCode=1;

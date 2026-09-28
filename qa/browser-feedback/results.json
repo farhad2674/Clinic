@@ -1,0 +1,113 @@
+[
+  {
+    "name": "3D style face mesh follows film",
+    "pass": true,
+    "detail": {
+      "display": "block",
+      "clip": "inset(0px 0px 0%)",
+      "transform": "matrix3d(0.961191, -0.0256886, -0.167718, 0.000215023, -0.0380929, 0.974144, -0.120143, 0.00015403, 0.310242, 0.271739, 0.978487, -0.00125447, -114.609, -119.469, 0, 1)"
+    }
+  },
+  {
+    "name": "Demo score report opens at end",
+    "pass": true,
+    "detail": {
+      "text": "گزارش اسکن چهرهنمونهٔ نمایشیسلامت پوست۸۰ از ۱۰۰سلامت مو۱۰۰ از ۱۰۰امتیاز نهایی۸۸ از ۱۰۰این عددها نمونهٔ طراحی‌اند و از ویدئو محاسبه نشده‌اند. نتیجهٔ واقعی به ارزیابی پزشک نیاز دارد.",
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "name": "Score report closes on reverse scroll",
+    "pass": true
+  },
+  {
+    "name": "trust blur starts early",
+    "pass": true,
+    "detail": {
+      "started": {
+        "filter": "blur(1.0448px)",
+        "opacity": 0.8328
+      },
+      "finished": {
+        "filter": "blur(0px)",
+        "opacity": 1
+      }
+    }
+  },
+  {
+    "name": "trust title clears by 60 percent",
+    "pass": true,
+    "detail": {
+      "started": {
+        "filter": "blur(1.0448px)",
+        "opacity": 0.8328
+      },
+      "finished": {
+        "filter": "blur(0px)",
+        "opacity": 1
+      }
+    }
+  },
+  {
+    "name": "journal blur starts early",
+    "pass": true,
+    "detail": {
+      "started": {
+        "filter": "blur(0.6529px)",
+        "opacity": 0.8955
+      },
+      "finished": {
+        "filter": "blur(0px)",
+        "opacity": 1
+      }
+    }
+  },
+  {
+    "name": "journal title clears by 60 percent",
+    "pass": true,
+    "detail": {
+      "started": {
+        "filter": "blur(0.6529px)",
+        "opacity": 0.8955
+      },
+      "finished": {
+        "filter": "blur(0px)",
+        "opacity": 1
+      }
+    }
+  },
+  {
+    "name": "faq-preview blur starts early",
+    "pass": true,
+    "detail": {
+      "started": {
+        "filter": "blur(1.2943px)",
+        "opacity": 0.7929
+      },
+      "finished": {
+        "filter": "blur(0px)",
+        "opacity": 1
+      }
+    }
+  },
+  {
+    "name": "faq-preview title clears by 60 percent",
+    "pass": true,
+    "detail": {
+      "started": {
+        "filter": "blur(1.2943px)",
+        "opacity": 0.7929
+      },
+      "finished": {
+        "filter": "blur(0px)",
+        "opacity": 1
+      }
+    }
+  },
+  {
+    "name": "No page errors",
+    "pass": true,
+    "detail": []
+  }
+]

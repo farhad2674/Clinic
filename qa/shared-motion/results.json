@@ -1,0 +1,612 @@
+{
+  "checks": [
+    {
+      "name": "SSR shared invitation /",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /about",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /care",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /faq",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /contact",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /privacy",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /skin",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/acne",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/acne-scars",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/pigmentation",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/microneedling",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /hair",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/hair-loss",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/scalp-health",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/rejuvenation-45",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/botox",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/fillers",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /advanced",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/prp",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/prf",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/exosomes",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /services/cell-based",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /journal",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /journal/prp-for-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /journal/acne-marks-vs-scars",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /journal/teen-acne",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /journal/natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /journal/prp-vs-prf",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /journal/exosomes-evidence",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /journal/different-treatment-results",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /journal/questions-before-fillers",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /journal/before-after-photos",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /journal/skin-after-45",
+      "pass": true
+    },
+    {
+      "name": "SSR shared invitation /sitemap",
+      "pass": true
+    },
+    {
+      "name": "No overflow /about",
+      "pass": true
+    },
+    {
+      "name": "Cover rises above held content /about",
+      "pass": true,
+      "detail": {
+        "bodyTop": -1035.515625,
+        "bodyBottom": 1000.484375,
+        "coverTop": 500.484375,
+        "over": true,
+        "pinned": "fixed"
+      }
+    },
+    {
+      "name": "Reversible CTA title /about",
+      "pass": true,
+      "detail": {
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        },
+        "after": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        "reverse": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        }
+      }
+    },
+    {
+      "name": "No overflow /services",
+      "pass": true
+    },
+    {
+      "name": "Cover rises above held content /services",
+      "pass": true,
+      "detail": {
+        "bodyTop": -894.078125,
+        "bodyBottom": 1000.921875,
+        "coverTop": 500.921875,
+        "over": true,
+        "pinned": "fixed"
+      }
+    },
+    {
+      "name": "Reversible CTA title /services",
+      "pass": true,
+      "detail": {
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.3934)",
+          "opacity": "0.7099"
+        },
+        "after": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        "reverse": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.3934)",
+          "opacity": "0.7099"
+        }
+      }
+    },
+    {
+      "name": "No overflow /services/hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Cover rises above held content /services/hair-loss",
+      "pass": true,
+      "detail": {
+        "bodyTop": -1429.984375,
+        "bodyBottom": 1001.015625,
+        "coverTop": 500.015625,
+        "over": true,
+        "pinned": "fixed"
+      }
+    },
+    {
+      "name": "Reversible CTA title /services/hair-loss",
+      "pass": true,
+      "detail": {
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        },
+        "after": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        "reverse": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        }
+      }
+    },
+    {
+      "name": "No overflow /journal",
+      "pass": true
+    },
+    {
+      "name": "Cover rises above held content /journal",
+      "pass": true,
+      "detail": {
+        "bodyTop": -3084.421875,
+        "bodyBottom": 1000.578125,
+        "coverTop": 500.578125,
+        "over": true,
+        "pinned": "fixed"
+      }
+    },
+    {
+      "name": "Reversible CTA title /journal",
+      "pass": true,
+      "detail": {
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        },
+        "after": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        "reverse": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        }
+      }
+    },
+    {
+      "name": "No overflow /journal/prp-vs-prf",
+      "pass": true
+    },
+    {
+      "name": "Cover rises above held content /journal/prp-vs-prf",
+      "pass": true,
+      "detail": {
+        "bodyTop": -1792.984375,
+        "bodyBottom": 1001.015625,
+        "coverTop": 500.015625,
+        "over": true,
+        "pinned": "fixed"
+      }
+    },
+    {
+      "name": "Reversible CTA title /journal/prp-vs-prf",
+      "pass": true,
+      "detail": {
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        },
+        "after": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        "reverse": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        }
+      }
+    },
+    {
+      "name": "No overflow /care",
+      "pass": true
+    },
+    {
+      "name": "Cover rises above held content /care",
+      "pass": true,
+      "detail": {
+        "bodyTop": -1185.8125,
+        "bodyBottom": 1000.1875,
+        "coverTop": 500.1875,
+        "over": true,
+        "pinned": "fixed"
+      }
+    },
+    {
+      "name": "Reversible CTA title /care",
+      "pass": true,
+      "detail": {
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        },
+        "after": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        "reverse": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        }
+      }
+    },
+    {
+      "name": "No overflow /faq",
+      "pass": true
+    },
+    {
+      "name": "Cover rises above held content /faq",
+      "pass": true,
+      "detail": {
+        "bodyTop": -355.421875,
+        "bodyBottom": 1000.578125,
+        "coverTop": 500.578125,
+        "over": true,
+        "pinned": "fixed"
+      }
+    },
+    {
+      "name": "Reversible CTA title /faq",
+      "pass": true,
+      "detail": {
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        },
+        "after": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        "reverse": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        }
+      }
+    },
+    {
+      "name": "No overflow /contact",
+      "pass": true
+    },
+    {
+      "name": "Cover rises above held content /contact",
+      "pass": true,
+      "detail": {
+        "bodyTop": 11.1875,
+        "bodyBottom": 1000.1875,
+        "coverTop": 500.1875,
+        "over": true,
+        "pinned": "fixed"
+      }
+    },
+    {
+      "name": "Reversible CTA title /contact",
+      "pass": true,
+      "detail": {
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.742)",
+          "opacity": "0.7063"
+        },
+        "after": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        "reverse": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.742)",
+          "opacity": "0.7063"
+        }
+      }
+    },
+    {
+      "name": "No overflow /privacy",
+      "pass": true
+    },
+    {
+      "name": "Cover rises above held content /privacy",
+      "pass": true,
+      "detail": {
+        "bodyTop": -180.8125,
+        "bodyBottom": 1000.1875,
+        "coverTop": 500.1875,
+        "over": true,
+        "pinned": "fixed"
+      }
+    },
+    {
+      "name": "Reversible CTA title /privacy",
+      "pass": true,
+      "detail": {
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        },
+        "after": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        "reverse": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        }
+      }
+    },
+    {
+      "name": "No overflow /sitemap",
+      "pass": true
+    },
+    {
+      "name": "Cover rises above held content /sitemap",
+      "pass": true,
+      "detail": {
+        "bodyTop": -679.71875,
+        "bodyBottom": 1000.28125,
+        "coverTop": 500.28125,
+        "over": true,
+        "pinned": "fixed"
+      }
+    },
+    {
+      "name": "Reversible CTA title /sitemap",
+      "pass": true,
+      "detail": {
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        },
+        "after": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        "reverse": {
+          "transform": "matrix(1, 0, 0, 1, 0, 28.219)",
+          "opacity": "0.7116"
+        }
+      }
+    },
+    {
+      "name": "Contextual CTA",
+      "pass": true
+    },
+    {
+      "name": "Contact CTA leads to preparation",
+      "pass": true
+    },
+    {
+      "name": "FAQ still opens",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360 /about",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360 /services",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360 /journal/prp-vs-prf",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360 /contact",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360 /sitemap",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390 /about",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390 /services",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390 /journal/prp-vs-prf",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390 /contact",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390 /sitemap",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768 /about",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768 /services",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768 /journal/prp-vs-prf",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768 /contact",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768 /sitemap",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1024 /about",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1024 /services",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1024 /journal/prp-vs-prf",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1024 /contact",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1024 /sitemap",
+      "pass": true
+    },
+    {
+      "name": "Live reduced-motion removes pin",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion clears title masks",
+      "pass": true
+    },
+    {
+      "name": "Motion can resume",
+      "pass": true
+    },
+    {
+      "name": "Article anchor remains readable",
+      "pass": true
+    },
+    {
+      "name": "No-JS content and CTA",
+      "pass": true
+    },
+    {
+      "name": "Short viewport CTA reachable",
+      "pass": true
+    },
+    {
+      "name": "Home retains 5 closing chapters",
+      "pass": true
+    },
+    {
+      "name": "Home motion ready",
+      "pass": true
+    },
+    {
+      "name": "No runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

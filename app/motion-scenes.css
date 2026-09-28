@@ -266,12 +266,14 @@
 .preloader-fill{color:transparent;background:linear-gradient(0deg,#a77d83 6%,#c5a36a 55%,#eed7dc 100%);background-clip:text;-webkit-background-clip:text;clip-path:inset(100% 0 0);animation:preloader-fill 1.5s cubic-bezier(.22,.7,.2,1) .15s forwards}
 .preloader p{position:relative;font-size:14px;letter-spacing:.1em;color:#7b696d;margin-top:25px;animation:preloader-label .7s ease .6s both}
 .preloader-line{position:relative;width:min(220px,42vw);height:1px;background:#dbcacc;margin-top:22px}
-.preloader-line i{display:block;width:100%;height:100%;background:var(--gold);transform-origin:right;animation:preloader-progress 1.65s ease .1s both}
+.preloader-line i{display:block;width:100%;height:100%;background:var(--gold);transform-origin:right;transition:transform .3s ease}
 .preloader.is-leaving{opacity:0;visibility:hidden;pointer-events:none}
-html.intro-seen .preloader{display:none}
+html.opening-loading{overflow:hidden;scrollbar-gutter:stable}
+video[data-media-state="fallback"],video[data-media-state="static"]{visibility:hidden}
 @keyframes preloader-fill{to{clip-path:inset(0 0 0)}}
 @keyframes preloader-progress{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 @keyframes preloader-orbit{from{opacity:0;transform:scale(.85) rotate(-18deg)}to{opacity:1;transform:scale(1) rotate(12deg)}}
 @keyframes preloader-label{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:767px){.preloader-mark{font-size:clamp(50px,15vw,84px);height:85px;letter-spacing:.04em}.preloader p{font-size:12px}}
-@media(prefers-reduced-motion:reduce){.preloader{display:none}}
+@media(prefers-reduced-motion:reduce){.preloader,.preloader *{animation:none!important;transition:none!important}.preloader-fill{clip-path:inset(0)}}
+

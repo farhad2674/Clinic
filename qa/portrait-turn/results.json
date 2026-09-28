@@ -1,0 +1,66 @@
+[
+  {
+    "name": "New portrait loaded and decoded",
+    "pass": true
+  },
+  {
+    "name": "Scroll advances through all callout phases",
+    "pass": true,
+    "detail": {
+      "early": 0.975,
+      "mid": 3.75,
+      "later": 6.525
+    }
+  },
+  {
+    "name": "Film and facial anchors reverse with scroll",
+    "pass": true,
+    "detail": {
+      "back": 0.75,
+      "later": 6.525,
+      "lateX": "752.9",
+      "earlyX": "569.5"
+    }
+  },
+  {
+    "name": "Delivery contains 180 frames over 7.5 seconds",
+    "pass": true
+  },
+  {
+    "name": "Annotation matches video aspect ratio",
+    "pass": true
+  },
+  {
+    "name": "Desktop has no horizontal overflow",
+    "pass": true
+  },
+  {
+    "name": "Portrait fits at 390px",
+    "pass": true
+  },
+  {
+    "name": "Poster/video loads at 390px",
+    "pass": true
+  },
+  {
+    "name": "Portrait fits at 768px",
+    "pass": true
+  },
+  {
+    "name": "Poster/video loads at 768px",
+    "pass": true
+  },
+  {
+    "name": "Reduced motion uses new still without video download",
+    "pass": true
+  },
+  {
+    "name": "Failed video keeps matching poster",
+    "pass": true
+  },
+  {
+    "name": "No page errors",
+    "pass": true,
+    "detail": []
+  }
+]

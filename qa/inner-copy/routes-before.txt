@@ -1,0 +1,25 @@
+import type {Metadata} from 'next';
+import {notFound} from 'next/navigation';
+import {categories,content,pages} from '@/lib/site';
+import {ServicesPage,ServicePage,CategoryPage,AboutPage,CarePage,JournalPage,FAQPage,ContactPage,PrivacyPage} from '@/components/editorial';
+type Props={params:Promise<{path:string[]}>;searchParams:Promise<Record<string,string|string[]|undefined>>};
+const descriptions:Record<string,string>={
+services:'خدمات پوست، مو و جوان‌سازی الورا را بر اساس دغدغه خود بشناسید؛ از آکنه و لک تا ریزش مو، بوتاکس، فیلر و روش‌های نوین با محدودیت‌های هر روش.',
+about:'با نگاه الورا به سلامت پوست و مو آشنا شوید؛ حق انتخاب، توضیح هزینه و محدودیت‌ها، حفظ حریم خصوصی و پیگیری پس از درمان.',
+care:'مراحل مراجعه به الورا: گفت‌وگوی اولیه، ارزیابی پزشکی، توضیح گزینه‌ها و هزینه، رضایت آگاهانه، درمان و پیگیری نتیجه.',
+journal:'موضوعات مجله پوست و موی الورا؛ پرسش‌هایی درباره آکنه، لک، ریزش مو و روش‌های زیبایی. مقاله‌ها پس از بررسی منابع و بازبینی پزشکی منتشر می‌شوند.',
+faq:'پاسخ پرسش‌های رایج درباره مشاوره در الورا، تعیین هزینه، نتیجه درمان، مناسب‌بودن روش‌ها و محرمانگی تصاویر و اطلاعات پزشکی.',
+contact:'وضعیت تماس و مشاوره الورا و اطلاعات شعبه برنامه‌ریزی‌شده در پاسداران / دولت تهران. درخواست آنلاین و راه‌های تماس هنوز فعال نشده‌اند.',
+privacy:'حریم خصوصی در پیش‌نمایش الورا: اطلاعات ذخیره‌شده در مرورگر، تصاویر نمایشی و اصول رضایت برای استفاده از تصاویر پزشکی.'
+};
+export async function generateMetadata({params}:Props):Promise<Metadata>{
+ const {path}=await params;const slug=path.join('/');
+ const service=path[0]==='services'&&path.length===2?content.services.find(s=>s.slug===path[1]):undefined;
+ const category=categories.find(c=>c.slug===slug);
+ const title=service?.title??pages.find(p=>p.slug===slug)?.title;
+ return {title:title??'صفحه پیدا نشد',description:service?service.body[0]:category?.body??descriptions[slug]};
+}
+export default async function Page({params,searchParams}:Props){const {path}=await params;const slug=path.join('/');
+if(path.length===2&&path[0]==='services'){if(!content.services.some(s=>s.slug===path[1]))notFound();return <ServicePage slug={path[1]}/>}
+if(categories.some(c=>c.slug===slug))return <CategoryPage slug={slug}/>;
+switch(slug){case 'services':return <ServicesPage/>;case 'about':return <AboutPage/>;case 'care':return <CarePage/>;case 'journal':return <JournalPage/>;case 'faq':return <FAQPage/>;case 'contact':{const q=await searchParams;return <ContactPage care={typeof q.care==='string'?q.care:undefined}/>};case 'privacy':return <PrivacyPage/>;default:notFound()}}

@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Keyboard focus exposed above cover",
+    "pass": true,
+    "detail": {
+      "top": 821.53125,
+      "bottom": 869.828125,
+      "coverTop": 1000.484375,
+      "visible": true
+    }
+  },
+  {
+    "name": "Section title mask reverses",
+    "pass": true,
+    "detail": {
+      "first": {
+        "clip": "inset(0px 0px 0px 41.4028%)",
+        "opacity": "0.586"
+      },
+      "second": {
+        "clip": "inset(0px 0px 0px 0%)",
+        "opacity": "1"
+      },
+      "reverse": {
+        "clip": "inset(0px 0px 0px 41.4028%)",
+        "opacity": "0.586"
+      }
+    }
+  },
+  {
+    "name": "Mobile invitation spacing",
+    "pass": true,
+    "detail": "40px"
+  },
+  {
+    "name": "Footer clears closing cover",
+    "pass": true,
+    "detail": {
+      "top": 450.484375,
+      "hit": true
+    }
+  }
+]

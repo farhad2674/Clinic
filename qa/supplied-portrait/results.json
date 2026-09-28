@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Supplied portrait loaded",
+    "pass": true
+  },
+  {
+    "name": "Eight second delivery",
+    "pass": true
+  },
+  {
+    "name": "Report appears near end of film",
+    "pass": true,
+    "detail": {
+      "reportTime": 7.04
+    }
+  },
+  {
+    "name": "Anchor follows turn back to camera",
+    "pass": true,
+    "detail": {
+      "profileTime": 2.8,
+      "reportTime": 7.04,
+      "profileX": 813.2,
+      "reportX": 704
+    }
+  },
+  {
+    "name": "Reverse scroll rewinds film and report",
+    "pass": true,
+    "detail": {
+      "reverseTime": 1.2,
+      "reportTime": 7.04
+    }
+  },
+  {
+    "name": "Desktop has no horizontal overflow",
+    "pass": true
+  },
+  {
+    "name": "Portrait loads at 390",
+    "pass": true
+  },
+  {
+    "name": "No overflow at 390",
+    "pass": true
+  },
+  {
+    "name": "Report fits at 390",
+    "pass": true
+  },
+  {
+    "name": "Portrait loads at 768",
+    "pass": true
+  },
+  {
+    "name": "No overflow at 768",
+    "pass": true
+  },
+  {
+    "name": "Report fits at 768",
+    "pass": true
+  },
+  {
+    "name": "Reduced motion uses matching still and visible report",
+    "pass": true
+  },
+  {
+    "name": "Failed video retains matching poster",
+    "pass": true
+  },
+  {
+    "name": "No page errors",
+    "pass": true,
+    "detail": []
+  }
+]

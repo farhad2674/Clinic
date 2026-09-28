@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "name": "Dot links navigate to services",
+      "pass": true
+    },
+    {
+      "name": "Service tabs reach final panel",
+      "pass": true
+    },
+    {
+      "name": "Dots navigate backwards",
+      "pass": true
+    },
+    {
+      "name": "Audience tabs update copy",
+      "pass": true
+    },
+    {
+      "name": "FAQ disclosure opens",
+      "pass": true
+    },
+    {
+      "name": "Motion layout has no overflow at 390",
+      "pass": true
+    },
+    {
+      "name": "Motion layout has no overflow at 768",
+      "pass": true
+    },
+    {
+      "name": "Motion layout has no overflow at 1024",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion dots update current section",
+      "pass": true
+    },
+    {
+      "name": "No browser runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

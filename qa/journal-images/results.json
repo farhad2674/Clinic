@@ -1,0 +1,467 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "passed": true,
+  "errors": [],
+  "results": [
+    {
+      "route": "/journal",
+      "width": 1440,
+      "cards": [
+        {
+          "src": "/media/journal/acne-marks-vs-scars.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/acne-marks-vs-scars-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/teen-acne.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/teen-acne-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/prp-for-hair-loss.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/prp-for-hair-loss-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/natural-rejuvenation.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/natural-rejuvenation-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/different-treatment-results.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/different-treatment-results-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/questions-before-fillers.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/questions-before-fillers-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/before-after-photos.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/before-after-photos-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/skin-after-45.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/skin-after-45-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/prp-vs-prf.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/prp-vs-prf-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/exosomes-evidence.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/exosomes-evidence-800.webp",
+          "loaded": true,
+          "alt": ""
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/journal/prp-for-hair-loss",
+      "width": 1440,
+      "status": 200,
+      "src": "/media/journal/prp-for-hair-loss.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/prp-for-hair-loss-800.webp",
+      "alt": "تصویر نمایشی فرق سر و تارهای طبیعی مو در نور نرم",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/prp-for-hair-loss.webp"
+    },
+    {
+      "route": "/journal/acne-marks-vs-scars",
+      "width": 1440,
+      "status": 200,
+      "src": "/media/journal/acne-marks-vs-scars.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/acne-marks-vs-scars-800.webp",
+      "alt": "نمای نزدیک مفهومی گونه با بافت طبیعی و آثار ملایم جوش",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/acne-marks-vs-scars.webp"
+    },
+    {
+      "route": "/journal/teen-acne",
+      "width": 1440,
+      "status": 200,
+      "src": "/media/journal/teen-acne.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/teen-acne-800.webp",
+      "alt": "دفتر یادداشت و وسایل ساده مراقبت پوست برای آماده‌شدن برای گفت‌وگو",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/teen-acne.webp"
+    },
+    {
+      "route": "/journal/natural-rejuvenation",
+      "width": 1440,
+      "status": 200,
+      "src": "/media/journal/natural-rejuvenation.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/natural-rejuvenation-800.webp",
+      "alt": "پرتره نمایشی زنی با خطوط طبیعی چهره و حالت آرام",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/natural-rejuvenation.webp"
+    },
+    {
+      "route": "/journal/prp-vs-prf",
+      "width": 1440,
+      "status": 200,
+      "src": "/media/journal/prp-vs-prf.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/prp-vs-prf-800.webp",
+      "alt": "دو ظرف شیشه‌ای مفهومی برای موضوع مقایسه فرآورده‌های پلاکتی",
+      "caption": "تصویر مفهومی با هوش مصنوعی؛ نمایش دقیق فرآورده یا سند اثربخشی نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/prp-vs-prf.webp"
+    },
+    {
+      "route": "/journal/exosomes-evidence",
+      "width": 1440,
+      "status": 200,
+      "src": "/media/journal/exosomes-evidence.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/exosomes-evidence-800.webp",
+      "alt": "ترکیب مفهومی کره‌های نیمه‌شفاف برای موضوع پژوهش درباره اگزوزوم",
+      "caption": "تصویر مفهومی با هوش مصنوعی؛ نمایش دقیق فرآورده یا سند اثربخشی نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/exosomes-evidence.webp"
+    },
+    {
+      "route": "/journal/different-treatment-results",
+      "width": 1440,
+      "status": 200,
+      "src": "/media/journal/different-treatment-results.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/different-treatment-results-800.webp",
+      "alt": "دو دست با رنگ و بافت متفاوت؛ تصویر مفهومی تفاوت‌های فردی",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/different-treatment-results.webp"
+    },
+    {
+      "route": "/journal/questions-before-fillers",
+      "width": 1440,
+      "status": 200,
+      "src": "/media/journal/questions-before-fillers.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/questions-before-fillers-800.webp",
+      "alt": "آینه رومیزی و دفتر پرسش‌های پیش از تصمیم درباره فیلر",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/questions-before-fillers.webp"
+    },
+    {
+      "route": "/journal/before-after-photos",
+      "width": 1440,
+      "status": 200,
+      "src": "/media/journal/before-after-photos.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/before-after-photos-800.webp",
+      "alt": "دوربین و ابزار نورسنجی برای بررسی شرایط ثبت عکس",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/before-after-photos.webp"
+    },
+    {
+      "route": "/journal/skin-after-45",
+      "width": 1440,
+      "status": 200,
+      "src": "/media/journal/skin-after-45.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/skin-after-45-800.webp",
+      "alt": "پرتره نمایشی زنی میانسال با موهای جوگندمی و خطوط طبیعی پوست",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/skin-after-45.webp"
+    },
+    {
+      "route": "/journal",
+      "width": 390,
+      "cards": [
+        {
+          "src": "/media/journal/acne-marks-vs-scars.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/acne-marks-vs-scars-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/teen-acne.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/teen-acne-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/prp-for-hair-loss.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/prp-for-hair-loss-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/natural-rejuvenation.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/natural-rejuvenation-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/different-treatment-results.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/different-treatment-results-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/questions-before-fillers.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/questions-before-fillers-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/before-after-photos.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/before-after-photos-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/skin-after-45.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/skin-after-45-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/prp-vs-prf.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/prp-vs-prf-800.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/journal/exosomes-evidence.webp",
+          "currentSrc": "http://127.0.0.1:3000/media/journal/exosomes-evidence-800.webp",
+          "loaded": true,
+          "alt": ""
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/journal/prp-for-hair-loss",
+      "width": 390,
+      "status": 200,
+      "src": "/media/journal/prp-for-hair-loss.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/prp-for-hair-loss-800.webp",
+      "alt": "تصویر نمایشی فرق سر و تارهای طبیعی مو در نور نرم",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/prp-for-hair-loss.webp"
+    },
+    {
+      "route": "/journal/acne-marks-vs-scars",
+      "width": 390,
+      "status": 200,
+      "src": "/media/journal/acne-marks-vs-scars.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/acne-marks-vs-scars-800.webp",
+      "alt": "نمای نزدیک مفهومی گونه با بافت طبیعی و آثار ملایم جوش",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/acne-marks-vs-scars.webp"
+    },
+    {
+      "route": "/journal/teen-acne",
+      "width": 390,
+      "status": 200,
+      "src": "/media/journal/teen-acne.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/teen-acne-800.webp",
+      "alt": "دفتر یادداشت و وسایل ساده مراقبت پوست برای آماده‌شدن برای گفت‌وگو",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/teen-acne.webp"
+    },
+    {
+      "route": "/journal/natural-rejuvenation",
+      "width": 390,
+      "status": 200,
+      "src": "/media/journal/natural-rejuvenation.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/natural-rejuvenation-800.webp",
+      "alt": "پرتره نمایشی زنی با خطوط طبیعی چهره و حالت آرام",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/natural-rejuvenation.webp"
+    },
+    {
+      "route": "/journal/prp-vs-prf",
+      "width": 390,
+      "status": 200,
+      "src": "/media/journal/prp-vs-prf.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/prp-vs-prf-800.webp",
+      "alt": "دو ظرف شیشه‌ای مفهومی برای موضوع مقایسه فرآورده‌های پلاکتی",
+      "caption": "تصویر مفهومی با هوش مصنوعی؛ نمایش دقیق فرآورده یا سند اثربخشی نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/prp-vs-prf.webp"
+    },
+    {
+      "route": "/journal/exosomes-evidence",
+      "width": 390,
+      "status": 200,
+      "src": "/media/journal/exosomes-evidence.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/exosomes-evidence-800.webp",
+      "alt": "ترکیب مفهومی کره‌های نیمه‌شفاف برای موضوع پژوهش درباره اگزوزوم",
+      "caption": "تصویر مفهومی با هوش مصنوعی؛ نمایش دقیق فرآورده یا سند اثربخشی نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/exosomes-evidence.webp"
+    },
+    {
+      "route": "/journal/different-treatment-results",
+      "width": 390,
+      "status": 200,
+      "src": "/media/journal/different-treatment-results.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/different-treatment-results-800.webp",
+      "alt": "دو دست با رنگ و بافت متفاوت؛ تصویر مفهومی تفاوت‌های فردی",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/different-treatment-results.webp"
+    },
+    {
+      "route": "/journal/questions-before-fillers",
+      "width": 390,
+      "status": 200,
+      "src": "/media/journal/questions-before-fillers.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/questions-before-fillers-800.webp",
+      "alt": "آینه رومیزی و دفتر پرسش‌های پیش از تصمیم درباره فیلر",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/questions-before-fillers.webp"
+    },
+    {
+      "route": "/journal/before-after-photos",
+      "width": 390,
+      "status": 200,
+      "src": "/media/journal/before-after-photos.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/before-after-photos-800.webp",
+      "alt": "دوربین و ابزار نورسنجی برای بررسی شرایط ثبت عکس",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/before-after-photos.webp"
+    },
+    {
+      "route": "/journal/skin-after-45",
+      "width": 390,
+      "status": 200,
+      "src": "/media/journal/skin-after-45.webp",
+      "currentSrc": "http://127.0.0.1:3000/media/journal/skin-after-45-800.webp",
+      "alt": "پرتره نمایشی زنی میانسال با موهای جوگندمی و خطوط طبیعی پوست",
+      "caption": "تصویر نمایشی با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "loaded": true,
+      "overflow": false,
+      "expected": "/media/journal/skin-after-45.webp"
+    },
+    {
+      "route": "motion-article",
+      "loaded": true
+    }
+  ],
+  "assets": [
+    {
+      "src": "/media/journal/prp-for-hair-loss.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/prp-for-hair-loss-800.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/acne-marks-vs-scars.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/acne-marks-vs-scars-800.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/teen-acne.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/teen-acne-800.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/natural-rejuvenation.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/natural-rejuvenation-800.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/prp-vs-prf.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/prp-vs-prf-800.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/exosomes-evidence.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/exosomes-evidence-800.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/different-treatment-results.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/different-treatment-results-800.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/questions-before-fillers.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/questions-before-fillers-800.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/before-after-photos.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/before-after-photos-800.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/skin-after-45.webp",
+      "status": 200
+    },
+    {
+      "src": "/media/journal/skin-after-45-800.webp",
+      "status": 200
+    }
+  ]
+}

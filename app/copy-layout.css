@@ -1,0 +1,54 @@
+/* Chapter names belong to the heading, not the fixed page navigation. */
+.home .section-label{position:relative;display:block;height:0;min-width:0;margin:0!important;padding:0;pointer-events:none;z-index:0}
+.home .section-label>span{position:absolute;inset-inline-start:0;top:-.36em;max-width:100%;font-family:var(--font-heading,inherit);font-size:clamp(72px,9vw,142px);font-weight:600;line-height:1.45;letter-spacing:-.045em;color:var(--ink);opacity:.075;white-space:nowrap;user-select:none}
+.home h2{position:relative;z-index:1}
+.home .philosophy-top,.home .life-grid,.home .journal-heading,.home .faq-layout,.home .invitation-copy,.home .journey-top,.home .paths-head,.home .understanding-copy{isolation:isolate}
+.home .paths-head .section-label{grid-column:1/-1}
+.home .perspective-copy .section-label{top:18px}
+.home .chapter-nav{gap:0;right:8px}
+.home .chapter-nav a{width:36px;height:36px;justify-content:center;padding:0;border-radius:50%}
+.home .chapter-nav i{width:9px;height:9px;border:1px solid #a59791;background:#d9d3ce;transition:background .2s,transform .2s,box-shadow .2s}
+.home .chapter-nav a[data-active] i{width:12px;height:12px;border-radius:50%;border-color:#a58651;background:var(--gold);box-shadow:0 0 0 4px #c5a36a24}
+.home .chapter-nav a:hover i{transform:scale(1.25)}
+.home .chapter-nav a:focus-visible{outline:2px solid var(--gold);outline-offset:0}
+.home .journey-dots button{width:32px;height:32px}
+.home .journey-dots button:before{width:9px;height:9px}
+.home .journey-dots button[data-active]:before{width:25px}
+.home .hero-copy>.eyebrow{line-height:1.9;letter-spacing:0}
+.home .hero-description{max-width:470px}
+@media(max-width:767px){
+ .home .section-label>span{font-size:clamp(62px,17vw,100px);top:-.4em;opacity:.08}
+ .home .perspective-copy .section-label{top:12px}
+ .home .chapter-nav{display:flex;right:0;gap:0}
+ .home .chapter-nav a{width:24px;height:26px}
+ .home .chapter-nav i{width:7px;height:7px}
+ .home .chapter-nav a[data-active] i{width:9px;height:9px;box-shadow:0 0 0 3px #c5a36a24}
+ .home .hero-copy>.eyebrow{max-width:290px;font-size:11px}
+ .home .hero-description{font-size:14px;line-height:1.9}
+ .home .journey-top h2{font-size:30px}
+}
+@media(prefers-reduced-motion:reduce){.home .chapter-nav i{transition:none}}
+
+/* Contact invitation: restrained lift, warm light, and a moving handset. */
+.button-contact{position:relative;isolation:isolate;overflow:hidden;gap:24px;min-height:60px;padding:7px 25px 7px 7px;border:1px solid #c5a36a45;background:#332f30;box-shadow:0 4px 14px #332f3010;transition:transform .35s cubic-bezier(.22,.7,.2,1),background .35s ease,border-color .35s ease,box-shadow .35s ease}
+.button-contact:before{content:'';position:absolute;inset:-1px;z-index:0;pointer-events:none;background:linear-gradient(110deg,transparent 20%,#f5dfb91c 50%,transparent 80%);transform:translateX(110%);transition:transform .7s cubic-bezier(.22,.7,.2,1)}
+.button-contact .button-label,.button-contact .button-icon{position:relative;z-index:1}
+.button-contact .button-icon{width:44px;height:44px;flex-shrink:0;border-color:#f3dfe32e;background:#ffffff08;transition:background .35s ease,border-color .35s ease,color .35s ease}
+.button-contact .contact-icon{width:23px;height:23px;transition:transform .4s cubic-bezier(.22,.7,.2,1)}
+.button-contact .contact-signal{opacity:.6;transition:opacity .35s ease}
+.button-contact:focus-visible{background:#44383b;border-color:var(--gold);box-shadow:0 10px 25px #65454c24;transform:translateY(-3px)}
+.button-contact:focus-visible:before{transform:translateX(-110%)}
+.button-contact:focus-visible .button-icon{background:#ead8b8;border-color:#ead8b8;color:#44383b}
+.button-contact:focus-visible .contact-icon{transform:rotate(-12deg) translateY(-1px)}
+.button-contact:focus-visible .contact-signal{opacity:1}
+@media(hover:hover) and (pointer:fine){
+  .button-contact:hover{background:#44383b;border-color:var(--gold);box-shadow:0 10px 25px #65454c24;transform:translateY(-3px)}
+  .button-contact:hover:before{transform:translateX(-110%)}
+  .button-contact:hover .button-icon{background:#ead8b8;border-color:#ead8b8;color:#44383b}
+  .button-contact:hover .contact-icon{transform:rotate(-12deg) translateY(-1px)}
+  .button-contact:hover .contact-signal{opacity:1}
+}
+@media(prefers-reduced-motion:reduce){
+  .button-contact,.button-contact .contact-icon,.button-contact:before{transition:none!important;transform:none!important}
+  .button-contact:before{display:none}
+}

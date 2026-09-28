@@ -1,0 +1,1143 @@
+{
+  "summary": {
+    "routes": 37,
+    "uniqueTitles": 37,
+    "uniqueDescriptions": 37,
+    "checkedLinks": 41,
+    "checkedAssets": 8,
+    "badRoutes": [],
+    "brokenLinks": [],
+    "brokenAssets": [],
+    "badAnchors": [],
+    "badImages": [],
+    "overflow": [],
+    "contextualCTA": true,
+    "faqOpen": true,
+    "menuOpen": true,
+    "menuClosed": true,
+    "tocWorks": true,
+    "serverRendered": true,
+    "notFoundStatus": 404,
+    "homePreservation": [
+      {
+        "path": "app/page.tsx",
+        "unchanged": true
+      },
+      {
+        "path": "app/layout.tsx",
+        "unchanged": true
+      },
+      {
+        "path": "components/home.tsx",
+        "unchanged": true
+      },
+      {
+        "path": "components/late-chapters.tsx",
+        "unchanged": true
+      },
+      {
+        "path": "components/journey.tsx",
+        "unchanged": true
+      },
+      {
+        "path": "components/perspective.tsx",
+        "unchanged": true
+      },
+      {
+        "path": "lib/site.ts",
+        "unchanged": true
+      },
+      {
+        "path": "lib/content.json",
+        "unchanged": true
+      }
+    ],
+    "errors": []
+  },
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "الورا | مرکز پوست، مو و جوان‌سازی در تهران",
+      "description": "با رویکرد الورا در مراقبت از پوست، درمان آکنه و لک، بررسی ریزش مو و جوان‌سازی آشنا شوید؛ از جلسه ارزیابی تا انتخاب روش و پیگیری نتیجه.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 5382,
+      "images": [
+        {
+          "src": "/media/corridor.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/brand-space.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی فضای الورا"
+        },
+        {
+          "src": "/media/portrait-poster.webp",
+          "loaded": true,
+          "alt": "تصویر نمایشی برای خدمات پوست؛ آکنه، جای جوش و لک"
+        },
+        {
+          "src": "/media/hair.webp",
+          "loaded": true,
+          "alt": "تصویر نمایشی برای ریزش مو و سلامت پوست سر"
+        },
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": "تصویر نمایشی برای جوان‌سازی و زیبایی طبیعی"
+        },
+        {
+          "src": "/media/brand-space.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی فضای الورا"
+        },
+        {
+          "src": "/media/young-scarf.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی زن جوان ایرانی با روسری طرح‌دار و نگاه به کنار"
+        },
+        {
+          "src": "/media/corridor.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی ورودی آرام الورا"
+        },
+        {
+          "src": "/media/portrait-poster.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی برای مرحله ارزیابی"
+        },
+        {
+          "src": "/media/brand-space.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی فضای گفت‌وگو"
+        },
+        {
+          "src": "/media/lounge.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی فضای الورا"
+        },
+        {
+          "src": "/media/hair.webp",
+          "loaded": true,
+          "alt": "تصویر هنری بافت طبیعی مو"
+        },
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک مدل بزرگسال"
+        },
+        {
+          "src": "/media/hair.webp",
+          "loaded": true,
+          "alt": "تصویر نمایشی بافت طبیعی مو"
+        },
+        {
+          "src": "/media/lounge.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی سالن انتظار الورا"
+        }
+      ]
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "title": "راهنمای خدمات پوست، مو و جوان‌سازی | الورا",
+      "description": "راهنمای خدمات پوست، مو و جوان‌سازی الورا؛ از دغدغه خود شروع کنید، روش‌های مرتبط و محدودیت‌ها را بخوانید و برای مشاوره آماده شوید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 1776,
+      "images": [
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با بافت طبیعی پوست"
+        },
+        {
+          "src": "/media/hair.webp",
+          "loaded": true,
+          "alt": "تصویر نمایشی تارهای موی تیره و فرق سر"
+        },
+        {
+          "src": "/media/young-scarf.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با روسری طرح‌دار"
+        },
+        {
+          "src": "/media/brand-space.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی فضای الورا با نور طبیعی"
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "title": "درباره الورا و اصول مراقبت | الورا",
+      "description": "با الورا، مرکز برنامه‌ریزی‌شده پوست، مو و جوان‌سازی در تهران آشنا شوید؛ اصول ارزیابی، انتخاب آگاهانه، حریم خصوصی و پیگیری.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2046,
+      "images": [
+        {
+          "src": "/media/brand-space.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی فضای الورا با نور طبیعی"
+        }
+      ]
+    },
+    {
+      "route": "/care",
+      "status": 200,
+      "title": "راهنمای مراجعه و پیگیری | الورا",
+      "description": "برای نخستین مشاوره پوست و مو چه آماده کنیم؟ مراحل ارزیابی، توضیح هزینه و گزینه‌ها، رضایت آگاهانه و پیگیری در مسیر مراقبت الورا.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2163,
+      "images": []
+    },
+    {
+      "route": "/faq",
+      "status": 200,
+      "title": "پرسش‌های مشاوره و درمان | الورا",
+      "description": "پاسخ پرسش‌های مشاوره پوست و مو: انتخاب روش، هزینه، نتیجه، حریم خصوصی و وضعیت درخواست نوبت در پیش‌نمایش الورا.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 1024,
+      "images": []
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "title": "اطلاعات تماس و مشاوره | الورا",
+      "description": "اطلاعات تماس و وضعیت مشاوره الورا در پاسداران و دولت تهران؛ نشانی و راه‌های ارتباط پس از تأیید اعلام می‌شوند. درخواست آنلاین فعال نیست.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 849,
+      "images": [
+        {
+          "src": "/media/lounge.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی فضای انتظار الورا"
+        }
+      ]
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "title": "حریم خصوصی و تصاویر | الورا",
+      "description": "درباره ذخیره وضعیت نمایش در مرورگر، تصاویر نمایشی و اصول محرمانگی در پیش‌نمایش الورا بخوانید؛ سیاست نهایی مرکز هنوز تکمیل نشده است.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 1206,
+      "images": []
+    },
+    {
+      "route": "/skin",
+      "status": 200,
+      "title": "خدمات پوست؛ آکنه، جای جوش و لک | الورا",
+      "description": "راهنمای آکنه، جای جوش، لک صورت و میکرونیدلینگ؛ موضوع مناسب را پیدا کنید و درباره ارزیابی پوست، مراقبت و پرسش‌های پیش از درمان بخوانید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 1558,
+      "images": [
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با بافت طبیعی پوست"
+        }
+      ]
+    },
+    {
+      "route": "/services/acne",
+      "status": 200,
+      "title": "درمان آکنه و جوش صورت؛ ارزیابی و انتخاب روش | الورا",
+      "description": "برای درمان آکنه از کجا شروع کنیم؟ نوع جوش، سابقه درمان، مراقبت روزانه و پرسش‌های جلسه ارزیابی پوست را در راهنمای الورا بخوانید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2187,
+      "images": [
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با بافت طبیعی پوست"
+        }
+      ]
+    },
+    {
+      "route": "/services/acne-scars",
+      "status": 200,
+      "title": "جای جوش و اسکار آکنه؛ تفاوت با لک و قرمزی | الورا",
+      "description": "تفاوت جای جوش فرورفته با لک و قرمزی را بشناسید؛ معیارهای ارزیابی اسکار آکنه، محدودیت نتیجه و پرسش‌های پیش از انتخاب روش.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2116,
+      "images": [
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با بافت طبیعی پوست"
+        }
+      ]
+    },
+    {
+      "route": "/services/pigmentation",
+      "status": 200,
+      "title": "لک صورت و ناهماهنگی رنگ پوست؛ راهنمای ارزیابی | الورا",
+      "description": "پیش از درمان لک صورت، نوع تغییر رنگ و سابقه پوست را بررسی کنید. راهنمای آمادگی برای مشاوره و شناخت محدودیت‌های روش‌های درمان لک.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2133,
+      "images": [
+        {
+          "src": "/media/young-scarf.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با روسری طرح‌دار"
+        }
+      ]
+    },
+    {
+      "route": "/services/microneedling",
+      "status": 200,
+      "title": "میکرونیدلینگ پوست؛ کاربرد، محدودیت و مراقبت | الورا",
+      "description": "میکرونیدلینگ برای چه نیازهایی بررسی می‌شود؟ محدودیت‌ها، عوارض احتمالی و پرسش‌های پیش از انتخاب این روش برای بافت و جای جوش.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2002,
+      "images": [
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با بافت طبیعی پوست"
+        }
+      ]
+    },
+    {
+      "route": "/hair",
+      "status": 200,
+      "title": "ریزش مو و سلامت پوست سر | الورا",
+      "description": "از ریزش و کم‌پشتی مو تا شوره و خارش پوست سر؛ راهنمای موضوعات مرتبط، جایگاه PRP و PRF و آمادگی برای ارزیابی در الورا.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 1483,
+      "images": [
+        {
+          "src": "/media/hair.webp",
+          "loaded": true,
+          "alt": "تصویر نمایشی تارهای موی تیره و فرق سر"
+        }
+      ]
+    },
+    {
+      "route": "/services/hair-loss",
+      "status": 200,
+      "title": "ریزش و کم‌پشتی مو؛ بررسی علت و مسیر درمان | الورا",
+      "description": "برای بررسی ریزش مو چه اطلاعاتی لازم است؟ از الگوی کم‌پشتی و سابقه پزشکی تا جایگاه PRP و پرسش‌های پیش از انتخاب درمان مو.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2226,
+      "images": [
+        {
+          "src": "/media/hair.webp",
+          "loaded": true,
+          "alt": "تصویر نمایشی تارهای موی تیره و فرق سر"
+        }
+      ]
+    },
+    {
+      "route": "/services/scalp-health",
+      "status": 200,
+      "title": "شوره و خارش پوست سر؛ مراقبت و زمان مراجعه | الورا",
+      "description": "شوره ماندگار، خارش و التهاب پوست سر را چگونه پیگیری کنیم؟ راهنمای شرح علائم، محصولات مصرفی و پرسش‌های جلسه ارزیابی در الورا.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 1912,
+      "images": [
+        {
+          "src": "/media/hair.webp",
+          "loaded": true,
+          "alt": "تصویر نمایشی تارهای موی تیره و فرق سر"
+        }
+      ]
+    },
+    {
+      "route": "/rejuvenation",
+      "status": 200,
+      "title": "جوان‌سازی و زیبایی طبیعی | الورا",
+      "description": "راهنمای جوان‌سازی طبیعی، بوتاکس، فیلر و مراقبت پس از ۴۵ سال؛ با توجه به کیفیت پوست، تناسب چهره و محدودیت روش‌ها تصمیم بگیرید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 1722,
+      "images": [
+        {
+          "src": "/media/young-scarf.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با روسری طرح‌دار"
+        }
+      ]
+    },
+    {
+      "route": "/services/natural-rejuvenation",
+      "status": 200,
+      "title": "جوان‌سازی طبیعی صورت؛ انتخاب متناسب با چهره | الورا",
+      "description": "جوان‌سازی طبیعی یعنی چه؟ کیفیت پوست، خطوط و تغییرات حجم را جداگانه بشناسید و با هدف روشن درباره گزینه‌ها و محدودیت‌ها تصمیم بگیرید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2319,
+      "images": [
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با بافت طبیعی پوست"
+        }
+      ]
+    },
+    {
+      "route": "/services/rejuvenation-45",
+      "status": 200,
+      "title": "جوان‌سازی پس از ۴۵ سال؛ کیفیت پوست و مراقبت | الورا",
+      "description": "پس از ۴۵ سال، مراقبت پوست را بر اساس نیاز واقعی انتخاب کنید؛ از خشکی و تغییر بافت تا گفت‌وگو درباره جوان‌سازی و حفظ تناسب چهره.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2127,
+      "images": [
+        {
+          "src": "/media/mature.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن میانسال با خطوط طبیعی چهره"
+        }
+      ]
+    },
+    {
+      "route": "/services/botox",
+      "status": 200,
+      "title": "بوتاکس صورت؛ ارزیابی، انتظار و پرسش‌های مهم | الورا",
+      "description": "پیش از تزریق بوتاکس چه بپرسیم؟ راهنمای بررسی سابقه پزشکی، هدف درمان، محدودیت‌ها و حفظ حالت چهره در تصمیم‌گیری آگاهانه.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2115,
+      "images": [
+        {
+          "src": "/media/young-scarf.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با روسری طرح‌دار"
+        }
+      ]
+    },
+    {
+      "route": "/services/fillers",
+      "status": 200,
+      "title": "تزریق فیلر صورت؛ تناسب حجم، خطرات و مشاوره | الورا",
+      "description": "پیش از تزریق فیلر، درباره نوع ماده، هدف تغییر حجم، خطرات و پیگیری سؤال کنید. راهنمای الورا برای تصمیم‌گیری بدون وعده نتیجه تضمینی.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2158,
+      "images": [
+        {
+          "src": "/media/young-scarf.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با روسری طرح‌دار"
+        }
+      ]
+    },
+    {
+      "route": "/advanced",
+      "status": 200,
+      "title": "درمان‌های نوین و بازساختی | الورا",
+      "description": "PRP، PRF، اگزوزوم و فرآورده‌های سلولی را با توجه به کاربرد، شواهد و ایمنی بشناسید؛ وضعیت ارائه روش‌های تأییدنشده در الورا مشخص است.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 1739,
+      "images": [
+        {
+          "src": "/media/brand-space.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی فضای الورا با نور طبیعی"
+        }
+      ]
+    },
+    {
+      "route": "/services/prp",
+      "status": 200,
+      "title": "PRP پوست و مو؛ کاربردها و محدودیت شواهد | الورا",
+      "description": "PRP چیست و چه جایگاهی در بررسی مشکلات مو یا پوست دارد؟ درباره هدف، آماده‌سازی، محدودیت نتیجه و تفاوت آن با PRF بیشتر بخوانید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2143,
+      "images": [
+        {
+          "src": "/media/hair.webp",
+          "loaded": true,
+          "alt": "تصویر نمایشی تارهای موی تیره و فرق سر"
+        }
+      ]
+    },
+    {
+      "route": "/services/prf",
+      "status": 200,
+      "title": "PRF پوست و مو؛ تفاوت با PRP و معیار انتخاب | الورا",
+      "description": "PRF و PRP را بر اساس هدف، شواهد و روش آماده‌سازی مقایسه کنید. پرسش‌های لازم پیش از تصمیم درباره فرآورده‌های پلاکتی پوست و مو.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2054,
+      "images": [
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با بافت طبیعی پوست"
+        }
+      ]
+    },
+    {
+      "route": "/services/exosomes",
+      "status": 200,
+      "title": "اگزوزوم پوست و مو؛ شواهد، ایمنی و وضعیت ارائه | الورا",
+      "description": "پیش از تصمیم درباره اگزوزوم پوست یا مو، درباره محصول، کاربرد و ایمنی چه بپرسیم؟ وضعیت ارائه این روش در الورا هنوز تأیید نشده است.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2244,
+      "images": [
+        {
+          "src": "/media/brand-space.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی فضای الورا با نور طبیعی"
+        }
+      ]
+    },
+    {
+      "route": "/services/cell-based",
+      "status": 200,
+      "title": "سل‌تراپی و فرآورده‌های سلولی؛ پرسش‌های پیش از تصمیم | الورا",
+      "description": "سل‌تراپی نام یک درمان واحد نیست. منبع، کاربرد، شواهد و مجوز فرآورده سلولی را بررسی کنید؛ ارائه این خدمات در الورا تأیید نشده است.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2263,
+      "images": [
+        {
+          "src": "/media/brand-space.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی فضای الورا با نور طبیعی"
+        }
+      ]
+    },
+    {
+      "route": "/journal",
+      "status": 200,
+      "title": "مجله پوست و مو | الورا",
+      "description": "راهنماهای پوست، مو و زیبایی در مجله الورا؛ پاسخ به پرسش‌های آکنه، ریزش مو، PRP، فیلر و مراقبت با منابع و وضعیت بازبینی مشخص.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2768,
+      "images": [
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/young-scarf.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/hair.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/young-scarf.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/mature.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/mature.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/brand-space.webp",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "/media/brand-space.webp",
+          "loaded": true,
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "route": "/journal/prp-for-hair-loss",
+      "status": 200,
+      "title": "آیا PRP برای هر نوع ریزش مو مناسب است؟ | الورا",
+      "description": "PRP درمان مشترک همه انواع ریزش مو نیست. درباره اهمیت تشخیص علت، پرسش‌های جلسه مشاوره و روش ارزیابی نتیجه در این راهنما بخوانید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2515,
+      "images": [
+        {
+          "src": "/media/hair.webp",
+          "loaded": true,
+          "alt": "تصویر نمایشی تارهای موی تیره و فرق سر"
+        }
+      ]
+    },
+    {
+      "route": "/journal/acne-marks-vs-scars",
+      "status": 200,
+      "title": "تفاوت لک، قرمزی و جای جوش چیست؟ | الورا",
+      "description": "اثر باقی‌مانده از جوش همیشه اسکار نیست. تفاوت تغییر رنگ با فرورفتگی یا برجستگی پوست و پرسش‌های لازم برای ارزیابی جای جوش را بخوانید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2498,
+      "images": [
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با بافت طبیعی پوست"
+        }
+      ]
+    },
+    {
+      "route": "/journal/teen-acne",
+      "status": 200,
+      "title": "درمان آکنه نوجوانان از کجا شروع می‌شود؟ | الورا",
+      "description": "راهنمای شروع ارزیابی آکنه نوجوانان؛ شرح جوش‌ها، محصولات مصرفی، انتظار از درمان و گفت‌وگویی بدون سرزنش درباره سلامت پوست.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2547,
+      "images": [
+        {
+          "src": "/media/young-scarf.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با روسری طرح‌دار"
+        }
+      ]
+    },
+    {
+      "route": "/journal/natural-rejuvenation",
+      "status": 200,
+      "title": "جوان‌سازی طبیعی یعنی چه و چطور درباره آن تصمیم بگیریم؟ | الورا",
+      "description": "جوان‌سازی طبیعی نام یک روش واحد نیست. هدف تغییر، حفظ ویژگی‌های چهره و تفاوت نیازهای پوست را پیش از انتخاب بوتاکس یا فیلر روشن کنید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2598,
+      "images": [
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با بافت طبیعی پوست"
+        }
+      ]
+    },
+    {
+      "route": "/journal/prp-vs-prf",
+      "status": 200,
+      "title": "تفاوت PRP و PRF چیست؟ مقایسه برای تصمیم آگاهانه | الورا",
+      "description": "PRP و PRF چه تفاوتی دارند؟ آشنایی با نام‌ها، محدودیت شواهد و سؤال‌هایی که پیش از انتخاب فرآورده‌های پلاکتی باید بپرسید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2490,
+      "images": [
+        {
+          "src": "/media/brand-space.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی فضای الورا با نور طبیعی"
+        }
+      ]
+    },
+    {
+      "route": "/journal/exosomes-evidence",
+      "status": 200,
+      "title": "اگزوزوم چیست؟ پرسش‌هایی درباره شواهد و ایمنی | الورا",
+      "description": "پیش از انتخاب اگزوزوم پوست یا مو، نام محصول، شواهد انسانی و وضعیت مجوز را بررسی کنید؛ تفاوت پژوهش با خدمت تأییدشده را بشناسید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2534,
+      "images": [
+        {
+          "src": "/media/brand-space.webp",
+          "loaded": true,
+          "alt": "تصویر مفهومی فضای الورا با نور طبیعی"
+        }
+      ]
+    },
+    {
+      "route": "/journal/different-treatment-results",
+      "status": 200,
+      "title": "چرا نتیجه یک درمان برای دو نفر یکسان نیست؟ | الورا",
+      "description": "چگونه انتظار واقع‌بینانه از درمان پوست و مو داشته باشیم؟ هدف، وضعیت اولیه، روش اجرا و شیوه پیگیری را در مقایسه نتیجه‌ها در نظر بگیرید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2510,
+      "images": [
+        {
+          "src": "/media/young-natural.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با بافت طبیعی پوست"
+        }
+      ]
+    },
+    {
+      "route": "/journal/questions-before-fillers",
+      "status": 200,
+      "title": "پیش از تزریق فیلر چه سؤال‌هایی بپرسیم؟ | الورا",
+      "description": "چک‌لیست پرسش‌های پیش از فیلر: هدف تزریق، نام ماده، تجربه پزشک، خطرات، امکان اصلاح و مسیر پیگیری پس از انجام.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2516,
+      "images": [
+        {
+          "src": "/media/young-scarf.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن بزرگسال با روسری طرح‌دار"
+        }
+      ]
+    },
+    {
+      "route": "/journal/before-after-photos",
+      "status": 200,
+      "title": "چگونه عکس‌های قبل و بعد را واقع‌بینانه ببینیم؟ | الورا",
+      "description": "در عکس قبل و بعد به نور، زاویه، زمان و روش انجام توجه کنید. یک تصویر، نتیجه معمول یا تضمین پاسخ شما به درمان نیست.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2488,
+      "images": [
+        {
+          "src": "/media/mature.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن میانسال با خطوط طبیعی چهره"
+        }
+      ]
+    },
+    {
+      "route": "/journal/skin-after-45",
+      "status": 200,
+      "title": "مراقبت از پوست پس از ۴۵ سال؛ از نیاز واقعی شروع کنیم | الورا",
+      "description": "پس از ۴۵ سال چه چیزی در مراقبت پوست مهم است؟ نیازهای فردی، خشکی، حساسیت و تغییرات تازه را بدون فرض نیاز به تزریق بررسی کنید.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 2559,
+      "images": [
+        {
+          "src": "/media/mature.webp",
+          "loaded": true,
+          "alt": "پرتره نمایشی یک زن میانسال با خطوط طبیعی چهره"
+        }
+      ]
+    },
+    {
+      "route": "/sitemap",
+      "status": 200,
+      "title": "نقشه سایت | الورا",
+      "description": "نقشه سایت الورا؛ دسترسی به راهنماهای پوست، مو، جوان‌سازی، روش‌های نوین، مقاله‌های مجله و اطلاعات مراجعه، تماس و حریم خصوصی.",
+      "h1": 1,
+      "robots": "noindex, nofollow",
+      "lang": "fa",
+      "dir": "rtl",
+      "mainText": 1257,
+      "images": []
+    }
+  ],
+  "responsive": [
+    {
+      "route": "/services",
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "route": "/skin",
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "route": "/hair",
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "route": "/rejuvenation",
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "route": "/advanced",
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "route": "/services/acne",
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "route": "/services/fillers",
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "route": "/journal",
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "route": "/journal/prp-vs-prf",
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "route": "/journal/questions-before-fillers",
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "route": "/contact",
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "route": "/sitemap",
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "route": "/services",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/skin",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/hair",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/rejuvenation",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/advanced",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/services/acne",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/services/fillers",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/journal",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/journal/prp-vs-prf",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/journal/questions-before-fillers",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/sitemap",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/services",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/skin",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/hair",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/rejuvenation",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/advanced",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/services/acne",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/services/fillers",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/journal",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/journal/prp-vs-prf",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/journal/questions-before-fillers",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/sitemap",
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "route": "/services",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "route": "/skin",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "route": "/hair",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "route": "/rejuvenation",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "route": "/advanced",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "route": "/services/acne",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "route": "/services/fillers",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "route": "/journal",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "route": "/journal/prp-vs-prf",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "route": "/journal/questions-before-fillers",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "route": "/contact",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "route": "/sitemap",
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "route": "/services",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/skin",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/hair",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/rejuvenation",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/advanced",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/services/acne",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/services/fillers",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/journal",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/journal/prp-vs-prf",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/journal/questions-before-fillers",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/sitemap",
+      "width": 1440,
+      "scrollWidth": 1440
+    }
+  ],
+  "normalMotion": [
+    {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "route": "/about",
+    "status": 200,
+    "pass": true
+  },
+  {
+    "name": "Production cover pin",
+    "pass": true
+  },
+  {
+    "route": "/services/hair-loss",
+    "status": 200,
+    "pass": true
+  },
+  {
+    "route": "/journal/prp-vs-prf",
+    "status": 200,
+    "pass": true
+  },
+  {
+    "route": "/contact",
+    "status": 200,
+    "pass": true
+  },
+  {
+    "route": "/sitemap",
+    "status": 200,
+    "pass": true
+  },
+  {
+    "route": "/",
+    "status": 200,
+    "pass": true
+  },
+  {
+    "name": "Production runtime",
+    "pass": true,
+    "errors": []
+  }
+]

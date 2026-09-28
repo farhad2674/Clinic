@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "route": "/journal",
+      "status": 200,
+      "images": [
+        {
+          "src": "/media/journal/acne-marks-vs-scars.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal/teen-acne.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal/prp-for-hair-loss.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal/natural-rejuvenation.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal/different-treatment-results.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal/questions-before-fillers.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal/before-after-photos.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal/skin-after-45.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal/prp-vs-prf.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal/exosomes-evidence.webp",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "route": "/journal/exosomes-evidence",
+      "status": 200,
+      "images": [
+        {
+          "src": "/media/journal/exosomes-evidence.webp",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "images": [
+        {
+          "src": "/media/journal/prp-for-hair-loss.webp",
+          "loaded": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
