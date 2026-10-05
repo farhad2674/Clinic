@@ -6,13 +6,6 @@ import {enhanceScenes} from './scene-enhancements';
 import {prepareOpening} from '@/lib/opening-readiness';
 gsap.registerPlugin(ScrollTrigger);
 
-export function scrollScene(id:string,progress:number,fallback?:string){
-  const el=document.getElementById(id);if(!el)return;
-  const full=document.documentElement.classList.contains('motion-ready')&&!document.documentElement.classList.contains('reduced-motion')&&innerWidth>=768;
-  if(id==='journey'&&!full){document.getElementById(fallback||id)?.scrollIntoView({behavior:document.documentElement.classList.contains('reduced-motion')?'instant':'smooth',block:'nearest',inline:'center'});return;}
-  const target=full?el.getBoundingClientRect().top+scrollY+(el.offsetHeight-innerHeight)*progress:(document.getElementById(fallback||id)?.getBoundingClientRect().top??el.getBoundingClientRect().top)+scrollY-100;
-  window.scrollTo({top:target,behavior:document.documentElement.classList.contains('reduced-motion')?'instant':'smooth'});
-}
 export function Motion(){
   useEffect(()=>{
     let context:gsap.Context|undefined;
@@ -24,7 +17,6 @@ export function Motion(){
     const controller=new AbortController();
     let releaseMedia:(()=>void)|undefined;
     let initialized=false;
-    let intro:gsap.core.Timeline|undefined;
     let storedPosition:string|null=null;
     try{storedPosition=sessionStorage.getItem('elora-home-scroll')}catch{}
     const parsedY=storedPosition===null?NaN:Number(storedPosition);
@@ -63,10 +55,6 @@ export function Motion(){
       context=gsap.context(()=>{
         const desktop=innerWidth>=768;
         enhanceScenes(desktop);
-        intro=gsap.timeline({paused:document.documentElement.classList.contains('opening-loading'),defaults:{ease:'power3.out'}})
-          .fromTo('.hero-copy .eyebrow',{y:18,opacity:0},{y:0,opacity:1,duration:.6},0)
-          .fromTo('.hero-copy h1 > span',{yPercent:42,opacity:0},{yPercent:0,opacity:1,duration:.9,stagger:.13},.1)
-          .fromTo('.hero-description, .hero-actions',{y:22,opacity:0},{y:0,opacity:1,duration:.7,stagger:.1},.48);
         gsap.utils.toArray<HTMLElement>('[data-reveal]').forEach(el=>gsap.fromTo(el,{y:36,opacity:.35},{y:0,opacity:1,ease:'none',scrollTrigger:{trigger:el,start:'top 94%',end:'top 55%',scrub:true}}));
         gsap.utils.toArray<HTMLElement>('[data-parallax] img').forEach(el=>gsap.fromTo(el,{scale:1.08,yPercent:-3},{scale:1,yPercent:3,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:true}}));
         gsap.utils.toArray<HTMLElement>('[data-chapter]').forEach(el=>ScrollTrigger.create({trigger:el,start:'top 50%',end:'bottom 50%',onToggle:self=>{
@@ -112,7 +100,6 @@ export function Motion(){
           .to('.portrait-orbit',{rotation:45,ease:'none'},0);
         document.querySelectorAll('[data-scrub-video]').forEach(node=>{
           const v=node as HTMLVideoElement;
-          if(v.dataset.mediaState!=='ready')return;
           const scene=v.dataset.scrubVideo==='entrance'?'#entry':'#understanding';
           let desired=0;
           const seek=()=>{
@@ -122,8 +109,8 @@ export function Motion(){
             }
           };
           const update=(self:ScrollTrigger)=>{desired=self.progress;seek()};
-          v.addEventListener('loadedmetadata',seek);v.addEventListener('seeked',seek);
-          cleanups.push(()=>{v.removeEventListener('loadedmetadata',seek);v.removeEventListener('seeked',seek);v.pause()});
+          v.addEventListener('loadeddata',seek);v.addEventListener('seeked',seek);
+          cleanups.push(()=>{v.removeEventListener('loadeddata',seek);v.removeEventListener('seeked',seek);v.pause()});
           ScrollTrigger.create({trigger:scene,start:desktop?'top top':'top 65%',end:desktop?'bottom bottom':'bottom 35%',onUpdate:update,onRefresh:update});
         });
         if(matchMedia('(pointer:fine)').matches){
@@ -153,8 +140,6 @@ export function Motion(){
       ScrollTrigger.update();
       restoreDone=true;
     };
-    const reveal=()=>intro?.play();
-    window.addEventListener('elora-revealed',reveal);
     window.addEventListener('elora-motion',rerun);
     let width=innerWidth;
     const resize=()=>{if(Math.abs(innerWidth-width)>40){width=innerWidth;rerun()}};
@@ -174,33 +159,27 @@ export function Motion(){
       });
       console.warn('Opening enhancement unavailable; showing static content.',error);
     };
-    const finishOpening=()=>{
-      if(disposed)return;
-      root.dataset.openingState='ready';
-      window.dispatchEvent(new Event('elora-opening-ready'));
-    };
-    void prepareOpening(root,controller.signal,value=>{
-      if(!disposed)window.dispatchEvent(new CustomEvent('elora-opening-progress',{detail:value}));
-    }).then(disposeMedia=>{
-      if(disposed){disposeMedia();return}
-      releaseMedia=disposeMedia;
+    try {
       document.documentElement.classList.toggle('reduced-motion',matchMedia('(prefers-reduced-motion: reduce)').matches);
       setup();
       initialized=true;
-    }).catch(error=>{
-      if(!disposed)useStaticContent(error);
-    }).finally(()=>{
-      if(disposed)return;
-      requestAnimationFrame(()=>{
+      releaseMedia=prepareOpening(root,controller.signal);
+      // Font settling matters for saved scroll positions, but never covers the first screen.
+      void document.fonts.ready.then(()=>{
         if(disposed)return;
-        try{restore()}catch(error){useStaticContent(error);restoreDone=true}
-        finally{requestAnimationFrame(finishOpening)}
+        requestAnimationFrame(()=>{
+          if(disposed)return;
+          try{restore()}catch(error){useStaticContent(error);restoreDone=true}
+          finally{root.dataset.openingState='ready'}
+        });
       });
-    });
+    } catch(error) {
+      useStaticContent(error);
+      root.dataset.openingState='ready';
+    }
     return()=>{
       disposed=true;controller.abort();clearTimeout(timer);context?.revert();cleanups.forEach(fn=>fn());releaseMedia?.();
       delete root.dataset.openingState;
-      window.removeEventListener('elora-revealed',reveal);
       document.documentElement.classList.remove('motion-ready');
       document.querySelectorAll('[data-journey-step]').forEach(s=>s.removeAttribute('aria-hidden'));
       document.querySelectorAll('.care-panel').forEach(s=>s.removeAttribute('inert'));

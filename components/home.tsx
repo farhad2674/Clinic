@@ -1,12 +1,12 @@
 'use client';
-import {Preloader} from './preloader';
 import {SectionLabel} from './section-label';
 import {useState} from 'react';
 import {categories,chapters} from '@/lib/site';
 import {Arrow,CTA} from './shell';
 import {ScrubVideo} from './media';
 import {FaceAnalysis} from './face-analysis';
-import {Motion,scrollScene} from './motion';
+import {DeferredMotion} from './deferred-motion';
+import {scrollScene} from './scroll-scene';
 import {Perspective} from './perspective';
 import {LateChapters} from './late-chapters';
 import {Journey} from './journey';
@@ -17,7 +17,7 @@ const audiences=[
 {label:'آقایان',title:'مراقبت متناسب با زندگی شما.',body:'ریزش مو، سلامت پوست سر یا رسیدگی به پوست؛ با توضیح روشن درباره گزینه‌ها و توجه به زمان و حریم خصوصی شما.',link:'/hair',image:'/media/brand-space.webp',alt:'تصویر مفهومی فضای خصوصی و آرام الورا'}
 ];
 export function Home(){const [audience,setAudience]=useState(1);const person=audiences[audience];
-return <><Preloader/><main id="main" className="home"><Motion/><nav className="chapter-nav" aria-label="بخش‌های صفحه">{chapters.map(c=><a key={c.id} href={'#'+c.id} data-nav-chapter={c.id} aria-label={c.title}><i aria-hidden="true"/></a>)}</nav>
+return <><main id="main" className="home"><DeferredMotion/><nav className="chapter-nav" aria-label="بخش‌های صفحه">{chapters.map(c=><a key={c.id} href={'#'+c.id} data-nav-chapter={c.id} aria-label={c.title}><i aria-hidden="true"/></a>)}</nav>
 <section id="entry" className="hero scene" data-chapter data-opening>
 <div className="hero-stage scene-stage">
 <div className="hero-copy"><p className="eyebrow"><span className="small-rule"/>الورا · مرکز تخصصی پوست، مو و جوان‌سازی</p><h1><span>زیبایی،</span>{' '}<span>از <em>شما</em></span>{' '}<span className="hero-heading-last">شروع می‌شود.</span></h1><p className="hero-description">از جوش و لک تا ریزش مو و جوان‌سازی؛ <br/>گزینه‌ها را با توجه به شرایط شما بررسی می‌کنیم.</p><div className="hero-actions"><CTA/><a className="text-link" href="#philosophy">آشنایی با رویکرد الورا <Arrow/></a></div></div>
@@ -29,7 +29,7 @@ return <><Preloader/><main id="main" className="home"><Motion/><nav className="c
 </div></section>
 <section id="philosophy" className="philosophy section-space" data-chapter data-opening>
 <div className="page-width"><SectionLabel>نگاه ما</SectionLabel><div className="philosophy-top"><h2 data-reveal>در الورا،<br/>شما در اولویتید.</h2><p className="large-copy" data-reveal>فرصت دارید بپرسید،<br/>گزینه‌ها را بسنجید<br/>و <em>با اطمینان تصمیم بگیرید.</em></p></div>
-<div className="philosophy-grid"><figure className="editorial-image" data-parallax><img src="/media/brand-space.webp" alt="تصویر مفهومی فضای الورا" loading="eager"/></figure><div className="philosophy-story"><p>قرار نیست با نام یک دستگاه یا تزریق وارد شوید. کافی است از چیزی بگویید که می‌خواهید بررسی شود؛ از تغییرات پوست و مو تا انتظاری که از نتیجه دارید.</p><div className="promise-lines"><p data-reveal><span>انتخاب با شماست</span> فرصت پرسیدن دارید.</p><p data-reveal><span>توضیح با ماست</span> از هزینه تا محدودیت‌ها.</p><p data-reveal><span>اولویت، سلامت شماست</span> حتی اگر درمانی انجام نشود.</p></div><a className="text-link" href="/about">بیشتر درباره الورا <Arrow/></a></div></div></div>
+<div className="philosophy-grid"><figure className="editorial-image" data-parallax><img src="/media/brand-space.webp" alt="تصویر مفهومی فضای الورا" loading="lazy" decoding="async"/></figure><div className="philosophy-story"><p>قرار نیست با نام یک دستگاه یا تزریق وارد شوید. کافی است از چیزی بگویید که می‌خواهید بررسی شود؛ از تغییرات پوست و مو تا انتظاری که از نتیجه دارید.</p><div className="promise-lines"><p data-reveal><span>انتخاب با شماست</span> فرصت پرسیدن دارید.</p><p data-reveal><span>توضیح با ماست</span> از هزینه تا محدودیت‌ها.</p><p data-reveal><span>اولویت، سلامت شماست</span> حتی اگر درمانی انجام نشود.</p></div><a className="text-link" href="/about">بیشتر درباره الورا <Arrow/></a></div></div></div>
 </section>
 <section id="understanding" className="understanding scene" data-chapter data-opening><div className="understanding-stage scene-stage page-width">
 <div className="understanding-copy"><SectionLabel>شناخت</SectionLabel><h2>ابتدا مسئله را<br/>می‌شناسیم،<br/><em>سپس راهکار را</em><br/>انتخاب می‌کنیم.</h2><p>در جلسه ارزیابی، درباره تغییرات پوست یا مو، سابقه درمان و انتظارتان صحبت می‌کنیم.</p><div className="observation-steps">{[{t:'چه چیزی تغییر کرده؟',b:'نشانه‌ها، زمان شروع و آنچه تجربه کرده‌اید.'},{t:'چه سابقه‌ای دارید؟',b:'داروها، محصولات مصرفی و درمان‌های قبلی.'},{t:'چه انتظاری دارید؟',b:'نتیجه دلخواه و پرسش‌هایی که برایتان مهم‌اند.'}].map((s,i)=><div data-observation key={s.t}><span className="latin-number">0{i+1}</span><div><h3>{s.t}</h3><p>{s.b}</p></div></div>)}</div><a className="text-link" href="/care">ارزیابی چگونه آغاز می‌شود؟ <Arrow/></a></div>

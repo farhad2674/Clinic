@@ -255,25 +255,5 @@
   .portrait-insights [data-insight-row] small{font-size:9px}
 }
 .reduced-motion .journey-slide,.reduced-motion .journey-dots button:before,.reduced-motion .portrait-insights [data-insight-row]{transition:none}
-/* First-visit brand mark: a warm color fill rises through the outlined wordmark. */
-.preloader{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;flex-direction:column;background:var(--white);isolation:isolate;transition:opacity .6s ease,visibility .6s ease;overflow:hidden}
-.preloader:before{content:'';position:absolute;width:min(75vw,680px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#f5dfe4 0%,#f9eef0 36%,transparent 70%);filter:blur(10px);opacity:.75}
-.preloader-ring{position:absolute;width:min(74vw,540px);aspect-ratio:1;border:1px solid #c5a36a69;border-radius:50%;animation:preloader-orbit 2.8s ease-in-out both}
-.preloader-ring:after{content:'';position:absolute;inset:11%;border:1px dashed #c5a36a4d;border-radius:50%}
-.preloader-mark{position:relative;width:min(80vw,710px);height:clamp(85px,14vw,160px);direction:ltr;text-align:center;font:400 clamp(68px,12.5vw,152px)/1 Georgia,serif;letter-spacing:.09em;white-space:nowrap}
-.preloader-outline,.preloader-fill{position:absolute;inset:0;display:block}
-.preloader-outline{color:transparent;-webkit-text-stroke:1px #a98c91}
-.preloader-fill{color:transparent;background:linear-gradient(0deg,#a77d83 6%,#c5a36a 55%,#eed7dc 100%);background-clip:text;-webkit-background-clip:text;clip-path:inset(100% 0 0);animation:preloader-fill 1.5s cubic-bezier(.22,.7,.2,1) .15s forwards}
-.preloader p{position:relative;font-size:14px;letter-spacing:.1em;color:#7b696d;margin-top:25px;animation:preloader-label .7s ease .6s both}
-.preloader-line{position:relative;width:min(220px,42vw);height:1px;background:#dbcacc;margin-top:22px}
-.preloader-line i{display:block;width:100%;height:100%;background:var(--gold);transform-origin:right;transition:transform .3s ease}
-.preloader.is-leaving{opacity:0;visibility:hidden;pointer-events:none}
-html.opening-loading{overflow:hidden;scrollbar-gutter:stable}
 video[data-media-state="fallback"],video[data-media-state="static"]{visibility:hidden}
-@keyframes preloader-fill{to{clip-path:inset(0 0 0)}}
-@keyframes preloader-progress{from{transform:scaleX(0)}to{transform:scaleX(1)}}
-@keyframes preloader-orbit{from{opacity:0;transform:scale(.85) rotate(-18deg)}to{opacity:1;transform:scale(1) rotate(12deg)}}
-@keyframes preloader-label{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
-@media(max-width:767px){.preloader-mark{font-size:clamp(50px,15vw,84px);height:85px;letter-spacing:.04em}.preloader p{font-size:12px}}
-@media(prefers-reduced-motion:reduce){.preloader,.preloader *{animation:none!important;transition:none!important}.preloader-fill{clip-path:inset(0)}}
 

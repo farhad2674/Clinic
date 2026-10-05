@@ -10,8 +10,8 @@
 
 ## Web derivatives
 
-public/media/entrance.mp4 and portrait.mp4: silent H.264, yuv420p, frequent six-frame keyframes, CRF 21, fast-start metadata. Approximately 2.93 MB and 2.45 MB respectively.
-public/media/entrance-poster.webp and portrait-poster.webp: frames extracted from the actual films.
+The entrance film remains under public/media/entrance.mp4. The older portrait.mp4 derivative was removed from public after the supplied portrait became the active film.
+public/media/entrance-poster.webp and the active supplied-poster.webp are frames extracted from their matching films. The older portrait poster was removed from public.
 public/media/corridor.webp, lounge.webp and brand-space.webp: quality-85 derivatives of the supplied concept interiors.
 public/media/hair.webp and mature.webp: quality-86 derivatives of the initial two generated editorial assets.
 public/media/young-scarf.webp and young-natural.webp: optimized WebP derivatives of the two new generated editorial portraits.
@@ -57,13 +57,13 @@ Project asset: public/media/young-natural.webp
 
 Vazirmatn variable WOFF2 and Estedad variable TTF are self-hosted. Their SIL Open Font License files are included beside them in public/fonts/.
 
-## Opening readiness
+## First-screen loading — 30 September 2026
 
-The homepage preloader waits for the hero, philosophy, and understanding chapters: decoded stills and video posters, Vazirmatn/Estedad fonts, complete entrance/portrait film downloads, and initial video frames. Films use local blob URLs so scroll seeking cannot trigger further network buffering. Motion initializes and scroll restoration finishes before reveal; the hero entrance animation starts after the overlay exits. Returning visits use the same readiness gate.
+The hero is server-rendered and visible without a loading overlay. The homepage preloads the small corridor still, while the layout preloads Vazirmatn. Below-the-fold editorial images use lazy loading. Vinext/Vite minifies the production JavaScript and CSS. The homepage loads its GSAP motion chunk after the first paint; a small scroll helper stays available for controls during that delay.
 
-Each load has a 25-second ceiling. Failed or stalled videos remain on their posters and are excluded from video scrubbing. Reduced-motion and data-saver visitors load stills without downloading films. No-JavaScript rendering hides the preloader. Pending work, listeners, and blob URLs are cleaned up on unmount.
+The entrance and understanding films are requested only after page load and when their video elements approach the viewport. Full films are held in local blob URLs for reliable forward and reverse scroll seeking. Until ready, the posters remain visible. Reduced-motion and data-saver visitors use stills without downloading films. Failed media falls back to its poster. Motion initializes independently of film downloads, and saved scroll positions restore after fonts settle.
 
-Run `node scripts/preloader-check.mjs` against the local preview (override with `PRELOADER_BASE_URL`). Results are saved to `qa/preloader-results.json`. For this Cloudflare build, use `pnpm exec vite preview --host 127.0.0.1 --port 3003` to preview the production output.
+Run `node scripts/first-screen-check.mjs` against the production preview (override with `ELORA_BASE_URL`). Results are saved to `qa/first-screen-results.json`. Use `pnpm exec vite preview --host 127.0.0.1 --port 3003` for the Cloudflare build.
 
 ## Inner-page editorial reuse — 28 September 2026
 
@@ -98,12 +98,12 @@ Replaced only the understanding chapter's video/poster mapping. The original por
 - Exact prompts, source paths and selected frame order: `docs/portrait-turn-prompts.json`. Prompt angle targets are artistic directions, not measured yaw.
 - Selected originals and prepared keyframes: `assets/portrait-turn/originals/` and `assets/portrait-turn/keyframes/`.
 - Contact sheet: `assets/portrait-turn/contact-sheet.png`.
-- Delivery: `public/media/portrait-turn/portrait-turn.mp4` (720 x 960, 24 fps, silent H.264, fast-start, six-frame keyframes) and `public/media/portrait-turn/poster.webp`.
+- The earlier generated film and poster were removed from public because the supplied portrait is now active. The preparation script and source frames remain for provenance and regeneration.
 - The final film is assembled from generated still keyframes using FFmpeg motion-compensated interpolation. It is not a natively generated video or a recorded model. Fine texture can soften between source keyframes.
 - All 24 fps delivery frames are also saved in `assets/portrait-turn/frames/` as WebP files. Rebuild with `node scripts/prepare-portrait-turn.mjs`.
 - The Persian cheek/lip/jaw callouts are authored illustrative landmarks in `lib/portrait-landmarks.ts`, updated from actual decoded video time by `components/face-analysis.tsx`. This avoids drifting ahead during slow seeking and reverses with the video. No diagnostic scores, treatment recommendations, or real facial-analysis service are implied.
 - Matching poster remains for no-JavaScript, reduced-motion, data-saver and failed-film states. The visible caption identifies the AI model and illustrative analysis.
-- Validation script: `scripts/portrait-turn-check.mjs`; results and responsive screenshots: `qa/portrait-turn/`.
+- Historical results and responsive screenshots for the earlier assembled clip remain in `qa/portrait-turn/`; its obsolete validation script was removed.
 - Local implementation only; no hosting or access-setting changes.
 
 Final local validation: `pnpm typecheck` and `pnpm build` pass. All 13 targeted browser checks pass against the production preview on port 3003, including reverse scrubbing/anchor movement, 390 px and 768 px layouts, reduced-motion stills, failed-video poster fallback, and no page errors. FFprobe confirms 720 x 960, 24 fps, 180 frames, 7.5 seconds, 2,661,932 bytes. The eight-frame contact sheet and half-second interpolation samples were visually reviewed. Final desktop/mobile screenshots are in `qa/portrait-turn/`.
@@ -114,7 +114,7 @@ The understanding chapter now uses the user's `google-veo-3.1-lite-video.mp4`. T
 
 `lib/site.ts` maps the homepage portrait to these assets. The original assembled portrait turn and poster remain in the project as historical assets. `lib/portrait-landmarks.ts` now describes authored overlay anchors for the supplied film's turn and return. `components/face-analysis.tsx` reads decoded video time, so the scan markers, callouts, and final on-screen report reverse with scroll. The report describes visual topics only and is labeled illustrative; it gives no diagnosis or treatment result. The caption identifies the AI video and the medical limitation. A matching still and visible report serve reduced-motion, data-saver, and failed-video states.
 
-Rebuild the web film with FFmpeg from the preserved source using `-vf crop=1080:1440:0:240,scale=720:960:flags=lanczos -an -c:v libx264 -preset medium -crf 21 -pix_fmt yuv420p -g 6 -keyint_min 6 -sc_threshold 0 -movflags +faststart`. Generate the poster from the source at 6.25 seconds with the same crop and scale. Current validation: `pnpm typecheck`, `pnpm build`, and `node scripts/supplied-portrait-check.mjs`. Results and screenshots are in `qa/supplied-portrait/`. The earlier `scripts/portrait-turn-check.mjs` and `qa/portrait-turn/` document the previous assembled clip.
+Rebuild the web film with FFmpeg from the preserved source using `-vf crop=1080:1440:0:240,scale=720:960:flags=lanczos -an -c:v libx264 -preset medium -crf 21 -pix_fmt yuv420p -g 6 -keyint_min 6 -sc_threshold 0 -movflags +faststart`. Generate the poster from the source at 6.25 seconds with the same crop and scale. Current validation: `pnpm typecheck`, `pnpm build`, and `node scripts/supplied-portrait-check.mjs`. Results and screenshots are in `qa/supplied-portrait/`. The earlier `qa/portrait-turn/` archive documents the previous assembled clip.
 ## Browser feedback: sculptural scan and demo results — 28 September 2026
 
 The supplied portrait now has a scroll-synced wireframe that turns with the face and is uncovered by a scan sweep. This is a 3D-style editorial effect drawn from authored positions, not a depth capture or facial measurement. The bottom report opens near the end of the film and closes again when scrolling back. Its skin 80/100, hair 100/100, and overall 88/100 numbers are explicitly labeled a design sample, not values calculated from the video. It makes no exosome recommendation. On reduced-motion, data-saver, or failed-film views, the matching still and static sample report remain visible. The on-screen caption continues to state that this is not a medical evaluation.

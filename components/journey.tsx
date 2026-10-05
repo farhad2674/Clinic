@@ -2,7 +2,7 @@
 import {content,faNumber} from '@/lib/site';
 import {Arrow} from './shell';
 import {SectionLabel} from './section-label';
-import {scrollScene} from './motion';
+import {scrollScene} from './scroll-scene';
 
 const slides=[
   {line:'دغدغه‌تان را می‌شنویم.',image:'/media/corridor.webp',alt:'تصویر مفهومی ورودی آرام الورا'},

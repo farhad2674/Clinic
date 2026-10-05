@@ -15,9 +15,9 @@ const clip=async selector=>page.locator(selector).first().evaluate(e=>getCompute
 const left=clipValue=>Number(clipValue.match(/inset\([^)]*?([\d.]+)%\)$/)?.[1]??0);
 
 await page.goto(base,{waitUntil:'domcontentloaded'});
-check('First visit presents logo preloader',await page.locator('.preloader').isVisible());
+check('First visit shows the hero without an overlay',await page.locator('h1').isVisible()&&await page.locator('.preloader').count()===0);
 await pause(700);
-await page.screenshot({path:'qa/preloader-review.png'});
+await page.screenshot({path:'qa/first-screen-review.png'});
 await page.waitForFunction(()=>!document.querySelector('.preloader'),{timeout:6000});
 check('Preloader completes and releases scroll',await page.evaluate(()=>document.body.style.overflow!=='hidden'&&sessionStorage.getItem('elora-intro-seen')==='1'));
 check('Unwanted motion button and hero caption removed',await page.locator('.motion-toggle,.hero-window-caption').count()===0);
@@ -96,7 +96,7 @@ const reduced=await browser.newPage({viewport:{width:1071,height:580}});
 await reduced.emulateMedia({reducedMotion:'reduce'});
 await reduced.goto(base,{waitUntil:'networkidle'});
 await reduced.waitForTimeout(450);
-check('OS reduced motion skips preloader and heavy scene',await reduced.locator('.preloader').isHidden()&&await reduced.evaluate(()=>document.documentElement.classList.contains('reduced-motion')&&!document.documentElement.classList.contains('motion-ready')));
+check('OS reduced motion skips heavy scene',await reduced.locator('.preloader').isHidden()&&await reduced.evaluate(()=>document.documentElement.classList.contains('reduced-motion')&&!document.documentElement.classList.contains('motion-ready')));
 check('Reduced motion leaves horizontal journey browsable',await reduced.locator('[data-journey-slide]').count()===6&&await reduced.locator('.journey-viewport').evaluate(e=>e.scrollWidth>e.clientWidth));
 await reduced.close();
 check('No browser errors',errors.length===0,errors);

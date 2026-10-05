@@ -15,7 +15,7 @@ From C:\clinicwebsite\elora:
 ## Implemented
 
 - Ten cinematic homepage chapters, a conversation CTA and FAQ interlude; reversible entrance and portrait video scrubbing.
-- A first-visit ELORA wordmark preloader whose blush and gold fill rises through the logo. It waits briefly for fonts and the hero poster, exits within a fixed maximum, and is skipped on subsequent visits in the same browser session.
+- The server-rendered hero is visible immediately. Its still image and Vazirmatn font are prioritized; scroll films load after page load as their scenes approach the viewport, and GSAP motion loads after the first paint.
 - Four horizontally composed care paths on desktop, vertical reading flow on mobile.
 - Six concise care-journey slides with titles, icons, images, short captions and progress controls. Desktop scroll scrubs them horizontally in both directions; mobile uses horizontal swipe and snap.
 - Rounded, overlapping cover transitions across chapters 07–10, including sections 07 and 08 at compact desktop heights, center-timed title reveals and drifting content boxes.

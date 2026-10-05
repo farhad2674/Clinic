@@ -1,5 +1,5 @@
 'use client';
-import {scrollScene} from './motion';
+import {scrollScene} from './scroll-scene';
 import {Arrow} from './shell';
 import {SectionLabel} from './section-label';
 

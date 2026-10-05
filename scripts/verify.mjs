@@ -25,6 +25,6 @@ const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390
 const c=JSON.parse(readFileSync('lib/content.json','utf8'));const routes=['/','/services','/skin','/hair','/rejuvenation','/advanced','/about','/care','/journal','/faq','/contact','/privacy',...c.services.map(s=>'/services/'+s.slug)];
 for(const route of routes){const r=await fetch(origin+route);const html=await r.text();check('Route '+route,r.status===200&&html.includes('dir="rtl"'),r.status)}
 const missing=await fetch(origin+'/missing-page');check('Unknown route returns 404',missing.status===404,missing.status);
-const range=await fetch(origin+'/media/portrait.mp4',{headers:{Range:'bytes=0-1000'}});check('Video byte ranges supported',range.status===206,range.status);
+const range=await fetch(origin+'/media/portrait-turn/supplied-portrait.mp4',{headers:{Range:'bytes=0-1000'}});check('Video byte ranges supported',range.status===206,range.status);
 check('No browser runtime errors',errors.length===0,errors);
 writeFileSync('qa/results.json',JSON.stringify({checks,failures,errors},null,2));console.log(JSON.stringify({total:checks.length,failures,errors}));await browser.close();

@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "name": "First screen is visible without waiting for films",
+      "pass": true
+    },
+    {
+      "name": "Portrait film is deferred below the opening viewport",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "Hero image is prioritized on the homepage",
+      "pass": true
+    },
+    {
+      "name": "Hero still image loads",
+      "pass": true,
+      "detail": {
+        "fcp": 1136.9000000003725,
+        "corridor": true
+      }
+    },
+    {
+      "name": "Content remains usable while portrait download is held",
+      "pass": true
+    },
+    {
+      "name": "Deferred portrait film becomes ready near its section",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion avoids film downloads",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "Mobile fits the viewport",
+      "pass": true
+    },
+    {
+      "name": "Inner page avoids homepage image preload",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "No JavaScript still shows the hero",
+      "pass": true
+    },
+    {
+      "name": "No browser runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}
