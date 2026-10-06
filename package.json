@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vinext dev --hostname 127.0.0.1 --port 3000",
+    "dev": "vite",
     "build": "vinext build",
     "start": "vinext start --hostname 127.0.0.1 --port 3000",
     "typecheck": "tsc --noEmit",

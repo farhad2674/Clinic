@@ -2,7 +2,7 @@ import {categories, content} from './site';
 import research from './research-content.json';
 import {homeFaq} from './home-content';
 import {regenerativeServiceDetails} from './regenerative-service-details';
-export type Section = {heading:string; paragraphs:string[];sourceKeys?:string[]};
+export type Section = {heading:string; paragraphs:string[];sourceKeys?:string[];links?:{label:string;href:string}[]};
 export type Source = {title:string; url:string;year?:number|null;kind?:string;note?:string};
 export const sources:Record<string,Source> = {
  ...research.sources,

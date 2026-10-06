@@ -20,9 +20,9 @@ export const categories=[
 {slug:'advanced',number:'04',label:'روش‌های نوین',title:'پزشکی بازساختی و روش‌های سلولی',heading:'PRP، مزوژل و روش‌های سلولی را بشناسید',body:'کاربرد و محدودیت روش‌های نوین را بخوانید. پیشنهاد هر روش به شواهد، ایمنی، مجوز و شرایط شما وابسته است؛ ارائه اگزوزوم و فرآورده‌های سلولی هنوز تأیید نشده است.',image:'/media/brand-space.webp',tag:'کاربرد، شواهد و محدودیت‌ها'}
 ];
 export const pages = [
-{slug:'services',title:'خدمات الورا'},...categories.map(c=>({slug:c.slug,title:c.title})),
+{slug:'services',title:'راهنمای خدمات'},...categories.map(c=>({slug:c.slug,title:c.title})),
 {slug:'about',title:'درباره الورا'},{slug:'care',title:'مسیر مراجعه و مراقبت'},{slug:'journal',title:'مجله پزشکی بازساختی'},
 {slug:'faq',title:'پرسش‌های متداول'},{slug:'contact',title:'تماس و درخواست مشاوره'},{slug:'privacy',title:'حریم خصوصی'}
 ];
-export const chapters=[{id:'entry',title:'ورود'},{id:'philosophy',title:'نگاه الورا'},{id:'understanding',title:'شناخت'},{id:'paths',title:'مسیرها'},{id:'life',title:'زندگی'},{id:'perspective',title:'تصمیم'},{id:'journey',title:'همراهی'},{id:'care-pause',title:'گفت‌وگو'},{id:'trust',title:'اعتماد'},{id:'journal',title:'مجله پزشکی بازساختی'},{id:'faq-preview',title:'پرسش‌های متداول'},{id:'invitation',title:'تماس و مشاوره'}];
+export const chapters=[{id:'entry',title:'پزشکی بازساختی و سلول‌درمانی'},{id:'philosophy',title:'پزشکی بازساختی چیست؟'},{id:'paths',title:'راهنمای خدمات'},{id:'understanding',title:'ارزیابی پوست و مو'},{id:'life',title:'تفاوت روش‌ها'},{id:'perspective',title:'شناخت شواهد'},{id:'journey',title:'مسیر مراقبت'},{id:'trust',title:'پرسش‌های سلول‌درمانی'},{id:'journal',title:'مجله پزشکی بازساختی'},{id:'faq-preview',title:'پرسش‌های متداول'},{id:'invitation',title:'آمادگی برای مشاوره'}];
 export const faNumber=(n:number)=>String(n).replace(/\d/g,d=>'۰۱۲۳۴۵۶۷۸۹'[Number(d)]);

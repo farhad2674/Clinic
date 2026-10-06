@@ -1,0 +1,16 @@
+{
+  "articleCount": 20,
+  "focusedArticles": 10,
+  "serviceCount": 16,
+  "declaredRouteCount": 49,
+  "articleSourceLinks": 61,
+  "contextualLinks": 18,
+  "invalidLinks": 0,
+  "invalidSources": 0,
+  "referenceNumbering": "passed",
+  "validationScope": "content graph and TypeScript; not HTTP route or browser validation",
+  "visualQA": "blocked: cloud preview unavailable",
+  "typecheck": "passed",
+  "medicalSourceDeltaCheck": "passed",
+  "updated": "2026-10-06"
+}

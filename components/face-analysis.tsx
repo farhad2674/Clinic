@@ -41,7 +41,7 @@ export function FaceAnalysis(){
     return()=>{video.removeEventListener('timeupdate',update);video.removeEventListener('seeked',update);window.removeEventListener('elora-motion',update);observer.disconnect()};
   },[]);
   return <div ref={ref} className="face-analysis" data-phase="0" data-report="false" aria-hidden="true">
-    <div className="face-analysis-heading"><span className="analysis-light"/>مطالعهٔ چهره<span lang="en">ELORA / PORTRAIT STUDY</span></div>
+    <div className="face-analysis-heading"><span className="analysis-light"/>مطالعهٔ چهره</div>
     <div className="face-mesh" aria-hidden="true">
       <svg viewBox="0 0 420 520" preserveAspectRatio="none" fill="none">
         <path className="mesh-outline" d="M210 32C125 32 76 115 68 230C60 355 118 457 210 489C302 457 360 355 352 230C344 115 295 32 210 32Z"/>
@@ -64,14 +64,10 @@ export function FaceAnalysis(){
     </div>
     <div className="face-analysis-footer"><span>بررسی فرم و تناسب</span><div className="face-analysis-progress"><i/></div><small>نمایش مفهومی تحلیل چهره</small></div>
     <div className="face-report" dir="rtl">
-      <div className="face-report-heading"><span>گزارش اسکن چهره</span><small>نمونهٔ نمایشی</small></div>
-      <div className="face-score" data-score="skin"><div><span>سلامت پوست</span><strong>۸۰ <small>از ۱۰۰</small></strong></div><i><b/></i></div>
-      <div className="face-score" data-score="hair"><div><span>سلامت مو</span><strong>۱۰۰ <small>از ۱۰۰</small></strong></div><i><b/></i></div>
-      <div className="face-score-final"><span>امتیاز نهایی</span><strong>۸۸ <small>از ۱۰۰</small></strong></div>
-      <p>این عددها نمونهٔ طراحی‌اند و از ویدئو محاسبه نشده‌اند. نتیجهٔ واقعی به ارزیابی پزشک نیاز دارد.</p>
+      <div className="face-report-heading"><span>نمایش مفهومی چهره</span></div>
+      <p>این تصویر نتیجهٔ ارزیابی پزشکی نیست.</p>
     </div>
   </div>;
 }
-
 
 

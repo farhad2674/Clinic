@@ -92,3 +92,11 @@
 .journal-cover-frame img{display:block;width:100%;height:100%;object-fit:cover}
 .journal-cover figcaption{margin-top:14px;font-size:11px;line-height:1.9;color:var(--muted);text-align:center;padding-inline:8px}
 @media(max-width:767px){.journal-cover{position:relative;top:0;width:100%;max-width:500px;margin-inline:auto}.journal-cover-frame{aspect-ratio:1;border-radius:90px 90px 4px 4px}}
+/* Sources and contextual reading belong to the article, not to promotional copy. */
+.source-heading{display:flex;align-items:baseline;justify-content:space-between;gap:20px;border-bottom:1px solid var(--stone);margin-bottom:26px}
+.source-heading>span{font-size:.875rem;color:var(--muted);white-space:nowrap}
+.context-reading{display:flex;flex-wrap:wrap;gap:12px 24px;margin-block:20px 28px;padding-block:14px;border-block:1px solid var(--stone);font-size:1rem;line-height:1.9}
+.inner-main .context-reading a{color:var(--ink)}
+.inner-main .article-prose{max-width:76ch}
+.inner-main .section-citations,.inner-main .section-citations a{font-size:.875rem}
+@media(max-width:767px){.inner-main .source-list a,.inner-main .source-list p{font-size:.9375rem}.context-reading{display:grid;gap:12px}.source-heading{gap:12px}.inner-main .prose p{line-height:2.05}}

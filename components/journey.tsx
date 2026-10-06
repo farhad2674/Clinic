@@ -1,11 +1,10 @@
 'use client';
 import {content,faNumber} from '@/lib/site';
 import {Arrow} from './shell';
-import {SectionLabel} from './section-label';
 import {scrollScene} from './scroll-scene';
 
 const slides=[
-  {line:'دغدغه‌تان را می‌شنویم.',image:'/media/corridor.webp',alt:'تصویر مفهومی ورودی آرام الورا'},
+  {line:'دغدغه و انتظار شما مطرح می‌شود.',image:'/media/corridor.webp',alt:'تصویر مفهومی ورودی آرام الورا'},
   {line:'شرایط و سابقه شما بررسی می‌شود.',image:'/media/journey-assessment-young.webp',alt:'پرتره نمایشی زن جوان ایرانی با تل روسری و چشم‌های عسلی'},
   {line:'گزینه‌ها و محدودیت‌ها روشن می‌شوند.',image:'/media/brand-space.webp',alt:'تصویر مفهومی فضای گفت‌وگو'},
   {line:'درمان پس از تصمیم آگاهانه آغاز می‌شود.',image:'/media/lounge.webp',alt:'تصویر مفهومی فضای الورا'},
@@ -41,17 +40,17 @@ export function Journey(){
   return <section id="journey" className="journey scene" data-chapter>
     <div className="journey-stage scene-stage">
       <div className="page-width journey-top">
-        <SectionLabel>همراهی</SectionLabel>
-        <h2 data-text-reveal>از اولین دیدار <em>تا پیگیری نتیجه.</em></h2>
-        <p data-text-reveal>در هر مرحله بدانید چه اتفاقی می‌افتد و قدم بعدی چیست.</p>
+
+        <h2 data-text-reveal>مسیر ارزیابی <em>تا پیگیری.</em></h2>
+
       </div>
       <div className="journey-viewport" aria-label="مراحل مسیر مراقبت" onScroll={updateSwipe}>
         <div className="journey-track">
           {content.journey.map((step,index)=><article className="journey-slide" id={'journey-step-'+index} data-journey-slide={index} key={step.title}>
             <div className="journey-slide-copy">
-              <div className="journey-slide-top"><span dir="ltr">0{index+1} / 06</span><JourneyIcon index={index}/></div>
-              <div><span className="eyebrow">مرحله {faNumber(index+1)}</span><h3>{step.title}</h3><p>{slides[index].line}</p></div>
-              <span className="journey-slide-foot" aria-hidden="true">ELORA / CARE PATH</span>
+              <div className="journey-slide-top"><JourneyIcon index={index}/></div>
+              <div><h3>{step.title}</h3><p>{slides[index].line}</p></div>
+
             </div>
             <figure><img src={slides[index].image} alt={slides[index].alt} loading="lazy"/></figure>
           </article>)}
