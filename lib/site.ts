@@ -1,7 +1,7 @@
 import originalContent from './content.json';
 import {additionalServices} from './regenerative-services';
 export const content={...originalContent,services:[...originalContent.services.map(s=>s.slug==='cell-based'?{...s,title:'سلول‌درمانی و روش‌های نوین سلولی',heading:'شناخت روش، پیش از انتخاب',body:s.body.map(p=>p.replaceAll('سل‌تراپی','سلول‌درمانی'))}:s),...additionalServices]};
-export const brand = {name:'الورا',title:'مرکز تخصصی پوست، مو، زیبایی و جوان‌سازی الورا',headline:'زیبایی، از شما شروع می‌شود.',cta:'اطلاعات تماس و مشاوره'};
+export const brand = {name:'الورا',title:'مرکز تخصصی پوست، مو، زیبایی و جوان‌سازی الورا',headline:'زیبایی، از شما شروع می‌شود.',cta:'از کجا شروع کنم؟'};
 export type MediaAsset = {src:string;poster?:string;alt:string;concept:boolean;position?:string};
 export const media:Record<string,MediaAsset>={
 entrance:{src:'/media/entrance.mp4',poster:'/media/entrance-poster.webp',alt:'تصویر مفهومی ورودی و پذیرش الورا',concept:true,position:'54% center'},
@@ -21,8 +21,8 @@ export const categories=[
 ];
 export const pages = [
 {slug:'services',title:'راهنمای خدمات'},...categories.map(c=>({slug:c.slug,title:c.title})),
-{slug:'about',title:'درباره الورا'},{slug:'care',title:'مسیر مراجعه و مراقبت'},{slug:'journal',title:'مجله پزشکی بازساختی'},
+{slug:'about',title:'درباره الورا'},{slug:'care',title:'از کجا شروع کنم؟'},{slug:'journal',title:'مجله پزشکی بازساختی'},
 {slug:'faq',title:'پرسش‌های متداول'},{slug:'contact',title:'تماس و درخواست مشاوره'},{slug:'privacy',title:'حریم خصوصی'}
 ];
-export const chapters=[{id:'entry',title:'پزشکی بازساختی و سلول‌درمانی'},{id:'philosophy',title:'پزشکی بازساختی چیست؟'},{id:'paths',title:'راهنمای خدمات'},{id:'understanding',title:'ارزیابی پوست و مو'},{id:'life',title:'تفاوت روش‌ها'},{id:'perspective',title:'شناخت شواهد'},{id:'journey',title:'مسیر مراقبت'},{id:'trust',title:'پرسش‌های سلول‌درمانی'},{id:'journal',title:'مجله پزشکی بازساختی'},{id:'faq-preview',title:'پرسش‌های متداول'},{id:'invitation',title:'آمادگی برای مشاوره'}];
+export const chapters=[{id:'paths',title:'روش‌ها'},{id:'understanding',title:'انتخاب آگاهانه'},{id:'faq-preview',title:'پرسش‌ها'},{id:'invitation',title:'شروع'}];
 export const faNumber=(n:number)=>String(n).replace(/\d/g,d=>'۰۱۲۳۴۵۶۷۸۹'[Number(d)]);

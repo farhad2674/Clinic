@@ -26,6 +26,11 @@ export function Motion(){
     const savePosition=()=>{try{if(restoreDone)sessionStorage.setItem('elora-home-scroll',String(scrollY))}catch{}};
     window.addEventListener('scroll',savePosition,{passive:true});
 
+    const updateChapterNav=()=>{
+      const links=Array.from(root.querySelectorAll<HTMLElement>('[data-nav-chapter]'));
+      const active=links.filter(link=>{const section=document.getElementById(link.dataset.navChapter!);return section&&section.getBoundingClientRect().top<=innerHeight*.5}).at(-1);
+      links.forEach(link=>{const selected=link===active;link.toggleAttribute('data-active',selected);if(selected)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current')});
+    };
     const setup=()=>{
       context?.revert();cleanups.splice(0).forEach(fn=>fn());
       document.documentElement.classList.remove('motion-ready');
@@ -34,18 +39,8 @@ export function Motion(){
       document.querySelectorAll('[data-perspective-card]').forEach(s=>s.removeAttribute('aria-hidden'));
       if(document.documentElement.classList.contains('reduced-motion')){
         // Page navigation remains useful even when animated scenes are disabled.
-        const chapters=Array.from(document.querySelectorAll<HTMLElement>('[data-chapter]'));
-        const links=Array.from(document.querySelectorAll<HTMLElement>('[data-nav-chapter]'));
         let frame=0;
-        const update=()=>{
-          frame=0;
-          const active=chapters.filter(el=>el.getBoundingClientRect().top<=innerHeight*.5).at(-1)??chapters[0];
-          links.forEach(link=>{
-            const selected=link.dataset.navChapter===active?.id;
-            link.toggleAttribute('data-active',selected);
-            if(selected)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current');
-          });
-        };
+        const update=()=>{frame=0;updateChapterNav()};
         const schedule=()=>{if(!frame)frame=requestAnimationFrame(update)};
         window.addEventListener('scroll',schedule,{passive:true});
         cleanups.push(()=>{window.removeEventListener('scroll',schedule);cancelAnimationFrame(frame)});
@@ -57,22 +52,15 @@ export function Motion(){
         enhanceScenes(desktop);
         gsap.utils.toArray<HTMLElement>('[data-reveal]').forEach(el=>gsap.fromTo(el,{y:36,opacity:.35},{y:0,opacity:1,ease:'none',scrollTrigger:{trigger:el,start:'top 94%',end:'top 55%',scrub:true}}));
         gsap.utils.toArray<HTMLElement>('[data-parallax] img').forEach(el=>gsap.fromTo(el,{scale:1.08,yPercent:-3},{scale:1,yPercent:3,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:true}}));
-        gsap.utils.toArray<HTMLElement>('[data-chapter]').forEach(el=>ScrollTrigger.create({trigger:el,start:'top 50%',end:'bottom 50%',onToggle:self=>{
-          if(self.isActive)document.querySelectorAll('[data-nav-chapter]').forEach(a=>{
-            const active=(a as HTMLElement).dataset.navChapter===el.id;
-            a.toggleAttribute('data-active',active);
-            if(active)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');
-          });
-        }}));
+        gsap.utils.toArray<HTMLElement>('[data-chapter]').forEach(el=>ScrollTrigger.create({trigger:el,start:'top 50%',end:'bottom 50%',onToggle:self=>{if(self.isActive)updateChapterNav()},onRefresh:updateChapterNav}));
         if(desktop){
           gsap.timeline({scrollTrigger:{trigger:'#entry',start:'top top',end:'bottom bottom',scrub:true}})
             .to('.hero-window',{left:'0%',top:0,width:'100%',height:'100%',borderRadius:'0px',duration:1.08,ease:'none'},0)
             .to('.hero-copy',{y:-100,opacity:0,duration:.36,ease:'none'},0)
-            .to('.hero-aside, .hero-foot',{opacity:0,duration:.25,ease:'none'},0)
+            .to('.hero-aside',{opacity:0,duration:.25,ease:'none'},0)
             .to('.corridor-intro',{opacity:0,duration:.38,ease:'none'},.12)
             .fromTo('.hero-threshold',{opacity:0,y:70,scale:.9},{opacity:1,y:0,scale:1,duration:.27,ease:'none'},.38)
             .to('.hero-threshold',{opacity:0,y:-45,scale:1.08,duration:.23,ease:'none'},.69)
-            .fromTo('.hero-final',{opacity:0,y:45},{opacity:1,y:0,duration:.3,ease:'none'},.81)
             .fromTo('.hero-progress i',{scaleY:0},{scaleY:1,duration:1.11,ease:'none'},0);
           const track=document.querySelector<HTMLElement>('.paths-track')!;
           const viewport=document.querySelector<HTMLElement>('.paths-viewport')!;
@@ -84,8 +72,9 @@ export function Motion(){
           gsap.to(track,{x:()=>Math.max(0,track.scrollWidth-viewport.clientWidth+parseFloat(getComputedStyle(viewport).paddingLeft)+parseFloat(getComputedStyle(viewport).paddingRight)),ease:'none',scrollTrigger:{trigger:'#paths',start:'top top',end:'bottom bottom',scrub:true,invalidateOnRefresh:true,onUpdate:updatePaths,onRefresh:updatePaths}});
           const journeyTrack=document.querySelector<HTMLElement>('.journey-track')!;
           const journeyViewport=document.querySelector<HTMLElement>('.journey-viewport')!;
+          const lastJourneyIndex=document.querySelectorAll('[data-journey-slide]').length-1;
           const updateJourney=(self:ScrollTrigger)=>{
-            const idx=Math.min(5,Math.round(self.progress*5));
+            const idx=Math.min(lastJourneyIndex,Math.round(self.progress*lastJourneyIndex));
             document.querySelectorAll('[data-journey-slide]').forEach((el,i)=>el.toggleAttribute('data-active',i===idx));
             document.querySelectorAll('[data-journey-tab]').forEach((el,i)=>{el.toggleAttribute('data-active',i===idx);el.setAttribute('aria-pressed',String(i===idx))});
             const count=document.querySelector<HTMLElement>('[data-journey-count]');

@@ -23,7 +23,7 @@
 @media(max-width:767px){
  .home .section-label>span{font-size:clamp(62px,17vw,100px);top:-.4em;opacity:.08}
  .home .perspective-copy .section-label{top:12px}
- .home .chapter-nav{display:flex;right:0;gap:0}
+ .home .chapter-nav{display:none}
  .home .chapter-nav a{width:24px;height:26px}
  .home .chapter-nav i{width:7px;height:7px}
  .home .chapter-nav a[data-active] i{width:9px;height:9px;box-shadow:0 0 0 3px #c5a36a24}
@@ -43,7 +43,6 @@
 .home .philosophy-story{align-self:center}
 .home .philosophy-story>p{margin-bottom:28px}
 @media(min-width:768px){
- .motion-ready:not(.reduced-motion) .journey+.trust.cover-chapter{margin-top:0}
  .home .paths-head{grid-template-columns:1fr auto;align-items:end;gap:8px 32px}
  .home .paths-head h2{grid-column:1;grid-row:1}
  .home .paths-head .service-availability{grid-column:1;grid-row:2;max-width:48ch;margin:0}
@@ -82,5 +81,99 @@
   .button-contact,.button-contact .contact-icon,.button-contact:before{transition:none!important;transform:none!important}
   .button-contact:before{display:none}
 }
-/* The first closing chapter must not cover the final care step. */
-.motion-ready:not(.reduced-motion) #journey + #trust{margin-top:0}
+
+/* A smaller number of named stops; explanatory headings have less visual weight. */
+.home .chapter-nav a[data-active]>span{opacity:1}
+.home .chapter-nav a{min-height:28px}
+.home .philosophy-story h2{font-size:clamp(30px,3.5vw,52px);line-height:1.65;margin-bottom:24px}
+.home .philosophy .editorial-image{height:460px}
+.home .life-title h2,.home .journal h2,.home .home-faq h2{font-size:clamp(30px,3.8vw,54px);line-height:1.65}
+.home .understanding-copy h2{font-size:clamp(30px,3.8vw,54px);line-height:1.65}
+.home .observation-steps h3{font-size:clamp(17px,1.6vw,22px)}
+.invitation .invitation-status{font-size:.875rem;line-height:1.9;color:var(--muted);margin-top:18px}
+@media(min-width:768px){
+ .motion-ready:not(.reduced-motion) .home .journey{height:250svh}
+ .motion-ready:not(.reduced-motion) .home .understanding{height:200svh}
+ .motion-ready:not(.reduced-motion) .home .perspective{height:240svh}
+ .motion-ready:not(.reduced-motion) #journey + #journal{margin-top:0}
+}
+@media(max-width:767px){
+ .home .chapter-nav{display:none}
+ .home .philosophy .editorial-image{height:280px}
+ .home .philosophy-story{grid-row:1}
+ .home .philosophy-story h2,.home .life-title h2,.home .journal h2,.home .home-faq h2{font-size:30px}
+ .home .care-image,.motion-ready:not(.reduced-motion) .home .care-image{height:260px;min-height:0}
+ .home .journey-slide-copy p,.home .journey-more{font-size:.875rem;line-height:1.9}
+ .home .hero-actions .text-link{font-size:.875rem}
+ .home .observation-steps h3{font-size:17px}
+}
+
+/* The first visit guide: choose a subject, then read and prepare. */
+.care-page .inner-hero{padding-block:45px 35px}
+.care-page .breadcrumbs{margin-bottom:20px;flex-wrap:wrap}
+.care-page .inner-hero h1{font-size:clamp(34px,4.4vw,58px)}
+.care-page .inner-hero p{margin-top:15px}
+.care-page .inner-body{padding-top:40px;max-width:1180px}
+.care-start-status{font-size:.875rem;color:var(--muted);margin-bottom:24px;padding-inline-start:14px;border-inline-start:2px solid var(--gold)}
+.care-choice-head{margin-bottom:22px}
+.care-choice-head h2{font-size:26px;line-height:1.7}
+.care-choice-head p{font-size:1rem;color:var(--muted);margin-top:5px}
+.care-choices{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.care-choices a{display:grid;grid-template-columns:30px 1fr 24px;align-items:center;gap:16px;padding:24px;border:1px solid var(--stone);border-radius:8px;background:var(--white);min-width:0;font-size:18px;transition:background .2s,border-color .2s}
+.care-choice-number{color:#947e83;font-size:14px}
+.care-choices a[aria-current],.care-choices a:hover{border-color:var(--gold);background:var(--blush)}
+.care-choices a:focus-visible,.care-reading a:focus-visible,.care-unsure:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.care-unsure{margin-top:22px;font-size:1rem}
+.care-unsure[aria-current]{text-decoration:underline;text-underline-offset:6px}
+.care-result{margin-top:45px;padding:35px;border:1px solid var(--stone);border-radius:10px;background:#f6efed}
+.care-result-intro{margin-bottom:28px}
+.care-result h2{font-size:28px;line-height:1.7;scroll-margin-top:120px}
+.care-result h2:focus{outline:2px solid var(--gold);outline-offset:8px}
+.care-result-intro>p{font-size:1rem;color:var(--muted);max-width:70ch;margin-top:12px}
+.care-result-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.care-reading{display:grid;gap:12px}
+.care-reading>a{position:relative;display:block;background:var(--white);padding:20px 22px 20px 50px;border:1px solid var(--stone);border-radius:6px}
+.care-reading>a>span{font-size:.875rem;color:var(--muted)}
+.care-reading h3{font-size:19px;line-height:1.8;margin-top:7px}
+.care-reading .arrow{position:absolute;left:16px;top:50%;transform:translateY(-50%)}
+.care-checklist h3{font-size:20px;line-height:1.8}
+.care-checklist ul{padding-inline-start:20px;margin-top:16px}
+.care-checklist li{font-size:1rem;color:var(--muted);margin-bottom:10px;line-height:2}
+.care-checklist .text-link{font-size:.875rem;margin-top:12px}
+.care-preparation{margin-block:60px 40px;scroll-margin-top:120px}
+.care-preparation h2{font-size:30px;line-height:1.8}
+.care-preparation ol{padding-inline-start:25px}
+.care-preparation li{padding-inline-start:8px;line-height:2}
+.care-preparation strong{display:block;font-weight:500;color:var(--ink)}
+.care-path{border-block:1px solid var(--stone);max-width:100%}
+.care-path summary{font-size:18px;line-height:1.9;padding-block:22px}
+.care-path-steps{padding:10px 0 25px}
+.care-path-steps>section{display:grid;grid-template-columns:35px 1fr;gap:22px;padding-block:20px;border-top:1px solid var(--line)}
+.care-path-steps>section>span{font-size:24px;color:#947e83}
+.care-path h3{font-size:20px;line-height:1.8}
+.care-path p{max-width:75ch;color:var(--muted);line-height:2;margin-top:8px}
+.care-availability{display:flex;align-items:center;justify-content:space-between;gap:35px;border-inline-start:2px solid var(--gold);padding:8px 24px;margin-top:45px}
+.care-availability h2{font-size:22px;line-height:1.8}
+.care-availability p{font-size:1rem;color:var(--muted);max-width:62ch;margin-top:10px}
+.care-availability .text-link{font-size:.875rem;flex-shrink:0}
+@media(max-width:767px){
+ .care-page .inner-hero{padding-block:30px}
+ .care-page .inner-hero p{font-size:1rem}
+ .care-page .inner-body{padding-top:30px}
+ .care-choices{grid-template-columns:1fr;gap:10px}
+ .care-choices a{padding:16px;font-size:1rem;gap:10px}
+ .care-result{padding:22px 18px;margin-top:30px}
+ .care-result-grid{grid-template-columns:1fr;gap:28px}
+ .care-result h2,.care-preparation h2{font-size:25px}
+ .care-reading h3{font-size:18px}
+ .care-preparation{margin-block:40px 25px}
+ .care-path summary{font-size:1rem}
+ .care-path-steps>section{gap:8px}
+ .care-availability{display:block;padding-inline:18px}
+ .care-availability .text-link{margin-top:20px}
+}
+@media(prefers-reduced-motion:reduce){.care-choices a{transition:none}}
+.care-start>.care-result:first-child{margin-top:0;margin-bottom:40px}
+.care-checklist>p{font-size:1rem;line-height:2;color:var(--muted);margin-block:12px 24px}
+.care-reading{align-content:start}
+.care-reading>a.care-back{background:transparent;border:0;font-size:.875rem;padding-inline-start:0;line-height:1.9}

@@ -1,0 +1,15 @@
+{
+  "routes": 49,
+  "services": 16,
+  "articles": 20,
+  "careTopics": 5,
+  "serviceContextChecks": 16,
+  "explicitServiceArticleMappings": 16,
+  "servicePreparationAndQuestions": "verified for all 16 services",
+  "serviceContextOrder": "preparation before reading; result before topic changes",
+  "homeJourneySteps": 3,
+  "homeChapterLinks": 4,
+  "sourceReferences": 61,
+  "status": "passed",
+  "verification": "Source, server-rendered markup and content graph; not browser interaction or visual QA."
+}
