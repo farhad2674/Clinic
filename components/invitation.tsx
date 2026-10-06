@@ -10,7 +10,7 @@ export function Invitation({home=false,category,contactPage=false}:{home?:boolea
         <span className="cover-title-line"><span>از چیزی بگویید</span></span>
         <span className="cover-title-line"><span>که برایتان</span></span>
         <span className="cover-title-line"><span><em>مهم است.</em></span></span>
-      </h2><p className="cover-body" data-text-reveal>از پوست و مو تا تغییرات چهره؛<br/>برای گفت‌وگو نیازی به انتخاب درمان ندارید.</p><div className="cover-body"><CTA contact={!contactPage} href={contactPage?'/care':'/contact'+(category?'?care='+category:'')}>{contactPage?'آمادگی برای اولین مشاوره':undefined}</CTA></div><span className="invitation-foot cover-body">با احترام به زمان، انتخاب و حریم شما.</span></div>
+      </h2><p className="cover-body" data-text-reveal>{home?'سابقه پزشکی و پرسش‌هایتان را در جلسه ارزیابی مطرح کنید.':<>از پوست و مو تا تغییرات چهره؛<br/>برای گفت‌وگو نیازی به انتخاب درمان ندارید.</>}</p><div className="cover-body"><CTA contact={!contactPage} href={contactPage?'/care':'/contact'+(category?'?care='+category:'')}>{contactPage?'آمادگی برای اولین مشاوره':undefined}</CTA></div><span className="invitation-foot cover-body">با احترام به زمان، انتخاب و حریم شما.</span></div>
     </div></div>
   </section>;
 }

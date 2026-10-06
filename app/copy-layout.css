@@ -16,6 +16,10 @@
 .home .journey-dots button[data-active]:before{width:25px}
 .home .hero-copy>.eyebrow{line-height:1.9;letter-spacing:0}
 .home .hero-description{max-width:470px}
+.home .hero-copy h1{font-size:clamp(35px,4.2vw,66px);line-height:1.65}
+.home .hero-actions .text-link{font-size:14px}
+.home .care-text h3{overflow-wrap:anywhere}
+.home .journal-list h3 a:hover,.home .journal-feature h3 a:hover{text-decoration:underline;text-underline-offset:.25em}
 @media(max-width:767px){
  .home .section-label>span{font-size:clamp(62px,17vw,100px);top:-.4em;opacity:.08}
  .home .perspective-copy .section-label{top:12px}
@@ -25,6 +29,7 @@
  .home .chapter-nav a[data-active] i{width:9px;height:9px;box-shadow:0 0 0 3px #c5a36a24}
  .home .hero-copy>.eyebrow{max-width:290px;font-size:11px}
  .home .hero-description{font-size:14px;line-height:1.9}
+ .home .hero-copy h1{font-size:clamp(28px,7.8vw,44px);line-height:1.7}
  .home .journey-top h2{font-size:30px}
 }
 @media(prefers-reduced-motion:reduce){.home .chapter-nav i{transition:none}}

@@ -4,9 +4,9 @@ import {Arrow} from './shell';
 import {SectionLabel} from './section-label';
 
 const decisionCards=[
-  {title:'چه نتیجه‌ای می‌توان انتظار داشت؟',body:'درباره میزان بهبود، محدودیت روش و تفاوت پاسخ افراد صحبت می‌کنیم؛ نتیجه پزشکی قابل تضمین نیست.',tag:'نتیجه و محدودیت'},
-  {title:'چقدر زمان و هزینه لازم است؟',body:'تعداد احتمالی جلسات، هزینه و مراقبت‌های بعدی را پیش از شروع بررسی می‌کنیم تا برنامه با زندگی شما هماهنگ باشد.',tag:'زمان و هزینه'},
-  {title:'اگر این روش مناسب من نباشد؟',body:'گزینه‌های دیگر، بررسی بیشتر یا انجام‌ندادن درمان هم مطرح می‌شوند. برای تصمیم‌گرفتن فرصت دارید.',tag:'حق انتخاب'}
+  {title:'چه نتیجه‌ای می‌توان انتظار داشت؟',body:'میزان بهبود و محدودیت‌ها را بررسی می‌کنیم؛ پاسخ افراد یکسان نیست.',tag:'نتیجه و محدودیت'},
+  {title:'چقدر زمان و هزینه لازم است؟',body:'جلسات احتمالی، هزینه و مراقبت پس از درمان، پیش از شروع روشن می‌شوند.',tag:'زمان و هزینه'},
+  {title:'اگر این روش مناسب من نباشد؟',body:'گزینه‌های دیگر یا انجام‌ندادن درمان هم قابل بررسی‌اند.',tag:'حق انتخاب'}
 ];
 
 export function Perspective(){
@@ -14,10 +14,9 @@ export function Perspective(){
     <div className="perspective-stage scene-stage page-width">
       <div className="perspective-layout">
         <div className="perspective-copy">
-          <p className="eyebrow">پرسش‌هایی که ارزش پرسیدن دارند</p>
           <SectionLabel>انتخاب</SectionLabel>
           <h2>پیش از درمان،<br/><em>چه باید بدانید؟</em></h2>
-          <p className="perspective-intro">دانستن نام یک روش کافی نیست. نتیجه احتمالی، زمان، هزینه و عوارض آن باید برای شما روشن باشد.</p>
+          <p className="perspective-intro">فایده، محدودیت و هزینه هر روش را بسنجید.</p>
           <div className="perspective-index" aria-label="پرسش‌های پیش از درمان">
             {decisionCards.map((card,i)=><button key={card.tag} data-perspective-tab={i} data-active={i===0?true:undefined} aria-pressed={i===0} onClick={()=>scrollScene('perspective',(i+.15)/decisionCards.length,'perspective-card-'+i)} aria-label={'نمایش مرحله '+(i+1)+'، '+card.tag}><span className="latin-number">0{i+1}</span><span>{card.tag}</span><i/></button>)}
           </div>

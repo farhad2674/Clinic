@@ -1,5 +1,6 @@
-import content from './content.json';
-export { content };
+import originalContent from './content.json';
+import {additionalServices} from './regenerative-services';
+export const content={...originalContent,services:[...originalContent.services.map(s=>s.slug==='cell-based'?{...s,title:'سلول‌درمانی و روش‌های نوین سلولی',heading:'شناخت روش، پیش از انتخاب',body:s.body.map(p=>p.replaceAll('سل‌تراپی','سلول‌درمانی'))}:s),...additionalServices]};
 export const brand = {name:'الورا',title:'مرکز تخصصی پوست، مو، زیبایی و جوان‌سازی الورا',headline:'زیبایی، از شما شروع می‌شود.',cta:'اطلاعات تماس و مشاوره'};
 export type MediaAsset = {src:string;poster?:string;alt:string;concept:boolean;position?:string};
 export const media:Record<string,MediaAsset>={
@@ -16,12 +17,12 @@ export const categories=[
 {slug:'skin',number:'01',label:'پوست',title:'خدمات پوست؛ آکنه، جای جوش و لک',heading:'برای پوستتان از کجا شروع کنید؟',body:'جوش فعال، جای جوش و لک، پرسش‌های متفاوتی دارند. با بررسی نوع پوست، نشانه‌ها و درمان‌های قبلی، گزینه‌های مرتبط با هر کدام را بشناسید.',image:'/media/young-natural.webp',tag:'آکنه، لک و بافت پوست'},
 {slug:'hair',number:'02',label:'مو و پوست سر',title:'ریزش مو و سلامت پوست سر',heading:'از ریزش مو تا خارش پوست سر',body:'زمان شروع ریزش، الگوی کم‌پشتی و وضعیت پوست سر در ارزیابی بررسی می‌شوند. درباره ریزش مو، شوره و گزینه‌های مراقبت بیشتر بخوانید.',image:'/media/hair.webp',tag:'ریزش، کم‌پشتی و شوره'},
 {slug:'rejuvenation',number:'03',label:'جوان‌سازی',title:'جوان‌سازی و زیبایی طبیعی',heading:'رسیدگی به پوست، با حفظ ویژگی‌های چهره',body:'بهبود کیفیت پوست، خطوط و تغییرات حجم را با هم بررسی کنید. بوتاکس، فیلر یا روش‌های دیگر باید با ساختار چهره و انتظار شما متناسب باشند.',image:'/media/young-natural.webp',tag:'کیفیت پوست و تناسب چهره'},
-{slug:'advanced',number:'04',label:'روش‌های نوین',title:'درمان‌های نوین و بازساختی',heading:'PRP، PRF و روش‌های بازساختی را بشناسید',body:'کاربرد و محدودیت روش‌های نوین را بخوانید. پیشنهاد هر روش به شواهد، ایمنی، مجوز و شرایط شما وابسته است؛ ارائه اگزوزوم و فرآورده‌های سلولی هنوز تأیید نشده است.',image:'/media/brand-space.webp',tag:'کاربرد، شواهد و محدودیت‌ها'}
+{slug:'advanced',number:'04',label:'روش‌های نوین',title:'پزشکی بازساختی و روش‌های سلولی',heading:'PRP، مزوژل و روش‌های سلولی را بشناسید',body:'کاربرد و محدودیت روش‌های نوین را بخوانید. پیشنهاد هر روش به شواهد، ایمنی، مجوز و شرایط شما وابسته است؛ ارائه اگزوزوم و فرآورده‌های سلولی هنوز تأیید نشده است.',image:'/media/brand-space.webp',tag:'کاربرد، شواهد و محدودیت‌ها'}
 ];
 export const pages = [
 {slug:'services',title:'خدمات الورا'},...categories.map(c=>({slug:c.slug,title:c.title})),
-{slug:'about',title:'درباره الورا'},{slug:'care',title:'مسیر مراجعه و مراقبت'},{slug:'journal',title:'مجله علمی'},
+{slug:'about',title:'درباره الورا'},{slug:'care',title:'مسیر مراجعه و مراقبت'},{slug:'journal',title:'مجله پزشکی بازساختی'},
 {slug:'faq',title:'پرسش‌های متداول'},{slug:'contact',title:'تماس و درخواست مشاوره'},{slug:'privacy',title:'حریم خصوصی'}
 ];
-export const chapters=[{id:'entry',title:'ورود'},{id:'philosophy',title:'نگاه الورا'},{id:'understanding',title:'شناخت'},{id:'paths',title:'مسیرها'},{id:'life',title:'زندگی'},{id:'perspective',title:'تصمیم'},{id:'journey',title:'همراهی'},{id:'care-pause',title:'گفت‌وگو'},{id:'trust',title:'اعتماد'},{id:'journal',title:'مجله پوست و مو'},{id:'faq-preview',title:'پرسش‌های متداول'},{id:'invitation',title:'تماس و مشاوره'}];
+export const chapters=[{id:'entry',title:'ورود'},{id:'philosophy',title:'نگاه الورا'},{id:'understanding',title:'شناخت'},{id:'paths',title:'مسیرها'},{id:'life',title:'زندگی'},{id:'perspective',title:'تصمیم'},{id:'journey',title:'همراهی'},{id:'care-pause',title:'گفت‌وگو'},{id:'trust',title:'اعتماد'},{id:'journal',title:'مجله پزشکی بازساختی'},{id:'faq-preview',title:'پرسش‌های متداول'},{id:'invitation',title:'تماس و مشاوره'}];
 export const faNumber=(n:number)=>String(n).replace(/\d/g,d=>'۰۱۲۳۴۵۶۷۸۹'[Number(d)]);

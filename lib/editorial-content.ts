@@ -1,7 +1,11 @@
 import {categories, content} from './site';
-export type Section = {heading:string; paragraphs:string[]};
-export type Source = {title:string; url:string};
+import research from './research-content.json';
+import {homeFaq} from './home-content';
+import {regenerativeServiceDetails} from './regenerative-service-details';
+export type Section = {heading:string; paragraphs:string[];sourceKeys?:string[]};
+export type Source = {title:string; url:string;year?:number|null;kind?:string;note?:string};
 export const sources:Record<string,Source> = {
+ ...research.sources,
  acne:{title:'آکادمی پوست آمریکا: تشخیص و درمان آکنه',url:'https://www.aad.org/public/diseases/acne/derm-treat/treat'},
  scars:{title:'آکادمی پوست آمریکا: شناخت جای جوش',url:'https://www.aad.org/public/diseases/acne/derm-treat/scars'},
  hair:{title:'آکادمی پوست آمریکا: تشخیص و درمان ریزش مو',url:'https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat'},
@@ -22,8 +26,8 @@ export const editorialImages = {
  space:{src:'/media/brand-space.webp',alt:'تصویر مفهومی فضای الورا با نور طبیعی'}
 };
 export type ImageKey = keyof typeof editorialImages;
-type ServiceDetail = {title:string; description:string; preparation:string; questions:string[]; section:Section; sourceKeys:string[]; image:ImageKey; related:string[]};
-export const serviceDetails:Record<string,ServiceDetail> = {
+export type ServiceDetail = {title:string; description:string; preparation:string; questions:string[]; section:Section;sections?:Section[]; sourceKeys:string[]; image:ImageKey; related:string[]};
+const originalServiceDetails:Record<string,ServiceDetail> = {
  acne:{title:'درمان آکنه و جوش صورت؛ ارزیابی و انتخاب روش',description:'برای درمان آکنه از کجا شروع کنیم؟ نوع جوش، سابقه درمان، مراقبت روزانه و پرسش‌های جلسه ارزیابی پوست را در راهنمای الورا بخوانید.',image:'natural',preparation:'نام محصولات و داروها، مدت مصرف و تغییرات پوست را یادداشت کنید. درباره جوش‌های دردناک، جای جوش و تأثیر آن بر زندگی روزمره هم صحبت کنید.',questions:['هدف مرحله اول، کنترل جوش فعال است یا رسیدگی به آثار آن؟','چه زمانی پاسخ پوست بررسی می‌شود و در صورت تحریک چه باید کرد؟'],section:{heading:'جوش فعال و جای جوش، دو نیاز متفاوت',paragraphs:['وقتی هنوز جوش تازه ایجاد می‌شود، برنامه باید این موضوع را در نظر بگیرد. انتخاب روش برای آثار قبلی، بدون توجه به آکنه فعال، تصویر کاملی از نیاز پوست نمی‌دهد.','مشخص کنید کدام بخش برنامه برای جوش و کدام بخش برای آثار آن است. تعداد بیشتر محصولات، معیار مناسب‌بودن برنامه نیست.']},sourceKeys:['acne'],related:['acne-scars','pigmentation']},
  'acne-scars':{title:'جای جوش و اسکار آکنه؛ تفاوت با لک و قرمزی',description:'تفاوت جای جوش فرورفته با لک و قرمزی را بشناسید؛ معیارهای ارزیابی اسکار آکنه، محدودیت نتیجه و پرسش‌های پیش از انتخاب روش.',image:'natural',preparation:'زمان ایجاد آثار، وجود جوش تازه و روش‌های قبلی را توضیح دهید. عکس‌های قدیمی را در صورت نیاز، در جلسه به پزشک نشان دهید.',questions:['آثار باقی‌مانده تغییر رنگ‌اند یا تغییر بافت؟','هدف واقع‌بینانه چیست و چه چیزی ممکن است باقی بماند؟'],section:{heading:'انتظار از بهبود را دقیق‌تر تعریف کنید',paragraphs:['اسکار ممکن است فرورفته یا برجسته باشد؛ یک لکه صاف لزوماً اسکار نیست. نام کلی «جای جوش» برای انتخاب درمان کافی نیست.','مشخص کنید کدام تغییر بیشتر برایتان اهمیت دارد: رنگ، بافت یا عمق فرورفتگی. محوشدن کامل همه آثار، وعده قابل اتکایی نیست.']},sourceKeys:['scars'],related:['acne','microneedling']},
  pigmentation:{title:'لک صورت و ناهماهنگی رنگ پوست؛ راهنمای ارزیابی',description:'پیش از درمان لک صورت، نوع تغییر رنگ و سابقه پوست را بررسی کنید. راهنمای آمادگی برای مشاوره و شناخت محدودیت‌های روش‌های درمان لک.',image:'scarf',preparation:'زمان شروع لک، تغییرات آن، محصولات روشن‌کننده و واکنش قبلی پوست را یادداشت کنید. فهرست داروها و سابقه حساسیت را همراه داشته باشید.',questions:['این تغییر رنگ چه علتی دارد و آیا بررسی بیشتری لازم است؟','مراقبت روزانه و پیگیری چه نقشی در برنامه دارند؟'],section:{heading:'هر تغییر رنگی را با روشن‌کننده شروع نکنید',paragraphs:['اگر لکه تازه‌ای ایجاد شده یا ظاهر آن تغییر کرده است، ابتدا درباره نیاز به معاینه سؤال کنید. نام «لک» به‌تنهایی تشخیص پزشکی نیست.','مشخص کنید هر محصول برای چه هدفی پیشنهاد شده و چه زمانی اثر یا تحریک احتمالی آن بررسی می‌شود.']},sourceKeys:['menopause'],related:['acne-scars','acne']},
@@ -39,6 +43,7 @@ export const serviceDetails:Record<string,ServiceDetail> = {
  exosomes:{title:'اگزوزوم پوست و مو؛ شواهد، ایمنی و وضعیت ارائه',description:'پیش از تصمیم درباره اگزوزوم پوست یا مو، درباره محصول، کاربرد و ایمنی چه بپرسیم؟ وضعیت ارائه این روش در الورا هنوز تأیید نشده است.',image:'space',preparation:'نام دقیق محصول و ادعای تبلیغی آن را یادداشت کنید. عنوان «اگزوزوم» اطلاعات کافی درباره یک فرآورده نمی‌دهد.',questions:['منبع محصول چیست و برای همین کاربرد چه شواهدی دارد؟','وضعیت مجوز در ایران برای محصول و روش مصرف مشخص چیست؟'],section:{heading:'پژوهش را از مجوز ارائه جدا کنید',paragraphs:['هشدار FDA درباره فرآورده‌های اگزوزومی تأییدنشده، اهمیت بررسی محصول و ایمنی را نشان می‌دهد. این هشدار مربوط به آمریکا است و وضعیت مجوز در ایران را مشخص نمی‌کند.','این صفحه راهنمای آشنایی است. تا تأیید الزامات علمی و قانونی، آن را مسیر رزرو یک خدمت در نظر نگیرید.']},sourceKeys:['exosomes'],related:['cell-based','prp']},
  'cell-based':{title:'سل‌تراپی و فرآورده‌های سلولی؛ پرسش‌های پیش از تصمیم',description:'سل‌تراپی نام یک درمان واحد نیست. منبع، کاربرد، شواهد و مجوز فرآورده سلولی را بررسی کنید؛ ارائه این خدمات در الورا تأیید نشده است.',image:'space',preparation:'نام کامل روش و محصول را یادداشت کنید. تفاوت آن با فرآورده‌های خونی و اگزوزوم را از ارائه‌دهنده بپرسید.',questions:['آیا فرآورده حاوی سلول است و منبع آن چیست؟','کدام شواهد و مجوزها به همین محصول و کاربرد مربوط‌اند؟'],section:{heading:'عنوان کلی را به پرسش مشخص تبدیل کنید',paragraphs:['«درمان سلولی» بدون معرفی فرآورده، روش مصرف و هدف، مبنای مقایسه نیست. درباره کنترل کیفیت، ردیابی و پیگیری عوارض توضیح روشن بخواهید.','این صفحه به معنای اعلام دسترسی به درمان نیست. فهرست محصول و کاربرد مجاز برای ارائه در الورا هنوز تأیید نشده است.']},sourceKeys:['exosomes'],related:['exosomes','prf']}
 };
+export const serviceDetails:Record<string,ServiceDetail> = {...originalServiceDetails,...regenerativeServiceDetails};
 export const innerCategories = categories.map(c=>({...c,image:c.slug==='skin'?editorialImages.natural:c.slug==='hair'?editorialImages.hair:c.slug==='rejuvenation'?editorialImages.scarf:editorialImages.space}));
 export const categoryGuides:Record<string,Section> = {
  skin:{heading:'از نشانه پوست به موضوع مناسب برسید',paragraphs:['اگر هنوز جوش تازه دارید، از راهنمای آکنه شروع کنید. برای آثار باقی‌مانده، ابتدا تفاوت لک و قرمزی با تغییر بافت را بخوانید.','میکرونیدلینگ نام یک روش است؛ جای جوش یک دغدغه است. لازم نیست پیش از ارزیابی، روش درمانتان را انتخاب کنید.']},
@@ -46,7 +51,7 @@ export const categoryGuides:Record<string,Section> = {
  rejuvenation:{heading:'تغییر موردنظرتان را مشخص کنید',paragraphs:['کیفیت پوست، خطوط ناشی از حرکت و تغییرات حجم، موضوع‌های یکسانی نیستند. ابتدا راهنمای جوان‌سازی طبیعی و سپس روش مرتبط را بخوانید.','راهنمای پس از ۴۵ سال به مراقبت و ترجیح فردی توجه دارد. سن به‌تنهایی دلیل نیاز به تزریق نیست.']},
  advanced:{heading:'روش‌ها را بر اساس کاربرد مقایسه کنید',paragraphs:['PRP و PRF از خون خود فرد تهیه می‌شوند. اگزوزوم و فرآورده‌های سلولی موضوع‌های جداگانه‌اند و نباید همه را یک روش دانست.','صفحات این بخش به فهم اصطلاح‌ها و پرسش‌های پیش از تصمیم کمک می‌کنند. امکان ارائه هر روش به اطلاعات تأییدشده همان محصول و کاربرد وابسته است.']}
 };
-export const innerPages = [{slug:'services',title:'راهنمای خدمات پوست، مو و جوان‌سازی'},...categories.map(c=>({slug:c.slug,title:c.title})),{slug:'about',title:'درباره الورا و اصول مراقبت'},{slug:'care',title:'راهنمای مراجعه و پیگیری'},{slug:'journal',title:'مجله پوست و مو'},{slug:'faq',title:'پرسش‌های مشاوره و درمان'},{slug:'contact',title:'اطلاعات تماس و مشاوره'},{slug:'privacy',title:'حریم خصوصی و تصاویر'},{slug:'sitemap',title:'نقشه سایت'}];
+export const innerPages = [{slug:'services',title:'راهنمای خدمات پوست، مو و جوان‌سازی'},...categories.map(c=>({slug:c.slug,title:c.title})),{slug:'about',title:'درباره الورا و اصول مراقبت'},{slug:'care',title:'راهنمای مراجعه و پیگیری'},{slug:'journal',title:'مجله پزشکی بازساختی و سلول‌درمانی'},{slug:'faq',title:'پرسش‌های مشاوره و درمان'},{slug:'contact',title:'اطلاعات تماس و مشاوره'},{slug:'privacy',title:'حریم خصوصی و تصاویر'},{slug:'sitemap',title:'نقشه سایت'}];
 export const pageDescriptions:Record<string,string>={
  services:'راهنمای خدمات پوست، مو و جوان‌سازی الورا؛ از دغدغه خود شروع کنید، روش‌های مرتبط و محدودیت‌ها را بخوانید و برای مشاوره آماده شوید.',
  skin:'راهنمای آکنه، جای جوش، لک صورت و میکرونیدلینگ؛ موضوع مناسب را پیدا کنید و درباره ارزیابی پوست، مراقبت و پرسش‌های پیش از درمان بخوانید.',
@@ -55,13 +60,13 @@ export const pageDescriptions:Record<string,string>={
  advanced:'PRP، PRF، اگزوزوم و فرآورده‌های سلولی را با توجه به کاربرد، شواهد و ایمنی بشناسید؛ وضعیت ارائه روش‌های تأییدنشده در الورا مشخص است.',
  about:'با الورا، مرکز برنامه‌ریزی‌شده پوست، مو و جوان‌سازی در تهران آشنا شوید؛ اصول ارزیابی، انتخاب آگاهانه، حریم خصوصی و پیگیری.',
  care:'برای نخستین مشاوره پوست و مو چه آماده کنیم؟ مراحل ارزیابی، توضیح هزینه و گزینه‌ها، رضایت آگاهانه و پیگیری در مسیر مراقبت الورا.',
- journal:'راهنماهای پوست، مو و زیبایی در مجله الورا؛ پاسخ به پرسش‌های آکنه، ریزش مو، PRP، فیلر و مراقبت با منابع و وضعیت بازبینی مشخص.',
+ journal:'مقالات علمی پزشکی بازساختی، سلول‌درمانی، PRP، مزوژل، ویتیلیگو، پسوریازیس، لیکن پلان و خودایمنی پس از کرونا؛ با منابع پژوهشی و لینک‌های مرتبط.',
  faq:'پاسخ پرسش‌های مشاوره پوست و مو: انتخاب روش، هزینه، نتیجه، حریم خصوصی و وضعیت درخواست نوبت در پیش‌نمایش الورا.',
  contact:'اطلاعات تماس و وضعیت مشاوره الورا در پاسداران و دولت تهران؛ نشانی و راه‌های ارتباط پس از تأیید اعلام می‌شوند. درخواست آنلاین فعال نیست.',
  privacy:'درباره ذخیره وضعیت نمایش در مرورگر، تصاویر نمایشی و اصول محرمانگی در پیش‌نمایش الورا بخوانید؛ سیاست نهایی مرکز هنوز تکمیل نشده است.',
  sitemap:'نقشه سایت الورا؛ دسترسی به راهنماهای پوست، مو، جوان‌سازی، روش‌های نوین، مقاله‌های مجله و اطلاعات مراجعه، تماس و حریم خصوصی.'
 };
-export const innerFaq = [...content.faq,
+export const innerFaq = [...homeFaq,...content.faq,
  {question:'آیا اکنون می‌توانم در سایت نوبت بگیرم؟',answer:'خیر. درخواست آنلاین در این پیش‌نمایش فعال نیست. شماره تماس، نشانی دقیق و ساعات پاسخ‌گویی پس از تأیید در صفحه تماس قرار می‌گیرند.'},
  {question:'برای اولین مشاوره چه اطلاعاتی آماده کنم؟',answer:'دغدغه اصلی، زمان شروع آن، داروها و محصولات مصرفی و درمان‌های قبلی را یادداشت کنید. برای آمادگی اختصاصی هر روش از پزشک راهنمایی بگیرید.'},
  {question:'آیا تصویرهای سایت، نتیجه درمان مراجعان‌اند؟',answer:'خیر. پرتره‌ها نمایشی و تصاویر فضای مرکز مفهومی‌اند. این تصاویر شاهد نتیجه درمان یا عکس پزشکان الورا نیستند.'}
