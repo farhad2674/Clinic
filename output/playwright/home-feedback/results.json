@@ -1,0 +1,307 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "checks": [
+    {
+      "name": "Old face labels removed",
+      "pass": true
+    },
+    {
+      "name": "Face summary contains three assessment topics",
+      "pass": true
+    },
+    {
+      "name": "No invented measurements in portrait overlay",
+      "pass": true
+    },
+    {
+      "name": "Tabs replaced by four visible comparison articles",
+      "pass": true
+    },
+    {
+      "name": "Scroll emphasis 0",
+      "pass": true
+    },
+    {
+      "name": "Method content stays visible 0",
+      "pass": true
+    },
+    {
+      "name": "Scroll emphasis 1",
+      "pass": true
+    },
+    {
+      "name": "Method content stays visible 1",
+      "pass": true
+    },
+    {
+      "name": "Scroll emphasis 2",
+      "pass": true
+    },
+    {
+      "name": "Method content stays visible 2",
+      "pass": true
+    },
+    {
+      "name": "Scroll emphasis 3",
+      "pass": true
+    },
+    {
+      "name": "Method content stays visible 3",
+      "pass": true
+    },
+    {
+      "name": "Emphasis reverses with scroll",
+      "pass": true
+    },
+    {
+      "name": "Keyboard focus emphasizes linked card",
+      "pass": true
+    },
+    {
+      "name": "Comparison link resolves /journal/prp-skin-evidence",
+      "pass": true
+    },
+    {
+      "name": "Comparison link resolves /journal/mesogel-skin-quality",
+      "pass": true
+    },
+    {
+      "name": "Comparison link resolves /journal/cell-therapy-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Comparison link resolves /journal/exosomes-vs-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Updated comparison images decode",
+      "pass": true
+    },
+    {
+      "name": "No horizontal overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Desktop hero added text fits 1440",
+      "pass": true,
+      "detail": {
+        "top": 593.875,
+        "bottom": 701.0625,
+        "visible": true,
+        "height": 900
+      }
+    },
+    {
+      "name": "Readable report within frame 1440",
+      "pass": true,
+      "detail": {
+        "visible": true,
+        "font": 14,
+        "heading": 18,
+        "inside": true,
+        "belowFace": true
+      }
+    },
+    {
+      "name": "No horizontal overflow 1280",
+      "pass": true
+    },
+    {
+      "name": "Desktop hero added text fits 1280",
+      "pass": true,
+      "detail": {
+        "top": 466.90625,
+        "bottom": 574.09375,
+        "visible": true,
+        "height": 720
+      }
+    },
+    {
+      "name": "Readable report within frame 1280",
+      "pass": true,
+      "detail": {
+        "visible": true,
+        "font": 14,
+        "heading": 18,
+        "inside": true,
+        "belowFace": true
+      }
+    },
+    {
+      "name": "No horizontal overflow 1024",
+      "pass": true
+    },
+    {
+      "name": "Desktop hero added text fits 1024",
+      "pass": true,
+      "detail": {
+        "top": 502.203125,
+        "bottom": 609.390625,
+        "visible": true,
+        "height": 768
+      }
+    },
+    {
+      "name": "Readable report within frame 1024",
+      "pass": true,
+      "detail": {
+        "visible": true,
+        "font": 14,
+        "heading": 18,
+        "inside": true,
+        "belowFace": true
+      }
+    },
+    {
+      "name": "No horizontal overflow 768",
+      "pass": true
+    },
+    {
+      "name": "Compact hero avoids added block 768",
+      "pass": true
+    },
+    {
+      "name": "Readable report within frame 768",
+      "pass": true,
+      "detail": {
+        "visible": true,
+        "font": 14,
+        "heading": 18,
+        "inside": true,
+        "belowFace": true
+      }
+    },
+    {
+      "name": "No horizontal overflow 591",
+      "pass": true
+    },
+    {
+      "name": "Compact hero avoids added block 591",
+      "pass": true
+    },
+    {
+      "name": "Readable report within frame 591",
+      "pass": true,
+      "detail": {
+        "visible": true,
+        "font": 14,
+        "heading": 18,
+        "inside": true,
+        "belowFace": true
+      }
+    },
+    {
+      "name": "No horizontal overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Compact hero avoids added block 390",
+      "pass": true
+    },
+    {
+      "name": "Readable report within frame 390",
+      "pass": true,
+      "detail": {
+        "visible": true,
+        "font": 13,
+        "heading": 16,
+        "inside": true,
+        "belowFace": true
+      }
+    },
+    {
+      "name": "No horizontal overflow 360",
+      "pass": true
+    },
+    {
+      "name": "Compact hero avoids added block 360",
+      "pass": true
+    },
+    {
+      "name": "Readable report within frame 360",
+      "pass": true,
+      "detail": {
+        "visible": true,
+        "font": 13,
+        "heading": 16,
+        "inside": true,
+        "belowFace": true
+      }
+    },
+    {
+      "name": "Portrait scrubs in both directions and freezes",
+      "pass": true,
+      "detail": {
+        "forward": 7.191111,
+        "reverse": 1.591111,
+        "idle": 1.591111
+      }
+    },
+    {
+      "name": "Report yields to active annotation when rewinding",
+      "pass": true
+    },
+    {
+      "name": "Authored landmarks still follow the film",
+      "pass": true,
+      "detail": {
+        "turn": 813.119999,
+        "front": 704
+      }
+    },
+    {
+      "name": "Restored cover motion preserved trust",
+      "pass": true,
+      "detail": {
+        "top": "care-pause",
+        "bottom": "trust",
+        "held": true
+      }
+    },
+    {
+      "name": "Restored cover motion preserved journal",
+      "pass": true,
+      "detail": {
+        "top": "trust",
+        "bottom": "journal",
+        "held": true
+      }
+    },
+    {
+      "name": "Restored cover motion preserved faq-preview",
+      "pass": true,
+      "detail": {
+        "top": "journal",
+        "bottom": "faq-preview",
+        "held": true
+      }
+    },
+    {
+      "name": "Restored cover motion preserved invitation",
+      "pass": true,
+      "detail": {
+        "top": "faq-preview",
+        "bottom": "invitation",
+        "held": true
+      }
+    },
+    {
+      "name": "Reduced motion shows static summary without downloading portrait",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion leaves all comparisons readable",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript: all comparison copy and links present",
+      "pass": true
+    },
+    {
+      "name": "No runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

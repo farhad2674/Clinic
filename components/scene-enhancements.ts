@@ -12,8 +12,26 @@ export function enhanceScenes(desktop:boolean){
   ScrollTrigger.create({...portraitScene,onUpdate:updateObservation,onRefresh:updateObservation});
   gsap.fromTo('.understanding-copy h2',{y:32,opacity:.5},{y:0,opacity:1,ease:'none',scrollTrigger:{trigger:'.understanding-copy h2',start:'top 94%',end:'top 55%',scrub:true}});
 
-  const layered=innerWidth>=1024&&innerHeight>=850;
+  const layered=innerWidth>=1024;
   const compact=desktop&&!layered;
+  // Keep the entire stage reachable before it holds, including expanded FAQs.
+  const stages=gsap.utils.toArray<HTMLElement>('.home [data-cover-chapter] .cover-stage');
+  let refreshFrame=0;
+  const measureStages=()=>{
+    let changed=false;
+    stages.forEach(stage=>{
+      const height=stage.offsetHeight+'px';
+      const chapter=stage.parentElement!;
+      if(chapter.style.getPropertyValue('--cover-stage-height')!==height){
+        chapter.style.setProperty('--cover-stage-height',height);changed=true;
+      }
+    });
+    return changed;
+  };
+  const stageObserver=layered?new ResizeObserver(()=>{
+    if(measureStages()&&!refreshFrame)refreshFrame=requestAnimationFrame(()=>{refreshFrame=0;ScrollTrigger.refresh()});
+  }):undefined;
+  if(layered){measureStages();stages.forEach(stage=>stageObserver!.observe(stage))}
   gsap.utils.toArray<HTMLElement>('[data-cover-chapter]').forEach(chapter=>{
     const title=chapter.querySelector<HTMLElement>('[data-cover-title]');
     const lines=chapter.querySelectorAll<HTMLElement>('.cover-title-line > span');
@@ -85,4 +103,10 @@ export function enhanceScenes(desktop:boolean){
       gsap.fromTo(el,{y:28,opacity:.5},{y:0,opacity:1,ease:'none',scrollTrigger:{trigger:el,start:'top 95%',end:'top 60%',scrub:true}});
     });
   }
+  return ()=>{
+    stageObserver?.disconnect();cancelAnimationFrame(refreshFrame);
+    // Repeated breakpoint changes must not retain a scrubbed title mask.
+    gsap.set('.home [data-cover-chapter] .cover-title-line > span, .home [data-cover-chapter] .cover-body, .home [data-cover-chapter] [data-text-reveal], .home [data-cover-chapter] [data-depth-box]',{clearProps:'transform,translate,rotate,scale,opacity,clipPath,filter'});
+    stages.forEach(stage=>stage.parentElement?.style.removeProperty('--cover-stage-height'));
+  };
 }

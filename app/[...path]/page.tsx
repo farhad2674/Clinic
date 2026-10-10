@@ -11,7 +11,7 @@ export async function generateMetadata({params}:Props):Promise<Metadata>{
  const article=path[0]==='journal'&&path.length===2?articles.find(a=>a.slug===path[1]):undefined;
  const title=service?.title??article?.title??innerPages.find(p=>p.slug===slug)?.title??'صفحه پیدا نشد';
  const description=service?.description??article?.description??pageDescriptions[slug];
- return {title,description,openGraph:{title:title+' | الورا',description,locale:'fa_IR',type:article?'article':'website',siteName:'الورا'}};
+ return {title,description,openGraph:{title:title+' | الویتا',description,locale:'fa_IR',type:article?'article':'website',siteName:'الویتا'}};
 }
 export default async function Page({params,searchParams}:Props){const {path}=await params;const slug=path.join('/');
  if(path.length===2&&path[0]==='services'){if(!content.services.some(s=>s.slug===path[1]))notFound();return <ServicePage slug={path[1]}/>}

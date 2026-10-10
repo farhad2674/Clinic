@@ -1,0 +1,64 @@
+/* A fuller desktop opening; the compact mobile opening keeps its existing pace. */
+.hero-context{display:none}
+@media(min-width:1024px){
+ .home .hero-copy{padding-top:80px}
+ .motion-ready:not(.reduced-motion) .home .hero-copy{padding-top:clamp(150px,21svh,240px)}
+ .home .hero-context{display:block;max-width:440px;margin-top:clamp(28px,4svh,48px);padding:5px 20px 5px 0;border-inline-start:1px solid var(--gold)}
+ .hero-context>span{font-size:13px;color:#987855}
+ .hero-context p{font-size:15px;line-height:2;color:var(--muted);margin-top:6px}
+}
+@media(min-width:1024px) and (max-height:760px){
+ .motion-ready:not(.reduced-motion) .home .hero-copy{padding-top:125px}
+ .home .hero-context{margin-top:22px}
+}
+/* Open comparison: every method is visible, scrolling simply lends emphasis. */
+.method-atlas{background:#f4f1ed;position:relative}
+.method-atlas-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(36px,7vw,100px);align-items:start}
+.method-atlas-intro{position:sticky;top:110px}
+.method-atlas-intro>.eyebrow{display:block;color:#987855;margin-bottom:18px}
+.method-atlas-intro h2{font-size:clamp(32px,3.8vw,56px);line-height:1.65}
+.method-atlas-intro>p{max-width:370px;margin-top:24px;font-size:17px;line-height:2;color:var(--muted)}
+.method-atlas-index{display:flex;align-items:baseline;gap:14px;margin-top:42px;color:#a18a7c}
+.method-atlas-index>[data-method-current]{font-family:Estedad,sans-serif;font-size:76px;font-weight:300;line-height:1.5;color:#836a58}
+.method-atlas-index>span:nth-child(2){font-size:16px}
+.method-atlas-index>i{height:1px;flex:1;background:#c5a36a66;align-self:center;max-width:140px;margin-inline-start:12px}
+.method-atlas-note{display:block;max-width:300px;font-size:13px;line-height:1.9;color:var(--muted);margin-top:10px}
+.method-atlas-cards{display:grid;gap:20px;min-width:0}
+.method-atlas-card{display:grid;grid-template-columns:clamp(100px,11vw,170px) minmax(0,1fr);gap:26px;padding:24px;border:1px solid #d9d3ce;border-radius:28px 6px 28px 6px;background:#fbfaf899;transition:border-color .25s,background .25s,box-shadow .25s;min-width:0}
+.method-atlas-card[data-active],.method-atlas-card:focus-within{border-color:#bda079;background:var(--white);box-shadow:0 14px 36px #6f51450d}
+.method-atlas-card figure{align-self:start;aspect-ratio:3/4;overflow:hidden;border-radius:80px 80px 8px 8px;background:var(--blush)}
+.method-atlas-card img{width:100%;height:100%;object-fit:cover}
+.method-atlas-label{display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:14px;color:#8b684e;margin-bottom:13px}
+.method-atlas-label>span:last-child{font-size:13px;color:#a99b90}
+.method-atlas-copy h3{font-size:22px;line-height:1.7}
+.method-atlas-copy>p{font-size:15px;line-height:1.95;color:var(--muted);margin-top:10px}
+.method-atlas-question{padding-top:13px;margin-top:18px;border-top:1px solid var(--line)}
+.method-atlas-question>span{font-size:12px;color:#92745e}
+.method-atlas-question>p{font-size:14px;line-height:1.9;margin-top:4px}
+.method-atlas-copy .text-link{font-size:13px;margin-top:12px;gap:14px}
+@media(min-width:768px) and (max-width:1100px){
+ .method-atlas-layout{grid-template-columns:.7fr 1.3fr;gap:32px}
+ .method-atlas-card{grid-template-columns:88px minmax(0,1fr);gap:16px;padding:20px}
+ .method-atlas-copy h3{font-size:20px}
+}
+@media(max-width:767px){
+ .method-atlas-layout{display:block}
+ .method-atlas-intro{position:relative;top:auto;margin-bottom:32px}
+ .method-atlas-intro h2{font-size:34px}
+ .method-atlas-intro>p{font-size:16px;max-width:420px;margin-top:18px}
+ .method-atlas-index,.method-atlas-note{display:none}
+ .method-atlas-card{grid-template-columns:80px minmax(0,1fr);gap:16px;padding:20px 16px;border-radius:24px 6px}
+ .method-atlas-label{margin-bottom:10px}
+ .method-atlas-copy h3{font-size:21px}
+ .method-atlas-copy>p{font-size:15px}
+ .method-atlas-copy .text-link{font-size:14px}
+}
+@media(max-width:399px){
+ .method-atlas-card{grid-template-columns:60px minmax(0,1fr);gap:12px;padding:18px 12px}
+ .method-atlas-copy h3{font-size:19px}
+}
+.reduced-motion .method-atlas-card{transition:none}
+@media(prefers-reduced-motion:reduce){.method-atlas-card{transition:none}}
+@media(min-width:768px) and (max-width:1023px){
+ .home .understanding-stage{grid-template-columns:1fr 1.05fr;gap:5%}
+}

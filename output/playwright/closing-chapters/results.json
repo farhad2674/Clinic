@@ -1,0 +1,533 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "checks": [
+    {
+      "name": "Five original closing chapters in order",
+      "pass": true
+    },
+    {
+      "name": "Current ELVITHA imagery retained",
+      "pass": true
+    },
+    {
+      "name": "Current branding and one H1",
+      "pass": true
+    },
+    {
+      "name": "Journey completes before restored chapters",
+      "pass": true
+    },
+    {
+      "name": "Held chapter + rising cover 1440 trust",
+      "pass": true,
+      "detail": {
+        "top": "care-pause",
+        "bottom": "trust",
+        "stageTop": 0,
+        "expectedTop": 0
+      }
+    },
+    {
+      "name": "Reverse scroll restores cover 1440 trust",
+      "pass": true,
+      "detail": {
+        "reverse": 0,
+        "before": 0
+      }
+    },
+    {
+      "name": "Held chapter + rising cover 1440 journal",
+      "pass": true,
+      "detail": {
+        "top": "trust",
+        "bottom": "journal",
+        "stageTop": 0,
+        "expectedTop": 0
+      }
+    },
+    {
+      "name": "Reverse scroll restores cover 1440 journal",
+      "pass": true,
+      "detail": {
+        "reverse": 0,
+        "before": 0
+      }
+    },
+    {
+      "name": "Held chapter + rising cover 1440 faq-preview",
+      "pass": true,
+      "detail": {
+        "top": "journal",
+        "bottom": "faq-preview",
+        "stageTop": 0,
+        "expectedTop": 0
+      }
+    },
+    {
+      "name": "Reverse scroll restores cover 1440 faq-preview",
+      "pass": true,
+      "detail": {
+        "reverse": 0,
+        "before": 0
+      }
+    },
+    {
+      "name": "Held chapter + rising cover 1440 invitation",
+      "pass": true,
+      "detail": {
+        "top": "faq-preview",
+        "bottom": "invitation",
+        "stageTop": 0,
+        "expectedTop": 0
+      }
+    },
+    {
+      "name": "Reverse scroll restores cover 1440 invitation",
+      "pass": true,
+      "detail": {
+        "reverse": 0,
+        "before": 0
+      }
+    },
+    {
+      "name": "No desktop overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Expanded FAQ stage measured 1440",
+      "pass": true,
+      "detail": {
+        "height": 900,
+        "measured": 900
+      }
+    },
+    {
+      "name": "All expanded answers reachable 1440",
+      "pass": true,
+      "detail": {
+        "faqBottom": 720.9234008789062,
+        "height": 900
+      }
+    },
+    {
+      "name": "Held chapter + rising cover 1280 trust",
+      "pass": true,
+      "detail": {
+        "top": "care-pause",
+        "bottom": "trust",
+        "stageTop": 0,
+        "expectedTop": 0
+      }
+    },
+    {
+      "name": "Reverse scroll restores cover 1280 trust",
+      "pass": true,
+      "detail": {
+        "reverse": 0,
+        "before": 0
+      }
+    },
+    {
+      "name": "Held chapter + rising cover 1280 journal",
+      "pass": true,
+      "detail": {
+        "top": "trust",
+        "bottom": "journal",
+        "stageTop": 0,
+        "expectedTop": 0
+      }
+    },
+    {
+      "name": "Reverse scroll restores cover 1280 journal",
+      "pass": true,
+      "detail": {
+        "reverse": 0,
+        "before": 0
+      }
+    },
+    {
+      "name": "Held chapter + rising cover 1280 faq-preview",
+      "pass": true,
+      "detail": {
+        "top": "journal",
+        "bottom": "faq-preview",
+        "stageTop": 0,
+        "expectedTop": 0
+      }
+    },
+    {
+      "name": "Reverse scroll restores cover 1280 faq-preview",
+      "pass": true,
+      "detail": {
+        "reverse": 0,
+        "before": 0
+      }
+    },
+    {
+      "name": "Held chapter + rising cover 1280 invitation",
+      "pass": true,
+      "detail": {
+        "top": "faq-preview",
+        "bottom": "invitation",
+        "stageTop": 0,
+        "expectedTop": 0
+      }
+    },
+    {
+      "name": "Reverse scroll restores cover 1280 invitation",
+      "pass": true,
+      "detail": {
+        "reverse": 0,
+        "before": 0
+      }
+    },
+    {
+      "name": "No desktop overflow 1280",
+      "pass": true
+    },
+    {
+      "name": "Expanded FAQ stage measured 1280",
+      "pass": true,
+      "detail": {
+        "height": 720,
+        "measured": 720
+      }
+    },
+    {
+      "name": "All expanded answers reachable 1280",
+      "pass": true,
+      "detail": {
+        "faqBottom": 630.9234008789062,
+        "height": 720
+      }
+    },
+    {
+      "name": "Held chapter + rising cover 1024 trust",
+      "pass": true,
+      "detail": {
+        "top": "care-pause",
+        "bottom": "trust",
+        "stageTop": 0,
+        "expectedTop": 0
+      }
+    },
+    {
+      "name": "Reverse scroll restores cover 1024 trust",
+      "pass": true,
+      "detail": {
+        "reverse": 0,
+        "before": 0
+      }
+    },
+    {
+      "name": "Held chapter + rising cover 1024 journal",
+      "pass": true,
+      "detail": {
+        "top": "trust",
+        "bottom": "journal",
+        "stageTop": -68,
+        "expectedTop": -68
+      }
+    },
+    {
+      "name": "Reverse scroll restores cover 1024 journal",
+      "pass": true,
+      "detail": {
+        "reverse": -68,
+        "before": -68
+      }
+    },
+    {
+      "name": "Held chapter + rising cover 1024 faq-preview",
+      "pass": true,
+      "detail": {
+        "top": "journal",
+        "bottom": "faq-preview",
+        "stageTop": 0,
+        "expectedTop": 0
+      }
+    },
+    {
+      "name": "Reverse scroll restores cover 1024 faq-preview",
+      "pass": true,
+      "detail": {
+        "reverse": 0,
+        "before": 0
+      }
+    },
+    {
+      "name": "Held chapter + rising cover 1024 invitation",
+      "pass": true,
+      "detail": {
+        "top": "faq-preview",
+        "bottom": "invitation",
+        "stageTop": 0,
+        "expectedTop": 0
+      }
+    },
+    {
+      "name": "Reverse scroll restores cover 1024 invitation",
+      "pass": true,
+      "detail": {
+        "reverse": 0,
+        "before": 0
+      }
+    },
+    {
+      "name": "No desktop overflow 1024",
+      "pass": true
+    },
+    {
+      "name": "Expanded FAQ stage measured 1024",
+      "pass": true,
+      "detail": {
+        "height": 686,
+        "measured": 686
+      }
+    },
+    {
+      "name": "All expanded answers reachable 1024",
+      "pass": true,
+      "detail": {
+        "faqBottom": 593.5606079101562,
+        "height": 650
+      }
+    },
+    {
+      "name": "Title scrubs both directions and freezes when idle",
+      "pass": true,
+      "detail": {
+        "before": {
+          "opacity": "0.8944",
+          "transform": "matrix(1, 0, 0, 1, 0, 11.0209)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        "reverse": {
+          "opacity": "0.8944",
+          "transform": "matrix(1, 0, 0, 1, 0, 11.0209)"
+        },
+        "idle": {
+          "opacity": "0.8944",
+          "transform": "matrix(1, 0, 0, 1, 0, 11.0209)"
+        }
+      }
+    },
+    {
+      "name": "Readable flow 768 care-pause",
+      "pass": true
+    },
+    {
+      "name": "No overflow 768 care-pause",
+      "pass": true
+    },
+    {
+      "name": "Title visible 768 care-pause",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 768 trust",
+      "pass": true
+    },
+    {
+      "name": "No overflow 768 trust",
+      "pass": true
+    },
+    {
+      "name": "Title visible 768 trust",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 768 journal",
+      "pass": true
+    },
+    {
+      "name": "No overflow 768 journal",
+      "pass": true
+    },
+    {
+      "name": "Title visible 768 journal",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 768 faq-preview",
+      "pass": true
+    },
+    {
+      "name": "No overflow 768 faq-preview",
+      "pass": true
+    },
+    {
+      "name": "Title visible 768 faq-preview",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 768 invitation",
+      "pass": true
+    },
+    {
+      "name": "No overflow 768 invitation",
+      "pass": true
+    },
+    {
+      "name": "Title visible 768 invitation",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 390 care-pause",
+      "pass": true
+    },
+    {
+      "name": "No overflow 390 care-pause",
+      "pass": true
+    },
+    {
+      "name": "Title visible 390 care-pause",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 390 trust",
+      "pass": true
+    },
+    {
+      "name": "No overflow 390 trust",
+      "pass": true
+    },
+    {
+      "name": "Title visible 390 trust",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 390 journal",
+      "pass": true
+    },
+    {
+      "name": "No overflow 390 journal",
+      "pass": true
+    },
+    {
+      "name": "Title visible 390 journal",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 390 faq-preview",
+      "pass": true
+    },
+    {
+      "name": "No overflow 390 faq-preview",
+      "pass": true
+    },
+    {
+      "name": "Title visible 390 faq-preview",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 390 invitation",
+      "pass": true
+    },
+    {
+      "name": "No overflow 390 invitation",
+      "pass": true
+    },
+    {
+      "name": "Title visible 390 invitation",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 360 care-pause",
+      "pass": true
+    },
+    {
+      "name": "No overflow 360 care-pause",
+      "pass": true
+    },
+    {
+      "name": "Title visible 360 care-pause",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 360 trust",
+      "pass": true
+    },
+    {
+      "name": "No overflow 360 trust",
+      "pass": true
+    },
+    {
+      "name": "Title visible 360 trust",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 360 journal",
+      "pass": true
+    },
+    {
+      "name": "No overflow 360 journal",
+      "pass": true
+    },
+    {
+      "name": "Title visible 360 journal",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 360 faq-preview",
+      "pass": true
+    },
+    {
+      "name": "No overflow 360 faq-preview",
+      "pass": true
+    },
+    {
+      "name": "Title visible 360 faq-preview",
+      "pass": true
+    },
+    {
+      "name": "Readable flow 360 invitation",
+      "pass": true
+    },
+    {
+      "name": "No overflow 360 invitation",
+      "pass": true
+    },
+    {
+      "name": "Title visible 360 invitation",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion removes holding and height measurements",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion keeps all titles visible",
+      "pass": true
+    },
+    {
+      "name": "Motion resumes cleanly",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript: all five sections and links are available",
+      "pass": true
+    },
+    {
+      "name": "Restored link resolves /services",
+      "pass": true
+    },
+    {
+      "name": "Restored link resolves /services/regenerative",
+      "pass": true
+    },
+    {
+      "name": "Restored link resolves /privacy",
+      "pass": true
+    },
+    {
+      "name": "No browser runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

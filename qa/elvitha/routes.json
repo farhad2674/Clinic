@@ -1,0 +1,418 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "پزشکی بازساختی و سلول‌درمانی | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "راهنمای خدمات پوست، مو و جوان‌سازی | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/about",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "درباره الویتا و اصول مراقبت | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/care",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "از کجا شروع کنم؟ راهنمای اولین مشاوره | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/faq",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "پرسش‌های مشاوره و درمان | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/contact",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "اطلاعات تماس و مشاوره | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/privacy",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "حریم خصوصی و تصاویر | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/skin",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "خدمات پوست؛ آکنه، جای جوش و لک | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/acne",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "درمان آکنه و جوش صورت؛ ارزیابی و انتخاب روش | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/acne-scars",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "جای جوش و اسکار آکنه؛ تفاوت با لک و قرمزی | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/pigmentation",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "لک صورت و ناهماهنگی رنگ پوست؛ راهنمای ارزیابی | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/microneedling",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "میکرونیدلینگ پوست؛ کاربرد، محدودیت و مراقبت | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/hair",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "ریزش مو و سلامت پوست سر | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/hair-loss",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "ریزش و کم‌پشتی مو؛ بررسی علت و مسیر درمان | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/scalp-health",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "شوره و خارش پوست سر؛ مراقبت و زمان مراجعه | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/rejuvenation",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "جوان‌سازی و زیبایی طبیعی | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/natural-rejuvenation",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "جوان‌سازی طبیعی صورت؛ انتخاب متناسب با چهره | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/rejuvenation-45",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "جوان‌سازی پس از ۴۵ سال؛ کیفیت پوست و مراقبت | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/botox",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "بوتاکس صورت؛ ارزیابی، انتظار و پرسش‌های مهم | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/fillers",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "تزریق فیلر صورت؛ تناسب حجم، خطرات و مشاوره | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/advanced",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "پزشکی بازساختی و روش‌های سلولی | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/prp",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "PRP پوست و مو؛ فرآورده پلاکتی، کاربردها و شواهد | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/prf",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "PRF پوست و مو؛ تفاوت با PRP و معیار انتخاب | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/exosomes",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "اگزوزوم پوست و مو؛ شواهد، ایمنی و وضعیت ارائه | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/cell-based",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "سلول‌درمانی و روش‌های نوین سلولی؛ کاربرد و سطح شواهد | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/mesogel",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "مزوژل؛ ترکیبات، کیفیت پوست و شواهد تزریق | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/services/regenerative",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "پزشکی بازساختی (Regenerative)؛ روش‌ها و انتخاب آگاهانه | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "مجلهٔ الویتا؛ پوست، مو و مراقبت آگاهانه | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/regenerative-medicine",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "پزشکی بازساختی چیست و چه نسبتی با سلول‌درمانی دارد؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/cell-therapy-stem-cells",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "سلول‌درمانی و سلول بنیادی؛ تفاوت مفاهیم و کاربردها | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/prp-skin-evidence",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "PRP برای کیفیت پوست؛ شواهد، محدودیت‌ها و تفاوت با سلول‌درمانی | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/mesogel-skin-quality",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "مزوژل و کیفیت پوست؛ ترکیب محصول و شواهد علمی چه اهمیتی دارند؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/novel-cellular-methods",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "روش‌های نوین سلولی؛ از ایده پژوهشی تا کاربرد بالینی | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/vitiligo-cell-therapy",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "ویتیلیگو و سلول‌درمانی؛ پیوند سلولی برای چه کسانی مطرح است؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/psoriasis-cell-therapy",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "پسوریازیس و سلول‌درمانی؛ پژوهش اولیه چه می‌گوید؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/lichen-planus-cell-therapy",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "لیکن پلان و سلول‌درمانی؛ فاصله پژوهش تا کاربرد بالینی | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/autoimmunity-after-covid",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "بیماری‌های خودایمنی پس از کرونا؛ ارتباط آماری چه معنایی دارد؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/exosomes-vs-stem-cells",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "اگزوزوم با سلول بنیادی چه تفاوتی دارد؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/prp-for-hair-loss",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "PRP برای کدام نوع ریزش مو مطرح است؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/acne-marks-vs-scars",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "تفاوت لک، قرمزی و جای جوش چیست؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/teen-acne",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "مراقبت از آکنه نوجوانان؛ شروعی آرام و روشن | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/natural-rejuvenation",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "جوان‌سازی طبیعی؛ هدفی که از خود شما شروع می‌شود | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/prp-vs-prf",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "PRP و PRF؛ تفاوت‌ها و معیارهای انتخاب | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/exosomes-evidence",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "اگزوزوم چیست و شواهد آن را چطور بخوانیم؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/different-treatment-results",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "چه چیزهایی نتیجهٔ درمان را برای هر فرد متفاوت می‌کند؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/questions-before-fillers",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "پیش از تزریق فیلر چه سؤال‌هایی بپرسیم؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/before-after-photos",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "عکس‌های قبل و بعد را چطور دقیق‌تر ببینیم؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/skin-after-45",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "مراقبت از پوست پس از ۴۵ سال؛ هماهنگ با نیاز امروز | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/consultation-preparation",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "برای اولین مشاورهٔ پوست و مو چه آماده کنیم؟ | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/elvitha-natural-beauty",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "زیبایی طبیعی در نگاه الویتا؛ حفظ آنچه چهره را شبیه شما می‌کند | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/journal/everyday-skin-care",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "روتین مراقبت از پوست؛ ساده، پیوسته و متناسب با شما | الویتا",
+    "pass": true
+  },
+  {
+    "route": "/sitemap",
+    "status": 200,
+    "h1": 1,
+    "robots": "index, follow",
+    "title": "نقشه سایت | الویتا",
+    "pass": true
+  }
+]

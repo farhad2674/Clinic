@@ -1,0 +1,154 @@
+{
+  "checks": [
+    {
+      "name": "Intro holds for opening image at 1440",
+      "pass": true,
+      "detail": {
+        "state": "loading",
+        "pending": true,
+        "visible": "visible",
+        "opacity": "1",
+        "scrollLocked": false
+      }
+    },
+    {
+      "name": "Intro releases after opening image at 1440",
+      "pass": true,
+      "detail": {
+        "state": "ready",
+        "pending": false,
+        "visible": "hidden",
+        "opacity": "0",
+        "scrollLocked": false
+      }
+    },
+    {
+      "name": "Header logo fits and does not overlap at 1440",
+      "pass": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "logo": {
+          "x": 1156.703125,
+          "right": 1353.609375,
+          "width": 196.90625
+        },
+        "actions": {
+          "x": 86.40625,
+          "right": 278.21875
+        },
+        "overlap": false
+      }
+    },
+    {
+      "name": "Intro holds for opening image at 390",
+      "pass": true,
+      "detail": {
+        "state": "loading",
+        "pending": true,
+        "visible": "visible",
+        "opacity": "1",
+        "scrollLocked": false
+      }
+    },
+    {
+      "name": "Intro releases after opening image at 390",
+      "pass": true,
+      "detail": {
+        "state": "ready",
+        "pending": false,
+        "visible": "hidden",
+        "opacity": "0",
+        "scrollLocked": false
+      }
+    },
+    {
+      "name": "Header logo fits and does not overlap at 390",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "logo": {
+          "x": 239.140625,
+          "right": 366,
+          "width": 126.859375
+        },
+        "actions": {
+          "x": 24,
+          "right": 147.3125
+        },
+        "overlap": false
+      }
+    },
+    {
+      "name": "Image error releases intro with fallback",
+      "pass": true,
+      "detail": {
+        "state": "fallback",
+        "pending": false,
+        "visible": "hidden",
+        "opacity": "0",
+        "scrollLocked": false
+      }
+    },
+    {
+      "name": "Reduced motion uses a static logo",
+      "pass": true,
+      "detail": {
+        "animation": "none",
+        "transition": "0s"
+      }
+    },
+    {
+      "name": "No JavaScript leaves content visible and intro hidden",
+      "pass": true,
+      "detail": {
+        "pending": false,
+        "visible": "hidden",
+        "opacity": "0",
+        "scrollLocked": false
+      }
+    },
+    {
+      "name": "Never-ending image has a bounded fail-open",
+      "pass": true,
+      "detail": {
+        "state": "timeout",
+        "pending": false,
+        "visible": "hidden",
+        "opacity": "0",
+        "scrollLocked": false,
+        "elapsed": 6732
+      }
+    },
+    {
+      "name": "Independent head timeout survives missing client JavaScript",
+      "pass": true,
+      "detail": {
+        "state": "timeout",
+        "pending": false,
+        "visible": "hidden",
+        "opacity": "0",
+        "scrollLocked": false,
+        "elapsed": 6839
+      }
+    },
+    {
+      "name": "Keyboard bypass releases a waiting intro",
+      "pass": true,
+      "detail": {
+        "state": "skipped",
+        "pending": false,
+        "visible": "hidden",
+        "opacity": "0",
+        "scrollLocked": false
+      }
+    },
+    {
+      "name": "No runtime errors in hydrated cases",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

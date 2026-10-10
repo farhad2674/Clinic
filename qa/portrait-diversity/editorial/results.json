@@ -1,0 +1,1420 @@
+{
+  "base": "http://127.0.0.1:3014",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Preserved lib/journal.ts",
+      "pass": true
+    },
+    {
+      "name": "Preserved lib/research-content.json",
+      "pass": true
+    },
+    {
+      "name": "Preserved lib/content.json",
+      "pass": true
+    },
+    {
+      "name": "All 52 site routes respond",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "All 36 referenced media resolve",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "Journal 23 unique loaded covers 1440",
+      "pass": true,
+      "details": [
+        {
+          "src": "/media/journal-elvitha/regenerative-medicine.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/cell-therapy-stem-cells.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/prp-skin-evidence.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/mesogel-skin-quality.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/novel-cellular-methods.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/vitiligo-cell-therapy-v2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/psoriasis-cell-therapy.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/lichen-planus-cell-therapy.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/autoimmunity-after-covid.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/exosomes-vs-stem-cells.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/prp-vs-prf.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/exosomes-evidence.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/acne-marks-vs-scars-v2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/teen-acne.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/consultation-preparation.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/everyday-skin-care.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/prp-for-hair-loss-v2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/natural-rejuvenation-v2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/different-treatment-results-v2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/questions-before-fillers.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/before-after-photos.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/skin-after-45-v2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/elvitha-natural-beauty-v2.webp",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "/journal/prp-for-hair-loss cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/prp-for-hair-loss-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/prp-for-hair-loss-v2-800.webp",
+        "alt": "زن جوان با موهای شاه‌بلوطی جمع‌شده و تل روسری سبز، در حال نگاه‌کردن به شانه کنار آینه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/prp-for-hair-loss-v2-800.webp 800w, /media/editorial-elvitha/prp-for-hair-loss-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/prp-for-hair-loss overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/acne-marks-vs-scars cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/acne-marks-vs-scars-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/acne-marks-vs-scars-v2-800.webp",
+        "alt": "زن جوان با موهای مشکی کوتاه و چتری، تل روسری خردلی و پیراهن سفالی با آثار ظریف جوش روی گونه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/acne-marks-vs-scars-v2-800.webp 800w, /media/editorial-elvitha/acne-marks-vs-scars-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/acne-marks-vs-scars overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/teen-acne cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/teen-acne.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/teen-acne-800.webp",
+        "alt": "کیف پارچه‌ای ساده، شوینده بدون نوشته و دفتر کوچک مراقبت پوست",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/teen-acne-800.webp 800w, /media/journal-elvitha/teen-acne.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/journal/teen-acne overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/natural-rejuvenation cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/natural-rejuvenation-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/natural-rejuvenation-v2-800.webp",
+        "alt": "زن بزرگسال با موی تیره بافته و تل روسری صورتی، با لبخند و خطوط طبیعی چهره",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/natural-rejuvenation-v2-800.webp 800w, /media/editorial-elvitha/natural-rejuvenation-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/natural-rejuvenation overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/prp-vs-prf cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/prp-vs-prf.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/prp-vs-prf-800.webp",
+        "alt": "دو قطعه شیشه با بافت روان و شبکه‌ای روی پایه سنگی",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/prp-vs-prf-800.webp 800w, /media/journal-elvitha/prp-vs-prf.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/journal/prp-vs-prf overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/exosomes-evidence cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/exosomes-evidence.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/exosomes-evidence-800.webp",
+        "alt": "ترکیب مفهومی عدسی شیشه‌ای و نقاط کوچک نیمه‌شفاف روی کاغذ",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/exosomes-evidence-800.webp 800w, /media/journal-elvitha/exosomes-evidence.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/journal/exosomes-evidence overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/different-treatment-results cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/different-treatment-results-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/different-treatment-results-v2-800.webp",
+        "alt": "زن جوان با عینک گرد، موی قهوه‌ای موج‌دار و ژاکت خردلی در حال مرور دفتر یادداشت",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/different-treatment-results-v2-800.webp 800w, /media/editorial-elvitha/different-treatment-results-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/different-treatment-results overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/questions-before-fillers cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/questions-before-fillers.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/questions-before-fillers-800.webp",
+        "alt": "دفتر باز بدون نوشته، مداد و آینه دستی روی میز روشن",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/questions-before-fillers-800.webp 800w, /media/journal-elvitha/questions-before-fillers.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/journal/questions-before-fillers overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/before-after-photos cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/before-after-photos.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/before-after-photos-800.webp",
+        "alt": "لنز دوربین، کارت خاکستری ساده و قاب نور روی سطح روشن",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/before-after-photos-800.webp 800w, /media/journal-elvitha/before-after-photos.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/journal/before-after-photos overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/skin-after-45 cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/skin-after-45-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/skin-after-45-v2-800.webp",
+        "alt": "زن بزرگسال با موهای قهوه‌ای تیره حالت‌داده‌شده، تل روسری آبی و جلیقه خاکی با لبخندی طبیعی",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/skin-after-45-v2-800.webp 800w, /media/editorial-elvitha/skin-after-45-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/skin-after-45 overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/regenerative-medicine cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/regenerative-medicine.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/regenerative-medicine-800.webp",
+        "alt": "سازه مشبک دست‌ساز از کاغذ روشن با سایه‌های ظریف",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/regenerative-medicine-800.webp 800w, /media/journal-elvitha/regenerative-medicine.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/journal/regenerative-medicine overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/cell-therapy-stem-cells cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/cell-therapy-stem-cells.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/cell-therapy-stem-cells-800.webp",
+        "alt": "سه فرم گِلی روشن در مراحل متفاوت شکل‌گیری کنار هم",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/cell-therapy-stem-cells-800.webp 800w, /media/journal-elvitha/cell-therapy-stem-cells.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/journal/cell-therapy-stem-cells overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/prp-skin-evidence cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/prp-skin-evidence.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/prp-skin-evidence-800.webp",
+        "alt": "برگه‌های ساده پژوهش، عدسی و قطعه شیشه شامپاینی روی میز",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/prp-skin-evidence-800.webp 800w, /media/journal-elvitha/prp-skin-evidence.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/journal/prp-skin-evidence overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/mesogel-skin-quality cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/mesogel-skin-quality.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/mesogel-skin-quality-800.webp",
+        "alt": "قطره ژل شفاف روی شیشه مات و پارچه روشن",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/mesogel-skin-quality-800.webp 800w, /media/journal-elvitha/mesogel-skin-quality.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/journal/mesogel-skin-quality overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/novel-cellular-methods cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/novel-cellular-methods.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/novel-cellular-methods-800.webp",
+        "alt": "تصویر مفهومی میز پژوهش با میکروسکوپ، ظرف شفاف دربسته و دفتر یادداشت",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/editorial-elvitha/novel-cellular-methods-800.webp 800w, /media/editorial-elvitha/novel-cellular-methods.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/novel-cellular-methods overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/vitiligo-cell-therapy cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/vitiligo-cell-therapy-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/vitiligo-cell-therapy-v2-800.webp",
+        "alt": "زن بزرگسال با موی کوتاه مشکی، تل روسری زیتونی و پیراهن آبی با نواحی روشن ویتیلیگو روی صورت",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/vitiligo-cell-therapy-v2-800.webp 800w, /media/editorial-elvitha/vitiligo-cell-therapy-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/vitiligo-cell-therapy overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/psoriasis-cell-therapy cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/psoriasis-cell-therapy.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/psoriasis-cell-therapy-800.webp",
+        "alt": "نمای مفهومی از پوست آرنج با ناحیه خشک و پوسته‌دار، روی پارچه روشن",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/editorial-elvitha/psoriasis-cell-therapy-800.webp 800w, /media/editorial-elvitha/psoriasis-cell-therapy.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/psoriasis-cell-therapy overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/lichen-planus-cell-therapy cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/lichen-planus-cell-therapy.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/lichen-planus-cell-therapy-800.webp",
+        "alt": "نمای مفهومی از سطح داخلی مچ دست با چند برجستگی کوچک بنفش‌فام روی پوست",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/editorial-elvitha/lichen-planus-cell-therapy-800.webp 800w, /media/editorial-elvitha/lichen-planus-cell-therapy.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/lichen-planus-cell-therapy overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/autoimmunity-after-covid cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/autoimmunity-after-covid.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/autoimmunity-after-covid-800.webp",
+        "alt": "تصویر مفهومی ماسک پزشکی ساده کنار تقویم بدون نوشته و دفتر ثبت زمان علائم",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/editorial-elvitha/autoimmunity-after-covid-800.webp 800w, /media/editorial-elvitha/autoimmunity-after-covid.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/autoimmunity-after-covid overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/exosomes-vs-stem-cells cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/exosomes-vs-stem-cells.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/exosomes-vs-stem-cells-800.webp",
+        "alt": "حباب شیشه‌ای توخالی و خوشه دانه‌های شیشه‌ای کوچک روی پایه روشن",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/exosomes-vs-stem-cells-800.webp 800w, /media/journal-elvitha/exosomes-vs-stem-cells.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/journal/exosomes-vs-stem-cells overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/consultation-preparation cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/consultation-preparation.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/consultation-preparation-800.webp",
+        "alt": "دفترچه بسته، کارت‌های یادداشت بدون نوشته و مداد روی میز",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/consultation-preparation-800.webp 800w, /media/journal-elvitha/consultation-preparation.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/journal/consultation-preparation overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/elvitha-natural-beauty cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/elvitha-natural-beauty-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/elvitha-natural-beauty-v2-800.webp",
+        "alt": "زن جوان با موهای بلند قهوه‌ای تیره و تل روسری کرم، پیراهن بنفش خاکی و لبخندی طبیعی",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/elvitha-natural-beauty-v2-800.webp 800w, /media/editorial-elvitha/elvitha-natural-beauty-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/elvitha-natural-beauty overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/journal/everyday-skin-care cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/everyday-skin-care.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/everyday-skin-care-800.webp",
+        "alt": "سه ظرف ساده مراقبت پوست کنار حوله پنبه‌ای روشن",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/everyday-skin-care-800.webp 800w, /media/journal-elvitha/everyday-skin-care.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/journal/everyday-skin-care overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/acne cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/teen-acne.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/teen-acne-800.webp",
+        "alt": "کیف پارچه‌ای ساده، شوینده بدون نوشته و دفتر کوچک مراقبت پوست",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/teen-acne-800.webp 800w, /media/journal-elvitha/teen-acne.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/services/acne overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/acne-scars cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/acne-marks-vs-scars-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/acne-marks-vs-scars-v2-800.webp",
+        "alt": "زن جوان با موهای مشکی کوتاه و چتری، تل روسری خردلی و پیراهن سفالی با آثار ظریف جوش روی گونه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/acne-marks-vs-scars-v2-800.webp 800w, /media/editorial-elvitha/acne-marks-vs-scars-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/acne-scars overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/pigmentation cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/pigmentation-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/pigmentation-v2-800.webp",
+        "alt": "زن بزرگسال با موی قهوه‌ای طلایی موج‌دار، تل روسری آبی و لباس سبز تیره با لک‌های طبیعی گونه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/pigmentation-v2-800.webp 800w, /media/editorial-elvitha/pigmentation-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/pigmentation overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/hair-loss cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/prp-for-hair-loss-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/prp-for-hair-loss-v2-800.webp",
+        "alt": "زن جوان با موهای شاه‌بلوطی جمع‌شده و تل روسری سبز، در حال نگاه‌کردن به شانه کنار آینه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/prp-for-hair-loss-v2-800.webp 800w, /media/editorial-elvitha/prp-for-hair-loss-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/hair-loss overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/scalp-health cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/scalp-health-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/scalp-health-v2-800.webp",
+        "alt": "زن بزرگسال با موی صاف فندقی، تل روسری فیروزه‌ای و ژاکت خاکستری با فرق موی نمایان کنار حوله و شانه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/scalp-health-v2-800.webp 800w, /media/editorial-elvitha/scalp-health-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/scalp-health overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/natural-rejuvenation cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/natural-rejuvenation-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/natural-rejuvenation-v2-800.webp",
+        "alt": "زن بزرگسال با موی تیره بافته و تل روسری صورتی، با لبخند و خطوط طبیعی چهره",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/natural-rejuvenation-v2-800.webp 800w, /media/editorial-elvitha/natural-rejuvenation-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/natural-rejuvenation overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/rejuvenation-45 cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/skin-after-45-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/skin-after-45-v2-800.webp",
+        "alt": "زن بزرگسال با موهای قهوه‌ای تیره حالت‌داده‌شده، تل روسری آبی و جلیقه خاکی با لبخندی طبیعی",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/skin-after-45-v2-800.webp 800w, /media/editorial-elvitha/skin-after-45-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/rejuvenation-45 overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/botox cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/natural-rejuvenation-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/natural-rejuvenation-v2-800.webp",
+        "alt": "زن بزرگسال با موی تیره بافته و تل روسری صورتی، با لبخند و خطوط طبیعی چهره",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/natural-rejuvenation-v2-800.webp 800w, /media/editorial-elvitha/natural-rejuvenation-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/botox overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/fillers cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/questions-before-fillers.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/questions-before-fillers-800.webp",
+        "alt": "دفتر باز بدون نوشته، مداد و آینه دستی روی میز روشن",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/questions-before-fillers-800.webp 800w, /media/journal-elvitha/questions-before-fillers.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/services/fillers overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/microneedling cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/acne-marks-vs-scars-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/acne-marks-vs-scars-v2-800.webp",
+        "alt": "زن جوان با موهای مشکی کوتاه و چتری، تل روسری خردلی و پیراهن سفالی با آثار ظریف جوش روی گونه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/acne-marks-vs-scars-v2-800.webp 800w, /media/editorial-elvitha/acne-marks-vs-scars-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/microneedling overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/prp cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/prp-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/prp-v2-800.webp",
+        "alt": "زن جوان با موی مشکی کوتاه، تل روسری زرشکی و پیراهن آبی، کنار کاغذ و ذره‌بین روی سنگ روشن",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/prp-v2-800.webp 800w, /media/services-elvitha/prp-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/prp overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/prf cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/prp-vs-prf.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/prp-vs-prf-800.webp",
+        "alt": "دو قطعه شیشه با بافت روان و شبکه‌ای روی پایه سنگی",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/prp-vs-prf-800.webp 800w, /media/journal-elvitha/prp-vs-prf.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/services/prf overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/exosomes cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/exosomes-evidence.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/exosomes-evidence-800.webp",
+        "alt": "ترکیب مفهومی عدسی شیشه‌ای و نقاط کوچک نیمه‌شفاف روی کاغذ",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/exosomes-evidence-800.webp 800w, /media/journal-elvitha/exosomes-evidence.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/services/exosomes overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/cell-based cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/cell-based-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/cell-based-v2-800.webp",
+        "alt": "زن جوان با موهای فر تیره جمع‌شده، تل روسری شامپاینی و کت خاکی، کنار فرم‌های سرامیکی",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/cell-based-v2-800.webp 800w, /media/services-elvitha/cell-based-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/cell-based overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/mesogel cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/mesogel-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/mesogel-v2-800.webp",
+        "alt": "زن جوان با موهای شاه‌بلوطی فر، تل روسری آبی و ژاکت زیتونی، کنار شیشه مات و ژل شفاف",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/mesogel-v2-800.webp 800w, /media/services-elvitha/mesogel-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/mesogel overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/services/regenerative cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/regenerative-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/regenerative-v2-800.webp",
+        "alt": "زن جوان با موی قهوه‌ای عسلی و چتری، تل روسری قهوه‌ای و پیراهن صورتی، کنار سازه کاغذی مشبک",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/regenerative-v2-800.webp 800w, /media/services-elvitha/regenerative-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/regenerative overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/skin cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/pigmentation-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/pigmentation-v2-800.webp",
+        "alt": "زن بزرگسال با موی قهوه‌ای طلایی موج‌دار، تل روسری آبی و لباس سبز تیره با لک‌های طبیعی گونه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/pigmentation-v2-800.webp 800w, /media/editorial-elvitha/pigmentation-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/skin overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/hair cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/prp-for-hair-loss-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/prp-for-hair-loss-v2-800.webp",
+        "alt": "زن جوان با موهای شاه‌بلوطی جمع‌شده و تل روسری سبز، در حال نگاه‌کردن به شانه کنار آینه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/prp-for-hair-loss-v2-800.webp 800w, /media/editorial-elvitha/prp-for-hair-loss-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/hair overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/rejuvenation cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/natural-rejuvenation-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/natural-rejuvenation-v2-800.webp",
+        "alt": "زن بزرگسال با موی تیره بافته و تل روسری صورتی، با لبخند و خطوط طبیعی چهره",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/natural-rejuvenation-v2-800.webp 800w, /media/editorial-elvitha/natural-rejuvenation-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/rejuvenation overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "/advanced cover 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/regenerative-medicine.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/regenerative-medicine-800.webp",
+        "alt": "سازه مشبک دست‌ساز از کاغذ روشن با سایه‌های ظریف",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/regenerative-medicine-800.webp 800w, /media/journal-elvitha/regenerative-medicine.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/advanced overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Category cards match topics 1440",
+      "pass": true,
+      "details": [
+        "/media/editorial-elvitha/pigmentation-v2.webp",
+        "/media/editorial-elvitha/prp-for-hair-loss-v2.webp",
+        "/media/editorial-elvitha/natural-rejuvenation-v2.webp",
+        "/media/journal-elvitha/regenerative-medicine.webp"
+      ]
+    },
+    {
+      "name": "Homepage research cover 1440",
+      "pass": true
+    },
+    {
+      "name": "Featured service portraits updated 1440",
+      "pass": true
+    },
+    {
+      "name": "Homepage no overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Journal 23 unique loaded covers 390",
+      "pass": true,
+      "details": [
+        {
+          "src": "/media/journal-elvitha/regenerative-medicine.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/cell-therapy-stem-cells.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/prp-skin-evidence.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/mesogel-skin-quality.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/novel-cellular-methods.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/vitiligo-cell-therapy-v2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/psoriasis-cell-therapy.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/lichen-planus-cell-therapy.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/autoimmunity-after-covid.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/exosomes-vs-stem-cells.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/prp-vs-prf.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/exosomes-evidence.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/acne-marks-vs-scars-v2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/teen-acne.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/consultation-preparation.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/everyday-skin-care.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/prp-for-hair-loss-v2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/natural-rejuvenation-v2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/different-treatment-results-v2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/questions-before-fillers.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/journal-elvitha/before-after-photos.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/skin-after-45-v2.webp",
+          "loaded": true
+        },
+        {
+          "src": "/media/editorial-elvitha/elvitha-natural-beauty-v2.webp",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "/journal/prp-for-hair-loss cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/prp-for-hair-loss-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/prp-for-hair-loss-v2-800.webp",
+        "alt": "زن جوان با موهای شاه‌بلوطی جمع‌شده و تل روسری سبز، در حال نگاه‌کردن به شانه کنار آینه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/prp-for-hair-loss-v2-800.webp 800w, /media/editorial-elvitha/prp-for-hair-loss-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/prp-for-hair-loss overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/journal/acne-marks-vs-scars cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/acne-marks-vs-scars-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/acne-marks-vs-scars-v2-800.webp",
+        "alt": "زن جوان با موهای مشکی کوتاه و چتری، تل روسری خردلی و پیراهن سفالی با آثار ظریف جوش روی گونه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/acne-marks-vs-scars-v2-800.webp 800w, /media/editorial-elvitha/acne-marks-vs-scars-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/acne-marks-vs-scars overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/journal/natural-rejuvenation cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/natural-rejuvenation-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/natural-rejuvenation-v2-800.webp",
+        "alt": "زن بزرگسال با موی تیره بافته و تل روسری صورتی، با لبخند و خطوط طبیعی چهره",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/natural-rejuvenation-v2-800.webp 800w, /media/editorial-elvitha/natural-rejuvenation-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/natural-rejuvenation overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/journal/different-treatment-results cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/different-treatment-results-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/different-treatment-results-v2-800.webp",
+        "alt": "زن جوان با عینک گرد، موی قهوه‌ای موج‌دار و ژاکت خردلی در حال مرور دفتر یادداشت",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/different-treatment-results-v2-800.webp 800w, /media/editorial-elvitha/different-treatment-results-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/different-treatment-results overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/journal/skin-after-45 cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/skin-after-45-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/skin-after-45-v2-800.webp",
+        "alt": "زن بزرگسال با موهای قهوه‌ای تیره حالت‌داده‌شده، تل روسری آبی و جلیقه خاکی با لبخندی طبیعی",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/skin-after-45-v2-800.webp 800w, /media/editorial-elvitha/skin-after-45-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/skin-after-45 overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/journal/novel-cellular-methods cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/novel-cellular-methods.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/novel-cellular-methods-800.webp",
+        "alt": "تصویر مفهومی میز پژوهش با میکروسکوپ، ظرف شفاف دربسته و دفتر یادداشت",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/editorial-elvitha/novel-cellular-methods-800.webp 800w, /media/editorial-elvitha/novel-cellular-methods.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/novel-cellular-methods overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/journal/vitiligo-cell-therapy cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/vitiligo-cell-therapy-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/vitiligo-cell-therapy-v2-800.webp",
+        "alt": "زن بزرگسال با موی کوتاه مشکی، تل روسری زیتونی و پیراهن آبی با نواحی روشن ویتیلیگو روی صورت",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/vitiligo-cell-therapy-v2-800.webp 800w, /media/editorial-elvitha/vitiligo-cell-therapy-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/vitiligo-cell-therapy overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/journal/psoriasis-cell-therapy cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/psoriasis-cell-therapy.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/psoriasis-cell-therapy-800.webp",
+        "alt": "نمای مفهومی از پوست آرنج با ناحیه خشک و پوسته‌دار، روی پارچه روشن",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/editorial-elvitha/psoriasis-cell-therapy-800.webp 800w, /media/editorial-elvitha/psoriasis-cell-therapy.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/psoriasis-cell-therapy overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/journal/lichen-planus-cell-therapy cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/lichen-planus-cell-therapy.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/lichen-planus-cell-therapy-800.webp",
+        "alt": "نمای مفهومی از سطح داخلی مچ دست با چند برجستگی کوچک بنفش‌فام روی پوست",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/editorial-elvitha/lichen-planus-cell-therapy-800.webp 800w, /media/editorial-elvitha/lichen-planus-cell-therapy.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/lichen-planus-cell-therapy overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/journal/autoimmunity-after-covid cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/autoimmunity-after-covid.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/autoimmunity-after-covid-800.webp",
+        "alt": "تصویر مفهومی ماسک پزشکی ساده کنار تقویم بدون نوشته و دفتر ثبت زمان علائم",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/editorial-elvitha/autoimmunity-after-covid-800.webp 800w, /media/editorial-elvitha/autoimmunity-after-covid.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/autoimmunity-after-covid overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/journal/elvitha-natural-beauty cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/elvitha-natural-beauty-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/elvitha-natural-beauty-v2-800.webp",
+        "alt": "زن جوان با موهای بلند قهوه‌ای تیره و تل روسری کرم، پیراهن بنفش خاکی و لبخندی طبیعی",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/elvitha-natural-beauty-v2-800.webp 800w, /media/editorial-elvitha/elvitha-natural-beauty-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/journal/elvitha-natural-beauty overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/services/acne-scars cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/acne-marks-vs-scars-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/acne-marks-vs-scars-v2-800.webp",
+        "alt": "زن جوان با موهای مشکی کوتاه و چتری، تل روسری خردلی و پیراهن سفالی با آثار ظریف جوش روی گونه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/acne-marks-vs-scars-v2-800.webp 800w, /media/editorial-elvitha/acne-marks-vs-scars-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/acne-scars overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/services/pigmentation cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/pigmentation-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/pigmentation-v2-800.webp",
+        "alt": "زن بزرگسال با موی قهوه‌ای طلایی موج‌دار، تل روسری آبی و لباس سبز تیره با لک‌های طبیعی گونه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/pigmentation-v2-800.webp 800w, /media/editorial-elvitha/pigmentation-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/pigmentation overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/services/hair-loss cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/prp-for-hair-loss-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/prp-for-hair-loss-v2-800.webp",
+        "alt": "زن جوان با موهای شاه‌بلوطی جمع‌شده و تل روسری سبز، در حال نگاه‌کردن به شانه کنار آینه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/prp-for-hair-loss-v2-800.webp 800w, /media/editorial-elvitha/prp-for-hair-loss-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/hair-loss overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/services/scalp-health cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/scalp-health-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/scalp-health-v2-800.webp",
+        "alt": "زن بزرگسال با موی صاف فندقی، تل روسری فیروزه‌ای و ژاکت خاکستری با فرق موی نمایان کنار حوله و شانه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/scalp-health-v2-800.webp 800w, /media/editorial-elvitha/scalp-health-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/scalp-health overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/services/natural-rejuvenation cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/natural-rejuvenation-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/natural-rejuvenation-v2-800.webp",
+        "alt": "زن بزرگسال با موی تیره بافته و تل روسری صورتی، با لبخند و خطوط طبیعی چهره",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/natural-rejuvenation-v2-800.webp 800w, /media/editorial-elvitha/natural-rejuvenation-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/natural-rejuvenation overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/services/rejuvenation-45 cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/skin-after-45-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/skin-after-45-v2-800.webp",
+        "alt": "زن بزرگسال با موهای قهوه‌ای تیره حالت‌داده‌شده، تل روسری آبی و جلیقه خاکی با لبخندی طبیعی",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/skin-after-45-v2-800.webp 800w, /media/editorial-elvitha/skin-after-45-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/rejuvenation-45 overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/services/botox cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/natural-rejuvenation-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/natural-rejuvenation-v2-800.webp",
+        "alt": "زن بزرگسال با موی تیره بافته و تل روسری صورتی، با لبخند و خطوط طبیعی چهره",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/natural-rejuvenation-v2-800.webp 800w, /media/editorial-elvitha/natural-rejuvenation-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/botox overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/services/microneedling cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/acne-marks-vs-scars-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/acne-marks-vs-scars-v2-800.webp",
+        "alt": "زن جوان با موهای مشکی کوتاه و چتری، تل روسری خردلی و پیراهن سفالی با آثار ظریف جوش روی گونه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/acne-marks-vs-scars-v2-800.webp 800w, /media/editorial-elvitha/acne-marks-vs-scars-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/services/microneedling overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/skin cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/pigmentation-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/pigmentation-v2-800.webp",
+        "alt": "زن بزرگسال با موی قهوه‌ای طلایی موج‌دار، تل روسری آبی و لباس سبز تیره با لک‌های طبیعی گونه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/pigmentation-v2-800.webp 800w, /media/editorial-elvitha/pigmentation-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/skin overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/hair cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/prp-for-hair-loss-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/prp-for-hair-loss-v2-800.webp",
+        "alt": "زن جوان با موهای شاه‌بلوطی جمع‌شده و تل روسری سبز، در حال نگاه‌کردن به شانه کنار آینه",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/prp-for-hair-loss-v2-800.webp 800w, /media/editorial-elvitha/prp-for-hair-loss-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/hair overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/rejuvenation cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/editorial-elvitha/natural-rejuvenation-v2.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/editorial-elvitha/natural-rejuvenation-v2-800.webp",
+        "alt": "زن بزرگسال با موی تیره بافته و تل روسری صورتی، با لبخند و خطوط طبیعی چهره",
+        "loaded": true,
+        "position": "50% 0%",
+        "srcset": "/media/editorial-elvitha/natural-rejuvenation-v2-800.webp 800w, /media/editorial-elvitha/natural-rejuvenation-v2.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+      }
+    },
+    {
+      "name": "/rejuvenation overflow 390",
+      "pass": true
+    },
+    {
+      "name": "/advanced cover 390",
+      "pass": true,
+      "details": {
+        "src": "/media/journal-elvitha/regenerative-medicine.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/journal-elvitha/regenerative-medicine-800.webp",
+        "alt": "سازه مشبک دست‌ساز از کاغذ روشن با سایه‌های ظریف",
+        "loaded": true,
+        "position": "50% 50%",
+        "srcset": "/media/journal-elvitha/regenerative-medicine-800.webp 800w, /media/journal-elvitha/regenerative-medicine.webp 1254w",
+        "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی برای همراهی با موضوع مقاله."
+      }
+    },
+    {
+      "name": "/advanced overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Category cards match topics 390",
+      "pass": true,
+      "details": [
+        "/media/editorial-elvitha/pigmentation-v2.webp",
+        "/media/editorial-elvitha/prp-for-hair-loss-v2.webp",
+        "/media/editorial-elvitha/natural-rejuvenation-v2.webp",
+        "/media/journal-elvitha/regenerative-medicine.webp"
+      ]
+    },
+    {
+      "name": "Homepage research cover 390",
+      "pass": true
+    },
+    {
+      "name": "Featured service portraits updated 390",
+      "pass": true
+    },
+    {
+      "name": "Homepage no overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Supporting page /about",
+      "pass": true
+    },
+    {
+      "name": "Supporting page /contact",
+      "pass": true
+    },
+    {
+      "name": "Supporting page /care",
+      "pass": true
+    },
+    {
+      "name": "Supporting page /faq",
+      "pass": true
+    },
+    {
+      "name": "Supporting page /privacy",
+      "pass": true
+    },
+    {
+      "name": "Normal motion article image loads",
+      "pass": true
+    },
+    {
+      "name": "No browser runtime errors",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,27 @@
+.wordmark.brand-logo{display:inline-flex;align-items:center;gap:11px;vertical-align:middle;white-space:nowrap;letter-spacing:0;line-height:1;flex-shrink:0}
+.elvitha-emblem{width:43px;height:43px;flex:none;overflow:visible}
+.elvitha-emblem-petal,.elvitha-emblem-seed{color:var(--gold)}
+.elvitha-wordmark{font:400 27px/1 Georgia,'Times New Roman',serif;letter-spacing:.125em;padding-top:3px}
+.brand-link{flex-shrink:0}
+.brand-intro{position:fixed;inset:0;z-index:180;display:grid;place-items:center;overflow:hidden;background:var(--white);color:var(--ink);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .42s ease,visibility 0s .42s}
+.elvitha-intro-pending .brand-intro{opacity:1;visibility:visible;pointer-events:auto;transition:none}
+.brand-intro-orbit{position:absolute;width:min(74vw,570px);aspect-ratio:1;border:1px solid #d9d3ce6b;border-radius:50%;transform:rotate(-18deg);pointer-events:none}
+.brand-intro-orbit:after{content:'';position:absolute;inset:22px -24px;border:1px solid #e6e0dc70;border-radius:50%;transform:rotate(36deg)}
+.brand-intro-center{position:relative;text-align:center;padding:42px 24px}
+.wordmark.brand-intro-logo{flex-direction:column;gap:27px}
+.brand-intro-logo .elvitha-emblem{width:108px;height:108px}
+.brand-intro-logo .elvitha-wordmark{font-size:clamp(32px,5vw,44px);letter-spacing:.2em;padding-left:.2em}
+.brand-intro-line{display:block;width:40px;height:1px;margin:32px auto 20px;background:var(--gold)}
+.brand-intro-caption{font-size:11px;color:var(--muted);line-height:1.9;min-height:21px}
+.brand-intro-skip{position:absolute;bottom:max(32px,env(safe-area-inset-bottom));font-size:11px;color:var(--muted);padding:10px 0;border-bottom:1px solid var(--stone);display:flex;align-items:center;gap:20px}
+.elvitha-intro-pending .brand-intro-logo .elvitha-emblem-e,.elvitha-intro-pending .brand-intro-logo .elvitha-emblem-petal{stroke-dasharray:170;animation:elvitha-draw 1.3s cubic-bezier(.22,.61,.36,1) both}
+.elvitha-intro-pending .brand-intro-logo .elvitha-emblem-petal{animation-delay:.12s}
+.elvitha-intro-pending .brand-intro-logo .elvitha-wordmark{animation:elvitha-wordmark-in .9s ease both}
+.elvitha-intro-pending .brand-intro-line{animation:elvitha-breathe 1.8s ease-in-out infinite}
+@keyframes elvitha-draw{from{stroke-dashoffset:170;opacity:.2}to{stroke-dashoffset:0;opacity:1}}
+@keyframes elvitha-wordmark-in{from{opacity:.3;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+@keyframes elvitha-breathe{0%,100%{transform:scaleX(.55);opacity:.5}50%{transform:scaleX(1);opacity:1}}
+@media(max-width:767px){.elvitha-emblem{width:34px;height:34px}.elvitha-wordmark{font-size:21px;letter-spacing:.09em}.wordmark.brand-logo{gap:6px}.site-header{gap:14px}.brand-intro-orbit{width:78vw}.brand-intro-logo .elvitha-emblem{width:94px;height:94px}}
+@media(max-width:390px){.site-header .elvitha-wordmark{font-size:18px}.site-header .elvitha-emblem{width:30px;height:30px}.site-header .header-contact{font-size:10px;gap:4px}.site-header .header-actions{gap:10px}}
+@media(prefers-reduced-motion:reduce){.brand-intro,.brand-intro *{animation:none!important;transition:none!important}}
+@media print{.brand-intro{display:none!important}}

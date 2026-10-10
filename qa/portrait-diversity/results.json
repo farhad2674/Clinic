@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "serviceChecks": 46,
+  "editorialChecks": 154,
+  "totalChecks": 200,
+  "errors": [],
+  "portraits": 13,
+  "fullBytes": 1621654,
+  "thumbnailBytes": 679652,
+  "typecheck": "passed",
+  "productionBuild": "passed"
+}

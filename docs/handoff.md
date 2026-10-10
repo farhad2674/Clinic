@@ -1,9 +1,11 @@
-# ELORA Website Generation Handoff
+# ELVITHA Website Generation Handoff
 
-**Project:** ELORA Skin, Hair, Beauty & Rejuvenation Center  
+> Current owner decisions, 10 October 2026: the public brand is ELVITHA (Elvitha / الویتا). All valid pages allow indexing. Do not show draft, awaiting-doctor, or unreviewed badges. Do not imply a medical review occurred; retain substantive treatment limitations and real source links in the compact reference box. Current edited copy lives in lib/; this original strategic handoff is not a regeneration source for replacing the newer copy. Preserve the existing motion and use the new logo opening intro.
+
+**Project:** ELVITHA Skin, Hair, Beauty & Rejuvenation Center
 **Market:** Tehran, Iran  
 **Initial location:** Pasdaran / Dolat area  
-**Document purpose:** Strategic, brand, content, and user-experience handoff for generating the ELORA website  
+**Document purpose:** Strategic, brand, content, and user-experience handoff for generating the ELVITHA website
 **Primary website language:** Persian (right-to-left)  
 **Version:** 1.0 — 26 September 2026
 
@@ -14,7 +16,7 @@
 This document defines:
 
 - the business and website goals;
-- the ELORA brand identity and positioning;
+- the ELVITHA brand identity and positioning;
 - priority audiences and their needs;
 - the desired user experience;
 - the website information architecture;
@@ -31,16 +33,16 @@ This document intentionally excludes visual layouts, page mockups, UI components
 
 ### Brand name
 
-**ELORA**  
-Persian display name: **الورا**
+**ELVITHA**
+Persian display name: **الویتا**
 
 ### Business descriptor
 
-**مرکز تخصصی پوست، مو، زیبایی و جوان‌سازی الورا**
+**مرکز تخصصی پوست، مو، زیبایی و جوان‌سازی الویتا**
 
 ### Business concept
 
-ELORA is intended to be a premium, science-led, patient-centered center for skin health, hair health, natural beauty, rejuvenation, and carefully selected regenerative or biologically based treatments. It must not be perceived as a conventional injection clinic or a volume-driven beauty salon.
+ELVITHA is intended to be a premium, science-led, patient-centered center for skin health, hair health, natural beauty, rejuvenation, and carefully selected regenerative or biologically based treatments. It must not be perceived as a conventional injection clinic or a volume-driven beauty salon.
 
 The first center is planned for the Pasdaran / Dolat area of Tehran and is intended to become the first branch of a scalable chain. The brand must therefore work for the first location while remaining credible and transferable to future branches.
 
@@ -53,10 +55,10 @@ Build one of Iran's most trusted premium brands in skin, hair, and responsible r
 1. Convert suitable visitors into qualified consultation and appointment requests.
 2. Establish credibility before the visitor contacts the center.
 3. Explain why diagnosis must precede the sale of a service.
-4. Differentiate ELORA from clinics built around discounts, trends, or exaggerated promises.
+4. Differentiate ELVITHA from clinics built around discounts, trends, or exaggerated promises.
 5. Educate visitors about skin, hair, aging, and advanced treatments in understandable language.
 6. Support long-term care, repeat visits, and outcome follow-up.
-7. Build a content and brand foundation that can scale to future ELORA branches.
+7. Build a content and brand foundation that can scale to future ELVITHA branches.
 
 ### Non-goals
 
@@ -73,9 +75,9 @@ The website must not:
 
 ## 3. What Has Been Learned About the Desired Project
 
-The owner wants ELORA to feel premium, modern, calm, intelligent, feminine, and precise. Luxury should come from confidence, restraint, service quality, scientific credibility, and attention to detail—not from visual excess or extravagant claims.
+The owner wants ELVITHA to feel premium, modern, calm, intelligent, feminine, and precise. Luxury should come from confidence, restraint, service quality, scientific credibility, and attention to detail—not from visual excess or extravagant claims.
 
-The website must communicate that ELORA:
+The website must communicate that ELVITHA:
 
 - understands the cause of a concern before recommending a procedure;
 - treats each person as an individual rather than selling the same package to everyone;
@@ -120,11 +122,11 @@ Use the English line only as a secondary brand expression. The Persian statement
 
 ### Positioning statement
 
-For people who want healthier skin and hair and natural-looking aesthetic improvement, ELORA is a premium specialist center that combines medical assessment, evidence-aware care, personalization, privacy, and continuous follow-up. Unlike service-selling beauty clinics, ELORA begins with understanding the concern and recommends only treatments that are appropriate, explainable, and responsibly deliverable.
+For people who want healthier skin and hair and natural-looking aesthetic improvement, ELVITHA is a premium specialist center that combines medical assessment, evidence-aware care, personalization, privacy, and continuous follow-up. Unlike service-selling beauty clinics, ELVITHA begins with understanding the concern and recommends only treatments that are appropriate, explainable, and responsibly deliverable.
 
 ### Desired market position
 
-ELORA should sit above an ordinary beauty clinic in scientific credibility, service experience, follow-up, and brand discipline. It should not claim absolute authority, guaranteed results, or regional leadership before these claims can be independently supported.
+ELVITHA should sit above an ordinary beauty clinic in scientific credibility, service experience, follow-up, and brand discipline. It should not claim absolute authority, guaranteed results, or regional leadership before these claims can be independently supported.
 
 ### Brand personality
 
@@ -139,7 +141,7 @@ ELORA should sit above an ordinary beauty clinic in scientific credibility, serv
 
 ### Tone of voice
 
-ELORA speaks in clear, respectful, reassuring Persian. The tone should feel like a trusted physician and an attentive care guide speaking together.
+ELVITHA speaks in clear, respectful, reassuring Persian. The tone should feel like a trusted physician and an attentive care guide speaking together.
 
 Use language such as:
 
@@ -175,10 +177,10 @@ Avoid language such as:
 4. فقط خدمات دارای توجیه پزشکی، ایمنی قابل‌قبول و پشتوانه علمی متناسب ارائه می‌شوند.
 5. زیبایی طبیعی و هماهنگ با هویت فرد بر تغییرات افراطی اولویت دارد.
 6. حریم خصوصی، تصاویر و اطلاعات پزشکی مراجعان محافظت می‌شوند.
-7. مسئولیت ELORA با پایان جلسه درمان تمام نمی‌شود؛ نتیجه و مراقبت پس از درمان پیگیری می‌شود.
+7. مسئولیت ELVITHA با پایان جلسه درمان تمام نمی‌شود؛ نتیجه و مراقبت پس از درمان پیگیری می‌شود.
 8. اگر درمانی برای فرد مناسب نباشد، حتی به قیمت از دست رفتن درآمد، انجام نمی‌شود.
 9. دانش، مهارت و استانداردهای تیم به‌طور مستمر ارتقا می‌یابد.
-10. اعتماد مراجعه‌کننده مهم‌ترین دارایی ELORA است.
+10. اعتماد مراجعه‌کننده مهم‌ترین دارایی ELVITHA است.
 
 ---
 
@@ -188,7 +190,7 @@ The color identity is fixed in direction, although production values may be cali
 
 | Color role | Recommended value | Meaning and use |
 |---|---:|---|
-| ELORA White | `#FBFAF8` | Primary brand field; purity, calm, clinical confidence |
+| ELVITHA White | `#FBFAF8` | Primary brand field; purity, calm, clinical confidence |
 | Pure White | `#FFFFFF` | Clean neutral support |
 | Powder Pink | `#F3DFE3` | Soft, mature femininity and warmth; secondary color |
 | Pale Blush | `#F8ECEE` | Quiet supportive background tone |
@@ -275,7 +277,7 @@ The visitor should move through these feelings:
 ### Primary user tasks
 
 - Identify the relevant concern: skin, hair, aging, or advanced treatment.
-- Understand ELORA's approach before comparing individual procedures.
+- Understand ELVITHA's approach before comparing individual procedures.
 - Learn whether a consultation is necessary and what it includes.
 - Review realistic information about a service without promotional exaggeration.
 - Request a consultation or appointment.
@@ -307,7 +309,7 @@ The visitor should move through these feelings:
 
 Approved explanatory copy:
 
-> در الورا، درمان با انتخاب یک دستگاه یا تزریق آغاز نمی‌شود. ابتدا نیاز، سابقه، شرایط پزشکی و انتظار شما بررسی می‌شود. سپس مسیر مناسب، مزایا، محدودیت‌ها، هزینه و مراقبت‌های لازم توضیح داده می‌شود. پس از درمان نیز نتیجه ثبت و پیگیری خواهد شد تا تصمیم‌های بعدی بر اساس پاسخ واقعی بدن شما گرفته شوند.
+> در الویتا، درمان با انتخاب یک دستگاه یا تزریق آغاز نمی‌شود. ابتدا نیاز، سابقه، شرایط پزشکی و انتظار شما بررسی می‌شود. سپس مسیر مناسب، مزایا، محدودیت‌ها، هزینه و مراقبت‌های لازم توضیح داده می‌شود. پس از درمان نیز نتیجه ثبت و پیگیری خواهد شد تا تصمیم‌های بعدی بر اساس پاسخ واقعی بدن شما گرفته شوند.
 
 ---
 
@@ -320,7 +322,7 @@ Approved explanatory copy:
 3. خدمات مو و پوست سر
 4. جوان‌سازی و زیبایی طبیعی
 5. درمان‌های نوین و بازساختی
-6. درباره الورا
+6. درباره الویتا
 7. مسیر مراجعه و مراقبت
 8. مجله علمی
 9. پرسش‌های متداول
@@ -384,15 +386,15 @@ Avoid using “همین حالا درمان را رزرو کنید” for proced
 
 ### Page title
 
-**مرکز تخصصی پوست، مو، زیبایی و جوان‌سازی الورا**
+**مرکز تخصصی پوست، مو، زیبایی و جوان‌سازی الویتا**
 
 ### Suggested search title
 
-**الورا | مرکز تخصصی پوست، مو و جوان‌سازی در تهران**
+**الویتا | مرکز تخصصی پوست، مو و جوان‌سازی در تهران**
 
 ### Suggested page description
 
-**ارزیابی تخصصی، درمان شخصی‌سازی‌شده و پیگیری نتیجه برای سلامت پوست و مو، زیبایی طبیعی و جوان‌سازی مسئولانه در مرکز الورا.**
+**ارزیابی تخصصی، درمان شخصی‌سازی‌شده و پیگیری نتیجه برای سلامت پوست و مو، زیبایی طبیعی و جوان‌سازی مسئولانه در مرکز الویتا.**
 
 ### Hero heading
 
@@ -400,20 +402,20 @@ Avoid using “همین حالا درمان را رزرو کنید” for proced
 
 ### Hero body
 
-> در الورا، پیش از پیشنهاد هر خدمت، مسئله شما را می‌شناسیم. با ارزیابی تخصصی، برنامه شخصی‌سازی‌شده و پیگیری نتیجه، از سلامت پوست و مو تا جوان‌سازی طبیعی در کنار شما هستیم.
+> در الویتا، پیش از پیشنهاد هر خدمت، مسئله شما را می‌شناسیم. با ارزیابی تخصصی، برنامه شخصی‌سازی‌شده و پیگیری نتیجه، از سلامت پوست و مو تا جوان‌سازی طبیعی در کنار شما هستیم.
 
 Primary action: **درخواست ارزیابی و مشاوره**  
-Secondary action: **آشنایی با رویکرد الورا**
+Secondary action: **آشنایی با رویکرد الویتا**
 
-### Section: Why ELORA exists
+### Section: Why ELVITHA exists
 
 #### Heading
 
-**چرا الورا به وجود آمده است؟**
+**چرا الویتا به وجود آمده است؟**
 
 #### Body
 
-> بازار زیبایی پر از پیشنهادهای سریع، وعده‌های قطعی و درمان‌های مشابه برای افراد متفاوت است. الورا برای تغییر همین تجربه شکل گرفته است: عبور از زیبایی تبلیغاتی و مقطعی به‌سوی مراقبتی علمی، مسئولانه، شخصی‌سازی‌شده و قابل پیگیری.
+> بازار زیبایی پر از پیشنهادهای سریع، وعده‌های قطعی و درمان‌های مشابه برای افراد متفاوت است. الویتا برای تغییر همین تجربه شکل گرفته است: عبور از زیبایی تبلیغاتی و مقطعی به‌سوی مراقبتی علمی، مسئولانه، شخصی‌سازی‌شده و قابل پیگیری.
 >
 > برای ما زیبایی فقط تغییر ظاهر نیست؛ نتیجه‌ای است که باید با سلامت پوست و مو، اعتمادبه‌نفس، انتخاب آگاهانه و کیفیت زندگی فرد همسو باشد.
 
@@ -425,13 +427,13 @@ Secondary action: **آشنایی با رویکرد الورا**
 
 #### Body
 
-> آکنه، لک، ریزش مو، کاهش قوام پوست یا تغییرات ناشی از افزایش سن همیشه یک علت و یک راه‌حل واحد ندارند. نوع پوست و مو، سابقه پزشکی، سبک زندگی، درمان‌های قبلی و انتظار واقعی شما در انتخاب مسیر مؤثرند. به همین دلیل در الورا، درخواست اولیه شما نقطه شروع گفت‌وگوست، نه نسخه نهایی درمان.
+> آکنه، لک، ریزش مو، کاهش قوام پوست یا تغییرات ناشی از افزایش سن همیشه یک علت و یک راه‌حل واحد ندارند. نوع پوست و مو، سابقه پزشکی، سبک زندگی، درمان‌های قبلی و انتظار واقعی شما در انتخاب مسیر مؤثرند. به همین دلیل در الویتا، درخواست اولیه شما نقطه شروع گفت‌وگوست، نه نسخه نهایی درمان.
 
 ### Section: Main care areas
 
 #### Heading
 
-**مسیرهای تخصصی مراقبت در الورا**
+**مسیرهای تخصصی مراقبت در الویتا**
 
 #### Skin
 
@@ -449,7 +451,7 @@ Secondary action: **آشنایی با رویکرد الورا**
 
 **جوان‌سازی و زیبایی طبیعی**
 
-> جوان‌سازی در الورا با هدف حفظ هویت چهره، بهبود متعادل کیفیت پوست و پرهیز از تغییرات اغراق‌آمیز برنامه‌ریزی می‌شود.
+> جوان‌سازی در الویتا با هدف حفظ هویت چهره، بهبود متعادل کیفیت پوست و پرهیز از تغییرات اغراق‌آمیز برنامه‌ریزی می‌شود.
 
 #### Advanced treatments
 
@@ -457,11 +459,11 @@ Secondary action: **آشنایی با رویکرد الورا**
 
 > PRP، PRF و سایر رویکردهای زیستی یا بازساختی تنها زمانی پیشنهاد می‌شوند که شواهد، ایمنی، وضعیت مجوز و تناسب آن‌ها با نیاز مراجعه‌کننده قابل دفاع باشد.
 
-### Section: Why choose ELORA
+### Section: Why choose ELVITHA
 
 #### Heading
 
-**تفاوت الورا در یک خدمت نیست؛ در تمام مسیر مراقبت است**
+**تفاوت الویتا در یک خدمت نیست؛ در تمام مسیر مراقبت است**
 
 #### Body points
 
@@ -481,7 +483,7 @@ Secondary action: **آشنایی با رویکرد الورا**
 
 #### Body
 
-> تجربه شما در الورا یک مراجعه پراکنده نیست. از شناخت نیاز و ارزیابی تخصصی تا طراحی برنامه، رضایت آگاهانه، درمان، پیگیری نتیجه و مراقبت بلندمدت، هر مرحله بخشی از یک مسیر واحد است.
+> تجربه شما در الویتا یک مراجعه پراکنده نیست. از شناخت نیاز و ارزیابی تخصصی تا طراحی برنامه، رضایت آگاهانه، درمان، پیگیری نتیجه و مراقبت بلندمدت، هر مرحله بخشی از یک مسیر واحد است.
 
 Journey labels:
 
@@ -495,7 +497,7 @@ Journey labels:
 
 #### Body
 
-> نیازهای پوست و مو در نوجوانی، دهه‌های جوانی و پس از 45 سال یکسان نیستند. الورا برای هر مرحله از زندگی، زبان، ارزیابی و مسیر مراقبت متناسبی در نظر می‌گیرد؛ از مدیریت علمی آکنه و ریزش مو تا پیشگیری و جوان‌سازی طبیعی.
+> نیازهای پوست و مو در نوجوانی، دهه‌های جوانی و پس از 45 سال یکسان نیستند. الویتا برای هر مرحله از زندگی، زبان، ارزیابی و مسیر مراقبت متناسبی در نظر می‌گیرد؛ از مدیریت علمی آکنه و ریزش مو تا پیشگیری و جوان‌سازی طبیعی.
 
 ### Section: Advanced care without hype
 
@@ -505,7 +507,7 @@ Journey labels:
 
 #### Body
 
-> نام یک فناوری جدید به‌تنهایی دلیل مناسبی برای درمان نیست. در الورا، هر روش نوین از نظر شواهد علمی، ایمنی، مجوز، کیفیت فرآورده، شرایط نگهداری و تناسب با مراجعه‌کننده بررسی می‌شود. ممکن است یک روش برای فردی مناسب و برای فرد دیگر غیرضروری یا نامناسب باشد.
+> نام یک فناوری جدید به‌تنهایی دلیل مناسبی برای درمان نیست. در الویتا، هر روش نوین از نظر شواهد علمی، ایمنی، مجوز، کیفیت فرآورده، شرایط نگهداری و تناسب با مراجعه‌کننده بررسی می‌شود. ممکن است یک روش برای فردی مناسب و برای فرد دیگر غیرضروری یا نامناسب باشد.
 
 ### Section: Charter preview
 
@@ -525,7 +527,7 @@ Journey labels:
 
 #### Body
 
-> مجله علمی الورا برای پاسخ‌دادن به پرسش‌های واقعی شما درباره پوست، مو، جوان‌سازی و درمان‌های نوین ایجاد شده است. محتوا باید به شما در انتخاب آگاهانه کمک کند، نه اینکه جایگزین تشخیص و معاینه پزشکی شود.
+> مجله علمی الویتا برای پاسخ‌دادن به پرسش‌های واقعی شما درباره پوست، مو، جوان‌سازی و درمان‌های نوین ایجاد شده است. محتوا باید به شما در انتخاب آگاهانه کمک کند، نه اینکه جایگزین تشخیص و معاینه پزشکی شود.
 
 ### Final homepage CTA
 
@@ -535,17 +537,17 @@ Journey labels:
 
 #### Body
 
-> برای بررسی شرایط پوست یا مو، انتظارات و گزینه‌های مناسب، درخواست ارزیابی خود را ثبت کنید. تیم الورا برای هماهنگی و توضیح مرحله بعد با شما تماس خواهد گرفت.
+> برای بررسی شرایط پوست یا مو، انتظارات و گزینه‌های مناسب، درخواست ارزیابی خود را ثبت کنید. تیم الویتا برای هماهنگی و توضیح مرحله بعد با شما تماس خواهد گرفت.
 
 Action: **درخواست ارزیابی و مشاوره**
 
 ---
 
-## 12. About ELORA Page Copy
+## 12. About ELVITHA Page Copy
 
 ### Page title
 
-**درباره الورا**
+**درباره الویتا**
 
 ### Intro heading
 
@@ -553,7 +555,7 @@ Action: **درخواست ارزیابی و مشاوره**
 
 ### Intro body
 
-> الورا با این باور شکل گرفته است که مراقبت از پوست و مو نباید از فروش یک خدمت آغاز شود. هر تصمیم درست به شناخت مسئله، بررسی شرایط فرد، توضیح گزینه‌ها و پیگیری نتیجه نیاز دارد. ما تلاش می‌کنیم دانش پزشکی، فناوری‌های نوین و تجربه‌ای محترمانه و شخصی‌سازی‌شده را در یک مسیر واحد گرد هم آوریم.
+> الویتا با این باور شکل گرفته است که مراقبت از پوست و مو نباید از فروش یک خدمت آغاز شود. هر تصمیم درست به شناخت مسئله، بررسی شرایط فرد، توضیح گزینه‌ها و پیگیری نتیجه نیاز دارد. ما تلاش می‌کنیم دانش پزشکی، فناوری‌های نوین و تجربه‌ای محترمانه و شخصی‌سازی‌شده را در یک مسیر واحد گرد هم آوریم.
 
 ### Mission heading
 
@@ -561,7 +563,7 @@ Action: **درخواست ارزیابی و مشاوره**
 
 ### Mission body
 
-> مأموریت الورا ارائه راهکارهای ایمن، مؤثر، طبیعی و شخصی‌سازی‌شده برای سلامت و زیبایی پوست و مو است. با تلفیق ارزیابی تخصصی، دانش پزشکی، فناوری‌های نوین، درمان‌های مبتنی بر شواهد و مراقبت مستمر، مسیر هر مراجعه‌کننده را از شناخت مشکل تا دستیابی به نتیجه و حفظ آن همراهی می‌کنیم.
+> مأموریت الویتا ارائه راهکارهای ایمن، مؤثر، طبیعی و شخصی‌سازی‌شده برای سلامت و زیبایی پوست و مو است. با تلفیق ارزیابی تخصصی، دانش پزشکی، فناوری‌های نوین، درمان‌های مبتنی بر شواهد و مراقبت مستمر، مسیر هر مراجعه‌کننده را از شناخت مشکل تا دستیابی به نتیجه و حفظ آن همراهی می‌کنیم.
 
 ### Vision heading
 
@@ -588,7 +590,7 @@ Pillars:
 
 ### Final body
 
-> جایگاه الورا با تعداد دستگاه‌ها یا فهرست بلند خدمات تعریف نمی‌شود. آنچه ما را متمایز می‌کند کیفیت تصمیم‌گیری پیش از درمان، صداقت در توضیح محدودیت‌ها و مسئولیت‌پذیری پس از ارائه خدمت است.
+> جایگاه الویتا با تعداد دستگاه‌ها یا فهرست بلند خدمات تعریف نمی‌شود. آنچه ما را متمایز می‌کند کیفیت تصمیم‌گیری پیش از درمان، صداقت در توضیح محدودیت‌ها و مسئولیت‌پذیری پس از ارائه خدمت است.
 
 ---
 
@@ -596,7 +598,7 @@ Pillars:
 
 ### Page title
 
-**خدمات الورا**
+**خدمات الویتا**
 
 ### Intro heading
 
@@ -610,7 +612,7 @@ Pillars:
 
 **پوست سالم، پایه زیبایی طبیعی است**
 
-> رویکرد الورا به مشکلات پوست از شناخت علت آغاز می‌شود. آکنه، جای جوش، لک، ناهماهنگی رنگ، منافذ یا کاهش شفافیت ممکن است به ارزیابی و ترکیب متفاوتی از مراقبت خانگی، درمان پزشکی و روش‌های کلینیکی نیاز داشته باشند.
+> رویکرد الویتا به مشکلات پوست از شناخت علت آغاز می‌شود. آکنه، جای جوش، لک، ناهماهنگی رنگ، منافذ یا کاهش شفافیت ممکن است به ارزیابی و ترکیب متفاوتی از مراقبت خانگی، درمان پزشکی و روش‌های کلینیکی نیاز داشته باشند.
 
 ### Category: Hair and scalp
 
@@ -622,13 +624,13 @@ Pillars:
 
 **جوان‌سازی با حفظ هویت چهره**
 
-> هدف الورا پاک‌کردن نشانه‌های زندگی یا تغییر چهره نیست. برنامه جوان‌سازی باید کیفیت پوست، تعادل چهره و ظاهر سالم و آرام فرد را بهبود دهد، بدون آنکه نتیجه اغراق‌آمیز یا یکسان برای همه ایجاد کند.
+> هدف الویتا پاک‌کردن نشانه‌های زندگی یا تغییر چهره نیست. برنامه جوان‌سازی باید کیفیت پوست، تعادل چهره و ظاهر سالم و آرام فرد را بهبود دهد، بدون آنکه نتیجه اغراق‌آمیز یا یکسان برای همه ایجاد کند.
 
 ### Category: Advanced treatments
 
 **درمان‌های نوین با انتخاب پزشکی مسئولانه**
 
-> روش‌های زیستی و بازساختی می‌توانند در برخی شرایط بخشی از برنامه درمان باشند، اما نام نوآورانه یک روش جایگزین شواهد، مجوز، کنترل کیفیت و ارزیابی پزشکی نیست. در الورا این خدمات تنها در محدوده قابل دفاع ارائه می‌شوند.
+> روش‌های زیستی و بازساختی می‌توانند در برخی شرایط بخشی از برنامه درمان باشند، اما نام نوآورانه یک روش جایگزین شواهد، مجوز، کنترل کیفیت و ارزیابی پزشکی نیست. در الویتا این خدمات تنها در محدوده قابل دفاع ارائه می‌شوند.
 
 ---
 
@@ -684,7 +686,7 @@ Pillars:
 **Page title:** جوان‌سازی طبیعی  
 **Heading:** شاداب‌تر دیده شوید، بدون آنکه هویت چهره تغییر کند
 
-> برنامه جوان‌سازی می‌تواند بر کیفیت پوست، خطوط پویا یا ثابت، تغییر حجم و افتادگی تمرکز کند. اولویت الورا حفظ تناسب چهره، انتخاب مرحله‌ای درمان و پرهیز از مداخلات افراطی است. برنامه هر فرد بر اساس آناتومی، سن، کیفیت پوست و هدف واقعی او تنظیم می‌شود.
+> برنامه جوان‌سازی می‌تواند بر کیفیت پوست، خطوط پویا یا ثابت، تغییر حجم و افتادگی تمرکز کند. اولویت الویتا حفظ تناسب چهره، انتخاب مرحله‌ای درمان و پرهیز از مداخلات افراطی است. برنامه هر فرد بر اساس آناتومی، سن، کیفیت پوست و هدف واقعی او تنظیم می‌شود.
 
 **CTA:** درخواست ارزیابی جوان‌سازی
 
@@ -702,7 +704,7 @@ Pillars:
 **Page title:** بوتاکس با رویکرد طبیعی  
 **Heading:** کاهش خطوط، بدون حذف کامل بیان چهره
 
-> بوتاکس در افراد مناسب می‌تواند فعالیت انتخابی برخی عضلات و خطوط ناشی از حرکت را کاهش دهد. مقدار، نقاط تزریق و تناسب آن با آناتومی هر فرد اهمیت دارد. هدف الورا نتیجه‌ای متعادل است، نه چهره‌ای بی‌حالت یا یکسان.
+> بوتاکس در افراد مناسب می‌تواند فعالیت انتخابی برخی عضلات و خطوط ناشی از حرکت را کاهش دهد. مقدار، نقاط تزریق و تناسب آن با آناتومی هر فرد اهمیت دارد. هدف الویتا نتیجه‌ای متعادل است، نه چهره‌ای بی‌حالت یا یکسان.
 
 **CTA:** ارزیابی تخصصی بوتاکس
 
@@ -711,7 +713,7 @@ Pillars:
 **Page title:** فیلر و بازگرداندن متعادل حجم  
 **Heading:** تناسب مهم‌تر از حجم بیشتر است
 
-> فیلر می‌تواند در افراد مناسب برای اصلاح محدود حجم یا تعادل برخی نواحی استفاده شود. انتخاب ماده، مقدار تزریق، آناتومی، ایمنی و امکان مدیریت عوارض باید پیش از درمان بررسی شوند. الورا از تزریق بیش از حد و تغییر افراطی چهره پرهیز می‌کند.
+> فیلر می‌تواند در افراد مناسب برای اصلاح محدود حجم یا تعادل برخی نواحی استفاده شود. انتخاب ماده، مقدار تزریق، آناتومی، ایمنی و امکان مدیریت عوارض باید پیش از درمان بررسی شوند. الویتا از تزریق بیش از حد و تغییر افراطی چهره پرهیز می‌کند.
 
 **CTA:** ارزیابی تناسب چهره
 
@@ -747,7 +749,7 @@ Pillars:
 **Page title:** درمان‌های مبتنی بر اگزوزوم  
 **Heading:** فاصله علم تا تبلیغ را شفاف می‌کنیم
 
-> اگزوزوم‌ها در پژوهش‌های پزشکی و زیستی مورد توجه‌اند، اما نوع فرآورده، منبع، خلوص، شرایط نگهداری، روش مصرف، شواهد مربوط به هر کاربرد و وضعیت مجوز اهمیت اساسی دارند. در الورا هیچ فرآورده‌ای صرفاً به دلیل محبوبیت تبلیغاتی پیشنهاد نمی‌شود. ارائه هر خدمت مرتبط منوط به ارزیابی پزشکی، امکان ردیابی محصول، ایمنی، شواهد و مجوزهای لازم است.
+> اگزوزوم‌ها در پژوهش‌های پزشکی و زیستی مورد توجه‌اند، اما نوع فرآورده، منبع، خلوص، شرایط نگهداری، روش مصرف، شواهد مربوط به هر کاربرد و وضعیت مجوز اهمیت اساسی دارند. در الویتا هیچ فرآورده‌ای صرفاً به دلیل محبوبیت تبلیغاتی پیشنهاد نمی‌شود. ارائه هر خدمت مرتبط منوط به ارزیابی پزشکی، امکان ردیابی محصول، ایمنی، شواهد و مجوزهای لازم است.
 
 **CTA:** دریافت ارزیابی و توضیح علمی
 
@@ -756,7 +758,7 @@ Pillars:
 **Page title:** رویکردها و فرآورده‌های سلولی  
 **Heading:** درمان سلولی فقط در محدوده علمی و قانونی قابل دفاع
 
-> اصطلاح «سل‌تراپی» طیف گسترده‌ای از روش‌ها و فرآورده‌ها را دربر می‌گیرد و نباید به‌صورت یک عنوان تبلیغاتی واحد استفاده شود. هر کاربرد باید از نظر منبع سلول، فرآوری، کنترل کیفیت، شواهد، اندیکاسیون، مجوز و نظارت پزشکی بررسی شود. ELORA فقط خدماتی را معرفی یا ارائه می‌کند که در زمان ارائه، الزامات علمی و قانونی آن‌ها احراز شده باشند.
+> اصطلاح «سل‌تراپی» طیف گسترده‌ای از روش‌ها و فرآورده‌ها را دربر می‌گیرد و نباید به‌صورت یک عنوان تبلیغاتی واحد استفاده شود. هر کاربرد باید از نظر منبع سلول، فرآوری، کنترل کیفیت، شواهد، اندیکاسیون، مجوز و نظارت پزشکی بررسی شود. ELVITHA فقط خدماتی را معرفی یا ارائه می‌کند که در زمان ارائه، الزامات علمی و قانونی آن‌ها احراز شده باشند.
 
 **CTA:** درخواست مشاوره تخصصی
 
@@ -766,7 +768,7 @@ Pillars:
 
 ### Page title
 
-**مسیر مراجعه و مراقبت در الورا**
+**مسیر مراجعه و مراقبت در الویتا**
 
 ### Intro
 
@@ -849,7 +851,7 @@ The journal is a trust and education platform, not a disguised sales channel. Ar
 
 ### آیا نتیجه درمان تضمین می‌شود؟
 
-> خیر. پاسخ بدن افراد، نوع مشکل، سبک زندگی و پایبندی به مراقبت‌ها متفاوت است. الورا می‌تواند درباره هدف، احتمال بهبود، محدودیت‌ها و روش سنجش نتیجه شفاف باشد، اما نتیجه پزشکی را قطعی معرفی نمی‌کند.
+> خیر. پاسخ بدن افراد، نوع مشکل، سبک زندگی و پایبندی به مراقبت‌ها متفاوت است. الویتا می‌تواند درباره هدف، احتمال بهبود، محدودیت‌ها و روش سنجش نتیجه شفاف باشد، اما نتیجه پزشکی را قطعی معرفی نمی‌کند.
 
 ### آیا درمان‌های نوین برای همه مناسب‌اند؟
 
@@ -867,7 +869,7 @@ The journal is a trust and education platform, not a disguised sales channel. Ar
 
 > درمان نامناسب پیشنهاد یا انجام نمی‌شود. ممکن است مراقبت ساده‌تر، بررسی پزشکی بیشتر، ارجاع یا حتی عدم مداخله بهترین تصمیم باشد.
 
-### آیا خدمات ELORA برای آقایان هم ارائه می‌شود؟
+### آیا خدمات ELVITHA برای آقایان هم ارائه می‌شود؟
 
 > بله. ارزیابی و برنامه‌های پوست، مو و جوان‌سازی برای آقایان نیز با توجه به نیاز، سبک زندگی و حفظ حریم خصوصی ارائه می‌شوند.
 
@@ -896,11 +898,11 @@ The journal is a trust and education platform, not a disguised sales channel. Ar
 - مدت درگیری با مشکل
 - درمان‌های قبلی، در صورت تمایل
 - روش ترجیحی تماس
-- رضایت برای تماس تیم ELORA
+- رضایت برای تماس تیم ELVITHA
 
 ### Privacy note
 
-> اطلاعات این فرم فقط برای پاسخ‌گویی و هماهنگی خدمات ELORA استفاده می‌شود و بدون مبنای قانونی یا رضایت شما در اختیار اشخاص غیرمرتبط قرار نمی‌گیرد.
+> اطلاعات این فرم فقط برای پاسخ‌گویی و هماهنگی خدمات ELVITHA استفاده می‌شود و بدون مبنای قانونی یا رضایت شما در اختیار اشخاص غیرمرتبط قرار نمی‌گیرد.
 
 ### Contact details placeholder
 
@@ -921,7 +923,7 @@ Each clinician profile should contain only verifiable information:
 - relevant specialty or licensed scope;
 - medical council or professional identifier where appropriate;
 - education and credible training;
-- role at ELORA;
+- role at ELVITHA;
 - care philosophy;
 - conflicts of interest or commercial relationships where relevant.
 
@@ -946,7 +948,7 @@ Testimonials should reflect genuine experiences and must not be edited into medi
 
 **Heading:** حریم خصوصی، بخشی از کیفیت مراقبت است
 
-> گفت‌وگوهای مشاوره، اطلاعات پزشکی، تصاویر و تصمیم‌های درمانی شما محرمانه‌اند. ELORA باید دسترسی به این اطلاعات را محدود، هدف استفاده را شفاف و رضایت شما را برای هر استفاده خارج از مراقبت مستقیم دریافت کند.
+> گفت‌وگوهای مشاوره، اطلاعات پزشکی، تصاویر و تصمیم‌های درمانی شما محرمانه‌اند. ELVITHA باید دسترسی به این اطلاعات را محدود، هدف استفاده را شفاف و رضایت شما را برای هر استفاده خارج از مراقبت مستقیم دریافت کند.
 
 ---
 
@@ -980,7 +982,7 @@ Before publishing any page, article, claim, service, or campaign, ask:
 1. آیا علمی و قابل دفاع است؟
 2. آیا به نفع واقعی مراجعه‌کننده است؟
 3. آیا اعتماد ایجاد می‌کند یا فقط هیجان کوتاه‌مدت؟
-4. آیا الورا را از یک کلینیک معمولی متمایز می‌کند؟
+4. آیا الویتا را از یک کلینیک معمولی متمایز می‌کند؟
 5. آیا با چشم‌انداز یک برند معتبر و قابل توسعه همخوان است؟
 
 ### New-service publication filter
@@ -1026,7 +1028,7 @@ The following items are not yet final and must remain placeholders until verifie
 
 ## 23. Final Generation Brief
 
-Generate a Persian-first website for **مرکز تخصصی پوست، مو، زیبایی و جوان‌سازی الورا** in Tehran. The website must establish ELORA as a premium, science-led, patient-centered brand focused on diagnosis before treatment, personalized care, natural outcomes, privacy, responsible innovation, and follow-up.
+Generate a Persian-first website for **مرکز تخصصی پوست، مو، زیبایی و جوان‌سازی الویتا** in Tehran. The website must establish ELVITHA as a premium, science-led, patient-centered brand focused on diagnosis before treatment, personalized care, natural outcomes, privacy, responsible innovation, and follow-up.
 
 The primary audience is affluent, detail-conscious women in Tehran—especially Pasdaran, Dolat, and nearby districts—with dedicated communication for teenage acne and hair/scalp concerns, women aged 25–40 seeking natural beauty and prevention, and adults aged 45+ seeking respectful, identity-preserving rejuvenation. Men are an important secondary audience.
 

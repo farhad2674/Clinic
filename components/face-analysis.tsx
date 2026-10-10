@@ -2,7 +2,7 @@
 import {useEffect, useRef} from 'react';
 import {portraitLandmarks} from '@/lib/portrait-landmarks';
 
-/** Authored visual annotations on a fictional portrait; no diagnostic inference. */
+/** Authored landmarks explain the assessment topics; they are not measured findings. */
 export function FaceAnalysis(){
   const ref=useRef<HTMLDivElement>(null);
   useEffect(()=>{
@@ -41,7 +41,7 @@ export function FaceAnalysis(){
     return()=>{video.removeEventListener('timeupdate',update);video.removeEventListener('seeked',update);window.removeEventListener('elora-motion',update);observer.disconnect()};
   },[]);
   return <div ref={ref} className="face-analysis" data-phase="0" data-report="false" aria-hidden="true">
-    <div className="face-analysis-heading"><span className="analysis-light"/>مطالعهٔ چهره</div>
+    <div className="face-analysis-heading"><span className="face-heading-icon"><i/><i/><i/><i/></span><div><span>نقشهٔ تناسب</span><small>جزئیات، در کنار هم</small></div><span className="analysis-light"/></div>
     <div className="face-mesh" aria-hidden="true">
       <svg viewBox="0 0 420 520" preserveAspectRatio="none" fill="none">
         <path className="mesh-outline" d="M210 32C125 32 76 115 68 230C60 355 118 457 210 489C302 457 360 355 352 230C344 115 295 32 210 32Z"/>
@@ -53,19 +53,21 @@ export function FaceAnalysis(){
     </div>
     <div className="face-scan"/><svg className="face-map" viewBox="0 0 1080 1440" preserveAspectRatio="xMidYMid meet" fill="none">
       {portraitLandmarks[0].map(([x,y],i)=><g key={i} data-face-marker={i} className="face-marker"><path d={`M ${x} ${y} L ${i===1?302:794} ${[500,852,1000][i]} L ${i===1?212:864} ${[500,852,1000][i]}`}/><circle cx={x} cy={y} r="5"/><circle className="marker-halo" cx={x} cy={y} r="15"/></g>)}
-      <foreignObject x="786" y="389" width="270" height="110" className="face-callout callout-cheek"><div><span>۰۱ / گونه</span><small>حجم و انحنای چهره</small></div></foreignObject>
-      <foreignObject x="38" y="741" width="270" height="110" className="face-callout callout-lip"><div><span>۰۲ / لب</span><small>فرم و تناسب</small></div></foreignObject>
-      <foreignObject x="786" y="889" width="270" height="110" className="face-callout callout-jaw"><div><span>۰۳ / خط فک</span><small>پیوستگی نیمرخ</small></div></foreignObject>
     </svg>
-    <div className="face-mobile-status">
-      <span data-status-phase="0">۰۱ / فرم گونه</span>
-      <span data-status-phase="1">۰۲ / فرم لب</span>
-      <span data-status-phase="2">۰۳ / خط فک</span>
+    <div className="face-focus-card">
+      <div className="face-focus-kicker"><span>در کانون توجه</span><span className="face-focus-count" dir="ltr"><b data-status-phase="0">01</b><b data-status-phase="1">02</b><b data-status-phase="2">03</b><span> / 03</span></span></div>
+      <div className="face-focus-topic" data-status-phase="0"><strong>گونه</strong><span>حجم و انحنای چهره</span></div>
+      <div className="face-focus-topic" data-status-phase="1"><strong>لب</strong><span>فرم و تناسب</span></div>
+      <div className="face-focus-topic" data-status-phase="2"><strong>خط فک</strong><span>پیوستگی نیمرخ</span></div>
+      <div className="face-analysis-progress"><i/></div>
     </div>
-    <div className="face-analysis-footer"><span>بررسی فرم و تناسب</span><div className="face-analysis-progress"><i/></div><small>نمایش مفهومی تحلیل چهره</small></div>
     <div className="face-report" dir="rtl">
-      <div className="face-report-heading"><span>نمایش مفهومی چهره</span></div>
-      <p>این تصویر نتیجهٔ ارزیابی پزشکی نیست.</p>
+      <div className="face-report-heading"><span>محورهای بررسی چهره</span><span className="face-report-mark">۰۳</span></div>
+      <dl className="face-report-grid">
+        <div><dt>پوست</dt><dd>بافت، یکنواختی و خطوط</dd></div>
+        <div><dt>فرم چهره</dt><dd>تناسب گونه، لب و خط فک</dd></div>
+        <div><dt>قدم بعد</dt><dd>مرور سابقه و انتظار شما</dd></div>
+      </dl>
     </div>
   </div>;
 }

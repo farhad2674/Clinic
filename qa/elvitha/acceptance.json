@@ -1,0 +1,223 @@
+{
+  "base": "http://127.0.0.1:3003",
+  "checks": [
+    {
+      "name": "All 52 pages: 200, one H1, ELVITHA metadata, index/follow, no old brand or review badges",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "Unique page titles",
+      "pass": true
+    },
+    {
+      "name": "All 30 referenced images/posters resolve",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "robots.txt permits crawling",
+      "pass": true
+    },
+    {
+      "name": "XML sitemap includes every valid route",
+      "pass": true,
+      "details": {
+        "status": 200
+      }
+    },
+    {
+      "name": "Missing article stays a 404",
+      "pass": true
+    },
+    {
+      "name": "23 articles have 23 distinct new covers",
+      "pass": true,
+      "details": [
+        "/media/journal-elvitha/regenerative-medicine.webp",
+        "/media/journal-elvitha/cell-therapy-stem-cells.webp",
+        "/media/journal-elvitha/prp-skin-evidence.webp",
+        "/media/journal-elvitha/mesogel-skin-quality.webp",
+        "/media/journal-elvitha/novel-cellular-methods.webp",
+        "/media/journal-elvitha/vitiligo-cell-therapy.webp",
+        "/media/journal-elvitha/psoriasis-cell-therapy.webp",
+        "/media/journal-elvitha/lichen-planus-cell-therapy.webp",
+        "/media/journal-elvitha/autoimmunity-after-covid.webp",
+        "/media/journal-elvitha/exosomes-vs-stem-cells.webp",
+        "/media/journal-elvitha/prp-vs-prf.webp",
+        "/media/journal-elvitha/exosomes-evidence.webp",
+        "/media/journal-elvitha/acne-marks-vs-scars.webp",
+        "/media/journal-elvitha/teen-acne.webp",
+        "/media/journal-elvitha/consultation-preparation.webp",
+        "/media/journal-elvitha/everyday-skin-care.webp",
+        "/media/journal-elvitha/prp-for-hair-loss.webp",
+        "/media/journal-elvitha/natural-rejuvenation.webp",
+        "/media/journal-elvitha/different-treatment-results.webp",
+        "/media/journal-elvitha/questions-before-fillers.webp",
+        "/media/journal-elvitha/before-after-photos.webp",
+        "/media/journal-elvitha/skin-after-45.webp",
+        "/media/journal-elvitha/elvitha-natural-beauty.webp"
+      ]
+    },
+    {
+      "name": "No overflow 1440 /",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 1440 /journal",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 1440 /journal/regenerative-medicine",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 1440 /journal/elvitha-natural-beauty",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 1440 /services",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 1440 /about",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 1440 /care",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 390 /",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 390 /journal",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 390 /journal/regenerative-medicine",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 390 /journal/elvitha-natural-beauty",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 390 /services",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 390 /about",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 390 /care",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 360 /",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 360 /journal",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 360 /journal/regenerative-medicine",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 360 /journal/elvitha-natural-beauty",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 360 /services",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 360 /about",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "No overflow 360 /care",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "name": "References compact by default",
+      "pass": true
+    },
+    {
+      "name": "Citation scroll reaches the source",
+      "pass": true
+    },
+    {
+      "name": "Citation fragment reveals collapsed reference",
+      "pass": true
+    },
+    {
+      "name": "Reference box can close",
+      "pass": true
+    },
+    {
+      "name": "Portrait still scrubs forward/back and stays paused",
+      "pass": true,
+      "details": {
+        "forward": 6.64,
+        "reverse": 1.6,
+        "idle": 1.6
+      }
+    },
+    {
+      "name": "Logo intro visible while opening imagery loads",
+      "pass": true
+    },
+    {
+      "name": "Intro releases after opening images decode",
+      "pass": true
+    },
+    {
+      "name": "Failed opening asset cannot trap visitor",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion preserves readable static page",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript: article visible, logo overlay hidden",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript: references expand",
+      "pass": true
+    },
+    {
+      "name": "No browser runtime errors",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": []
+}

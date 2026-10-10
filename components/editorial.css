@@ -100,3 +100,21 @@
 .inner-main .article-prose{max-width:76ch}
 .inner-main .section-citations,.inner-main .section-citations a{font-size:.875rem}
 @media(max-width:767px){.inner-main .source-list a,.inner-main .source-list p{font-size:.9375rem}.context-reading{display:grid;gap:12px}.source-heading{gap:12px}.inner-main .prose p{line-height:2.05}}
+/* Compact, expandable references retain the original source links. */
+.inner-main details.source-list{margin-top:32px;padding:0;border:1px solid var(--stone);border-radius:16px;background:var(--white)}
+.source-list>summary{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:17px 20px;font-size:15px;cursor:pointer;list-style:none}
+.source-list>summary::-webkit-details-marker{display:none}
+.source-list>summary:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.source-count{display:flex;gap:14px;color:var(--muted);font-size:13px;white-space:nowrap}
+.source-count span{display:inline-block;transition:transform .2s}
+.source-list[open] .source-count span{transform:rotate(45deg)}
+.inner-main details.source-list ol{margin:0 20px 16px;padding-inline-start:22px}
+.inner-main details.source-list li{position:relative;margin:0;padding:8px 0;border-bottom:1px solid var(--stone);font-size:13px;line-height:1.75}
+.inner-main details.source-list li:last-child{padding-bottom:0}
+.inner-main details.source-list a{font-size:13px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration-thickness:1px}
+.source-year{font-size:12px;color:var(--muted)}
+.inner-main .section-citations{align-items:center;gap:6px;margin-block:10px 0;font-size:12px}
+.inner-main .section-citations a{padding:0;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;font-size:12px;text-decoration:none}
+@media(prefers-reduced-motion:reduce){.source-count span{transition:none}}
+.source-list>summary>span{font-family:inherit;font-size:15px;font-weight:400;transform:none!important}
+.source-list>summary>.source-count{font-size:13px}

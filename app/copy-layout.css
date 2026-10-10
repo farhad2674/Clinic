@@ -95,14 +95,15 @@
  .motion-ready:not(.reduced-motion) .home .journey{height:250svh}
  .motion-ready:not(.reduced-motion) .home .understanding{height:200svh}
  .motion-ready:not(.reduced-motion) .home .perspective{height:240svh}
- .motion-ready:not(.reduced-motion) #journey + #journal{margin-top:0}
+ .motion-ready:not(.reduced-motion) #journey + .cover-chapter{margin-top:0}
 }
 @media(max-width:767px){
  .home .chapter-nav{display:none}
  .home .philosophy .editorial-image{height:280px}
  .home .philosophy-story{grid-row:1}
  .home .philosophy-story h2,.home .life-title h2,.home .journal h2,.home .home-faq h2{font-size:30px}
- .home .care-image,.motion-ready:not(.reduced-motion) .home .care-image{height:260px;min-height:0}
+ /* Keep both scarf portraits and their service-specific objects visible on mobile. */
+ .home .care-image,.motion-ready:not(.reduced-motion) .home .care-image{height:auto;aspect-ratio:1;min-height:0}
  .home .journey-slide-copy p,.home .journey-more{font-size:.875rem;line-height:1.9}
  .home .hero-actions .text-link{font-size:.875rem}
  .home .observation-steps h3{font-size:17px}
@@ -177,3 +178,10 @@
 .care-checklist>p{font-size:1rem;line-height:2;color:var(--muted);margin-block:12px 24px}
 .care-reading{align-content:start}
 .care-reading>a.care-back{background:transparent;border:0;font-size:.875rem;padding-inline-start:0;line-height:1.9}
+
+/* Restored closing chapters follow the current concise ELVITHA copy. */
+.home .care-pause h2{font-size:clamp(34px,5.5vw,80px)}
+.home .care-pause-inner>p{max-width:660px;margin-inline:auto}
+.home .trust-head{font-size:clamp(32px,4.2vw,60px)}
+.home .trust-intro{justify-content:center}
+.home .trust-intro p{max-width:760px;text-align:center}

@@ -1,0 +1,549 @@
+{
+  "base": "http://127.0.0.1:3014",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Homepage prp at 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/prp.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/prp-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری شامپاینی به شکل تل، کنار شیشه شامپاینی و برگه‌های روشن",
+        "width": 306.796875,
+        "height": 370,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/prp-800.webp 800w, /media/services-elvitha/prp.webp 1254w"
+      }
+    },
+    {
+      "name": "Homepage mesogel at 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/mesogel.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/mesogel-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری صورتی به شکل تل، کنار ژل شفاف روی شیشه مات و پارچه روشن",
+        "width": 306.796875,
+        "height": 370,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/mesogel-800.webp 800w, /media/services-elvitha/mesogel.webp 1254w"
+      }
+    },
+    {
+      "name": "Homepage cell-based at 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/cell-based.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/cell-based-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری سنگی به شکل تل، کنار سه فرم سرامیکی روشن و پس‌زمینه صورتی",
+        "width": 306.796875,
+        "height": 370,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/cell-based-800.webp 800w, /media/services-elvitha/cell-based.webp 1254w"
+      }
+    },
+    {
+      "name": "Homepage regenerative at 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/regenerative.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/regenerative-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری عاجی به شکل تل، کنار سازه کاغذی مشبک روی سنگ روشن",
+        "width": 306.796875,
+        "height": 370,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/regenerative-800.webp 800w, /media/services-elvitha/regenerative.webp 1254w"
+      }
+    },
+    {
+      "name": "Homepage no overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Service prp at 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/prp.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/prp-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری شامپاینی به شکل تل، کنار شیشه شامپاینی و برگه‌های روشن",
+        "width": 475.1875,
+        "height": 593.984375,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/prp-800.webp 800w, /media/services-elvitha/prp.webp 1254w"
+      }
+    },
+    {
+      "name": "Service no overflow prp 1440",
+      "pass": true
+    },
+    {
+      "name": "Service mesogel at 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/mesogel.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/mesogel-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری صورتی به شکل تل، کنار ژل شفاف روی شیشه مات و پارچه روشن",
+        "width": 475.1875,
+        "height": 593.984375,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/mesogel-800.webp 800w, /media/services-elvitha/mesogel.webp 1254w"
+      }
+    },
+    {
+      "name": "Service no overflow mesogel 1440",
+      "pass": true
+    },
+    {
+      "name": "Service cell-based at 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/cell-based.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/cell-based-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری سنگی به شکل تل، کنار سه فرم سرامیکی روشن و پس‌زمینه صورتی",
+        "width": 475.1875,
+        "height": 593.984375,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/cell-based-800.webp 800w, /media/services-elvitha/cell-based.webp 1254w"
+      }
+    },
+    {
+      "name": "Service no overflow cell-based 1440",
+      "pass": true
+    },
+    {
+      "name": "Service regenerative at 1440",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/regenerative.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/regenerative-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری عاجی به شکل تل، کنار سازه کاغذی مشبک روی سنگ روشن",
+        "width": 475.1875,
+        "height": 593.984375,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/regenerative-800.webp 800w, /media/services-elvitha/regenerative.webp 1254w"
+      }
+    },
+    {
+      "name": "Service no overflow regenerative 1440",
+      "pass": true
+    },
+    {
+      "name": "Homepage prp at 390",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/prp.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/prp-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری شامپاینی به شکل تل، کنار شیشه شامپاینی و برگه‌های روشن",
+        "width": 340,
+        "height": 260,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/prp-800.webp 800w, /media/services-elvitha/prp.webp 1254w"
+      }
+    },
+    {
+      "name": "Homepage mesogel at 390",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/mesogel.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/mesogel-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری صورتی به شکل تل، کنار ژل شفاف روی شیشه مات و پارچه روشن",
+        "width": 340,
+        "height": 260,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/mesogel-800.webp 800w, /media/services-elvitha/mesogel.webp 1254w"
+      }
+    },
+    {
+      "name": "Homepage cell-based at 390",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/cell-based.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/cell-based-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری سنگی به شکل تل، کنار سه فرم سرامیکی روشن و پس‌زمینه صورتی",
+        "width": 340,
+        "height": 260,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/cell-based-800.webp 800w, /media/services-elvitha/cell-based.webp 1254w"
+      }
+    },
+    {
+      "name": "Homepage regenerative at 390",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/regenerative.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/regenerative-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری عاجی به شکل تل، کنار سازه کاغذی مشبک روی سنگ روشن",
+        "width": 340,
+        "height": 260,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/regenerative-800.webp 800w, /media/services-elvitha/regenerative.webp 1254w"
+      }
+    },
+    {
+      "name": "Homepage no overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Service prp at 390",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/prp.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/prp-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری شامپاینی به شکل تل، کنار شیشه شامپاینی و برگه‌های روشن",
+        "width": 342,
+        "height": 342,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/prp-800.webp 800w, /media/services-elvitha/prp.webp 1254w"
+      }
+    },
+    {
+      "name": "Service no overflow prp 390",
+      "pass": true
+    },
+    {
+      "name": "Service mesogel at 390",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/mesogel.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/mesogel-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری صورتی به شکل تل، کنار ژل شفاف روی شیشه مات و پارچه روشن",
+        "width": 342,
+        "height": 342,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/mesogel-800.webp 800w, /media/services-elvitha/mesogel.webp 1254w"
+      }
+    },
+    {
+      "name": "Service no overflow mesogel 390",
+      "pass": true
+    },
+    {
+      "name": "Service cell-based at 390",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/cell-based.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/cell-based-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری سنگی به شکل تل، کنار سه فرم سرامیکی روشن و پس‌زمینه صورتی",
+        "width": 342,
+        "height": 342,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/cell-based-800.webp 800w, /media/services-elvitha/cell-based.webp 1254w"
+      }
+    },
+    {
+      "name": "Service no overflow cell-based 390",
+      "pass": true
+    },
+    {
+      "name": "Service regenerative at 390",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/regenerative.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/regenerative-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری عاجی به شکل تل، کنار سازه کاغذی مشبک روی سنگ روشن",
+        "width": 342,
+        "height": 342,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/regenerative-800.webp 800w, /media/services-elvitha/regenerative.webp 1254w"
+      }
+    },
+    {
+      "name": "Service no overflow regenerative 390",
+      "pass": true
+    },
+    {
+      "name": "Homepage prp at 360",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/prp.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/prp-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری شامپاینی به شکل تل، کنار شیشه شامپاینی و برگه‌های روشن",
+        "width": 310,
+        "height": 260,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/prp-800.webp 800w, /media/services-elvitha/prp.webp 1254w"
+      }
+    },
+    {
+      "name": "Homepage mesogel at 360",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/mesogel.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/mesogel-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری صورتی به شکل تل، کنار ژل شفاف روی شیشه مات و پارچه روشن",
+        "width": 310,
+        "height": 260,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/mesogel-800.webp 800w, /media/services-elvitha/mesogel.webp 1254w"
+      }
+    },
+    {
+      "name": "Homepage cell-based at 360",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/cell-based.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/cell-based-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری سنگی به شکل تل، کنار سه فرم سرامیکی روشن و پس‌زمینه صورتی",
+        "width": 310,
+        "height": 260,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/cell-based-800.webp 800w, /media/services-elvitha/cell-based.webp 1254w"
+      }
+    },
+    {
+      "name": "Homepage regenerative at 360",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/regenerative.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/regenerative-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری عاجی به شکل تل، کنار سازه کاغذی مشبک روی سنگ روشن",
+        "width": 310,
+        "height": 260,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/regenerative-800.webp 800w, /media/services-elvitha/regenerative.webp 1254w"
+      }
+    },
+    {
+      "name": "Homepage no overflow 360",
+      "pass": true
+    },
+    {
+      "name": "Service prp at 360",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/prp.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/prp-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری شامپاینی به شکل تل، کنار شیشه شامپاینی و برگه‌های روشن",
+        "width": 312,
+        "height": 312,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/prp-800.webp 800w, /media/services-elvitha/prp.webp 1254w"
+      }
+    },
+    {
+      "name": "Service no overflow prp 360",
+      "pass": true
+    },
+    {
+      "name": "Service mesogel at 360",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/mesogel.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/mesogel-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری صورتی به شکل تل، کنار ژل شفاف روی شیشه مات و پارچه روشن",
+        "width": 312,
+        "height": 312,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/mesogel-800.webp 800w, /media/services-elvitha/mesogel.webp 1254w"
+      }
+    },
+    {
+      "name": "Service no overflow mesogel 360",
+      "pass": true
+    },
+    {
+      "name": "Service cell-based at 360",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/cell-based.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/cell-based-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری سنگی به شکل تل، کنار سه فرم سرامیکی روشن و پس‌زمینه صورتی",
+        "width": 312,
+        "height": 312,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/cell-based-800.webp 800w, /media/services-elvitha/cell-based.webp 1254w"
+      }
+    },
+    {
+      "name": "Service no overflow cell-based 360",
+      "pass": true
+    },
+    {
+      "name": "Service regenerative at 360",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/regenerative.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/regenerative-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری عاجی به شکل تل، کنار سازه کاغذی مشبک روی سنگ روشن",
+        "width": 312,
+        "height": 312,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/regenerative-800.webp 800w, /media/services-elvitha/regenerative.webp 1254w"
+      }
+    },
+    {
+      "name": "Service no overflow regenerative 360",
+      "pass": true
+    },
+    {
+      "name": "PRP journal cover retained",
+      "pass": true
+    },
+    {
+      "name": "Other service artwork retained",
+      "pass": true
+    },
+    {
+      "name": "Animated card prp",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/prp.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/prp-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری شامپاینی به شکل تل، کنار شیشه شامپاینی و برگه‌های روشن",
+        "width": 542.03125,
+        "height": 480,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/prp-800.webp 800w, /media/services-elvitha/prp.webp 1254w"
+      }
+    },
+    {
+      "name": "Animated card mesogel",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/mesogel.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/mesogel-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری صورتی به شکل تل، کنار ژل شفاف روی شیشه مات و پارچه روشن",
+        "width": 542.03125,
+        "height": 480,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/mesogel-800.webp 800w, /media/services-elvitha/mesogel.webp 1254w"
+      }
+    },
+    {
+      "name": "Animated card cell-based",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/cell-based.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/cell-based-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری سنگی به شکل تل، کنار سه فرم سرامیکی روشن و پس‌زمینه صورتی",
+        "width": 542.03125,
+        "height": 480,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/cell-based-800.webp 800w, /media/services-elvitha/cell-based.webp 1254w"
+      }
+    },
+    {
+      "name": "Animated card regenerative",
+      "pass": true,
+      "details": {
+        "src": "/media/services-elvitha/regenerative.webp",
+        "currentSrc": "http://127.0.0.1:3014/media/services-elvitha/regenerative-800.webp",
+        "loaded": true,
+        "alt": "پرتره مدل جوان با روسری عاجی به شکل تل، کنار سازه کاغذی مشبک روی سنگ روشن",
+        "width": 542.03125,
+        "height": 480,
+        "position": "50% 0%",
+        "srcset": "/media/services-elvitha/regenerative-800.webp 800w, /media/services-elvitha/regenerative.webp 1254w"
+      }
+    },
+    {
+      "name": "No browser runtime errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "Square mobile frame prp 390",
+      "pass": true,
+      "details": {
+        "width": 340,
+        "height": 340
+      }
+    },
+    {
+      "name": "Square mobile frame mesogel 390",
+      "pass": true,
+      "details": {
+        "width": 340,
+        "height": 340
+      }
+    },
+    {
+      "name": "Square mobile frame cell-based 390",
+      "pass": true,
+      "details": {
+        "width": 340,
+        "height": 340
+      }
+    },
+    {
+      "name": "Square mobile frame regenerative 390",
+      "pass": true,
+      "details": {
+        "width": 340,
+        "height": 340
+      }
+    },
+    {
+      "name": "No mobile overflow after crop adjustment 390",
+      "pass": true
+    },
+    {
+      "name": "Square mobile frame prp 360",
+      "pass": true,
+      "details": {
+        "width": 310,
+        "height": 310
+      }
+    },
+    {
+      "name": "Square mobile frame mesogel 360",
+      "pass": true,
+      "details": {
+        "width": 310,
+        "height": 310
+      }
+    },
+    {
+      "name": "Square mobile frame cell-based 360",
+      "pass": true,
+      "details": {
+        "width": 310,
+        "height": 310
+      }
+    },
+    {
+      "name": "Square mobile frame regenerative 360",
+      "pass": true,
+      "details": {
+        "width": 310,
+        "height": 310
+      }
+    },
+    {
+      "name": "No mobile overflow after crop adjustment 360",
+      "pass": true
+    },
+    {
+      "name": "No browser runtime errors after crop adjustment",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": []
+}

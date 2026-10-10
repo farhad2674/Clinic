@@ -49,7 +49,7 @@ export function Motion(){
       document.documentElement.classList.add('motion-ready');
       context=gsap.context(()=>{
         const desktop=innerWidth>=768;
-        enhanceScenes(desktop);
+        cleanups.push(enhanceScenes(desktop));
         gsap.utils.toArray<HTMLElement>('[data-reveal]').forEach(el=>gsap.fromTo(el,{y:36,opacity:.35},{y:0,opacity:1,ease:'none',scrollTrigger:{trigger:el,start:'top 94%',end:'top 55%',scrub:true}}));
         gsap.utils.toArray<HTMLElement>('[data-parallax] img').forEach(el=>gsap.fromTo(el,{scale:1.08,yPercent:-3},{scale:1,yPercent:3,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:true}}));
         gsap.utils.toArray<HTMLElement>('[data-chapter]').forEach(el=>ScrollTrigger.create({trigger:el,start:'top 50%',end:'bottom 50%',onToggle:self=>{if(self.isActive)updateChapterNav()},onRefresh:updateChapterNav}));

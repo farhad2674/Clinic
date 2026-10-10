@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Rebranded entrance film loads with original duration",
+    "pass": true
+  },
+  {
+    "name": "Rebranded entrance scrubs in both directions and pauses",
+    "pass": true,
+    "forward": 4.953207,
+    "reverse": 1.083664,
+    "idle": 1.083664
+  },
+  {
+    "name": "Video delivery matches existing Worker asset behavior",
+    "pass": true,
+    "newStatus": 200,
+    "baselineStatus": 200,
+    "note": "The existing player downloads a blob before seeking; byte ranges are not required."
+  },
+  {
+    "name": "No runtime errors",
+    "pass": true,
+    "errors": []
+  }
+]
