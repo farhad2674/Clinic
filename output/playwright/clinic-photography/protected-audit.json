@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-10-13T13:27:28.924Z",
+  "checks": [
+    {
+      "name": "Protected file unchanged: public/media/portrait-turn/supplied-portrait.mp4",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: public/media/portrait-turn/supplied-poster.webp",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: public/media/entrance-elvitha.mp4",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: public/media/entrance-elvitha-poster.webp",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: components/face-analysis.tsx",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: lib/portrait-landmarks.ts",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: components/media.tsx",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: components/motion.tsx",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: components/scroll-scene.ts",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: components/deferred-motion.tsx",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: app/face-analysis.css",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: app/motion-scenes.css",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: app/globals.css",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: lib/content.json",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: lib/research-content.json",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: lib/regenerative-service-details.ts",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: lib/regenerative-services.ts",
+      "pass": true
+    },
+    {
+      "name": "Portrait configuration unchanged",
+      "pass": true
+    },
+    {
+      "name": "Entrance film configuration unchanged",
+      "pass": true
+    },
+    {
+      "name": "Entire face-scan section unchanged",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,1275 @@
+{
+  "version": 1,
+  "status": "ready-for-final-review",
+  "expected": 42,
+  "accepted": 42,
+  "tool": "built-in image_gen",
+  "batches": [
+    "docs/clinic-photography/services.json",
+    "docs/clinic-photography/journal-a.json",
+    "docs/clinic-photography/journal-b.json",
+    "docs/clinic-photography/environments.json"
+  ],
+  "plannedJobs": [
+    {
+      "id": "service-prp",
+      "kind": "service",
+      "slug": "prp",
+      "topicSummary": "PRP skin and hair: consultation preparation and realistic expectations, without illustrating a procedure or result.",
+      "concepts": [
+        "Warm environmental portrait beside a consultation notebook, shoulder-length dark waves and natural understated appearance.",
+        "Cool dressing-area hair-preparation portrait: standing three-quarter view, dark hair parted loosely with no density effect, plain cream shirt against slate-blue tile, open-shade window light; one comb on shelf.",
+        "Balanced consultation-room portrait: seated waist-up with closed folder on lap, natural dark waves, muted olive blouse and cream wall with plum chair; calm off-camera listening and neutral daylight."
+      ],
+      "selectionReason": "The warm consultation moment establishes credible hair/skin context while avoiding blood, procedure props and treatment-result imagery.",
+      "scene": {
+        "setting": "contemporary quiet consultation preparation area with cream wall and honey oak ledge",
+        "light": "warm late-afternoon daylight bounced off cream wall, neutral skin highlights",
+        "temperature": "warm",
+        "palette": "65% ivory/stone,25% slate-blue shirt,8% muted terracotta wall detail,2% brass",
+        "framing": "square medium environmental portrait from crown to hip; full head within central crop-safe area",
+        "action": "standing at slight angle, resting one relaxed forearm on oak ledge beside closed notebook",
+        "hair": "dark brown shoulder-length loose waves, imperfect side part",
+        "wardrobe": "slate-blue cotton poplin blouse with rolled cuffs, tailored cream trousers",
+        "expression": "small relaxed closed-mouth smile while looking slightly past camera",
+        "appearance": "27-year-old adult Persian woman, elongated oval face, brown almond eyes, natural medium lips, gently curved prominent nose, softly defined brows; minimal makeup"
+      },
+      "alt": "زن جوان با موهای تیره موج‌دار و بلوز آبی، کنار دفتر آماده‌سازی مشاوره در نور گرم",
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square editorial photograph, ideally at least 1536 x 1536, for ELVITHA clinic's PRP skin/hair consultation page. New fictional individual, not a treatment result. The image must feel like an excellent real professional photograph of a believable young adult Persian woman, attractive polished grooming with natural character, not a fashion campaign.\nScene: contemporary quiet consultation preparation area with cream wall and honey oak ledge. warm late-afternoon daylight bounced off cream wall, neutral skin highlights.\nSubject: 27-year-old adult Persian woman, elongated oval face, brown almond eyes, natural medium lips, gently curved prominent nose, softly defined brows; minimal makeup. Hair: dark brown shoulder-length loose waves, imperfect side part. Wardrobe: slate-blue cotton poplin blouse with rolled cuffs, tailored cream trousers.\nAction and expression: standing at slight angle, resting one relaxed forearm on oak ledge beside closed notebook; small relaxed closed-mouth smile while looking slightly past camera. Only a closed blank cream notebook sits beside her on the ledge, no other decorative props.\nColor: 65% ivory/stone,25% slate-blue shirt,8% muted terracotta wall detail,2% brass; approximate art-direction balance excluding skin and hair. Retain faithful complexion.\nComposition: square medium environmental portrait, full crown to hip visible. Pull camera back enough that entire head and relaxed hand fit within central 72% of image height and central 70% width, with roughly 15% clear headroom; safe for 4:5, 1:1 and 4:3 web crops. Natural 70mm portrait perspective, believable depth not excessive blur.\nFine detail: real skin pores, subtle under-eye transitions, slight facial asymmetry, a few flyaway strands, cotton weave and lightly imperfect folds. Clean professional restrained color grade, natural catchlights, normal human anatomy.\nAvoid: text, labels, logos, watermark, collage, split panels, syringes, medical instruments, blood, white coats, before/after, plastic retouching, oversized lips, forced grin, hand at chin, flowers, headband scarf, travertine plinths, showroom luxury clutter. One single photograph.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/prp.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-mesogel",
+      "kind": "service",
+      "slug": "mesogel",
+      "topicSummary": "Mesogel and skin quality: hydration and informed skincare context, not a depiction of injection efficacy.",
+      "concepts": [
+        "Cool mineral-teal portrait at an ordinary skincare shelf, tied-back hair and softly fuller lips.",
+        "Warm rose-doorway portrait: standing hip-up with closed notes folder, short straight chestnut hair and ivory cotton shirt, warm bounced sunlight and a modest mineral-teal doorway accent.",
+        "Balanced simple-set portrait: seated three-quarter view beside a translucent glass panel, tied-back dark hair and slate-blue linen shirt, gentle diffuse daylight over cream and caramel tones; hands resting naturally on chair arms."
+      ],
+      "selectionReason": "Cool mineral teal and a tied-back profile provide clear contrast with PRP while a small unbranded skincare object relates to skin quality.",
+      "scene": {
+        "setting": "minimal contemporary dressing area with mineral-teal wall, ivory roller blind and pale ceramic shelf",
+        "light": "cool open-window daylight with neutral face illumination, gentle side modeling",
+        "temperature": "cool",
+        "palette": "65% ivory and soft stone,25% mineral teal,8% muted dusty rose blouse,2% small gold earring",
+        "framing": "square seated waist-up three-quarter portrait, full head and both relaxed hands contained, generous crown margin",
+        "action": "seated sideways on a simple pale-wood chair, turning naturally toward camera; hands loose together in lap",
+        "hair": "dark black hair loosely tied into low bun with a few wisps at temples",
+        "wardrobe": "dusty-rose matte woven blouse with structured soft collar and ivory trousers",
+        "expression": "calm attentive look and slightly parted lips, no fashion pout",
+        "appearance": "25-year-old adult Persian woman, round-heart face, deep warm olive skin, full dark brows, dark eyes, softly fuller lips and moderate cheek contour with natural asymmetry; satin everyday makeup"
+      },
+      "alt": "زن جوان با موهای بسته و بلوز رز، کنار قفسه مراقبت پوست و دیوار سبزآبی در نور خنک",
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square editorial photograph, ideally at least 1536 x 1536, for ELVITHA clinic's mesogel and skin-quality page. A new fictional 25-year-old adult Persian woman, entirely distinct from previous portraits; contemporary polished natural style, not a treatment result or fashion campaign.\nScene: minimal contemporary dressing area with mineral-teal wall, ivory roller blind and pale ceramic shelf. Cool open-window daylight with neutral face illumination and gentle side modeling. On the shelf, one simple unbranded ivory moisturizer jar, no labels.\nSubject: round-heart face, deep warm olive skin, full dark brows, dark eyes, softly fuller lips and moderate cheek definition with natural asymmetry; restrained satin everyday makeup. Dark black hair loosely tied into low bun with a few wisps at temples.\nWardrobe: dusty-rose matte woven blouse with soft structured collar and ivory trousers; one modest gold earring.\nAction: seated sideways on a simple pale-wood chair, turning naturally toward camera; both hands rest loosely together in lap, separated fingers where visible, calm attentive expression and slightly parted lips without a pout.\nColor balance for surroundings and clothing: about65% ivory/stone,25% mineral teal,8% dusty rose,2% metallic detail, excluding skin/hair. Preserve warm believable olive skin within cool surroundings.\nComposition: square waist-up three-quarter environmental portrait, full crown and both relaxed hands contained within central 72% image height and70% width, roughly 15% clear headroom, safe for 4:5,1:1 and4:3 crops. 65mm photographic perspective, realistic moderate depth of field.\nNatural pores, slight under-eye texture, flyaway hair and real cloth seams/folds; attractive professional editorial retouching that retains individual character.\nAvoid text, logos, watermark, collage, syringe, medical device, blood, white coat, before/after, fake treatment effect, plastic skin, identical face to other images, excessive lip volume, theatrical posing, scarf headband, floral decor and travertine plinth. One photograph only.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/mesogel.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-acne",
+      "kind": "service",
+      "slug": "acne",
+      "topicSummary": "Acne assessment and care, keeping visible everyday skin texture rather than a flawless outcome.",
+      "concepts": [
+        "washing-area preparation moment: small modern wash area, off-white square ceramic tile and dusty-rose towel; standing comfortably, holding a small folded clean towel at waist with both hands visible, looking quietly toward camera; mid-length environmental portrait; soft diffuse daylight, neutral balanced white; cream65%,sage25%,rose8%,metal2%; sage green fine-knit polo and stone trousers.",
+        "Skin-diary preparation: young adult with hair loosely tied, opening a blank notebook at an oak desk, seated waist-up, cream and plum clothing with olive accent, warm bounced window light.",
+        "Simple neutral portrait set: standing three-quarter view with relaxed arms, soft curls and blue-gray cotton shirt, rose-gray wall, cool diffuse light revealing modest natural skin texture."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "small modern wash area, off-white square ceramic tile and dusty-rose towel",
+        "light": "soft diffuse daylight, neutral balanced white",
+        "temperature": "balanced",
+        "palette": "cream65%,sage25%,rose8%,metal2%",
+        "framing": "mid-length environmental portrait",
+        "action": "standing comfortably, holding a small folded clean towel at waist with both hands visible, looking quietly toward camera",
+        "hair": "short springy dark curls",
+        "wardrobe": "sage green fine-knit polo and stone trousers",
+        "expression": "Calm attentive conversational expression.",
+        "appearance": "a 23-year-old Persian woman with short springy dark curls, softly square face, warm medium skin, deep brown eyes and natural slim-medium lips, tiny ordinary cheek blemishes"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's acne page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Acne assessment and care, keeping visible everyday skin texture rather than a flawless outcome.\nScene/backdrop: small modern wash area, off-white square ceramic tile and dusty-rose towel. Lighting: soft diffuse daylight, neutral balanced white.\nSubject: a 23-year-old Persian woman with short springy dark curls, softly square face, warm medium skin, deep brown eyes and natural slim-medium lips, tiny ordinary cheek blemishes. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: sage green fine-knit polo and stone trousers. Action and posture: standing comfortably, holding a small folded clean towel at waist with both hands visible, looking quietly toward camera.\nComposition: mid-length environmental portrait, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: cream65%,sage25%,rose8%,metal2%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موهای فر کوتاه و بلوز سبز، با حوله‌ای تاخورده کنار کاشی‌های روشن",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/acne.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-acne-scars",
+      "kind": "service",
+      "slug": "acne-scars",
+      "topicSummary": "Distinguish skin texture from discoloration without suggesting removal of scars.",
+      "concepts": [
+        "texture-friendly simple portrait: smoky slate-blue painted wall and softly visible ivory curtain; seated upright with a relaxed shoulder turn, hands low naturally on thighs, slight thoughtful smile; medium close portrait with entire head and upper torso plus clear headroom; cool diffuse side daylight with faithful skin tones; ivory65%,slateblue25%,terracotta8%,metal2%; soft terracotta loose collarless blouse with small warm-silver studs.",
+        "Consultation preparation: seated woman glancing at a closed photo folder in lap, dark shoulder-length waves and ivory blouse, warm oak room with olive chair and plum accent, environmental waist-up framing and soft daylight.",
+        "Quiet mirror-side portrait: standing side angle without a duplicated reflection, cropped mirror edge and pale blue tile, short dark crop and caramel shirt, balanced light, one folded towel low in frame."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "smoky slate-blue painted wall and softly visible ivory curtain",
+        "light": "cool diffuse side daylight with faithful skin tones",
+        "temperature": "cool",
+        "palette": "ivory65%,slateblue25%,terracotta8%,metal2%",
+        "framing": "medium close portrait with entire head and upper torso plus clear headroom",
+        "action": "seated upright with a relaxed shoulder turn, hands low naturally on thighs, slight thoughtful smile",
+        "hair": "a short asymmetrical black pixie cut",
+        "wardrobe": "soft terracotta loose collarless blouse with small warm-silver studs",
+        "expression": "Relaxed small smile as described; no forced grin.",
+        "appearance": "a 26-year-old Persian woman with a short asymmetrical black pixie cut, long face, almond hazel-brown eyes, curved nose, medium olive skin with subtle shallow uneven cheek texture, natural medium lips"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's acne-scars page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Distinguish skin texture from discoloration without suggesting removal of scars.\nScene/backdrop: smoky slate-blue painted wall and softly visible ivory curtain. Lighting: cool diffuse side daylight with faithful skin tones.\nSubject: a 26-year-old Persian woman with a short asymmetrical black pixie cut, long face, almond hazel-brown eyes, curved nose, medium olive skin with subtle shallow uneven cheek texture, natural medium lips. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: soft terracotta loose collarless blouse with small warm-silver studs. Action and posture: seated upright with a relaxed shoulder turn, hands low naturally on thighs, slight thoughtful smile.\nComposition: medium close portrait with entire head and upper torso plus clear headroom, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: ivory65%,slateblue25%,terracotta8%,metal2%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موهای مشکی کوتاه و بلوز سفالی، مقابل دیوار آبی با بافت طبیعی پوست",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/acne-scars.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-pigmentation",
+      "kind": "service",
+      "slug": "pigmentation",
+      "topicSummary": "Uneven skin tone evaluation and everyday sun-protection context, without a fabricated treatment result.",
+      "concepts": [
+        "sun-care window portrait: cream window alcove with simple terracotta linen shade and pale blue ceramic sill; standing at the window with one forearm resting naturally on sill, a plain closed sun-care tube beside her arm, gaze outside frame; waist-up environmental portrait; warm slanting daylight across background, soft bounced neutral light on face; cream65%,terracotta25%,slateblue8%,metal2%; ivory woven collared shirt and pale blue straight-leg trousers.",
+        "Sun-care preparation: seated adult holding a plain sun-care tube low at waist beside a cotton hat, dark low bun and slate-blue shirt, cream room with caramel upholstery, balanced window light and wider environmental framing.",
+        "Quiet studio portrait: full-head three-quarter close portrait preserving natural skin variation, loose chestnut waves and cream woven blouse, muted rose backdrop with mineral-teal chair edge, cool diffuse side light."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "cream window alcove with simple terracotta linen shade and pale blue ceramic sill",
+        "light": "warm slanting daylight across background, soft bounced neutral light on face",
+        "temperature": "warm",
+        "palette": "cream65%,terracotta25%,slateblue8%,metal2%",
+        "framing": "waist-up environmental portrait",
+        "action": "standing at the window with one forearm resting naturally on sill, a plain closed sun-care tube beside her arm, gaze outside frame",
+        "hair": "long chestnut hair loosely tucked behind one ear",
+        "wardrobe": "ivory woven collared shirt and pale blue straight-leg trousers",
+        "expression": "Calm attentive conversational expression.",
+        "appearance": "a 28-year-old Persian woman with long chestnut hair loosely tucked behind one ear, wide cheekbones, oval face, light-medium warm skin with sparse realistic freckles and slight natural variation, brown eyes, defined medium lips"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's pigmentation page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Uneven skin tone evaluation and everyday sun-protection context, without a fabricated treatment result.\nScene/backdrop: cream window alcove with simple terracotta linen shade and pale blue ceramic sill. Lighting: warm slanting daylight across background, soft bounced neutral light on face.\nSubject: a 28-year-old Persian woman with long chestnut hair loosely tucked behind one ear, wide cheekbones, oval face, light-medium warm skin with sparse realistic freckles and slight natural variation, brown eyes, defined medium lips. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: ivory woven collared shirt and pale blue straight-leg trousers. Action and posture: standing at the window with one forearm resting naturally on sill, a plain closed sun-care tube beside her arm, gaze outside frame.\nComposition: waist-up environmental portrait, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: cream65%,terracotta25%,slateblue8%,metal2%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موهای شاه‌بلوطی، کنار پنجره و یک تیوب ساده مراقبت آفتاب",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/pigmentation.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-hair-loss",
+      "kind": "service",
+      "slug": "hair-loss",
+      "topicSummary": "Hair-loss consultation and baseline assessment, not density transformation or miraculous regrowth.",
+      "concepts": [
+        "consultation notebook with visible natural hair part: warm-gray wall and dark oak chair beside a cream window; seated leaning very slightly forward, one hand resting loosely on the closed notebook in lap, the other relaxed on knee, attentive small smile; square medium environmental portrait; soft balanced window light, smooth directional falloff; stone65%,mutedplum25%,olive8%,metal2%; muted plum cotton shirt with cream trousers.",
+        "Dressing-area preparation: standing side portrait beside a narrow mirror edge, ordinary comb held at waist, loose dark bob and olive top, cream wall with plum textile, cool morning light and hair part fully visible.",
+        "Architectural doorway: waist-up candid turn in open shade, dark hair in a low loose braid and blue-gray blouse, cream plaster with caramel door, relaxed arms and balanced daylight."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "warm-gray wall and dark oak chair beside a cream window",
+        "light": "soft balanced window light, smooth directional falloff",
+        "temperature": "balanced",
+        "palette": "stone65%,mutedplum25%,olive8%,metal2%",
+        "framing": "square medium environmental portrait",
+        "action": "seated leaning very slightly forward, one hand resting loosely on the closed notebook in lap, the other relaxed on knee, attentive small smile",
+        "hair": "a straight dark-brown shoulder-length bob, natural central part and realistic hair density",
+        "wardrobe": "muted plum cotton shirt with cream trousers",
+        "expression": "Relaxed small smile as described; no forced grin.",
+        "appearance": "a 31-year-old Persian woman with a straight dark-brown shoulder-length bob, natural central part and realistic hair density, rectangular face, light olive skin, brown eyes and small lips"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's hair-loss page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Hair-loss consultation and baseline assessment, not density transformation or miraculous regrowth.\nScene/backdrop: warm-gray wall and dark oak chair beside a cream window. Lighting: soft balanced window light, smooth directional falloff.\nSubject: a 31-year-old Persian woman with a straight dark-brown shoulder-length bob, natural central part and realistic hair density, rectangular face, light olive skin, brown eyes and small lips. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: muted plum cotton shirt with cream trousers. Action and posture: seated leaning very slightly forward, one hand resting loosely on the closed notebook in lap, the other relaxed on knee, attentive small smile.\nComposition: square medium environmental portrait, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: stone65%,mutedplum25%,olive8%,metal2%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موهای صاف تا شانه و پیراهن بنفش، نشسته با دفتر مشاوره روی پا",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/hair-loss.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-scalp-health",
+      "kind": "service",
+      "slug": "scalp-health",
+      "topicSummary": "Scalp care and product-use discussion, no exaggerated scalp disease.",
+      "concepts": [
+        "ordinary dressing moment with comb: simple pale blue-gray dressing area with a narrow vertical mirror edge and white cotton towel; standing at slight angle and holding a wooden comb loosely at waist, natural relaxed fingers, face turned to camera; waist-up portrait keeping crown curls fully in frame; cool morning window light and neutral skin; ivory65%,bluegray25%,caramel8%,metal2%; caramel lightweight cotton cardigan over ivory crewneck shirt.",
+        "Consultation notes: seated waist-up adult with closed notes folder, curls loosely tied back, dusty-rose shirt and mineral-teal chair, warm cream room, attentive listening with neutral bounced daylight.",
+        "Cool simple-wall profile: three-quarter full-head portrait showing natural part and curls, ivory cotton blouse, blue-gray wall with narrow caramel timber edge, soft side light and hands low on lap."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "simple pale blue-gray dressing area with a narrow vertical mirror edge and white cotton towel",
+        "light": "cool morning window light and neutral skin",
+        "temperature": "cool",
+        "palette": "ivory65%,bluegray25%,caramel8%,metal2%",
+        "framing": "waist-up portrait keeping crown curls fully in frame",
+        "action": "standing at slight angle and holding a wooden comb loosely at waist, natural relaxed fingers, face turned to camera",
+        "hair": "thick dark tight curls loosely gathered high, visible natural temple hairs",
+        "wardrobe": "caramel lightweight cotton cardigan over ivory crewneck shirt",
+        "expression": "Calm attentive conversational expression.",
+        "appearance": "a 24-year-old Persian woman with thick dark tight curls loosely gathered high, visible natural temple hairs, rounded face, warm deep-medium skin, wide brown eyes, natural full lower lip"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's scalp-health page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Scalp care and product-use discussion, no exaggerated scalp disease.\nScene/backdrop: simple pale blue-gray dressing area with a narrow vertical mirror edge and white cotton towel. Lighting: cool morning window light and neutral skin.\nSubject: a 24-year-old Persian woman with thick dark tight curls loosely gathered high, visible natural temple hairs, rounded face, warm deep-medium skin, wide brown eyes, natural full lower lip. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: caramel lightweight cotton cardigan over ivory crewneck shirt. Action and posture: standing at slight angle and holding a wooden comb loosely at waist, natural relaxed fingers, face turned to camera.\nComposition: waist-up portrait keeping crown curls fully in frame, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: ivory65%,bluegray25%,caramel8%,metal2%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موهای فر جمع‌شده و ژاکت کاراملی، با شانه چوبی در فضای آبی‌خاکستری",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/scalp-health.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-natural-rejuvenation",
+      "kind": "service",
+      "slug": "natural-rejuvenation",
+      "topicSummary": "Identity-preserving preferences and subtle choices; expressive face with no treatment-result claim.",
+      "concepts": [
+        "expressive seated portrait: soft cream and muted olive interior with a simple rose upholstered chair; seated at a natural diagonal, ankles outside crop, hands relaxed on chair arms, spontaneous small smile just beginning; medium portrait from full head to waist; warm bounced daylight with gentle shadows preserving expression lines; cream65%,olive25%,rose8%,metal2%; olive linen shirt-dress with long sleeves and quiet ivory buttons.",
+        "Doorway conversation pause: standing environmental portrait, loose shoulder-length waves and ivory collared shirt, terracotta wall with slate-blue door, balanced open-shade light and a small spontaneous smile.",
+        "Preparation notebook: seated at an oak table with hands resting on closed diary, dark hair in loose knot and muted plum blouse, cream wall with olive textile, cool window light and waist-up composition."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "soft cream and muted olive interior with a simple rose upholstered chair",
+        "light": "warm bounced daylight with gentle shadows preserving expression lines",
+        "temperature": "warm",
+        "palette": "cream65%,olive25%,rose8%,metal2%",
+        "framing": "medium portrait from full head to waist",
+        "action": "seated at a natural diagonal, ankles outside crop, hands relaxed on chair arms, spontaneous small smile just beginning",
+        "hair": "long straight dark hair worn loose behind shoulders",
+        "wardrobe": "olive linen shirt-dress with long sleeves and quiet ivory buttons",
+        "expression": "Relaxed small smile as described; no forced grin.",
+        "appearance": "a 32-year-old Persian woman with long straight dark hair worn loose behind shoulders, softly angular face, warm beige skin, pronounced dark eyebrows, brown eyes, medium lips with slightly fuller lower lip, subtle smile lines"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's natural-rejuvenation page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Identity-preserving preferences and subtle choices; expressive face with no treatment-result claim.\nScene/backdrop: soft cream and muted olive interior with a simple rose upholstered chair. Lighting: warm bounced daylight with gentle shadows preserving expression lines.\nSubject: a 32-year-old Persian woman with long straight dark hair worn loose behind shoulders, softly angular face, warm beige skin, pronounced dark eyebrows, brown eyes, medium lips with slightly fuller lower lip, subtle smile lines. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: olive linen shirt-dress with long sleeves and quiet ivory buttons. Action and posture: seated at a natural diagonal, ankles outside crop, hands relaxed on chair arms, spontaneous small smile just beginning.\nComposition: medium portrait from full head to waist, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: cream65%,olive25%,rose8%,metal2%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موهای بلند تیره و پیراهن زیتونی، روی صندلی رز با لبخندی آرام",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/natural-rejuvenation.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-rejuvenation-45",
+      "kind": "service",
+      "slug": "rejuvenation-45",
+      "topicSummary": "Age-specific care page uses an explicitly contextual young-adult brand portrait per owner choice, not a depiction of a 45+ outcome.",
+      "concepts": [
+        "age-neutral consultation preparation portrait: cream reading room with a blue-gray curtain and modest caramel leather chair; seated comfortably, hands resting over a closed plain notebook in lap, thoughtful listening expression; environmental medium portrait; balanced soft daylight with natural skin white balance; cream65%,bluegray25%,caramel8%,metal2%; cream collared shirt with blue-gray knitted waistcoat and simple small earrings.",
+        "Care-planning doorway portrait: young adult model standing with closed folder at waist, dark bob and cream cardigan, blue-gray door with caramel wall detail, cool soft light and relaxed off-camera gaze; contextual brand casting only.",
+        "Reading-table preparation: seated young adult opening a plain notebook, long dark waves and muted olive shirt, cream study with plum textile, warm bounced daylight and environmental waist-up framing; no outcome claim."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "cream reading room with a blue-gray curtain and modest caramel leather chair",
+        "light": "balanced soft daylight with natural skin white balance",
+        "temperature": "balanced",
+        "palette": "cream65%,bluegray25%,caramel8%,metal2%",
+        "framing": "environmental medium portrait",
+        "action": "seated comfortably, hands resting over a closed plain notebook in lap, thoughtful listening expression",
+        "hair": "dark chestnut hair in a long loose low braid over one shoulder",
+        "wardrobe": "cream collared shirt with blue-gray knitted waistcoat and simple small earrings",
+        "expression": "Calm attentive conversational expression.",
+        "appearance": "a clearly adult 29-year-old Persian woman with dark chestnut hair in a long loose low braid over one shoulder, diamond face, warm olive skin, brown eyes, natural medium lips"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's rejuvenation-45 page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Age-specific care page uses an explicitly contextual young-adult brand portrait per owner choice, not a depiction of a 45+ outcome.\nScene/backdrop: cream reading room with a blue-gray curtain and modest caramel leather chair. Lighting: balanced soft daylight with natural skin white balance.\nSubject: a clearly adult 29-year-old Persian woman with dark chestnut hair in a long loose low braid over one shoulder, diamond face, warm olive skin, brown eyes, natural medium lips. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: cream collared shirt with blue-gray knitted waistcoat and simple small earrings. Action and posture: seated comfortably, hands resting over a closed plain notebook in lap, thoughtful listening expression.\nComposition: environmental medium portrait, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: cream65%,bluegray25%,caramel8%,metal2%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موی بافته و جلیقه آبی‌خاکستری، نشسته با دفتر آماده‌سازی مشاوره",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/rejuvenation-45.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-botox",
+      "kind": "service",
+      "slug": "botox",
+      "topicSummary": "Consultation concerning expression and expectations, no frozen face or visible procedure.",
+      "concepts": [
+        "expressive cool-color portrait: muted mineral-teal plain wall with an ivory wooden door edge; standing with weight on one leg, arms resting easy at sides, a natural brief amused smile; waist-up portrait with entire head and shoulders; soft cool open-shade daylight, subtle cheek modeling; ivory65%,teal25%,rose8%,metal2%; ivory cotton tailored blouse and a dusty-rose soft jacket draped naturally over shoulders.",
+        "Consultation-table listening: seated three-quarter view with relaxed hands on table edge, dark shoulder-length waves and slate-blue blouse, cream and caramel study, balanced daylight preserving expression lines.",
+        "Expression-led side portrait: standing relaxed smile with full head and shoulders, low dark bun and cream shirt, soft rose wall with mineral-teal edge, warm window bounce without smoothing forehead movement."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "muted mineral-teal plain wall with an ivory wooden door edge",
+        "light": "soft cool open-shade daylight, subtle cheek modeling",
+        "temperature": "cool",
+        "palette": "ivory65%,teal25%,rose8%,metal2%",
+        "framing": "waist-up portrait with entire head and shoulders",
+        "action": "standing with weight on one leg, arms resting easy at sides, a natural brief amused smile",
+        "hair": "glossy dark hair in a low ponytail",
+        "wardrobe": "ivory cotton tailored blouse and a dusty-rose soft jacket draped naturally over shoulders",
+        "expression": "Relaxed small smile as described; no forced grin.",
+        "appearance": "a 28-year-old Persian woman with glossy dark hair in a low ponytail, long oval face, warm light olive complexion, dark eyes, lifted but natural brows, softly full lips, faint normal forehead movement"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's botox page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Consultation concerning expression and expectations, no frozen face or visible procedure.\nScene/backdrop: muted mineral-teal plain wall with an ivory wooden door edge. Lighting: soft cool open-shade daylight, subtle cheek modeling.\nSubject: a 28-year-old Persian woman with glossy dark hair in a low ponytail, long oval face, warm light olive complexion, dark eyes, lifted but natural brows, softly full lips, faint normal forehead movement. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: ivory cotton tailored blouse and a dusty-rose soft jacket draped naturally over shoulders. Action and posture: standing with weight on one leg, arms resting easy at sides, a natural brief amused smile.\nComposition: waist-up portrait with entire head and shoulders, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: ivory65%,teal25%,rose8%,metal2%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موهای دم‌اسبی و بلوز روشن، با لبخند طبیعی مقابل دیوار سبزآبی",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/botox.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-fillers",
+      "kind": "service",
+      "slug": "fillers",
+      "topicSummary": "Discussion of facial proportion and personal preference, without suggesting guaranteed or proven injection results.",
+      "concepts": [
+        "polished natural portrait with fuller lips: muted clay wall beside cream curtain and a simple olive chair; seated sideways on chair, torso turning toward camera, hands relaxed in lap, calm friendly expression with no pout; three-quarter waist-up portrait; warm daylight bounce, natural dimensional facial shadows; cream55%,clay30%,olive12%,metal3%; cream soft cotton blouse with a muted olive jacket.",
+        "Personal-preference notes: seated adult with closed notebook, loosely tied dark hair and ivory blouse, cool mineral-teal study with small rose accent, waist-up framing and calm natural expression with moderately full lips.",
+        "Warm alcove portrait: standing environmental three-quarter pose with one arm relaxed on chair back, straight chestnut lob and slate-blue shirt, terracotta doorway and cream curtain, neutral skin under warm indirect light."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "muted clay wall beside cream curtain and a simple olive chair",
+        "light": "warm daylight bounce, natural dimensional facial shadows",
+        "temperature": "warm",
+        "palette": "cream55%,clay30%,olive12%,metal3%",
+        "framing": "three-quarter waist-up portrait",
+        "action": "seated sideways on chair, torso turning toward camera, hands relaxed in lap, calm friendly expression with no pout",
+        "hair": "a sleek chin-length dark-chestnut bob",
+        "wardrobe": "cream soft cotton blouse with a muted olive jacket",
+        "expression": "Calm attentive conversational expression.",
+        "appearance": "a 26-year-old Persian woman with a sleek chin-length dark-chestnut bob, gently rounded square face, olive skin, wide-set brown eyes, moderately fuller upper and lower lips and softly defined cheek contours with real asymmetry"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's fillers page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Discussion of facial proportion and personal preference, without suggesting guaranteed or proven injection results.\nScene/backdrop: muted clay wall beside cream curtain and a simple olive chair. Lighting: warm daylight bounce, natural dimensional facial shadows.\nSubject: a 26-year-old Persian woman with a sleek chin-length dark-chestnut bob, gently rounded square face, olive skin, wide-set brown eyes, moderately fuller upper and lower lips and softly defined cheek contours with real asymmetry. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: cream soft cotton blouse with a muted olive jacket. Action and posture: seated sideways on chair, torso turning toward camera, hands relaxed in lap, calm friendly expression with no pout.\nComposition: three-quarter waist-up portrait, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: cream55%,clay30%,olive12%,metal3%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موهای کوتاه شاه‌بلوطی و کت زیتونی، روی صندلی کنار دیوار سفالی",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/fillers.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-microneedling",
+      "kind": "service",
+      "slug": "microneedling",
+      "topicSummary": "Skin texture and care preparation, no needles, wounds, immediate results or fabricated procedure.",
+      "concepts": [
+        "texture-led preparation portrait: off-white plaster wall with a pale mauve cotton curtain and simple oak bench; sitting naturally on bench, one hand resting flat on knee and the other lightly holding a folded clean towel low at waist, slight closed-mouth smile; medium environmental portrait; broad neutral window light that reveals skin texture without harshness; ivory65%,mauve25%,sage8%,metal2%; pale sage cotton shirt and stone trousers.",
+        "Neutral care preparation: standing three-quarter portrait with folded cotton towel at waist, loose dark ponytail and rose-gray shirt, pale cream and mineral-teal dressing area, cool soft daylight.",
+        "Small care-kit setting: seated environmental portrait beside an unbranded jar and cotton pads, short wavy bob and ivory blouse, warm oak desk with muted plum textile, balanced diffuse light preserving pores."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "off-white plaster wall with a pale mauve cotton curtain and simple oak bench",
+        "light": "broad neutral window light that reveals skin texture without harshness",
+        "temperature": "balanced",
+        "palette": "ivory65%,mauve25%,sage8%,metal2%",
+        "framing": "medium environmental portrait",
+        "action": "sitting naturally on bench, one hand resting flat on knee and the other lightly holding a folded clean towel low at waist, slight closed-mouth smile",
+        "hair": "dark wavy hair cut at collarbone and an uneven fringe",
+        "wardrobe": "pale sage cotton shirt and stone trousers",
+        "expression": "Relaxed small smile as described; no forced grin.",
+        "appearance": "a 25-year-old Persian woman with dark wavy hair cut at collarbone and an uneven fringe, heart-shaped face, medium beige skin with real pores and faint normal cheek marks, dark brown eyes, naturally smaller lips"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's microneedling page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Skin texture and care preparation, no needles, wounds, immediate results or fabricated procedure.\nScene/backdrop: off-white plaster wall with a pale mauve cotton curtain and simple oak bench. Lighting: broad neutral window light that reveals skin texture without harshness.\nSubject: a 25-year-old Persian woman with dark wavy hair cut at collarbone and an uneven fringe, heart-shaped face, medium beige skin with real pores and faint normal cheek marks, dark brown eyes, naturally smaller lips. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: pale sage cotton shirt and stone trousers. Action and posture: sitting naturally on bench, one hand resting flat on knee and the other lightly holding a folded clean towel low at waist, slight closed-mouth smile.\nComposition: medium environmental portrait, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: ivory65%,mauve25%,sage8%,metal2%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موهای موج‌دار و بلوز سبز روشن، با حوله‌ای تاخورده روی نیمکت چوبی",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/microneedling.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-prf",
+      "kind": "service",
+      "slug": "prf",
+      "topicSummary": "Considering PRF in comparison with other options; thoughtful preparation, not a claim of superiority.",
+      "concepts": [
+        "informed-choice folder portrait: cream wall with caramel wooden shelving and a small slate-blue cushion; standing beside a narrow wooden desk, resting one hand on a closed cream folder and letting the other hang relaxed, slight off-camera smile; medium portrait framed from crown to upper thighs; warm late-afternoon indirect daylight with soft neutral skin highlights; cream65%,caramel25%,slateblue8%,metal2%; slate-blue fine-knit long-sleeve top and ivory trousers.",
+        "Quiet hallway listening: standing waist-up with hands comfortably loose, short dark wavy hair and dusty-rose cotton shirt, ivory wall with mineral-teal door, cool open shade and an attentive expression.",
+        "Simple evidence-discussion set: seated three-quarter portrait holding a closed cream folder, loose side braid and ivory knit top, blue-gray backdrop with caramel chair, balanced light and natural face."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "cream wall with caramel wooden shelving and a small slate-blue cushion",
+        "light": "warm late-afternoon indirect daylight with soft neutral skin highlights",
+        "temperature": "warm",
+        "palette": "cream65%,caramel25%,slateblue8%,metal2%",
+        "framing": "medium portrait framed from crown to upper thighs",
+        "action": "standing beside a narrow wooden desk, resting one hand on a closed cream folder and letting the other hang relaxed, slight off-camera smile",
+        "hair": "long dark-auburn chestnut hair in a loose side braid",
+        "wardrobe": "slate-blue fine-knit long-sleeve top and ivory trousers",
+        "expression": "Relaxed small smile as described; no forced grin.",
+        "appearance": "a 30-year-old Persian woman with long dark-auburn chestnut hair in a loose side braid, strong cheekbones and broad oval face, warm light-medium skin, brown eyes, understated lips and a small nose asymmetry"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's prf page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Considering PRF in comparison with other options; thoughtful preparation, not a claim of superiority.\nScene/backdrop: cream wall with caramel wooden shelving and a small slate-blue cushion. Lighting: warm late-afternoon indirect daylight with soft neutral skin highlights.\nSubject: a 30-year-old Persian woman with long dark-auburn chestnut hair in a loose side braid, strong cheekbones and broad oval face, warm light-medium skin, brown eyes, understated lips and a small nose asymmetry. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: slate-blue fine-knit long-sleeve top and ivory trousers. Action and posture: standing beside a narrow wooden desk, resting one hand on a closed cream folder and letting the other hang relaxed, slight off-camera smile.\nComposition: medium portrait framed from crown to upper thighs, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: cream65%,caramel25%,slateblue8%,metal2%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موی شاه‌بلوطی بافته و بلوز آبی، کنار پوشه آماده‌سازی مشاوره روی میز",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/prf.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-exosomes",
+      "kind": "service",
+      "slug": "exosomes",
+      "topicSummary": "Evidence and product-identity questions for exosomes, an editorial model portrait without implying availability or efficacy.",
+      "concepts": [
+        "evidence-discussion portrait with notebook: blue-gray reading nook with cream wall, ordinary wood shelf and one small rose notebook; sitting upright while holding the closed notebook naturally with both hands resting in lap, thoughtful expression toward an off-camera conversation partner; medium close environmental portrait; cool diffuse daylight, neutral skin and gentle contrast; cream65%,bluegray25%,dustyrose8%,metal2%; dusty-rose cotton shirt with cream collarless overshirt.",
+        "Quiet doorway pause: standing full-head waist-up portrait with relaxed arms, dark low braid and cream collared shirt, blue-gray door with caramel wood, warm bounce and thoughtful listening.",
+        "Table-side preparation: seated environmental view with closed unmarked notebook, short black curls and muted olive blouse, cream wall and plum chair, balanced window light; no laboratory or treatment props."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "blue-gray reading nook with cream wall, ordinary wood shelf and one small rose notebook",
+        "light": "cool diffuse daylight, neutral skin and gentle contrast",
+        "temperature": "cool",
+        "palette": "cream65%,bluegray25%,dustyrose8%,metal2%",
+        "framing": "medium close environmental portrait",
+        "action": "sitting upright while holding the closed notebook naturally with both hands resting in lap, thoughtful expression toward an off-camera conversation partner",
+        "hair": "a short black wavy crop tucked behind ears",
+        "wardrobe": "dusty-rose cotton shirt with cream collarless overshirt",
+        "expression": "Calm attentive conversational expression.",
+        "appearance": "a 27-year-old Persian woman with a short black wavy crop tucked behind ears, broad face and slightly pointed chin, medium olive skin, dark brown eyes, thick brows and natural defined lips"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's exosomes page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Evidence and product-identity questions for exosomes, an editorial model portrait without implying availability or efficacy.\nScene/backdrop: blue-gray reading nook with cream wall, ordinary wood shelf and one small rose notebook. Lighting: cool diffuse daylight, neutral skin and gentle contrast.\nSubject: a 27-year-old Persian woman with a short black wavy crop tucked behind ears, broad face and slightly pointed chin, medium olive skin, dark brown eyes, thick brows and natural defined lips. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: dusty-rose cotton shirt with cream collarless overshirt. Action and posture: sitting upright while holding the closed notebook naturally with both hands resting in lap, thoughtful expression toward an off-camera conversation partner.\nComposition: medium close environmental portrait, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: cream65%,bluegray25%,dustyrose8%,metal2%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موهای مشکی کوتاه و پیراهن رز، نشسته با دفتر در فضای آبی‌خاکستری",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/exosomes.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-cell-based",
+      "kind": "service",
+      "slug": "cell-based",
+      "topicSummary": "Cell-based methods require identifying the actual intervention and evidence; contextual portrait only.",
+      "concepts": [
+        "informed-consultation portrait: mineral-green wall, off-white desk edge, a modest cream fabric chair; seated at a slight angle, one elbow comfortably resting on chair arm and hand hanging loosely, other hand on lap, attentive calm look; environmental medium portrait with all curls inside frame; cool side-window light softened by sheer curtain, normal warm skin; cream55%,mineralgreen30%,plum12%,metal3%; muted plum woven blouse under a pale stone tailored blazer.",
+        "Architectural threshold pause: standing three-quarter adult holding a plain folder low, long dark waves and ivory cotton jacket, terracotta doorway with slate-blue edge, warm indirect daylight and calm expression.",
+        "Simple colored portrait set: seated waist-up in neutral blouse, curls loosely tied back, mineral-teal wall with dusty-rose chair, balanced soft window light and relaxed hands on lap; conceptual consultation context only."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "mineral-green wall, off-white desk edge, a modest cream fabric chair",
+        "light": "cool side-window light softened by sheer curtain, normal warm skin",
+        "temperature": "cool",
+        "palette": "cream55%,mineralgreen30%,plum12%,metal3%",
+        "framing": "environmental medium portrait with all curls inside frame",
+        "action": "seated at a slight angle, one elbow comfortably resting on chair arm and hand hanging loosely, other hand on lap, attentive calm look",
+        "hair": "long black curls loosely held in a low ponytail",
+        "wardrobe": "muted plum woven blouse under a pale stone tailored blazer",
+        "expression": "Calm attentive conversational expression.",
+        "appearance": "a 31-year-old Persian woman with long black curls loosely held in a low ponytail, elongated face with strong jaw, medium-deep olive skin, warm brown eyes, natural full lips and minimal makeup"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's cell-based page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Cell-based methods require identifying the actual intervention and evidence; contextual portrait only.\nScene/backdrop: mineral-green wall, off-white desk edge, a modest cream fabric chair. Lighting: cool side-window light softened by sheer curtain, normal warm skin.\nSubject: a 31-year-old Persian woman with long black curls loosely held in a low ponytail, elongated face with strong jaw, medium-deep olive skin, warm brown eyes, natural full lips and minimal makeup. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: muted plum woven blouse under a pale stone tailored blazer. Action and posture: seated at a slight angle, one elbow comfortably resting on chair arm and hand hanging loosely, other hand on lap, attentive calm look.\nComposition: environmental medium portrait with all curls inside frame, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: cream55%,mineralgreen30%,plum12%,metal3%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موهای فر تیره و بلوز بنفش، نشسته مقابل دیوار سبز معدنی",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/cell-based.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "id": "service-regenerative",
+      "kind": "service",
+      "slug": "regenerative",
+      "topicSummary": "Regenerative medicine as a broad field and careful individual decision, not visual proof of regeneration.",
+      "concepts": [
+        "welcoming individual-care portrait: warm ivory interior with muted terracotta curved wall edge and simple blue-gray upholstered seat; standing beside a seat with one hand lightly resting on chair back, relaxed shoulder turn and genuine small smile; waist-up environmental portrait; warm early-evening bounced window light, clean neutral face highlights; cream65%,terracotta25%,bluegray8%,metal2%; blue-gray softly structured cotton shirt with open relaxed collar and cream trousers.",
+        "Care-planning notebook: seated environmental portrait with closed blank notebook on lap, dark loose braid and muted olive shirt, cream study and plum textile, cool diffuse daylight with no science props.",
+        "Outdoor architectural shade: standing three-quarter adult beside pale plaster and caramel timber door, straight dark bob and blue-gray cotton blouse, balanced daylight, natural weight shift and relaxed hands."
+      ],
+      "selectionReason": "Chosen for a recognizable clinic-care context, a distinct person and hair silhouette, safe web cropping, and palette/pose variation relative to neighboring service images.",
+      "scene": {
+        "setting": "warm ivory interior with muted terracotta curved wall edge and simple blue-gray upholstered seat",
+        "light": "warm early-evening bounced window light, clean neutral face highlights",
+        "temperature": "warm",
+        "palette": "cream65%,terracotta25%,bluegray8%,metal2%",
+        "framing": "waist-up environmental portrait",
+        "action": "standing beside a seat with one hand lightly resting on chair back, relaxed shoulder turn and genuine small smile",
+        "hair": "a dark-brown straight long bob and soft side bangs",
+        "wardrobe": "blue-gray softly structured cotton shirt with open relaxed collar and cream trousers",
+        "expression": "Relaxed small smile as described; no forced grin.",
+        "appearance": "a 24-year-old Persian woman with a dark-brown straight long bob and soft side bangs, round face, warm medium-beige skin, brown eyes, softly fuller lips and subtle cheek definition, tiny natural asymmetries"
+      },
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE high-resolution square professional clinic editorial photograph, ideally at least 1536 x 1536, for ELVITHA's regenerative page. Fictional contextual model portrait, not a real patient, actual treatment, or result. Relevant context: Regenerative medicine as a broad field and careful individual decision, not visual proof of regeneration.\nScene/backdrop: warm ivory interior with muted terracotta curved wall edge and simple blue-gray upholstered seat. Lighting: warm early-evening bounced window light, clean neutral face highlights.\nSubject: a 24-year-old Persian woman with a dark-brown straight long bob and soft side bangs, round face, warm medium-beige skin, brown eyes, softly fuller lips and subtle cheek definition, tiny natural asymmetries. Cast an entirely new individual, not the same face from previous photographs. Attractive and carefully groomed with contemporary Persian personal style; this is a believable human moment rather than a fashion-campaign pose.\nWardrobe: blue-gray softly structured cotton shirt with open relaxed collar and cream trousers. Action and posture: standing beside a seat with one hand lightly resting on chair back, relaxed shoulder turn and genuine small smile.\nComposition: waist-up environmental portrait, square format with full crown and all important hands contained within central 72% height and central 70% width, roughly 15% clear headroom. Pull camera back for safe4:5,1:1 and4:3 website crops. Natural portrait lens perspective around 65–85mm, genuine moderate depth rather than excessive background blur.\nColor balance in environment/clothes: cream65%,terracotta25%,bluegray8%,metal2%; approximate guides excluding skin and hair. Use complementary accents sparingly; never tint skin to match background.\nProfessional clean edit preserving real pores, normal tiny tonal changes, natural under-eye transitions, small asymmetries, believable individual teeth if visible, a few stray hairs, fabric texture and plausible folds. Hands anatomically coherent and naturally relaxed. Only the specified relevant objects, kept modest.\nAvoid text, logos, watermarks, collage, panels, graphic overlays, syringes, blood, procedure scenes, white coats, before-and-after, cosmetic result claims, artificial skin smoothing, forced grins, glossy Pinterest showroom styling, generic repeating faces, headband scarves, flower vases and stone display plinths. One independent photograph only.",
+      "alt": "زن جوان با موهای صاف تیره و پیراهن آبی‌خاکستری، کنار صندلی در نور گرم",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/services/regenerative.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست."
+    },
+    {
+      "slug": "teen-acne",
+      "topicSummary": "Teen acne care should be simple, understandable and fit everyday life; object-only image avoids age-mismatched portrait.",
+      "concepts": [
+        "Everyday canvas washbag with just two unbranded skincare containers beside a damp cloth on blue-gray bathroom tiles.",
+        "A simple washbasin edge with cream bottle and folded clean towel in peach morning light.",
+        "An open drawer containing a restrained skincare kit, a comb and ordinary hairclip."
+      ],
+      "selectionReason": "The washbag conveys an achievable routine and creates a cool color counterpoint to portrait-heavy services.",
+      "scene": {
+        "setting": "Real home bathroom tile counter",
+        "light": "Cool diffuse morning window light",
+        "temperature": "cool",
+        "palette": "65% cream blue-gray neutrals; 25% mineral teal canvas; 8% peach pump accent; 2% aged brass zipper",
+        "framing": "Square medium close still life with central 65% crop-safe subjects",
+        "action": "Bag open naturally as if routine has just been finished",
+        "hair": "none",
+        "wardrobe": "none",
+        "expression": "none",
+        "appearance": "Believable unbranded containers, imperfect fabric folds"
+      },
+      "id": "journal-teen-acne",
+      "kind": "journal",
+      "original": "assets/clinic-photography/journal/teen-acne.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent professional editorial photograph, square 1:1, for ELVITHA's Persian article about simple everyday teen-acne care. OBJECTS ONLY, no person. A real small bathroom counter of matte blue-gray tiles, with a casually open mineral-teal cotton-canvas washbag, one plain unlabeled ivory pump cleanser and one small plain peach-toned cream tube partly visible, a softly rumpled cream cotton washcloth and one ordinary tortoiseshell hairclip. Only these purposeful objects, no staged prop clutter. The objects feel actually used and carefully kept, imperfect seam folds and cloth loops, a few tiny water specks, plausible plastic and realistic bag zipper. Camera at an oblique 35-degree angle, 50mm editorial photo, main objects within the central 65% of the square, generous real surrounding space for 4:5 and 4:3 crops. Cool diffuse morning window light, soft honest shadows, preserve warm cream/peach accents. Color proportion loosely 65% cream/blue-gray neutrals,25% mineral teal canvas,8% peach,up to2% zipper metal. Subtle professional color grade, not luxury advertising gloss, no Pinterest flat-lay perfection, no CGI, no floating objects, no text, logos, labels, watermark, medical equipment, medicines, needles, lesions, before/after or results. Deliver one believable photograph, not a collage.",
+      "alt": "کیف پارچه‌ای سبزآبی باز، دو ظرف ساده مراقبت پوست، دستمال پنبه‌ای و گیره مو روی کاشی آبی‌خاکستری"
+    },
+    {
+      "slug": "prp-vs-prf",
+      "topicSummary": "Compare PRP and PRF by intended use, evidence, limitations and follow-up; names alone do not establish superiority.",
+      "concepts": [
+        "Two open plain linen-bound notebooks in rose and slate beside a pair of reading glasses on a working reading desk.",
+        "Two paper folders, one open and one partly closed, beside a daylight lamp in a consultation preparation corner.",
+        "Close oblique view of two differently textured glass study pieces on blank paper as an explicit editorial metaphor."
+      ],
+      "selectionReason": "Equal-size notebooks visualize thoughtful comparison without fabricating specimens, measurements or medical evidence.",
+      "scene": {
+        "setting": "Ordinary working reading desk",
+        "light": "Neutral window daylight with warm oak bounce",
+        "temperature": "balanced",
+        "palette": "65% cream oak stone;25% slate blue;8% muted rose;2% warm metallic glasses",
+        "framing": "Square oblique overhead scene, objects kept within central 65%",
+        "action": "Two open blank folios ready for comparing questions",
+        "hair": "none",
+        "wardrobe": "none",
+        "expression": "none",
+        "appearance": "Tactile paper and linen with gently irregular folds"
+      },
+      "id": "journal-prp-vs-prf",
+      "kind": "journal",
+      "original": "assets/clinic-photography/journal/prp-vs-prf.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent professional editorial photograph, square 1:1, for ELVITHA Persian clinic journal. Topic: Compare PRP and PRF by intended use, evidence, limitations and follow-up; names alone do not establish superiority. This image is conceptual editorial photography, never a patient, clinician, treatment result, or scientific evidence. Scene: Ordinary working reading desk. Action/objects: Two open blank folios ready for comparing questions. Appearance: Tactile paper and linen with gently irregular folds. OBJECTS ONLY, no person. Lighting: Neutral window daylight with warm oak bounce; balanced overall temperature with realistic colors. Palette: 65% cream oak stone;25% slate blue;8% muted rose;2% warm metallic glasses; these are loose guides, never add unnecessary metal. Framing: Square oblique overhead scene, objects kept within central 65%, with 15% surrounding breathing room, composition must work for central 4:5, 1:1 and 4:3 crops. Real photographic camera optics, physical contact shadows, believable material surfaces, paper/fabric fibers, ordinary gentle irregularity. Natural purposeful gesture and believable posture if human; preserve pores, tiny asymmetries and flyaway hairs. Professional thoughtful styling and restrained editing, pleasant and eye-catching, never plastic or hyper-polished Pinterest imagery. No excessive decoration, text, writing, numbers, logo, watermark, labels, readable screen content, invented clinical data, diagram, microscopy, medicine, needles, specimen tubes, product claims, before/after comparisons, or result claims. One standalone photograph, no collage, grids, panels or panels within picture.",
+      "alt": "دو دفتر باز با جلدهای صورتی و آبی‌خاکستری و عینک مطالعه روی میز چوبی"
+    },
+    {
+      "slug": "prp-for-hair-loss",
+      "topicSummary": "Hair loss assessment begins with history, pattern and personal health before PRP is considered.",
+      "concepts": [
+        "Adult Persian woman with dark wavy hair thoughtfully gathering a section to one side beside a bedroom dressing table.",
+        "Wooden comb and closed hair-care journal in an everyday cotton pouch by a window.",
+        "Close rear-three-quarter hair part and relaxed hand arranging a clip, no implied treatment result."
+      ],
+      "selectionReason": "A candid everyday hair-care moment is recognizable and specific while avoiding a glossy perfect-hair advertisement.",
+      "scene": {
+        "setting": "Lived-in dressing corner with muted clay wall",
+        "light": "Warm side window daylight",
+        "temperature": "warm",
+        "palette": "65% cream and warm wood;25% muted teal shirt;8% terracotta wall detail;2% small gold earring",
+        "framing": "Square waist-up three-quarter portrait, full head and central safe margins",
+        "action": "Gently drawing loose hair over one shoulder with one relaxed hand",
+        "hair": "Long dark brown loose waves, off-center part, flyaways",
+        "wardrobe": "Mineral teal soft cotton shirt",
+        "expression": "Thoughtful slight smile toward window",
+        "appearance": "27-year-old Persian woman, warm olive skin, longer oval face, straight nose, normal-medium lips, realistic pores"
+      },
+      "id": "journal-prp-for-hair-loss",
+      "kind": "journal",
+      "original": "assets/clinic-photography/journal/prp-for-hair-loss.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent professional editorial photograph, square 1:1, for ELVITHA Persian clinic journal. Topic: Hair loss assessment begins with history, pattern and personal health before PRP is considered. This image is conceptual editorial photography, never a patient, clinician, treatment result, or scientific evidence. Scene: Lived-in dressing corner with muted clay wall. Action/objects: Gently drawing loose hair over one shoulder with one relaxed hand. Appearance: 27-year-old Persian woman, warm olive skin, longer oval face, straight nose, normal-medium lips, realistic pores. Clearly adult fictional Persian woman, 23-32 years old. Hair: Long dark brown loose waves, off-center part, flyaways. Wardrobe: Mineral teal soft cotton shirt. Expression: Thoughtful slight smile toward window. Cast a new individual face, never reuse prior faces. No treatment or injection is depicted. Lighting: Warm side window daylight; warm overall temperature with realistic colors. Palette: 65% cream and warm wood;25% muted teal shirt;8% terracotta wall detail;2% small gold earring; these are loose guides, never add unnecessary metal. Framing: Square waist-up three-quarter portrait, full head and central safe margins, with 15% surrounding breathing room, composition must work for central 4:5, 1:1 and 4:3 crops. Real photographic camera optics, physical contact shadows, believable material surfaces, paper/fabric fibers, ordinary gentle irregularity. Natural purposeful gesture and believable posture if human; preserve pores, tiny asymmetries and flyaway hairs. Professional thoughtful styling and restrained editing, pleasant and eye-catching, never plastic or hyper-polished Pinterest imagery. No excessive decoration, text, writing, numbers, logo, watermark, labels, readable screen content, invented clinical data, diagram, microscopy, medicine, needles, specimen tubes, product claims, before/after comparisons, or result claims. One standalone photograph, no collage, grids, panels or panels within picture.",
+      "alt": "زن بزرگسال با پیراهن سبزآبی که موهای موج‌دار قهوه‌ای تیره را روی یک شانه جمع می‌کند"
+    },
+    {
+      "slug": "acne-marks-vs-scars",
+      "topicSummary": "Acne marks can be flat color changes; scars change texture. These need individual assessment and no diagnosis can be drawn from this conceptual portrait.",
+      "concepts": [
+        "Close candid three-quarter adult portrait with restrained visible cheek marks and slight texture in side light.",
+        "A split-color piece of handmade paper beside a gently indented paper sheet as a nonclinical color-versus-surface metaphor.",
+        "A small plain mirror lying on a terracotta cloth with simple skincare objects in indirect light."
+      ],
+      "selectionReason": "Subtle visible human texture suits the topic without resorting to an exaggerated dermatology diagram or before/after.",
+      "scene": {
+        "setting": "Simple desaturated lilac plaster wall",
+        "light": "Broad cool window side light, natural warm skin",
+        "temperature": "cool",
+        "palette": "65% ivory and muted stone;25% lilac background;8% olive knit neckline;2% metallic hairclip",
+        "framing": "Square head-and-shoulders, full hair, face centrally safe",
+        "action": "Turning gently toward a person off camera",
+        "hair": "Short black curls with irregular loose strands",
+        "wardrobe": "Olive textured cotton crewneck",
+        "expression": "Relaxed attentive eyes and soft neutral mouth",
+        "appearance": "25-year-old Persian woman, medium olive complexion, round cheeks, naturally narrow lips; few faint flat acne marks and very subtle shallow cheek texture, never diagnostic or dramatic"
+      },
+      "id": "journal-acne-marks-vs-scars",
+      "kind": "journal",
+      "original": "assets/clinic-photography/journal/acne-marks-vs-scars.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent professional editorial photograph, square 1:1, for ELVITHA Persian clinic journal. Topic: Acne marks can be flat color changes; scars change texture. These need individual assessment and no diagnosis can be drawn from this conceptual portrait. This image is conceptual editorial photography, never a patient, clinician, treatment result, or scientific evidence. Scene: Simple desaturated lilac plaster wall. Action/objects: Turning gently toward a person off camera. Appearance: 25-year-old Persian woman, medium olive complexion, round cheeks, naturally narrow lips; few faint flat acne marks and very subtle shallow cheek texture, never diagnostic or dramatic. Clearly adult fictional Persian woman, 23-32 years old. Hair: Short black curls with irregular loose strands. Wardrobe: Olive textured cotton crewneck. Expression: Relaxed attentive eyes and soft neutral mouth. Cast a new individual face, never reuse prior faces. No treatment or injection is depicted. Lighting: Broad cool window side light, natural warm skin; cool overall temperature with realistic colors. Palette: 65% ivory and muted stone;25% lilac background;8% olive knit neckline;2% metallic hairclip; these are loose guides, never add unnecessary metal. Framing: Square head-and-shoulders, full hair, face centrally safe, with 15% surrounding breathing room, composition must work for central 4:5, 1:1 and 4:3 crops. Real photographic camera optics, physical contact shadows, believable material surfaces, paper/fabric fibers, ordinary gentle irregularity. Natural purposeful gesture and believable posture if human; preserve pores, tiny asymmetries and flyaway hairs. Professional thoughtful styling and restrained editing, pleasant and eye-catching, never plastic or hyper-polished Pinterest imagery. No excessive decoration, text, writing, numbers, logo, watermark, labels, readable screen content, invented clinical data, diagram, microscopy, medicine, needles, specimen tubes, product claims, before/after comparisons, or result claims. One standalone photograph, no collage, grids, panels or panels within picture.",
+      "alt": "پرتره سه‌رخ زن بزرگسال با موهای فر کوتاه، لباس زیتونی و بافت و آثار ظریف جوش روی گونه"
+    },
+    {
+      "slug": "natural-rejuvenation",
+      "topicSummary": "Natural rejuvenation starts from personal preferences and recognizable facial character, with gradual informed choices.",
+      "concepts": [
+        "Adult Persian woman by a window laughing softly mid-conversation, recognizable individual features and minimal makeup.",
+        "A favorite small mirror on a plum textile next to a closed unbranded moisturizer.",
+        "Adult woman casually tying hair at a dressing table in natural daylight."
+      ],
+      "selectionReason": "A spontaneous personality-led portrait reflects preserving familiar features instead of promoting a standardized cosmetic outcome.",
+      "scene": {
+        "setting": "Quiet home sitting-room window with soft patterned curtain",
+        "light": "Warm late-afternoon diffuse light",
+        "temperature": "warm",
+        "palette": "65% cream and stone;25% dusty rose shirt;8% mineral teal curtain;2% small brass hoop",
+        "framing": "Square relaxed mid-torso environmental portrait with room around complete head",
+        "action": "Pausing mid-conversation, shoulders gently angled",
+        "hair": "Dark chestnut shoulder-length loose curls with natural volume",
+        "wardrobe": "Dusty rose linen shirt, sleeves relaxed",
+        "expression": "Small genuine laughing smile, eyes creased naturally",
+        "appearance": "30-year-old Persian woman, medium warm olive skin, softly defined cheeks, moderate natural lip fullness, fine skin texture, slightly asymmetric smile"
+      },
+      "id": "journal-natural-rejuvenation",
+      "kind": "journal",
+      "original": "assets/clinic-photography/journal/natural-rejuvenation.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent professional editorial photograph, square 1:1, for ELVITHA Persian clinic journal. Topic: Natural rejuvenation starts from personal preferences and recognizable facial character, with gradual informed choices. This image is conceptual editorial photography, never a patient, clinician, treatment result, or scientific evidence. Scene: Quiet home sitting-room window with soft patterned curtain. Action/objects: Pausing mid-conversation, shoulders gently angled. Appearance: 30-year-old Persian woman, medium warm olive skin, softly defined cheeks, moderate natural lip fullness, fine skin texture, slightly asymmetric smile. Clearly adult fictional Persian woman, 23-32 years old. Hair: Dark chestnut shoulder-length loose curls with natural volume. Wardrobe: Dusty rose linen shirt, sleeves relaxed. Expression: Small genuine laughing smile, eyes creased naturally. Cast a new individual face, never reuse prior faces. No treatment or injection is depicted. Lighting: Warm late-afternoon diffuse light; warm overall temperature with realistic colors. Palette: 65% cream and stone;25% dusty rose shirt;8% mineral teal curtain;2% small brass hoop; these are loose guides, never add unnecessary metal. Framing: Square relaxed mid-torso environmental portrait with room around complete head, with 15% surrounding breathing room, composition must work for central 4:5, 1:1 and 4:3 crops. Real photographic camera optics, physical contact shadows, believable material surfaces, paper/fabric fibers, ordinary gentle irregularity. Natural purposeful gesture and believable posture if human; preserve pores, tiny asymmetries and flyaway hairs. Professional thoughtful styling and restrained editing, pleasant and eye-catching, never plastic or hyper-polished Pinterest imagery. No excessive decoration, text, writing, numbers, logo, watermark, labels, readable screen content, invented clinical data, diagram, microscopy, medicine, needles, specimen tubes, product claims, before/after comparisons, or result claims. One standalone photograph, no collage, grids, panels or panels within picture.",
+      "alt": "زن بزرگسال با موهای فر قهوه‌ای، پیراهن صورتی و لبخند طبیعی کنار پنجره"
+    },
+    {
+      "slug": "exosomes-evidence",
+      "topicSummary": "Exosome claims require product identity, human evidence and distinct approval checks; biological interest alone is not clinical proof.",
+      "concepts": [
+        "A plain magnifying glass over blank folded paper with a closed unbranded box in a thoughtful reading setup.",
+        "Unbranded skincare bottle seen through a translucent glass screen, with focus on traceable ordinary packaging rather than scientific claims.",
+        "An empty cream folder, paper tabs and reading lamp on an olive desk."
+      ],
+      "selectionReason": "A restrained close reading scene signals scrutiny without fake microscopy, claims, labels or specimen tubes.",
+      "scene": {
+        "setting": "Olive painted wooden reading desk",
+        "light": "Cool north-window light with soft paper reflections",
+        "temperature": "cool",
+        "palette": "65% cream paper and gray;25% muted olive;8% plum cloth bookmark;2% brass magnifier rim",
+        "framing": "Square close top-down still life with deep enough focus for material texture",
+        "action": "Magnifying lens resting over genuinely blank paper",
+        "hair": "none",
+        "wardrobe": "none",
+        "expression": "none",
+        "appearance": "Single optical lens with physically credible refraction; no pseudo-data"
+      },
+      "id": "journal-exosomes-evidence",
+      "kind": "journal",
+      "original": "assets/clinic-photography/journal/exosomes-evidence.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent professional editorial photograph, square 1:1, for ELVITHA Persian clinic journal. Topic: Exosome claims require product identity, human evidence and distinct approval checks; biological interest alone is not clinical proof. This image is conceptual editorial photography, never a patient, clinician, treatment result, or scientific evidence. Scene: Olive painted wooden reading desk. Action/objects: Magnifying lens resting over genuinely blank paper. Appearance: Single optical lens with physically credible refraction; no pseudo-data. OBJECTS ONLY, no person. Lighting: Cool north-window light with soft paper reflections; cool overall temperature with realistic colors. Palette: 65% cream paper and gray;25% muted olive;8% plum cloth bookmark;2% brass magnifier rim; these are loose guides, never add unnecessary metal. Framing: Square close top-down still life with deep enough focus for material texture, with 15% surrounding breathing room, composition must work for central 4:5, 1:1 and 4:3 crops. Real photographic camera optics, physical contact shadows, believable material surfaces, paper/fabric fibers, ordinary gentle irregularity. Natural purposeful gesture and believable posture if human; preserve pores, tiny asymmetries and flyaway hairs. Professional thoughtful styling and restrained editing, pleasant and eye-catching, never plastic or hyper-polished Pinterest imagery. No excessive decoration, text, writing, numbers, logo, watermark, labels, readable screen content, invented clinical data, diagram, microscopy, medicine, needles, specimen tubes, product claims, before/after comparisons, or result claims. One standalone photograph, no collage, grids, panels or panels within picture.",
+      "alt": "ذره‌بین روی کاغذهای ساده و نشانک پارچه‌ای بنفش روی میز زیتونی"
+    },
+    {
+      "slug": "different-treatment-results",
+      "topicSummary": "Treatment responses depend on individual circumstances and need comparison with one's own baseline and agreed follow-up.",
+      "concepts": [
+        "Adult Persian woman quietly organizing a small personal notebook beside a cup of water, without visible writing.",
+        "Three differently sized unlabeled personal folders alongside one plain calendar turned away.",
+        "Close detail of a notebook and a modest skincare pouch on a real bedside table."
+      ],
+      "selectionReason": "The person arranging her own notes connects the topic to personal follow-up rather than comparing faces or invented results.",
+      "scene": {
+        "setting": "Casual home oak desk near blue-gray curtain",
+        "light": "Balanced soft daylight",
+        "temperature": "balanced",
+        "palette": "65% light oak cream and gray;25% muted caramel cardigan;8% slate blue curtain;2% metallic pen detail",
+        "framing": "Square medium environmental portrait, full head and hands within safe zone",
+        "action": "Closing a small unmarked notebook, one hand at cover edge",
+        "hair": "Straight dark brown collarbone bob with side-swept fringe",
+        "wardrobe": "Caramel ribbed cardigan over plain cream top",
+        "expression": "Quiet concentration with natural relaxed mouth",
+        "appearance": "29-year-old Persian woman, light olive skin, long nose, defined but soft jaw, thinner upper lip, round understated glasses"
+      },
+      "id": "journal-different-treatment-results",
+      "kind": "journal",
+      "original": "assets/clinic-photography/journal/different-treatment-results.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent professional editorial photograph, square 1:1, for ELVITHA Persian clinic journal. Topic: Treatment responses depend on individual circumstances and need comparison with one's own baseline and agreed follow-up. This image is conceptual editorial photography, never a patient, clinician, treatment result, or scientific evidence. Scene: Casual home oak desk near blue-gray curtain. Action/objects: Closing a small unmarked notebook, one hand at cover edge. Appearance: 29-year-old Persian woman, light olive skin, long nose, defined but soft jaw, thinner upper lip, round understated glasses. Clearly adult fictional Persian woman, 23-32 years old. Hair: Straight dark brown collarbone bob with side-swept fringe. Wardrobe: Caramel ribbed cardigan over plain cream top. Expression: Quiet concentration with natural relaxed mouth. Cast a new individual face, never reuse prior faces. No treatment or injection is depicted. Lighting: Balanced soft daylight; balanced overall temperature with realistic colors. Palette: 65% light oak cream and gray;25% muted caramel cardigan;8% slate blue curtain;2% metallic pen detail; these are loose guides, never add unnecessary metal. Framing: Square medium environmental portrait, full head and hands within safe zone, with 15% surrounding breathing room, composition must work for central 4:5, 1:1 and 4:3 crops. Real photographic camera optics, physical contact shadows, believable material surfaces, paper/fabric fibers, ordinary gentle irregularity. Natural purposeful gesture and believable posture if human; preserve pores, tiny asymmetries and flyaway hairs. Professional thoughtful styling and restrained editing, pleasant and eye-catching, never plastic or hyper-polished Pinterest imagery. No excessive decoration, text, writing, numbers, logo, watermark, labels, readable screen content, invented clinical data, diagram, microscopy, medicine, needles, specimen tubes, product claims, before/after comparisons, or result claims. One standalone photograph, no collage, grids, panels or panels within picture.",
+      "alt": "زن بزرگسال با عینک گرد و ژاکت کاراملی در حال بستن دفترچه روی میز"
+    },
+    {
+      "slug": "questions-before-fillers",
+      "topicSummary": "Prepare questions about desired change, material identity, limitations and management of complications before filler decisions.",
+      "concepts": [
+        "A small hand mirror turned to reflect a blank wall, open unmarked notebook and capped pen in a real dressing area.",
+        "Adult woman reflecting calmly by a window with a closed question notebook.",
+        "A neatly folded cloth pouch beside a mirror and two blank question cards."
+      ],
+      "selectionReason": "Preparation objects support thoughtful questioning while avoiding needles, filler packaging or implied cosmetic outcomes.",
+      "scene": {
+        "setting": "Dark plum dressing-table corner with cream surface",
+        "light": "Warm morning grazing light",
+        "temperature": "warm",
+        "palette": "65% cream and wood;25% dusty plum textile;8% olive mirror handle;2% brass pen detail",
+        "framing": "Square oblique object study, all main props centrally safe",
+        "action": "Blank notebook open beside mirror ready for questions",
+        "hair": "none",
+        "wardrobe": "none",
+        "expression": "none",
+        "appearance": "Mirror reflects only an indistinct cream wall, not invented face; natural fabric and paper"
+      },
+      "id": "journal-questions-before-fillers",
+      "kind": "journal",
+      "original": "assets/clinic-photography/journal/questions-before-fillers.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent professional editorial photograph, square 1:1, for ELVITHA Persian clinic journal. Topic: Prepare questions about desired change, material identity, limitations and management of complications before filler decisions. This image is conceptual editorial photography, never a patient, clinician, treatment result, or scientific evidence. Scene: Dark plum dressing-table corner with cream surface. Action/objects: Blank notebook open beside mirror ready for questions. Appearance: Mirror reflects only an indistinct cream wall, not invented face; natural fabric and paper. OBJECTS ONLY, no person. Lighting: Warm morning grazing light; warm overall temperature with realistic colors. Palette: 65% cream and wood;25% dusty plum textile;8% olive mirror handle;2% brass pen detail; these are loose guides, never add unnecessary metal. Framing: Square oblique object study, all main props centrally safe, with 15% surrounding breathing room, composition must work for central 4:5, 1:1 and 4:3 crops. Real photographic camera optics, physical contact shadows, believable material surfaces, paper/fabric fibers, ordinary gentle irregularity. Natural purposeful gesture and believable posture if human; preserve pores, tiny asymmetries and flyaway hairs. Professional thoughtful styling and restrained editing, pleasant and eye-catching, never plastic or hyper-polished Pinterest imagery. No excessive decoration, text, writing, numbers, logo, watermark, labels, readable screen content, invented clinical data, diagram, microscopy, medicine, needles, specimen tubes, product claims, before/after comparisons, or result claims. One standalone photograph, no collage, grids, panels or panels within picture.",
+      "alt": "آینه دستی، دفتر باز بدون نوشته و خودکار کنار پارچه بنفش روی میز"
+    },
+    {
+      "slug": "before-after-photos",
+      "topicSummary": "Useful before/after comparison needs consistent light, angle, distance and clear context; this image shows recording conditions, not patient results.",
+      "concepts": [
+        "Ordinary mirrorless camera on a small tripod with a plain gray reference card and folded cream backdrop in a daylight room.",
+        "Camera lens, simple measuring tape and two empty photo sleeves on a blue-gray table.",
+        "Behind-the-scenes blank portrait backdrop and stool with one visible soft light source, no person."
+      ],
+      "selectionReason": "Showing a credible photography setup communicates consistency of conditions without fabricating comparison images.",
+      "scene": {
+        "setting": "Small daylight photography corner",
+        "light": "Balanced window light with warm wall bounce",
+        "temperature": "balanced",
+        "palette": "65% cream gray and dark camera;25% slate blue curtain;8% terracotta stool edge;2% metal tripod detail",
+        "framing": "Square environmental still life with camera and gray card inside central crop zone",
+        "action": "Camera set up facing an empty plain portrait background",
+        "hair": "none",
+        "wardrobe": "none",
+        "expression": "none",
+        "appearance": "Physically credible camera and compact tripod, no brand text or screen content"
+      },
+      "id": "journal-before-after-photos",
+      "kind": "journal",
+      "original": "assets/clinic-photography/journal/before-after-photos.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent professional editorial photograph, square 1:1, for ELVITHA Persian clinic journal. Topic: Useful before/after comparison needs consistent light, angle, distance and clear context; this image shows recording conditions, not patient results. This image is conceptual editorial photography, never a patient, clinician, treatment result, or scientific evidence. Scene: Small daylight photography corner. Action/objects: Camera set up facing an empty plain portrait background. Appearance: Physically credible camera and compact tripod, no brand text or screen content. OBJECTS ONLY, no person. Lighting: Balanced window light with warm wall bounce; balanced overall temperature with realistic colors. Palette: 65% cream gray and dark camera;25% slate blue curtain;8% terracotta stool edge;2% metal tripod detail; these are loose guides, never add unnecessary metal. Framing: Square environmental still life with camera and gray card inside central crop zone, with 15% surrounding breathing room, composition must work for central 4:5, 1:1 and 4:3 crops. Real photographic camera optics, physical contact shadows, believable material surfaces, paper/fabric fibers, ordinary gentle irregularity. Natural purposeful gesture and believable posture if human; preserve pores, tiny asymmetries and flyaway hairs. Professional thoughtful styling and restrained editing, pleasant and eye-catching, never plastic or hyper-polished Pinterest imagery. No excessive decoration, text, writing, numbers, logo, watermark, labels, readable screen content, invented clinical data, diagram, microscopy, medicine, needles, specimen tubes, product claims, before/after comparisons, or result claims. One standalone photograph, no collage, grids, panels or panels within picture.",
+      "alt": "دوربین روی سه‌پایه، کارت خاکستری و پس‌زمینه ساده در گوشه‌ای با نور طبیعی"
+    },
+    {
+      "slug": "skin-after-45",
+      "topicSummary": "Skin care after 45 follows present needs such as dryness and sensitivity, without assuming age means clinical intervention.",
+      "concepts": [
+        "Unbranded moisturizer jar, soft cotton cloth and reading glasses on a chair-side table in calm evening light.",
+        "Simple cream tube and folded linen towel beside a basin with cool morning light.",
+        "A closed skincare pouch, plain notebook and reading lamp in a lived-in bedroom."
+      ],
+      "selectionReason": "An object-only care moment respects age-specific content without depicting a young face as an aging result.",
+      "scene": {
+        "setting": "Walnut bedside table next to a linen armchair",
+        "light": "Warm soft evening window light",
+        "temperature": "warm",
+        "palette": "65% cream walnut and soft stone;25% faded blue-gray chair;8% terracotta ceramic saucer;2% glasses metal",
+        "framing": "Square medium close still life with jar cloth glasses safely inside center",
+        "action": "Moisturizer open with lid nearby, cloth loosely folded",
+        "hair": "none",
+        "wardrobe": "none",
+        "expression": "none",
+        "appearance": "Cream surface modestly disturbed, realistic glass jar, no luxury advertising perfection"
+      },
+      "id": "journal-skin-after-45",
+      "kind": "journal",
+      "original": "assets/clinic-photography/journal/skin-after-45.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent professional editorial photograph, square 1:1, for ELVITHA Persian clinic journal. Topic: Skin care after 45 follows present needs such as dryness and sensitivity, without assuming age means clinical intervention. This image is conceptual editorial photography, never a patient, clinician, treatment result, or scientific evidence. Scene: Walnut bedside table next to a linen armchair. Action/objects: Moisturizer open with lid nearby, cloth loosely folded. Appearance: Cream surface modestly disturbed, realistic glass jar, no luxury advertising perfection. OBJECTS ONLY, no person. Lighting: Warm soft evening window light; warm overall temperature with realistic colors. Palette: 65% cream walnut and soft stone;25% faded blue-gray chair;8% terracotta ceramic saucer;2% glasses metal; these are loose guides, never add unnecessary metal. Framing: Square medium close still life with jar cloth glasses safely inside center, with 15% surrounding breathing room, composition must work for central 4:5, 1:1 and 4:3 crops. Real photographic camera optics, physical contact shadows, believable material surfaces, paper/fabric fibers, ordinary gentle irregularity. Natural purposeful gesture and believable posture if human; preserve pores, tiny asymmetries and flyaway hairs. Professional thoughtful styling and restrained editing, pleasant and eye-catching, never plastic or hyper-polished Pinterest imagery. No excessive decoration, text, writing, numbers, logo, watermark, labels, readable screen content, invented clinical data, diagram, microscopy, medicine, needles, specimen tubes, product claims, before/after comparisons, or result claims. One standalone photograph, no collage, grids, panels or panels within picture.",
+      "alt": "ظرف ساده مرطوب‌کننده باز، پارچه پنبه‌ای و عینک مطالعه روی میز کنار صندلی"
+    },
+    {
+      "slug": "regenerative-medicine",
+      "topicSummary": "Regenerative medicine is a broader field concerned with tissue repair; cell therapy is one route and each application needs its own evidence.",
+      "concepts": [
+        "Tactile open-weave natural fabric being examined on a maker's desk with paper and simple scissors, explicitly an editorial scaffold metaphor.",
+        "Paper architectural lattice on a workbench beside a closed research notebook, no cell imagery.",
+        "A close light study through overlapping handmade paper layers with visibly physical fibers."
+      ],
+      "selectionReason": "A real textile structure conveys the idea of support and repair as an editorial metaphor, without inventing microscopy or treatment evidence.",
+      "scene": {
+        "setting": "Simple craft-research workbench",
+        "light": "Warm directional window light",
+        "temperature": "warm",
+        "palette": "65% cream oak and paper;25% muted olive textile;8% plum cotton thread;2% small metal scissors",
+        "framing": "Square oblique macro still life with main weave centralized",
+        "action": "Small unfinished open-weave textile laid over plain cream paper",
+        "hair": "none",
+        "wardrobe": "none",
+        "expression": "none",
+        "appearance": "Clearly handmade textile, irregular fibers, no claimed biological specimen"
+      },
+      "id": "journal-regenerative-medicine",
+      "kind": "journal",
+      "original": "assets/clinic-photography/journal/regenerative-medicine.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent professional editorial photograph, square 1:1, for ELVITHA Persian clinic journal. Topic: Regenerative medicine is a broader field concerned with tissue repair; cell therapy is one route and each application needs its own evidence. This image is conceptual editorial photography, never a patient, clinician, treatment result, or scientific evidence. Scene: Simple craft-research workbench. Action/objects: Small unfinished open-weave textile laid over plain cream paper. Appearance: Clearly handmade textile, irregular fibers, no claimed biological specimen. OBJECTS ONLY, no person. Lighting: Warm directional window light; warm overall temperature with realistic colors. Palette: 65% cream oak and paper;25% muted olive textile;8% plum cotton thread;2% small metal scissors; these are loose guides, never add unnecessary metal. Framing: Square oblique macro still life with main weave centralized, with 15% surrounding breathing room, composition must work for central 4:5, 1:1 and 4:3 crops. Real photographic camera optics, physical contact shadows, believable material surfaces, paper/fabric fibers, ordinary gentle irregularity. Natural purposeful gesture and believable posture if human; preserve pores, tiny asymmetries and flyaway hairs. Professional thoughtful styling and restrained editing, pleasant and eye-catching, never plastic or hyper-polished Pinterest imagery. No excessive decoration, text, writing, numbers, logo, watermark, labels, readable screen content, invented clinical data, diagram, microscopy, medicine, needles, specimen tubes, product claims, before/after comparisons, or result claims. One standalone photograph, no collage, grids, panels or panels within picture.",
+      "alt": "قطعه پارچه با بافت باز و نخ بنفش روی کاغذ روشن و میز کار چوبی"
+    },
+    {
+      "slug": "cell-therapy-stem-cells",
+      "topicSummary": "Cell therapy includes specialized living cells; stem cells are a narrower biological concept and terminology should not be conflated.",
+      "concepts": [
+        "Handmade paper teaching study showing one shared plain form with three subtly varied crafted forms on a desktop, explicitly conceptual.",
+        "Closed scientific reading books with plain linen covers and one open empty notebook under soft daylight.",
+        "A handmade clay shape beside several distinctly formed clay pieces in a craft study, without medical claims."
+      ],
+      "selectionReason": "Photographed physical paper study provides an approachable conceptual category metaphor while staying clearly separate from real cells or laboratory evidence.",
+      "scene": {
+        "setting": "Blue-gray desktop with paper maker's study",
+        "light": "Cool diffuse skylight",
+        "temperature": "cool",
+        "palette": "65% cream paper stone;25% slate blue desk;8% muted rose paper accent;2% small brass paperweight",
+        "framing": "Square close oblique still life; all forms inside central 60%",
+        "action": "One simple folded cream paper form beside three differently folded paper studies",
+        "hair": "none",
+        "wardrobe": "none",
+        "expression": "none",
+        "appearance": "Visible handmade edges and fibers, no glowing cells, no biological diagrams"
+      },
+      "id": "journal-cell-therapy-stem-cells",
+      "kind": "journal",
+      "original": "assets/clinic-photography/journal/cell-therapy-stem-cells.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent professional editorial photograph, square 1:1, for ELVITHA Persian clinic journal. Topic: Cell therapy includes specialized living cells; stem cells are a narrower biological concept and terminology should not be conflated. This image is conceptual editorial photography, never a patient, clinician, treatment result, or scientific evidence. Scene: Blue-gray desktop with paper maker's study. Action/objects: One simple folded cream paper form beside three differently folded paper studies. Appearance: Visible handmade edges and fibers, no glowing cells, no biological diagrams. OBJECTS ONLY, no person. Lighting: Cool diffuse skylight; cool overall temperature with realistic colors. Palette: 65% cream paper stone;25% slate blue desk;8% muted rose paper accent;2% small brass paperweight; these are loose guides, never add unnecessary metal. Framing: Square close oblique still life; all forms inside central 60%, with 15% surrounding breathing room, composition must work for central 4:5, 1:1 and 4:3 crops. Real photographic camera optics, physical contact shadows, believable material surfaces, paper/fabric fibers, ordinary gentle irregularity. Natural purposeful gesture and believable posture if human; preserve pores, tiny asymmetries and flyaway hairs. Professional thoughtful styling and restrained editing, pleasant and eye-catching, never plastic or hyper-polished Pinterest imagery. No excessive decoration, text, writing, numbers, logo, watermark, labels, readable screen content, invented clinical data, diagram, microscopy, medicine, needles, specimen tubes, product claims, before/after comparisons, or result claims. One standalone photograph, no collage, grids, panels or panels within picture.",
+      "alt": "چند فرم دست‌ساز کاغذی با تاهای متفاوت روی سطح آبی‌خاکستری"
+    },
+    {
+      "id": "journal-prp-skin-evidence",
+      "kind": "journal",
+      "slug": "prp-skin-evidence",
+      "topicSummary": "PRP skin evidence has low certainty and differs from stem-cell therapy; the photograph should show thoughtful attention to skin without portraying efficacy.",
+      "concepts": [
+        "Cool close three-quarter portrait of a woman noticing her cheek in daylight, with a relaxed gaze toward a mirror outside frame.",
+        "Warm overhead evidence-reading desk with an open plain folio and modest cotton swatch.",
+        "Balanced environmental portrait of an adult woman sitting back from a consultation table with a closed folder."
+      ],
+      "selectionReason": "A carefully observed but imperfect real face anchors the discussion of skin quality without fabricating a procedure or result.",
+      "scene": {
+        "setting": "Quiet dressing area beside a slate-blue window reveal",
+        "light": "Cool diffused daylight from a large side window, neutral facial highlights",
+        "temperature": "cool",
+        "palette": "65% cream/stone neutrals,25% slate blue,8% terracotta cloth,up to2% restrained jewelry",
+        "framing": "Close three-quarter portrait, complete head and upper chest inside shared safe crop",
+        "action": "Looking toward a mirror just outside frame with relaxed shoulders; hands outside frame",
+        "hair": "Dark brown textured chin-length bob, slightly uneven natural fringe",
+        "wardrobe": "Muted terracotta cotton blouse with uncomplicated neckline",
+        "expression": "Attentive quiet gaze, relaxed mouth",
+        "appearance": "31-year-old Persian woman with rounder face, broad gently curved nose, brown eyes, medium olive skin, understated lips and soft cheeks, minimal makeup"
+      },
+      "alt": "زن بزرگسال با موهای کوتاه تیره و بلوز سفالی، در نور خنک کنار پنجره با بافت طبیعی پوست",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent high-resolution square professional clinic editorial photograph for ELVITHA's article \"prp-skin-evidence\". Topic context: PRP skin evidence has low certainty and differs from stem-cell therapy; the photograph should show thoughtful attention to skin without portraying efficacy.\nScene: Quiet dressing area beside a slate-blue window reveal. Action: Looking toward a mirror just outside frame with relaxed shoulders; hands outside frame.\nSubject/materials: 31-year-old Persian woman with rounder face, broad gently curved nose, brown eyes, medium olive skin, understated lips and soft cheeks, minimal makeup. Hair: Dark brown textured chin-length bob, slightly uneven natural fringe. Wardrobe: Muted terracotta cotton blouse with uncomplicated neckline. Expression: Attentive quiet gaze, relaxed mouth.\nLight: Cool diffused daylight from a large side window, neutral facial highlights. Palette: 65% cream/stone neutrals,25% slate blue,8% terracotta cloth,up to2% restrained jewelry; approximate art-direction proportions excluding skin and hair.\nComposition: Close three-quarter portrait, complete head and upper chest inside shared safe crop. Keep main subject and topic cue within central70% with generous headroom/edge room for desktop4:5, square1:1 and landscape4:3 crops. Natural eye-level or explicitly described viewpoint, honest lens perspective and restrained depth of field.\nSpecific direction: Visible believable cheek pores and small natural tonal differences. No mirror duplicate, facial mapping, medical device, or flawless after-treatment skin.\nProfessional editing with true texture, plausible highlights/reflections, material contact and subtle imperfections. For people retain pores, normal tonal variation, flyaways, small asymmetries, natural posture and realistic anatomy. No plastic skin, impossible hands, forced smile, glossy fake Pinterest staging, excessive props, watermark, logo, readable text, before/after, fabricated patient results, collage or multiple panels. Deliver one believable photograph.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/journal/prp-skin-evidence.png"
+    },
+    {
+      "id": "journal-mesogel-skin-quality",
+      "kind": "journal",
+      "slug": "mesogel-skin-quality",
+      "topicSummary": "Mesogel products differ in composition and evidence; a conceptual material study conveys gel texture without impersonating a product or injectable formulation.",
+      "concepts": [
+        "Cool close material photograph of a small transparent gel smear on a simple glass square, with a plain unbranded skincare pump in the background.",
+        "Warm ordinary bathroom shelf with an unbranded moisturizer container beside a loosely folded cotton cloth.",
+        "Balanced tabletop detail of a simple cosmetic jar being closed by one adult hand."
+      ],
+      "selectionReason": "The transparent material provides a direct visual cue while remaining clearly conceptual rather than a fake commercial product.",
+      "scene": {
+        "setting": "Matte blue-gray bathroom counter, no laboratory props",
+        "light": "Cool soft side daylight with restrained warm reflection from nearby cream wall",
+        "temperature": "cool",
+        "palette": "65% pale stone/clear glass neutrals,25% mineral teal towel,8% muted rose pump detail,up to2% small metallic fitting",
+        "framing": "Square oblique macro still life, gel surface and container within central crop-safe zone",
+        "action": "Small realistic transparent gel smear naturally settling on glass; pump stands behind",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "Unbranded pale rose skincare pump, thick clear glass edge, realistic gel viscosity and textile fibers"
+      },
+      "alt": "مقدار کمی ژل شفاف روی شیشه ساده، کنار ظرف بی‌نشان مراقبت پوست و پارچه سبزآبی",
+      "caption": "تصویر مفهومی ماده و بافت؛ نمایش محصول تزریقی مشخص یا سند اثربخشی نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent high-resolution square professional clinic editorial photograph for ELVITHA's article \"mesogel-skin-quality\". Topic context: Mesogel products differ in composition and evidence; a conceptual material study conveys gel texture without impersonating a product or injectable formulation.\nScene: Matte blue-gray bathroom counter, no laboratory props. Action: Small realistic transparent gel smear naturally settling on glass; pump stands behind.\nSubject/materials: Unbranded pale rose skincare pump, thick clear glass edge, realistic gel viscosity and textile fibers. Hair: not applicable. Wardrobe: not applicable. Expression: not applicable.\nLight: Cool soft side daylight with restrained warm reflection from nearby cream wall. Palette: 65% pale stone/clear glass neutrals,25% mineral teal towel,8% muted rose pump detail,up to2% small metallic fitting; approximate art-direction proportions excluding skin and hair.\nComposition: Square oblique macro still life, gel surface and container within central crop-safe zone. Keep main subject and topic cue within central70% with generous headroom/edge room for desktop4:5, square1:1 and landscape4:3 crops. Natural eye-level or explicitly described viewpoint, honest lens perspective and restrained depth of field.\nSpecific direction: This is an editorial cosmetic texture study, NOT the appearance or contents of any actual injectable mesogel product. Show a modest translucent gel amount without artificial glow. No needles, ampoules, scientific labels or brand.\nProfessional editing with true texture, plausible highlights/reflections, material contact and subtle imperfections. For people retain pores, normal tonal variation, flyaways, small asymmetries, natural posture and realistic anatomy. No plastic skin, impossible hands, forced smile, glossy fake Pinterest staging, excessive props, watermark, logo, readable text, before/after, fabricated patient results, collage or multiple panels. Deliver one believable photograph.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/journal/mesogel-skin-quality.png"
+    },
+    {
+      "id": "journal-novel-cellular-methods",
+      "kind": "journal",
+      "slug": "novel-cellular-methods",
+      "topicSummary": "Novel cellular methods span laboratory mechanisms, early human studies and clinical evidence; the image should communicate real research context without pretending to show a treatment.",
+      "concepts": [
+        "Balanced quiet research bench with one ordinary optical microscope and a closed slide case beside a blank laboratory notebook.",
+        "Warm reading-room scene of a plain research folder with layered paper markers and reading glasses.",
+        "Cool environmental photograph of an empty teaching bench with a modest microscope blurred behind a closed unbranded folder."
+      ],
+      "selectionReason": "The bench directly fits the article's laboratory-to-clinical distinction and gives the home philosophy image a purposeful research scene.",
+      "scene": {
+        "setting": "Modest contemporary teaching/research bench with stone worktop and frosted daylight window",
+        "light": "Neutral window light balanced by a mild warm reflection from a wooden shelf",
+        "temperature": "balanced",
+        "palette": "65% cream/stone neutrals,25% olive notebook cover and distant cabinet,8% muted plum slide-case edge,up to2% microscope metal",
+        "framing": "Square environmental still life with microscope and notebook centrally composed for 4:5,1:1,4:3",
+        "action": "Microscope at rest beside a closed slide holder and a half-open blank notebook",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "Plausible normal optical microscope, clean unbranded objects, realistically imperfect paper edges"
+      },
+      "alt": "میکروسکوپ ساده و جعبه بسته لام کنار دفتر پژوهش بدون نوشته، در نور طبیعی",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent high-resolution square professional clinic editorial photograph for ELVITHA's article \"novel-cellular-methods\". Topic context: Novel cellular methods span laboratory mechanisms, early human studies and clinical evidence; the image should communicate real research context without pretending to show a treatment.\nScene: Modest contemporary teaching/research bench with stone worktop and frosted daylight window. Action: Microscope at rest beside a closed slide holder and a half-open blank notebook.\nSubject/materials: Plausible normal optical microscope, clean unbranded objects, realistically imperfect paper edges. Hair: not applicable. Wardrobe: not applicable. Expression: not applicable.\nLight: Neutral window light balanced by a mild warm reflection from a wooden shelf. Palette: 65% cream/stone neutrals,25% olive notebook cover and distant cabinet,8% muted plum slide-case edge,up to2% microscope metal; approximate art-direction proportions excluding skin and hair.\nComposition: Square environmental still life with microscope and notebook centrally composed for 4:5,1:1,4:3. Keep main subject and topic cue within central70% with generous headroom/edge room for desktop4:5, square1:1 and landscape4:3 crops. Natural eye-level or explicitly described viewpoint, honest lens perspective and restrained depth of field.\nSpecific direction: Keep microscope construction mechanically plausible and understated. Only these three purposeful objects. No glowing cells, visible specimen or claims, screens, medicine, staff, fabricated clinical result, or luxury laboratory fantasy.\nProfessional editing with true texture, plausible highlights/reflections, material contact and subtle imperfections. For people retain pores, normal tonal variation, flyaways, small asymmetries, natural posture and realistic anatomy. No plastic skin, impossible hands, forced smile, glossy fake Pinterest staging, excessive props, watermark, logo, readable text, before/after, fabricated patient results, collage or multiple panels. Deliver one believable photograph.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/journal/novel-cellular-methods.png"
+    },
+    {
+      "id": "journal-vitiligo-cell-therapy",
+      "kind": "journal",
+      "slug": "vitiligo-cell-therapy",
+      "topicSummary": "Vitiligo cellular transplantation is considered for selected stable disease and has variable results; the portrait represents a person with visible natural pigment variation, never a treatment outcome.",
+      "concepts": [
+        "Warm everyday portrait of an adult woman with a small clearly visible depigmented temple patch, lightly adjusting a sleeve in a simple dressing area.",
+        "Cool close photograph of a sunhat and unbranded sunscreen on a teal cloth, without showing a diagnosis.",
+        "Balanced consultation-preparation still life with a closed folder and plain cotton gloves."
+      ],
+      "selectionReason": "An ordinary, self-possessed adult portrait keeps attention on the person while the disclosure prevents its use as a diagnostic or outcome reference.",
+      "scene": {
+        "setting": "Warm cream dressing-room wall with a soft mineral-teal curtain edge",
+        "light": "Warm indirect afternoon daylight, accurate natural skin values",
+        "temperature": "warm",
+        "palette": "65% cream/stone neutrals,25% muted mineral teal,8% dusty rose sleeve accent,up to2% jewelry",
+        "framing": "Waist-up three-quarter portrait, full head and a relaxed wrist comfortably inside crop-safe region",
+        "action": "Casually smoothing one loose sleeve with a natural lightly bent elbow",
+        "hair": "Long dark wavy hair worn over one shoulder, natural part and flyaways",
+        "wardrobe": "Mineral-teal linen overshirt over a dusty rose plain top",
+        "expression": "Calm attentive gaze slightly to the side, gentle unforced smile",
+        "appearance": "29-year-old Persian woman, olive-brown skin, long oval face, soft brow, natural medium lips, minimal makeup; modest irregular depigmented area at one temple and wrist, no treatment comparison"
+      },
+      "alt": "زن بزرگسال با موهای تیره و پیراهن سبزآبی، با نواحی روشن رنگدانه پوست و حالتی آرام",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ مرجع تشخیص، عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent high-resolution square professional clinic editorial photograph for ELVITHA's article \"vitiligo-cell-therapy\". Topic context: Vitiligo cellular transplantation is considered for selected stable disease and has variable results; the portrait represents a person with visible natural pigment variation, never a treatment outcome.\nScene: Warm cream dressing-room wall with a soft mineral-teal curtain edge. Action: Casually smoothing one loose sleeve with a natural lightly bent elbow.\nSubject/materials: 29-year-old Persian woman, olive-brown skin, long oval face, soft brow, natural medium lips, minimal makeup; modest irregular depigmented area at one temple and wrist, no treatment comparison. Hair: Long dark wavy hair worn over one shoulder, natural part and flyaways. Wardrobe: Mineral-teal linen overshirt over a dusty rose plain top. Expression: Calm attentive gaze slightly to the side, gentle unforced smile.\nLight: Warm indirect afternoon daylight, accurate natural skin values. Palette: 65% cream/stone neutrals,25% muted mineral teal,8% dusty rose sleeve accent,up to2% jewelry; approximate art-direction proportions excluding skin and hair.\nComposition: Waist-up three-quarter portrait, full head and a relaxed wrist comfortably inside crop-safe region. Keep main subject and topic cue within central70% with generous headroom/edge room for desktop4:5, square1:1 and landscape4:3 crops. Natural eye-level or explicitly described viewpoint, honest lens perspective and restrained depth of field.\nSpecific direction: Depigmented areas are a non-diagnostic conceptual depiction, not a before/after, a reconstructed patient, or a claim of treatment success. Do not overdramatize skin differences; preserve ordinary pores and a dignified everyday gesture.\nProfessional editing with true texture, plausible highlights/reflections, material contact and subtle imperfections. For people retain pores, normal tonal variation, flyaways, small asymmetries, natural posture and realistic anatomy. No plastic skin, impossible hands, forced smile, glossy fake Pinterest staging, excessive props, watermark, logo, readable text, before/after, fabricated patient results, collage or multiple panels. Deliver one believable photograph.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/journal/vitiligo-cell-therapy.png"
+    },
+    {
+      "id": "journal-psoriasis-cell-therapy",
+      "kind": "journal",
+      "slug": "psoriasis-cell-therapy",
+      "topicSummary": "Cellular approaches to psoriasis are early research and do not replace established care; an ordinary gentle-care scene avoids inventing lesions or clinical results.",
+      "concepts": [
+        "Warm detail of a loosely opened soft cotton sleeve, a plain moisturizer tube and a clean cotton cloth on an everyday chair.",
+        "Cool still life of a closed care pouch and folded soft shirt on a slate-blue bench.",
+        "Balanced overhead scene of one unbranded cream jar beside a plain reminder card and textured cotton glove."
+      ],
+      "selectionReason": "The textile and ordinary moisturizer cue everyday skin comfort, keeping experimental cellular claims separate from imagery.",
+      "scene": {
+        "setting": "Home dressing corner with a modest caramel wooden chair and cream plaster",
+        "light": "Warm late-afternoon window light with soft, real contact shadows",
+        "temperature": "warm",
+        "palette": "65% cream/caramel neutrals,25% slate-blue cotton sleeve,8% muted terracotta tube edge,up to2% zipper metal",
+        "framing": "Close still life from a slightly elevated side angle, objects centered for all cover crops",
+        "action": "Soft shirt casually laid over chair with one unbranded tube beside a loosely folded washcloth",
+        "hair": "not applicable",
+        "wardrobe": "Slate-blue soft cotton shirt shown as an object, no person",
+        "expression": "not applicable",
+        "appearance": "Tactile cotton fibers, small natural creases, plausible tube crimp and cap, no branding"
+      },
+      "alt": "پارچه نخی آبی و ظرف بی‌نشان مرطوب‌کننده کنار دستمال نرم، در نور گرم",
+      "caption": "تصویر مفهومی مراقبت روزمره؛ مرجع تشخیص یا نمایش نتیجه درمان پسوریازیس نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent high-resolution square professional clinic editorial photograph for ELVITHA's article \"psoriasis-cell-therapy\". Topic context: Cellular approaches to psoriasis are early research and do not replace established care; an ordinary gentle-care scene avoids inventing lesions or clinical results.\nScene: Home dressing corner with a modest caramel wooden chair and cream plaster. Action: Soft shirt casually laid over chair with one unbranded tube beside a loosely folded washcloth.\nSubject/materials: Tactile cotton fibers, small natural creases, plausible tube crimp and cap, no branding. Hair: not applicable. Wardrobe: Slate-blue soft cotton shirt shown as an object, no person. Expression: not applicable.\nLight: Warm late-afternoon window light with soft, real contact shadows. Palette: 65% cream/caramel neutrals,25% slate-blue cotton sleeve,8% muted terracotta tube edge,up to2% zipper metal; approximate art-direction proportions excluding skin and hair.\nComposition: Close still life from a slightly elevated side angle, objects centered for all cover crops. Keep main subject and topic cue within central70% with generous headroom/edge room for desktop4:5, square1:1 and landscape4:3 crops. Natural eye-level or explicitly described viewpoint, honest lens perspective and restrained depth of field.\nSpecific direction: Only three practical objects, no clinical lesions or body parts. The moisturizer is an unbranded general care cue, not a named treatment or efficacy recommendation. Avoid pristine luxury still-life staging.\nProfessional editing with true texture, plausible highlights/reflections, material contact and subtle imperfections. For people retain pores, normal tonal variation, flyaways, small asymmetries, natural posture and realistic anatomy. No plastic skin, impossible hands, forced smile, glossy fake Pinterest staging, excessive props, watermark, logo, readable text, before/after, fabricated patient results, collage or multiple panels. Deliver one believable photograph.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/journal/psoriasis-cell-therapy.png"
+    },
+    {
+      "id": "journal-lichen-planus-cell-therapy",
+      "kind": "journal",
+      "slug": "lichen-planus-cell-therapy",
+      "topicSummary": "Lichen planus varies by affected site; oral disease and follow-up are discussed separately from early cellular mechanisms. Use a restrained oral-care context without showing disease or medication.",
+      "concepts": [
+        "Cool domestic detail of a plain soft toothbrush and clear water glass on a stone washbasin shelf.",
+        "Warm overhead appointment-preparation scene with a small unbranded toiletry pouch and folded blank note.",
+        "Balanced close view of a plain cup and a closed soft cotton pouch beside a bathroom mirror edge."
+      ],
+      "selectionReason": "The ordinary oral-care context fits the article's substantial oral-disease discussion without creating a diagnostic image or pretending to show a treatment.",
+      "scene": {
+        "setting": "Small real bathroom shelf of pale stone with a blue-gray painted wall",
+        "light": "Cool morning window light with neutral highlights and gentle shadow",
+        "temperature": "cool",
+        "palette": "65% cream/stone/clear glass neutrals,25% mineral teal toothbrush handle,8% dusty rose towel edge,up to2% tap hardware",
+        "framing": "Square medium close still life from shelf level, full toothbrush and glass in central safe area",
+        "action": "A soft toothbrush rests naturally beside a water glass, small towel edge loosely folded",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "Ordinary unbranded toothbrush with believable bristles, clear glass refraction and slight water line, cotton texture"
+      },
+      "alt": "مسواک ساده و لیوان آب روی طاقچه سنگی کنار پارچه صورتی، در نور خنک",
+      "caption": "تصویر مفهومی برای همراهی با موضوع مقاله؛ مرجع تشخیص یا توصیه یک محصول درمانی نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent high-resolution square professional clinic editorial photograph for ELVITHA's article \"lichen-planus-cell-therapy\". Topic context: Lichen planus varies by affected site; oral disease and follow-up are discussed separately from early cellular mechanisms. Use a restrained oral-care context without showing disease or medication.\nScene: Small real bathroom shelf of pale stone with a blue-gray painted wall. Action: A soft toothbrush rests naturally beside a water glass, small towel edge loosely folded.\nSubject/materials: Ordinary unbranded toothbrush with believable bristles, clear glass refraction and slight water line, cotton texture. Hair: not applicable. Wardrobe: not applicable. Expression: not applicable.\nLight: Cool morning window light with neutral highlights and gentle shadow. Palette: 65% cream/stone/clear glass neutrals,25% mineral teal toothbrush handle,8% dusty rose towel edge,up to2% tap hardware; approximate art-direction proportions excluding skin and hair.\nComposition: Square medium close still life from shelf level, full toothbrush and glass in central safe area. Keep main subject and topic cue within central70% with generous headroom/edge room for desktop4:5, square1:1 and landscape4:3 crops. Natural eye-level or explicitly described viewpoint, honest lens perspective and restrained depth of field.\nSpecific direction: No toothpaste claims, medicine, mouth lesions, clinical examination or procedure. Keep reflections consistent and objects ordinary, not an advertisement. Plain background, no readable labels.\nProfessional editing with true texture, plausible highlights/reflections, material contact and subtle imperfections. For people retain pores, normal tonal variation, flyaways, small asymmetries, natural posture and realistic anatomy. No plastic skin, impossible hands, forced smile, glossy fake Pinterest staging, excessive props, watermark, logo, readable text, before/after, fabricated patient results, collage or multiple panels. Deliver one believable photograph.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/journal/lichen-planus-cell-therapy.png"
+    },
+    {
+      "id": "journal-autoimmunity-after-covid",
+      "kind": "journal",
+      "slug": "autoimmunity-after-covid",
+      "topicSummary": "Post-COVID autoimmune studies show population associations rather than individual causation; symptom timing and medical history aid evaluation without implying a diagnosis.",
+      "concepts": [
+        "Balanced desk scene with a simple blank calendar grid, a closed symptom notebook and a folded plain mask partly tucked away.",
+        "Warm portrait of an adult woman reviewing a small plain timeline notebook near a window.",
+        "Cool close still life of three blank appointment cards with different paper textures and a simple pencil."
+      ],
+      "selectionReason": "A time-recording workspace matches the article's practical evaluation advice without depicting a disease or claiming causation.",
+      "scene": {
+        "setting": "Ordinary home desk with pale oak surface and soft slate-blue wall",
+        "light": "Balanced neutral window daylight with mild warm wood bounce",
+        "temperature": "balanced",
+        "palette": "65% ivory/pale oak neutrals,25% slate-blue notebook,8% muted terracotta tab,up to2% pencil ferrule",
+        "framing": "Oblique overhead square still life, calendar and notebook within shared crop-safe center",
+        "action": "Blank calendar grid open beside a closed notebook; a plain folded mask partly inside the notebook pocket",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "Real paper grain and imperfect page curl, ordinary surgical-mask folds, one simple pencil"
+      },
+      "alt": "تقویم ساده بدون نوشته، دفتر ثبت زمان علائم و ماسک تاخورده روی میز روشن",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent high-resolution square professional clinic editorial photograph for ELVITHA's article \"autoimmunity-after-covid\". Topic context: Post-COVID autoimmune studies show population associations rather than individual causation; symptom timing and medical history aid evaluation without implying a diagnosis.\nScene: Ordinary home desk with pale oak surface and soft slate-blue wall. Action: Blank calendar grid open beside a closed notebook; a plain folded mask partly inside the notebook pocket.\nSubject/materials: Real paper grain and imperfect page curl, ordinary surgical-mask folds, one simple pencil. Hair: not applicable. Wardrobe: not applicable. Expression: not applicable.\nLight: Balanced neutral window daylight with mild warm wood bounce. Palette: 65% ivory/pale oak neutrals,25% slate-blue notebook,8% muted terracotta tab,up to2% pencil ferrule; approximate art-direction proportions excluding skin and hair.\nComposition: Oblique overhead square still life, calendar and notebook within shared crop-safe center. Keep main subject and topic cue within central70% with generous headroom/edge room for desktop4:5, square1:1 and landscape4:3 crops. Natural eye-level or explicitly described viewpoint, honest lens perspective and restrained depth of field.\nSpecific direction: Calendar may show a faint empty grid but absolutely no readable letters, dates, charts, statistics or claims. This is a quiet symptom-timing concept, not a diagnosis, pandemic alarm image, or treatment recommendation.\nProfessional editing with true texture, plausible highlights/reflections, material contact and subtle imperfections. For people retain pores, normal tonal variation, flyaways, small asymmetries, natural posture and realistic anatomy. No plastic skin, impossible hands, forced smile, glossy fake Pinterest staging, excessive props, watermark, logo, readable text, before/after, fabricated patient results, collage or multiple panels. Deliver one believable photograph.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/journal/autoimmunity-after-covid.png"
+    },
+    {
+      "id": "journal-exosomes-vs-stem-cells",
+      "kind": "journal",
+      "slug": "exosomes-vs-stem-cells",
+      "topicSummary": "Live stem cells and extracellular vesicles are different categories; reading precise source information matters more than a misleading biological illustration.",
+      "concepts": [
+        "Warm environmental portrait of an adult reader turning a page in a plain source folio, with two unequal color tabs distinguishing topics.",
+        "Cool still life of two differently colored closed research folders on a simple workbench, no biological objects.",
+        "Balanced close detail of an ordinary magnifier over blank paper with two tactile material swatches as an explicit editorial metaphor."
+      ],
+      "selectionReason": "A human reading moment emphasizes careful source checking and avoids fake microscopic depictions of cells or vesicles.",
+      "scene": {
+        "setting": "Small daylight reading area with cream wall and caramel chair",
+        "light": "Warm side daylight with a subtle cool window shadow, faithful complexion",
+        "temperature": "warm",
+        "palette": "65% cream/caramel neutrals,25% blue-gray shirt,8% muted terracotta folio edge,up to2% glasses detail",
+        "framing": "Seated medium environmental portrait, reader and folio clear in center, generous headroom",
+        "action": "Quietly turning one blank page in an open plain folio while looking down",
+        "hair": "Dark loose braid with flyaways, no scarf",
+        "wardrobe": "Blue-gray lightweight cotton shirt, relaxed collar",
+        "expression": "Attentive reading, relaxed brow and mouth",
+        "appearance": "30-year-old Persian woman, square-soft face, olive complexion, gently curved nose, restrained lip fullness and lightly defined cheeks, minimal eye makeup"
+      },
+      "alt": "زن بزرگسال با پیراهن آبی‌خاکستری و موی بافته، در حال مرور پوشه‌ای ساده کنار پنجره",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent high-resolution square professional clinic editorial photograph for ELVITHA's article \"exosomes-vs-stem-cells\". Topic context: Live stem cells and extracellular vesicles are different categories; reading precise source information matters more than a misleading biological illustration.\nScene: Small daylight reading area with cream wall and caramel chair. Action: Quietly turning one blank page in an open plain folio while looking down.\nSubject/materials: 30-year-old Persian woman, square-soft face, olive complexion, gently curved nose, restrained lip fullness and lightly defined cheeks, minimal eye makeup. Hair: Dark loose braid with flyaways, no scarf. Wardrobe: Blue-gray lightweight cotton shirt, relaxed collar. Expression: Attentive reading, relaxed brow and mouth.\nLight: Warm side daylight with a subtle cool window shadow, faithful complexion. Palette: 65% cream/caramel neutrals,25% blue-gray shirt,8% muted terracotta folio edge,up to2% glasses detail; approximate art-direction proportions excluding skin and hair.\nComposition: Seated medium environmental portrait, reader and folio clear in center, generous headroom. Keep main subject and topic cue within central70% with generous headroom/edge room for desktop4:5, square1:1 and landscape4:3 crops. Natural eye-level or explicitly described viewpoint, honest lens perspective and restrained depth of field.\nSpecific direction: Folio has plain unprinted pages and only two small unequal color tabs. The scene conveys checking terminology; do not add cells, glowing particles, a microscope, injection equipment, medical diagrams, text or treatment claims. Show plausible fingers and paper contact.\nProfessional editing with true texture, plausible highlights/reflections, material contact and subtle imperfections. For people retain pores, normal tonal variation, flyaways, small asymmetries, natural posture and realistic anatomy. No plastic skin, impossible hands, forced smile, glossy fake Pinterest staging, excessive props, watermark, logo, readable text, before/after, fabricated patient results, collage or multiple panels. Deliver one believable photograph.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/journal/exosomes-vs-stem-cells.png"
+    },
+    {
+      "id": "journal-consultation-preparation",
+      "kind": "journal",
+      "slug": "consultation-preparation",
+      "topicSummary": "A short history, product list and questions help the first skin/hair consultation; the image should show a practical moment of getting ready without assuming a chosen procedure.",
+      "concepts": [
+        "Warm environmental image of an adult woman slipping a plain notebook into a simple everyday bag near an entryway.",
+        "Cool overhead view of a compact appointment folder, closed notebook and ordinary glasses on a blue-gray table.",
+        "Balanced seated portrait of a woman arranging two blank note cards before leaving for consultation."
+      ],
+      "selectionReason": "Packing a brief notebook gives the homepage journey a clear preparation action and avoids duplicating other static desk images.",
+      "scene": {
+        "setting": "Real apartment entryway with cream plaster, caramel chair and slate-blue door edge",
+        "light": "Warm morning daylight from the side, natural skin highlights",
+        "temperature": "warm",
+        "palette": "65% cream/caramel neutrals,25% slate-blue bag,8% dusty terracotta knit,up to2% bag buckle",
+        "framing": "Medium three-quarter portrait from head to upper hip, bag and hand safely centered",
+        "action": "Sliding a small closed cream notebook into an open everyday shoulder bag",
+        "hair": "Black straight shoulder-length hair tucked loosely behind one ear",
+        "wardrobe": "Muted terracotta textured long-sleeve knit and cream trousers",
+        "expression": "Focused easy expression looking toward the bag, relaxed posture",
+        "appearance": "26-year-old Persian woman, heart-oval face, medium olive skin, defined brows, natural proportional lips and soft cheeks, light everyday makeup"
+      },
+      "alt": "زن جوان با لباس بافت سفالی، در حال گذاشتن دفتر کوچک در کیف برای آماده‌شدن پیش از مشاوره",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent high-resolution square professional clinic editorial photograph for ELVITHA's article \"consultation-preparation\". Topic context: A short history, product list and questions help the first skin/hair consultation; the image should show a practical moment of getting ready without assuming a chosen procedure.\nScene: Real apartment entryway with cream plaster, caramel chair and slate-blue door edge. Action: Sliding a small closed cream notebook into an open everyday shoulder bag.\nSubject/materials: 26-year-old Persian woman, heart-oval face, medium olive skin, defined brows, natural proportional lips and soft cheeks, light everyday makeup. Hair: Black straight shoulder-length hair tucked loosely behind one ear. Wardrobe: Muted terracotta textured long-sleeve knit and cream trousers. Expression: Focused easy expression looking toward the bag, relaxed posture.\nLight: Warm morning daylight from the side, natural skin highlights. Palette: 65% cream/caramel neutrals,25% slate-blue bag,8% dusty terracotta knit,up to2% bag buckle; approximate art-direction proportions excluding skin and hair.\nComposition: Medium three-quarter portrait from head to upper hip, bag and hand safely centered. Keep main subject and topic cue within central70% with generous headroom/edge room for desktop4:5, square1:1 and landscape4:3 crops. Natural eye-level or explicitly described viewpoint, honest lens perspective and restrained depth of field.\nSpecific direction: One notebook and one bag only, no phone screen or readable paper. Preserve believable hand grip, zipper, sleeve and shoulders. This is preparation for a conversation, not booking or a claimed clinic visit; no staff/medical gear.\nProfessional editing with true texture, plausible highlights/reflections, material contact and subtle imperfections. For people retain pores, normal tonal variation, flyaways, small asymmetries, natural posture and realistic anatomy. No plastic skin, impossible hands, forced smile, glossy fake Pinterest staging, excessive props, watermark, logo, readable text, before/after, fabricated patient results, collage or multiple panels. Deliver one believable photograph.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/journal/consultation-preparation.png"
+    },
+    {
+      "id": "journal-elvitha-natural-beauty",
+      "kind": "journal",
+      "slug": "elvitha-natural-beauty",
+      "topicSummary": "ELVITHA values personal identity, familiar expressions and informed choice; beauty imagery should preserve distinctive facial features rather than enforce one face ideal.",
+      "concepts": [
+        "Warm close environmental portrait of a woman with short chestnut curls sharing a small spontaneous smile toward someone just outside frame.",
+        "Cool waist-up portrait against muted plum plaster, dark straight bob and softly asymmetrical direct gaze.",
+        "Balanced side-lit portrait in an olive blouse beside a cream wall, relaxed seated posture and quiet expression."
+      ],
+      "selectionReason": "An individual face and unforced expression embody the article's identity-first message without advertising a procedure.",
+      "scene": {
+        "setting": "Quiet cream-plaster room with a softly blurred olive curtain edge",
+        "light": "Warm reflected afternoon daylight from one side, neutral skin highlights and subtle cheek shadow",
+        "temperature": "warm",
+        "palette": "65% cream/stone neutrals,25% muted plum blouse,8% olive curtain,up to2% small jewelry",
+        "framing": "Close upper-body three-quarter portrait, complete hair and shoulders inside generous safe margins",
+        "action": "Turning slightly toward a person outside frame with shoulders at unequal natural angles",
+        "hair": "Short chestnut natural curls, varied strand pattern and small flyaways",
+        "wardrobe": "Soft muted plum blouse with textured weave and relaxed neckline",
+        "expression": "Small spontaneous open smile, natural asymmetry and expression lines",
+        "appearance": "28-year-old Persian woman, softly angular face, warm olive skin, characterful straight nose, gently fuller lower lip with soft cheeks, light everyday makeup; attractive individual character"
+      },
+      "alt": "زن بزرگسال با موهای فر کوتاه و بلوز آلویی، با لبخندی طبیعی و بافت واقعی پوست",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 35%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent high-resolution square professional clinic editorial photograph for ELVITHA's article \"elvitha-natural-beauty\". Topic context: ELVITHA values personal identity, familiar expressions and informed choice; beauty imagery should preserve distinctive facial features rather than enforce one face ideal.\nScene: Quiet cream-plaster room with a softly blurred olive curtain edge. Action: Turning slightly toward a person outside frame with shoulders at unequal natural angles.\nSubject/materials: 28-year-old Persian woman, softly angular face, warm olive skin, characterful straight nose, gently fuller lower lip with soft cheeks, light everyday makeup; attractive individual character. Hair: Short chestnut natural curls, varied strand pattern and small flyaways. Wardrobe: Soft muted plum blouse with textured weave and relaxed neckline. Expression: Small spontaneous open smile, natural asymmetry and expression lines.\nLight: Warm reflected afternoon daylight from one side, neutral skin highlights and subtle cheek shadow. Palette: 65% cream/stone neutrals,25% muted plum blouse,8% olive curtain,up to2% small jewelry; approximate art-direction proportions excluding skin and hair.\nComposition: Close upper-body three-quarter portrait, complete hair and shoulders inside generous safe margins. Keep main subject and topic cue within central70% with generous headroom/edge room for desktop4:5, square1:1 and landscape4:3 crops. Natural eye-level or explicitly described viewpoint, honest lens perspective and restrained depth of field.\nSpecific direction: Preserve familiar facial character, visible pores, normal smile lines and subtle under-eye tone. No beauty-ad perfection, exaggerated contouring, face-slimming, glamour pose, prop or medical implication. One genuine-looking moment.\nProfessional editing with true texture, plausible highlights/reflections, material contact and subtle imperfections. For people retain pores, normal tonal variation, flyaways, small asymmetries, natural posture and realistic anatomy. No plastic skin, impossible hands, forced smile, glossy fake Pinterest staging, excessive props, watermark, logo, readable text, before/after, fabricated patient results, collage or multiple panels. Deliver one believable photograph.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/journal/elvitha-natural-beauty.png"
+    },
+    {
+      "id": "journal-everyday-skin-care",
+      "kind": "journal",
+      "slug": "everyday-skin-care",
+      "topicSummary": "A sustainable routine centers gentle cleansing, moisturizing and sun protection, adjusted to daily needs; depict a compact believable everyday kit rather than commercial products.",
+      "concepts": [
+        "Cool real bathroom shelf with three plain differently shaped containers and a loosely hung soft washcloth.",
+        "Warm detail of an open everyday tote with a small unbranded sun-protection tube and cotton hat.",
+        "Balanced close photograph of a plain moisturizer lid being set beside a gently damp washcloth."
+      ],
+      "selectionReason": "Three simple containers give the routine a clear practical structure and fit its journey reuse without inventing a product range.",
+      "scene": {
+        "setting": "Ordinary pale stone bathroom shelf against a muted blue-gray tiled wall",
+        "light": "Cool diffuse morning daylight, soft shadows and natural color",
+        "temperature": "cool",
+        "palette": "65% cream/stone neutrals,25% slate-blue textile,8% subdued terracotta container detail,up to2% small hardware",
+        "framing": "Square eye-level still life, three containers and cloth within central crop-safe area, no flat-lay grid",
+        "action": "A small practical kit left naturally after use: plain pump, small cream jar and simple tube",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "Unbranded containers of different practical shapes, no labels, realistic plastic seams/cap edges, slightly rumpled cotton"
+      },
+      "alt": "سه ظرف ساده و بی‌نشان مراقبت پوست کنار دستمال نخی آبی روی طاقچه روشن",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس بیمار یا نتیجه درمان نیست.",
+      "position": "50% 50%",
+      "prompt": "Use case: photorealistic-natural. Create ONE independent high-resolution square professional clinic editorial photograph for ELVITHA's article \"everyday-skin-care\". Topic context: A sustainable routine centers gentle cleansing, moisturizing and sun protection, adjusted to daily needs; depict a compact believable everyday kit rather than commercial products.\nScene: Ordinary pale stone bathroom shelf against a muted blue-gray tiled wall. Action: A small practical kit left naturally after use: plain pump, small cream jar and simple tube.\nSubject/materials: Unbranded containers of different practical shapes, no labels, realistic plastic seams/cap edges, slightly rumpled cotton. Hair: not applicable. Wardrobe: not applicable. Expression: not applicable.\nLight: Cool diffuse morning daylight, soft shadows and natural color. Palette: 65% cream/stone neutrals,25% slate-blue textile,8% subdued terracotta container detail,up to2% small hardware; approximate art-direction proportions excluding skin and hair.\nComposition: Square eye-level still life, three containers and cloth within central crop-safe area, no flat-lay grid. Keep main subject and topic cue within central70% with generous headroom/edge room for desktop4:5, square1:1 and landscape4:3 crops. Natural eye-level or explicitly described viewpoint, honest lens perspective and restrained depth of field.\nSpecific direction: The shapes suggest a small everyday routine without claiming exact formulas or SPF. No logos, labels, clinical claims, repeated decorative bottles, perfect symmetric layout, flowers, stones or cosmetic-ad gloss. Let one cloth corner hang naturally.\nProfessional editing with true texture, plausible highlights/reflections, material contact and subtle imperfections. For people retain pores, normal tonal variation, flyaways, small asymmetries, natural posture and realistic anatomy. No plastic skin, impossible hands, forced smile, glossy fake Pinterest staging, excessive props, watermark, logo, readable text, before/after, fabricated patient results, collage or multiple panels. Deliver one believable photograph.",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/journal/everyday-skin-care.png"
+    },
+    {
+      "id": "environment-corridor",
+      "kind": "environment",
+      "slug": "corridor",
+      "topicSummary": "Opening still before the existing entrance film; retain architectural continuity.",
+      "concepts": [
+        "Same corridor, afternoon side daylight and restrained mineral-teal cushions; preserve camera and architecture.",
+        "Same corridor in balanced overcast daylight with subtle dusty-rose upholstery variation.",
+        "Same corridor with cooler window light and warmer reception practical lights, quiet color contrast."
+      ],
+      "selectionReason": "Preserves the entrance transition's geography and warmth while making the material and illumination feel more photographic.",
+      "scene": {
+        "setting": "existing clinic corridor and distant reception",
+        "light": "soft afternoon side daylight and restrained practical lights",
+        "temperature": "warm",
+        "palette": "cream/blush/champagne with distant mineral-teal accent",
+        "framing": "same wide eye-level camera as existing corridor, 16:9",
+        "action": "quiet unoccupied corridor",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "conceptual interior; not a real operating clinic"
+      },
+      "prompt": "Use case: photorealistic-natural, precise interior photo refresh.\nAsset type: ELVITHA clinic website opening corridor still, a single 16:9 landscape photograph, high resolution.\nInput image 1 is the edit target and architectural reference. Input image 2 is ONLY the adjacent existing entrance film's poster, a continuity reference. Produce only one new corridor photo.\nKeep the camera at the exact first image viewpoint, the hallway geometry, right foreground door and handle, reception desk position, distant waiting sofa, window positions, and all existing ELVITHA lettering correctly spelled and in the same locations. Preserve architectural identity and the cream/blush/champagne relationship so this still can fade into the existing film.\nRephotograph it as a skilled architectural photographer on a real day: soft afternoon side daylight with slightly cooler window illumination and restrained warm wall practical lights, tactile paint and upholstery, believable subtle irregularity in stone, physically plausible less mirror-polished floor reflections and retained highlight detail. Moderate editorial contrast, clean natural color, inviting and alive.\nIntroduce only small mineral-teal and dusty rose accent cushions on the distant sofa and a restrained darker green plant detail; stay mostly cream, ivory and stone, blush secondary, very limited brass. Color guide for art-directed surfaces roughly65%neutral25%supporting8%complementary2%metal, flexible for this continuity image. Do not repaint the corridor or change furniture architecture. Keep floor and reception surfaces uncluttered.\nDo not add people, medical devices, new signs, logos, typography, watermark, impossible reflections, oversized floral bouquets, glossy CGI material, lens flare, artificial orange cast or dramatic luxury staging. This is a conceptual interior image, not documentation of an operational clinic. Preserve the existing visible lettering rather than adding text. Natural professional editorial finish, one coherent real photographic exposure.",
+      "references": [
+        "public/media/corridor-elvitha.webp",
+        "public/media/entrance-elvitha-poster.webp"
+      ],
+      "alt": "نمای مفهومی راهروی روشن الویتا با پذیرش در سمت راست و فضای نشستن کنار پنجره در انتها",
+      "position": "53% 50%",
+      "review": null,
+      "tool": "built-in image_gen",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/environment/corridor.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس شعبه فعال نیست."
+    },
+    {
+      "id": "environment-lounge",
+      "kind": "environment",
+      "slug": "lounge",
+      "topicSummary": "Invitation and contact imagery: approachable, quiet space for a future conversation; explicitly conceptual.",
+      "concepts": [
+        "A closer conversational corner with slate-blue chair, muted rose cushion and warm oak, cool open daylight.",
+        "An airy reception-adjacent alcove with cream linen seats, mineral-green painted wood and a plum textile.",
+        "A long quiet bench by a frosted window with a single ivory chair and terracotta floor, late afternoon sun."
+      ],
+      "selectionReason": "A tighter conversational composition differs from the wide entrance and about image while a slate-blue/rose pair provides cooler rhythm.",
+      "scene": {
+        "setting": "contemporary clinic conversation corner",
+        "light": "cool open-shade window daylight and soft neutral fill",
+        "temperature": "cool",
+        "palette": "65% ivory/stone,25%slate blue,8%dusty rose,2%champagne hardware",
+        "framing": "environmental three-quarter view, generous vertical crop safe center",
+        "action": "two empty chairs angled for a calm conversation",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "conceptual space"
+      },
+      "prompt": "Use case: photorealistic-natural. One professional architectural editorial photograph for the ELVITHA Persian skin/hair clinic invitation and contact section. A believable small contemporary conversation corner in a thoughtfully renovated Tehran apartment office, not a palace lobby: two comfortable individual chairs angled naturally for a conversation, one ivory woven fabric, one restrained slate-blue wool, a small muted dusty-rose cushion, modest warm oak side table with a closed plain paper notebook, off-white painted walls and a partial tall window with sheer linen. Photograph slightly to the side at seated eye level, allowing pleasing negative space and breathing room around furniture, wide enough to see feet and believable floor contact. Cool open-shade daylight, neutral reflected fill, true fabric weave and a little casual unevenness in the cushion, subdued believable reflections, deep but open shadows. Approximately65%neutral,25%slateblue,8%dustyrose,2%champagnehardware, no metallic excess. Sophisticated restrained editorial styling, real-world perspective, attractive but believable. Crop-safe composition: important furniture clustered in central60%, generous top/bottom and sides for portrait, square and landscape crops. No people, no branded signs or text, no phones or devices, no medical equipment, no fountains, decorative flower arrangements, oversize marble, CGI gloss, excessive symmetry, staged luxury props, fake sun flares or watermark. One coherent high-resolution photograph, not a collage. Conceptual proposed interior, not documentation of a real clinic.",
+      "references": [],
+      "alt": "تصویر مفهومی گوشه‌ای آرام برای گفت‌وگو با صندلی‌های کرم و آبی‌خاکستری، میز چوبی و نور پنجره",
+      "position": "50% 50%",
+      "review": null,
+      "tool": "built-in image_gen",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/environment/lounge.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس شعبه فعال نیست."
+    },
+    {
+      "id": "environment-brand-space",
+      "kind": "environment",
+      "slug": "brand-space",
+      "topicSummary": "About-page conceptual interior: attentive contemporary clinic atmosphere, distinct from reception.",
+      "concepts": [
+        "A quiet reading alcove with ivory plaster, mineral-teal wall panel and rose fabric chair beside an open oak shelf.",
+        "A window-lit consultation preparation desk with cream linen, olive upholstery and a muted plum folder.",
+        "An architectural threshold joining a warm oak wall and pale rose seating alcove, directional neutral daylight."
+      ],
+      "selectionReason": "A composition centered on an attentive reading corner conveys the brand atmosphere without repeating the corridor or lounge arrangement.",
+      "scene": {
+        "setting": "quiet clinic preparation/reading alcove",
+        "light": "balanced natural daylight with gentle directional shadow",
+        "temperature": "balanced",
+        "palette": "ivory/stone neutrals, muted mineral teal, dusty rose accent, restrained champagne",
+        "framing": "eye-level architectural detail/environment, central portrait-safe composition",
+        "action": "empty restful reading corner",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "conceptual interior"
+      },
+      "prompt": "Use case: photorealistic-natural. Create one realistic high-resolution architectural editorial photograph for the about page of ELVITHA, a contemporary Persian skin and hair clinic. A small thoughtful consultation-preparation reading alcove: ivory matte wall meeting a broad muted mineral-teal painted wood panel, a single beautifully made dusty-rose upholstered chair, a low narrow warm-oak shelf with two plain closed books with no visible lettering, a soft off-white linen curtain at the edge of a window. Practical modest architecture and construction details, clean joints, real grain, fabric weave, understated small champagne hinge or handle only if naturally needed. Balanced soft daylight across the chair with gentle directional shadows and believable depth, neutral white balance, subtle tactile imperfection, attractive refined composition seen from an oblique standing camera angle, not symmetrical real-estate CGI. 65%ivory stone and oak neutrals,25%mineralteal,8%rose,2%brass at most; these are scene-color guides, not a uniform tint. Compose chair and panel in central safe area with generous headroom and side space, works as 4:5 portrait, square and landscape crops. No people, no medical tools, no signage, no logos or text, no flower arrangements, arched niche cliché, glossy marble, fake miniature-scale furniture, impossible shadows, watermark or collage. A plausible photographed proposed space, not a claim this clinic interior exists.",
+      "references": [],
+      "alt": "تصویر مفهومی فضای آرام الویتا با صندلی صورتی، صفحه دیواری سبزآبی و قفسه چوبی کنار نور روز",
+      "position": "50% 50%",
+      "review": null,
+      "tool": "built-in image_gen",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/environment/brand-space.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس شعبه فعال نیست."
+    }
+  ]
+}

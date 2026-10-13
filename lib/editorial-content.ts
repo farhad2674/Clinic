@@ -1,3 +1,4 @@
+import {servicePhotography,environmentPhotography} from './clinic-photography';
 import {categories, content} from './site';
 import research from './research-content.json';
 import {homeFaq} from './home-content';
@@ -19,11 +20,11 @@ export const sources:Record<string,Source> = {
  exosomes:{title:'سازمان غذا و داروی آمریکا: هشدار ایمنی اگزوزوم',url:'https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/public-safety-notification-exosome-products'}
 };
 export const editorialImages = {
- natural:{src:'/media/young-natural.webp',alt:'پرتره نمایشی یک زن بزرگسال با بافت طبیعی پوست'},
- scarf:{src:'/media/young-scarf.webp',alt:'پرتره نمایشی یک زن بزرگسال با روسری طرح‌دار'},
- hair:{src:'/media/hair.webp',alt:'تصویر نمایشی تارهای موی تیره و فرق سر'},
- mature:{src:'/media/mature.webp',alt:'پرتره نمایشی یک زن میانسال با خطوط طبیعی چهره'},
- space:{src:'/media/brand-space-elvitha.webp',alt:'تصویر مفهومی فضای الویتا با نور طبیعی'}
+ natural:servicePhotography['natural-rejuvenation'],
+ scarf:servicePhotography.pigmentation,
+ hair:servicePhotography['hair-loss'],
+ mature:servicePhotography['rejuvenation-45'],
+ space:environmentPhotography['brand-space']
 };
 export type ImageKey = keyof typeof editorialImages;
 export type ServiceDetail = {title:string; description:string; preparation:string; questions:string[]; section:Section;sections?:Section[]; sourceKeys:string[]; image:ImageKey; related:string[]};

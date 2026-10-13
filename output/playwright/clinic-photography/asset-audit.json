@@ -1,0 +1,950 @@
+{
+  "checkedAt": "2026-10-13T13:24:21.114Z",
+  "checks": [
+    {
+      "name": "Protected file unchanged: public/media/portrait-turn/supplied-portrait.mp4",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: public/media/portrait-turn/supplied-poster.webp",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: public/media/entrance-elvitha.mp4",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: public/media/entrance-elvitha-poster.webp",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: components/face-analysis.tsx",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: lib/portrait-landmarks.ts",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: components/media.tsx",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: components/motion.tsx",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: components/scroll-scene.ts",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: components/deferred-motion.tsx",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: app/face-analysis.css",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: app/motion-scenes.css",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: app/globals.css",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: lib/content.json",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: lib/research-content.json",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: lib/regenerative-service-details.ts",
+      "pass": true
+    },
+    {
+      "name": "Protected file unchanged: lib/regenerative-services.ts",
+      "pass": true
+    },
+    {
+      "name": "Portrait configuration unchanged",
+      "pass": true
+    },
+    {
+      "name": "Entrance film configuration unchanged",
+      "pass": true
+    },
+    {
+      "name": "Entire face-scan section unchanged",
+      "pass": true
+    },
+    {
+      "name": "Exactly42 reviewed independent masters",
+      "pass": true
+    },
+    {
+      "name": "Coverage service",
+      "pass": true
+    },
+    {
+      "name": "Coverage journal",
+      "pass": true
+    },
+    {
+      "name": "Coverage environment",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-prp",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-prp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/prp.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/prp-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-prp",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-mesogel",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-mesogel",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/mesogel.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/mesogel-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-mesogel",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-acne",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-acne",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/acne.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/acne-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-acne",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-acne-scars",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-acne-scars",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/acne-scars.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/acne-scars-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-acne-scars",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-pigmentation",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-pigmentation",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/pigmentation.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/pigmentation-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-pigmentation",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/hair-loss.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/hair-loss-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-scalp-health",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-scalp-health",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/scalp-health.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/scalp-health-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-scalp-health",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/natural-rejuvenation.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/natural-rejuvenation-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-rejuvenation-45",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-rejuvenation-45",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/rejuvenation-45.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/rejuvenation-45-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-rejuvenation-45",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-botox",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-botox",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/botox.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/botox-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-botox",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-fillers",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-fillers",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/fillers.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/fillers-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-fillers",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-microneedling",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-microneedling",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/microneedling.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/microneedling-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-microneedling",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-prf",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-prf",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/prf.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/prf-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-prf",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-exosomes",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-exosomes",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/exosomes.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/exosomes-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-exosomes",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-cell-based",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-cell-based",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/cell-based.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/cell-based-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-cell-based",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review service-regenerative",
+      "pass": true
+    },
+    {
+      "name": "Original retained service-regenerative",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/regenerative.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/service/regenerative-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling service-regenerative",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-teen-acne",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-teen-acne",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/teen-acne.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/teen-acne-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-teen-acne",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-prp-vs-prf",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-prp-vs-prf",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/prp-vs-prf.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/prp-vs-prf-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-prp-vs-prf",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-prp-for-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-prp-for-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/prp-for-hair-loss.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/prp-for-hair-loss-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-prp-for-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-acne-marks-vs-scars",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-acne-marks-vs-scars",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/acne-marks-vs-scars.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/acne-marks-vs-scars-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-acne-marks-vs-scars",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/natural-rejuvenation.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/natural-rejuvenation-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-exosomes-evidence",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-exosomes-evidence",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/exosomes-evidence.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/exosomes-evidence-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-exosomes-evidence",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-different-treatment-results",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-different-treatment-results",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/different-treatment-results.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/different-treatment-results-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-different-treatment-results",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-questions-before-fillers",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-questions-before-fillers",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/questions-before-fillers.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/questions-before-fillers-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-questions-before-fillers",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-before-after-photos",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-before-after-photos",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/before-after-photos.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/before-after-photos-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-before-after-photos",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-skin-after-45",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-skin-after-45",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/skin-after-45.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/skin-after-45-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-skin-after-45",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-regenerative-medicine",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-regenerative-medicine",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/regenerative-medicine.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/regenerative-medicine-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-regenerative-medicine",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-cell-therapy-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-cell-therapy-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/cell-therapy-stem-cells.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/cell-therapy-stem-cells-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-cell-therapy-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-elvitha-natural-beauty",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-elvitha-natural-beauty",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/elvitha-natural-beauty.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/elvitha-natural-beauty-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-elvitha-natural-beauty",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-prp-skin-evidence",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-prp-skin-evidence",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/prp-skin-evidence.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/prp-skin-evidence-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-prp-skin-evidence",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-mesogel-skin-quality",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-mesogel-skin-quality",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/mesogel-skin-quality.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/mesogel-skin-quality-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-mesogel-skin-quality",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-novel-cellular-methods",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-novel-cellular-methods",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/novel-cellular-methods.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/novel-cellular-methods-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-novel-cellular-methods",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-vitiligo-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-vitiligo-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/vitiligo-cell-therapy.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/vitiligo-cell-therapy-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-vitiligo-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-psoriasis-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-psoriasis-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/psoriasis-cell-therapy.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/psoriasis-cell-therapy-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-psoriasis-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-lichen-planus-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-lichen-planus-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/lichen-planus-cell-therapy.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/lichen-planus-cell-therapy-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-lichen-planus-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-autoimmunity-after-covid",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-autoimmunity-after-covid",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/autoimmunity-after-covid.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/autoimmunity-after-covid-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-autoimmunity-after-covid",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-exosomes-vs-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-exosomes-vs-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/exosomes-vs-stem-cells.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/exosomes-vs-stem-cells-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-exosomes-vs-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-consultation-preparation",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-consultation-preparation",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/consultation-preparation.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/consultation-preparation-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-consultation-preparation",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review journal-everyday-skin-care",
+      "pass": true
+    },
+    {
+      "name": "Original retained journal-everyday-skin-care",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/everyday-skin-care.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/journal/everyday-skin-care-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling journal-everyday-skin-care",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review environment-corridor",
+      "pass": true
+    },
+    {
+      "name": "Original retained environment-corridor",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/environment/corridor.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/environment/corridor-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling environment-corridor",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review environment-lounge",
+      "pass": true
+    },
+    {
+      "name": "Original retained environment-lounge",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/environment/lounge.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/environment/lounge-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling environment-lounge",
+      "pass": true
+    },
+    {
+      "name": "Prompt, concepts and review environment-brand-space",
+      "pass": true
+    },
+    {
+      "name": "Original retained environment-brand-space",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/environment/brand-space.webp",
+      "pass": true
+    },
+    {
+      "name": "Decodable correct-sized WebP public/media/clinic-photography-v1/environment/brand-space-800.webp",
+      "pass": true
+    },
+    {
+      "name": "No upscaling environment-brand-space",
+      "pass": true
+    },
+    {
+      "name": "Hero <=120KB",
+      "pass": true,
+      "detail": 62754
+    },
+    {
+      "name": "Hero preload and rendered source agree",
+      "pass": true
+    }
+  ]
+}

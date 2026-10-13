@@ -1,0 +1,27 @@
+{
+  "createdAt": "2026-10-13T13:50:52.513Z",
+  "protectedFiles": {
+    "public/media/portrait-turn/supplied-portrait.mp4": "69bf9201c010ac0421186656f46d079c026f2a0fd12b7cebb2689842cabe0348",
+    "public/media/portrait-turn/supplied-poster.webp": "984c966574d8b00bf6de6cb6e848abb7e394af950fa5968a3dde4205e50b3ab5",
+    "public/media/entrance-elvitha.mp4": "b119a40ead4b1376deac84fa08975b89fdd70834f2c20a19d0f05a8fc82f7ec9",
+    "public/media/entrance-elvitha-poster.webp": "57cfecb4b03567be9165987dbde00cc1e53722f51ccd9846843859176c961427",
+    "components/face-analysis.tsx": "87c3cd04e13a8684ae9be0190d5717812f4c3f96a8abd61ee77b4dece79655bd",
+    "lib/portrait-landmarks.ts": "2036d24751dfc84e828228ed7e870e50826ec3eeafc0d5fba55cf2453c4e39e1",
+    "components/media.tsx": "80c04f97f46dbad6d464da20e8c59a3d23f2f2b816cf6c5ec5dc0e85627219cf",
+    "components/motion.tsx": "7b2daca942c714e529d03ccbbdeebcce7e7d57de649310185579f7c752ea65d9",
+    "components/scroll-scene.ts": "f44106d4edc5f4166cc50923d595f8d79ce83f8afd2970e384f5555a456f6639",
+    "components/deferred-motion.tsx": "21723de8592b48d06f22c6c5ef1a390fcec741a969af2a1a931e64d6262a52d3",
+    "app/face-analysis.css": "57ae312c65b9e4c8f53e32c8a1464aa5c3ec2f2cc08267c77ff6bfe2497e60c4",
+    "app/motion-scenes.css": "76f6b8651b94bffffe7b3976cbd5310f7bad12ab924ca6cd0ca87879b5eeccb2",
+    "app/globals.css": "a31ae61e8cf3222e1d9665bb48849e4944d044765e97247efb5de0c563184d06",
+    "lib/content.json": "07463c4cecc8e3f1ee9027fff2e38fa4677d483cfcf889fc06dba2305ce62148",
+    "lib/research-content.json": "8cc349b0b8536743e73f85a2f6b74086e119d6a55b02aca36b57c154fd077fd4",
+    "lib/regenerative-service-details.ts": "fe934bda2215ed553adb4ece43bc263e9cead2054d58ddc2fbf57e412b0226ed",
+    "lib/regenerative-services.ts": "e456cef71772c97574e4d7e4fbbeb670106452053a57219a0959924b4485eb30"
+  },
+  "protectedConfiguration": {
+    "portrait": "portrait:{src:'/media/portrait-turn/supplied-portrait.mp4',poster:'/media/portrait-turn/supplied-poster.webp',alt:'ویدئوی نمایشی زن جوان بزرگسال با تل روسری که سر را به‌آرامی به کنار می‌چرخاند و دوباره رو به دوربین قرار می‌گیرد',concept:true},",
+    "entrance": "entrance:{src:'/media/entrance-elvitha.mp4',poster:'/media/entrance-elvitha-poster.webp',alt:'تصویر مفهومی ورودی و پذیرش الویتا',concept:true,position:'54% center'},",
+    "scanSection": "<section id=\"understanding\" className=\"understanding scene\" data-chapter data-opening><div className=\"understanding-stage scene-stage page-width\">\r\n<div className=\"understanding-copy\"><h2>انتخاب را از<br/><em>نیاز خودتان شروع کنید.</em></h2><div className=\"observation-steps\">{[{t:'چه چیزی تغییر کرده؟',b:'تغییر پوست یا مو و زمان شروع آن.'},{t:'پیش از این چه کرده‌اید؟',b:'داروها، مراقبت‌ها و درمان‌های قبلی.'},{t:'چه نتیجه‌ای برایتان مهم است؟',b:'خواسته‌ها و انتظارتان از نتیجه.'}].map((s,i)=><div data-observation key={s.t}><span className=\"latin-number\">0{i+1}</span><div><h3>{s.t}</h3><p>{s.b}</p></div></div>)}</div><a className=\"text-link\" href=\"/care\">از کجا شروع کنم؟ <Arrow/></a></div>\r\n<div className=\"portrait-composition\"><div className=\"portrait-film\"><ScrubVideo asset=\"portrait\"/><FaceAnalysis/></div><span className=\"portrait-orbit\" aria-hidden=\"true\"/></div>\r\n</div></section>\r\n"
+  }
+}

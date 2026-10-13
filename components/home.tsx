@@ -1,4 +1,5 @@
 'use client';
+import {environmentPhotography} from '@/lib/clinic-photography';
 import {chapters} from '@/lib/site';
 import {homeServices as categories} from '@/lib/home-content';
 import {MethodAtlas} from './method-atlas';
@@ -17,7 +18,7 @@ return <><main id="main" className="home"><DeferredMotion/><nav className="chapt
 <section id="entry" className="hero scene" data-chapter data-opening>
 <div className="hero-stage scene-stage">
 <div className="hero-copy"><h1><span>پزشکی بازساختی</span>{' '}<span>و <em>سلول‌درمانی</em></span></h1><p className="hero-description">دربارهٔ ریزش مو یا تغییرات پوستتان پرسش دارید؟ از دغدغهٔ خود شروع کنید و روش‌های مرتبط را بشناسید.</p><div className="hero-actions"><CTA href="/care">از کجا شروع کنم؟</CTA><a className="text-link" href="#paths">روش‌ها را ببینید</a></div><div className="hero-context"><span>پیش از انتخاب روش</span><p>تفاوت PRP، مزوژل و روش‌های سلولی را بخوانید و پرسش‌هایتان را برای مشاوره آماده کنید.</p></div></div>
-<div className="hero-window"><ScrubVideo asset="entrance"/><img className="corridor-intro" src="/media/corridor-elvitha.webp" alt="" fetchPriority="high"/><div className="window-frame"/></div>
+<div className="hero-window"><ScrubVideo asset="entrance"/><img className="corridor-intro" src={environmentPhotography.corridor.src} width={environmentPhotography.corridor.width} height={environmentPhotography.corridor.height} alt="" fetchPriority="high"/><div className="window-frame"/></div>
 <div className="hero-threshold" aria-hidden="true"><i/></div><div className="hero-progress" aria-hidden="true"><i/></div>
 <div className="hero-aside" aria-hidden="true"><span className="vertical-line"/></div>
 </div></section>

@@ -1,0 +1,210 @@
+[
+  {
+    "route": "/",
+    "status": 200
+  },
+  {
+    "route": "/services",
+    "status": 200
+  },
+  {
+    "route": "/about",
+    "status": 200
+  },
+  {
+    "route": "/care",
+    "status": 200
+  },
+  {
+    "route": "/faq",
+    "status": 200
+  },
+  {
+    "route": "/contact",
+    "status": 200
+  },
+  {
+    "route": "/privacy",
+    "status": 200
+  },
+  {
+    "route": "/skin",
+    "status": 200
+  },
+  {
+    "route": "/services/acne",
+    "status": 200
+  },
+  {
+    "route": "/services/acne-scars",
+    "status": 200
+  },
+  {
+    "route": "/services/pigmentation",
+    "status": 200
+  },
+  {
+    "route": "/services/microneedling",
+    "status": 200
+  },
+  {
+    "route": "/hair",
+    "status": 200
+  },
+  {
+    "route": "/services/hair-loss",
+    "status": 200
+  },
+  {
+    "route": "/services/scalp-health",
+    "status": 200
+  },
+  {
+    "route": "/rejuvenation",
+    "status": 200
+  },
+  {
+    "route": "/services/natural-rejuvenation",
+    "status": 200
+  },
+  {
+    "route": "/services/rejuvenation-45",
+    "status": 200
+  },
+  {
+    "route": "/services/botox",
+    "status": 200
+  },
+  {
+    "route": "/services/fillers",
+    "status": 200
+  },
+  {
+    "route": "/advanced",
+    "status": 200
+  },
+  {
+    "route": "/services/prp",
+    "status": 200
+  },
+  {
+    "route": "/services/prf",
+    "status": 200
+  },
+  {
+    "route": "/services/exosomes",
+    "status": 200
+  },
+  {
+    "route": "/services/cell-based",
+    "status": 200
+  },
+  {
+    "route": "/services/mesogel",
+    "status": 200
+  },
+  {
+    "route": "/services/regenerative",
+    "status": 200
+  },
+  {
+    "route": "/journal",
+    "status": 200
+  },
+  {
+    "route": "/journal/regenerative-medicine",
+    "status": 200
+  },
+  {
+    "route": "/journal/cell-therapy-stem-cells",
+    "status": 200
+  },
+  {
+    "route": "/journal/prp-skin-evidence",
+    "status": 200
+  },
+  {
+    "route": "/journal/mesogel-skin-quality",
+    "status": 200
+  },
+  {
+    "route": "/journal/novel-cellular-methods",
+    "status": 200
+  },
+  {
+    "route": "/journal/vitiligo-cell-therapy",
+    "status": 200
+  },
+  {
+    "route": "/journal/psoriasis-cell-therapy",
+    "status": 200
+  },
+  {
+    "route": "/journal/lichen-planus-cell-therapy",
+    "status": 200
+  },
+  {
+    "route": "/journal/autoimmunity-after-covid",
+    "status": 200
+  },
+  {
+    "route": "/journal/exosomes-vs-stem-cells",
+    "status": 200
+  },
+  {
+    "route": "/journal/prp-for-hair-loss",
+    "status": 200
+  },
+  {
+    "route": "/journal/acne-marks-vs-scars",
+    "status": 200
+  },
+  {
+    "route": "/journal/teen-acne",
+    "status": 200
+  },
+  {
+    "route": "/journal/natural-rejuvenation",
+    "status": 200
+  },
+  {
+    "route": "/journal/prp-vs-prf",
+    "status": 200
+  },
+  {
+    "route": "/journal/exosomes-evidence",
+    "status": 200
+  },
+  {
+    "route": "/journal/different-treatment-results",
+    "status": 200
+  },
+  {
+    "route": "/journal/questions-before-fillers",
+    "status": 200
+  },
+  {
+    "route": "/journal/before-after-photos",
+    "status": 200
+  },
+  {
+    "route": "/journal/skin-after-45",
+    "status": 200
+  },
+  {
+    "route": "/journal/consultation-preparation",
+    "status": 200
+  },
+  {
+    "route": "/journal/elvitha-natural-beauty",
+    "status": 200
+  },
+  {
+    "route": "/journal/everyday-skin-care",
+    "status": 200
+  },
+  {
+    "route": "/sitemap",
+    "status": 200
+  }
+]

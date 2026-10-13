@@ -1,0 +1,1313 @@
+{
+  "base": "http://127.0.0.1:3016",
+  "checks": [
+    {
+      "name": "52 current routes discovered",
+      "pass": true,
+      "detail": 52
+    },
+    {
+      "name": "All routes return200",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "All42 final photographs are mounted",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "No old independent photograph remains mounted",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "All src/srcset/poster assets load",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Layout and image decoding 1440 /",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /about",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /care",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /faq",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /contact",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /privacy",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /skin",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/acne",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/acne-scars",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/pigmentation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/microneedling",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /hair",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/hair-loss",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/scalp-health",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /rejuvenation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/natural-rejuvenation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/rejuvenation-45",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/botox",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/fillers",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /advanced",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/prp",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/prf",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/exosomes",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/cell-based",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/mesogel",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /services/regenerative",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/regenerative-medicine",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/cell-therapy-stem-cells",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/prp-skin-evidence",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/mesogel-skin-quality",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/novel-cellular-methods",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/vitiligo-cell-therapy",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/psoriasis-cell-therapy",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/lichen-planus-cell-therapy",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/autoimmunity-after-covid",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/exosomes-vs-stem-cells",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/prp-for-hair-loss",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/acne-marks-vs-scars",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/teen-acne",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/natural-rejuvenation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/prp-vs-prf",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/exosomes-evidence",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/different-treatment-results",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/questions-before-fillers",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/before-after-photos",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/skin-after-45",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/consultation-preparation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/elvitha-natural-beauty",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /journal/everyday-skin-care",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 1440 /sitemap",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /about",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /care",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /faq",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /contact",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /privacy",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /skin",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/acne",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/acne-scars",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/pigmentation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/microneedling",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /hair",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/hair-loss",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/scalp-health",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /rejuvenation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/natural-rejuvenation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/rejuvenation-45",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/botox",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/fillers",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /advanced",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/prp",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/prf",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/exosomes",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/cell-based",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/mesogel",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /services/regenerative",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/regenerative-medicine",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/cell-therapy-stem-cells",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/prp-skin-evidence",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/mesogel-skin-quality",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/novel-cellular-methods",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/vitiligo-cell-therapy",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/psoriasis-cell-therapy",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/lichen-planus-cell-therapy",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/autoimmunity-after-covid",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/exosomes-vs-stem-cells",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/prp-for-hair-loss",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/acne-marks-vs-scars",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/teen-acne",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/natural-rejuvenation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/prp-vs-prf",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/exosomes-evidence",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/different-treatment-results",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/questions-before-fillers",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/before-after-photos",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/skin-after-45",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/consultation-preparation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/elvitha-natural-beauty",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /journal/everyday-skin-care",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 390 /sitemap",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /about",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /care",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /faq",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /contact",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /privacy",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /skin",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/acne",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/acne-scars",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/pigmentation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/microneedling",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /hair",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/hair-loss",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/scalp-health",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /rejuvenation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/natural-rejuvenation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/rejuvenation-45",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/botox",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/fillers",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /advanced",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/prp",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/prf",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/exosomes",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/cell-based",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/mesogel",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /services/regenerative",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/regenerative-medicine",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/cell-therapy-stem-cells",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/prp-skin-evidence",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/mesogel-skin-quality",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/novel-cellular-methods",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/vitiligo-cell-therapy",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/psoriasis-cell-therapy",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/lichen-planus-cell-therapy",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/autoimmunity-after-covid",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/exosomes-vs-stem-cells",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/prp-for-hair-loss",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/acne-marks-vs-scars",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/teen-acne",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/natural-rejuvenation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/prp-vs-prf",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/exosomes-evidence",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/different-treatment-results",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/questions-before-fillers",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/before-after-photos",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/skin-after-45",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/consultation-preparation",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/elvitha-natural-beauty",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /journal/everyday-skin-care",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Layout and image decoding 360 /sitemap",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "broken": []
+      }
+    },
+    {
+      "name": "Protected film forward/reverse/idle",
+      "pass": true,
+      "detail": {
+        "forward": 6.72,
+        "reverse": 1.44,
+        "idle": 1.44
+      }
+    },
+    {
+      "name": "Entrance still fades into preserved film",
+      "pass": true,
+      "detail": {
+        "initialOpacity": 1,
+        "finalOpacity": 0
+      }
+    },
+    {
+      "name": "Reduced motion retains scan poster without fetching film",
+      "pass": true
+    },
+    {
+      "name": "No-JS article and photograph visible",
+      "pass": true
+    },
+    {
+      "name": "Failed opening image cannot trap visitor",
+      "pass": true
+    },
+    {
+      "name": "No browser runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

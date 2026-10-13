@@ -1,0 +1,17 @@
+{
+  "recordedAt": "2026-10-13T13:14:27.805Z",
+  "tool": "built-in image_gen",
+  "attempts": [
+    {
+      "job": "service-prp",
+      "started": "2026-10-13T14:07:03.538Z",
+      "ended": "2026-10-13T14:07:59.358Z",
+      "error": "image generation failed: network error: error sending request"
+    }
+  ],
+  "generated": 0,
+  "accepted": 0,
+  "liveMappingsChanged": false,
+  "userPreference": "Keep the built-in generator",
+  "apiFallbackUsed": false
+}

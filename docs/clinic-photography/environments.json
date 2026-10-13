@@ -1,0 +1,251 @@
+{
+  "jobs": [
+    {
+      "id": "environment-corridor",
+      "kind": "environment",
+      "slug": "corridor",
+      "topicSummary": "Opening still before the existing entrance film; retain architectural continuity.",
+      "concepts": [
+        "Same corridor, afternoon side daylight and restrained mineral-teal cushions; preserve camera and architecture.",
+        "Same corridor in balanced overcast daylight with subtle dusty-rose upholstery variation.",
+        "Same corridor with cooler window light and warmer reception practical lights, quiet color contrast."
+      ],
+      "selectionReason": "Preserves the entrance transition's geography and warmth while making the material and illumination feel more photographic.",
+      "scene": {
+        "setting": "existing clinic corridor and distant reception",
+        "light": "soft afternoon side daylight and restrained practical lights",
+        "temperature": "warm",
+        "palette": "cream/blush/champagne with distant mineral-teal accent",
+        "framing": "same wide eye-level camera as existing corridor, 16:9",
+        "action": "quiet unoccupied corridor",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "conceptual interior; not a real operating clinic"
+      },
+      "prompt": "Use case: photorealistic-natural, precise interior photo refresh.\nAsset type: ELVITHA clinic website opening corridor still, a single 16:9 landscape photograph, high resolution.\nInput image 1 is the edit target and architectural reference. Input image 2 is ONLY the adjacent existing entrance film's poster, a continuity reference. Produce only one new corridor photo.\nKeep the camera at the exact first image viewpoint, the hallway geometry, right foreground door and handle, reception desk position, distant waiting sofa, window positions, and all existing ELVITHA lettering correctly spelled and in the same locations. Preserve architectural identity and the cream/blush/champagne relationship so this still can fade into the existing film.\nRephotograph it as a skilled architectural photographer on a real day: soft afternoon side daylight with slightly cooler window illumination and restrained warm wall practical lights, tactile paint and upholstery, believable subtle irregularity in stone, physically plausible less mirror-polished floor reflections and retained highlight detail. Moderate editorial contrast, clean natural color, inviting and alive.\nIntroduce only small mineral-teal and dusty rose accent cushions on the distant sofa and a restrained darker green plant detail; stay mostly cream, ivory and stone, blush secondary, very limited brass. Color guide for art-directed surfaces roughly65%neutral25%supporting8%complementary2%metal, flexible for this continuity image. Do not repaint the corridor or change furniture architecture. Keep floor and reception surfaces uncluttered.\nDo not add people, medical devices, new signs, logos, typography, watermark, impossible reflections, oversized floral bouquets, glossy CGI material, lens flare, artificial orange cast or dramatic luxury staging. This is a conceptual interior image, not documentation of an operational clinic. Preserve the existing visible lettering rather than adding text. Natural professional editorial finish, one coherent real photographic exposure.",
+      "references": [
+        "public/media/corridor-elvitha.webp",
+        "public/media/entrance-elvitha-poster.webp"
+      ],
+      "alt": "نمای مفهومی راهروی روشن الویتا با پذیرش در سمت راست و فضای نشستن کنار پنجره در انتها",
+      "position": "53% 50%",
+      "review": "Accepted: source viewpoint and architecture preserved, ELVITHA lettering readable and correctly spelled, continuity palette retained, restrained teal and rose seating accents, unoccupied conceptual interior with plausible geometry.",
+      "tool": "built-in image_gen",
+      "status": "accepted",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس شعبه فعال نیست.",
+      "original": "assets/clinic-photography/environment/corridor.png",
+      "source": "C:\\Users\\Farhad\\.codex\\generated_images\\01a1358d-6769-7331-9105-3beeba42515f\\exec-62949127-60cf-4306-acf5-a7d1dd042fc3.png",
+      "sourceSha256": "c711d7cef280b2f95b29a60b88c1ff046958793bf674b801ecd31a74fb7a594c",
+      "originalWidth": 1672,
+      "originalHeight": 941,
+      "acceptedAt": "2026-10-13T13:28:05.291Z"
+    },
+    {
+      "id": "environment-lounge",
+      "kind": "environment",
+      "slug": "lounge",
+      "topicSummary": "Invitation and contact imagery: approachable, quiet space for a future conversation; explicitly conceptual.",
+      "concepts": [
+        "A closer conversational corner with slate-blue chair, muted rose cushion and warm oak, cool open daylight.",
+        "An airy reception-adjacent alcove with cream linen seats, mineral-green painted wood and a plum textile.",
+        "A long quiet bench by a frosted window with a single ivory chair and terracotta floor, late afternoon sun."
+      ],
+      "selectionReason": "A tighter conversational composition differs from the wide entrance and about image while a slate-blue/rose pair provides cooler rhythm.",
+      "scene": {
+        "setting": "contemporary clinic conversation corner",
+        "light": "cool open-shade window daylight and soft neutral fill",
+        "temperature": "cool",
+        "palette": "65% ivory/stone,25%slate blue,8%dusty rose,2%champagne hardware",
+        "framing": "environmental three-quarter view, generous vertical crop safe center",
+        "action": "two empty chairs angled for a calm conversation",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "conceptual space"
+      },
+      "prompt": "Use case: photorealistic-natural. One professional architectural editorial photograph for the ELVITHA Persian skin/hair clinic invitation and contact section. A believable small contemporary conversation corner in a thoughtfully renovated Tehran apartment office, not a palace lobby: two comfortable individual chairs angled naturally for a conversation, one ivory woven fabric, one restrained slate-blue wool, a small muted dusty-rose cushion, modest warm oak side table with a closed plain paper notebook, off-white painted walls and a partial tall window with sheer linen. Photograph slightly to the side at seated eye level, allowing pleasing negative space and breathing room around furniture, wide enough to see feet and believable floor contact. Cool open-shade daylight, neutral reflected fill, true fabric weave and a little casual unevenness in the cushion, subdued believable reflections, deep but open shadows. Approximately65%neutral,25%slateblue,8%dustyrose,2%champagnehardware, no metallic excess. Sophisticated restrained editorial styling, real-world perspective, attractive but believable. Crop-safe composition: important furniture clustered in central60%, generous top/bottom and sides for portrait, square and landscape crops. No people, no branded signs or text, no phones or devices, no medical equipment, no fountains, decorative flower arrangements, oversize marble, CGI gloss, excessive symmetry, staged luxury props, fake sun flares or watermark. One coherent high-resolution photograph, not a collage. Conceptual proposed interior, not documentation of a real clinic.",
+      "references": [],
+      "alt": "تصویر مفهومی گوشه‌ای آرام برای گفت‌وگو با صندلی‌های کرم و آبی‌خاکستری، میز چوبی و نور پنجره",
+      "position": "50% 50%",
+      "review": "Accepted calm consultation lounge with coherent blue and cream palette",
+      "tool": "built-in image_gen",
+      "status": "accepted",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس شعبه فعال نیست.",
+      "original": "assets/clinic-photography/environment/lounge.png",
+      "source": "C:\\Users\\Farhad\\.codex\\generated_images\\01a1358d-6769-7331-9105-3beeba42515f\\exec-5543fa2d-d0b5-4b62-98ff-298960e606ad.png",
+      "sourceSha256": "8fe3fba32ba79a16fe6b922f44acf51c1f0e2f1f3af83c1789c22ec282be6eac",
+      "originalWidth": 1370,
+      "originalHeight": 1148,
+      "acceptedAt": "2026-10-13T13:59:53.102Z"
+    },
+    {
+      "id": "environment-brand-space",
+      "kind": "environment",
+      "slug": "brand-space",
+      "topicSummary": "About-page conceptual interior: attentive contemporary clinic atmosphere, distinct from reception.",
+      "concepts": [
+        "A quiet reading alcove with ivory plaster, mineral-teal wall panel and rose fabric chair beside an open oak shelf.",
+        "A window-lit consultation preparation desk with cream linen, olive upholstery and a muted plum folder.",
+        "An architectural threshold joining a warm oak wall and pale rose seating alcove, directional neutral daylight."
+      ],
+      "selectionReason": "A composition centered on an attentive reading corner conveys the brand atmosphere without repeating the corridor or lounge arrangement.",
+      "scene": {
+        "setting": "quiet clinic preparation/reading alcove",
+        "light": "balanced natural daylight with gentle directional shadow",
+        "temperature": "balanced",
+        "palette": "ivory/stone neutrals, muted mineral teal, dusty rose accent, restrained champagne",
+        "framing": "eye-level architectural detail/environment, central portrait-safe composition",
+        "action": "empty restful reading corner",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "conceptual interior"
+      },
+      "prompt": "Use case: photorealistic-natural. Create one realistic high-resolution architectural editorial photograph for the about page of ELVITHA, a contemporary Persian skin and hair clinic. A small thoughtful consultation-preparation reading alcove: ivory matte wall meeting a broad muted mineral-teal painted wood panel, a single beautifully made dusty-rose upholstered chair, a low narrow warm-oak shelf with two plain closed books with no visible lettering, a soft off-white linen curtain at the edge of a window. Practical modest architecture and construction details, clean joints, real grain, fabric weave, understated small champagne hinge or handle only if naturally needed. Balanced soft daylight across the chair with gentle directional shadows and believable depth, neutral white balance, subtle tactile imperfection, attractive refined composition seen from an oblique standing camera angle, not symmetrical real-estate CGI. 65%ivory stone and oak neutrals,25%mineralteal,8%rose,2%brass at most; these are scene-color guides, not a uniform tint. Compose chair and panel in central safe area with generous headroom and side space, works as 4:5 portrait, square and landscape crops. No people, no medical tools, no signage, no logos or text, no flower arrangements, arched niche cliché, glossy marble, fake miniature-scale furniture, impossible shadows, watermark or collage. A plausible photographed proposed space, not a claim this clinic interior exists.",
+      "references": [],
+      "alt": "تصویر مفهومی فضای آرام الویتا با صندلی صورتی، صفحه دیواری سبزآبی و قفسه چوبی کنار نور روز",
+      "position": "50% 50%",
+      "review": "Accepted intimate brand space with warm natural light and restrained materials",
+      "tool": "built-in image_gen",
+      "status": "accepted",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس شعبه فعال نیست.",
+      "original": "assets/clinic-photography/environment/brand-space.png",
+      "source": "C:\\Users\\Farhad\\.codex\\generated_images\\01a1358d-6769-7331-9105-3beeba42515f\\exec-3890f237-14e5-4f5d-be6e-d98830812616.png",
+      "sourceSha256": "0ccda259ce3830e5a1fbb1526e66d8bde2d4cb81436848c8a4a22a6a9a92d847",
+      "originalWidth": 1122,
+      "originalHeight": 1402,
+      "acceptedAt": "2026-10-13T13:59:53.447Z"
+    }
+  ],
+  "plannedJobs": [
+    {
+      "id": "environment-corridor",
+      "kind": "environment",
+      "slug": "corridor",
+      "topicSummary": "Opening still before the existing entrance film; retain architectural continuity.",
+      "concepts": [
+        "Same corridor, afternoon side daylight and restrained mineral-teal cushions; preserve camera and architecture.",
+        "Same corridor in balanced overcast daylight with subtle dusty-rose upholstery variation.",
+        "Same corridor with cooler window light and warmer reception practical lights, quiet color contrast."
+      ],
+      "selectionReason": "Preserves the entrance transition's geography and warmth while making the material and illumination feel more photographic.",
+      "scene": {
+        "setting": "existing clinic corridor and distant reception",
+        "light": "soft afternoon side daylight and restrained practical lights",
+        "temperature": "warm",
+        "palette": "cream/blush/champagne with distant mineral-teal accent",
+        "framing": "same wide eye-level camera as existing corridor, 16:9",
+        "action": "quiet unoccupied corridor",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "conceptual interior; not a real operating clinic"
+      },
+      "prompt": "Use case: photorealistic-natural, precise interior photo refresh.\nAsset type: ELVITHA clinic website opening corridor still, a single 16:9 landscape photograph, high resolution.\nInput image 1 is the edit target and architectural reference. Input image 2 is ONLY the adjacent existing entrance film's poster, a continuity reference. Produce only one new corridor photo.\nKeep the camera at the exact first image viewpoint, the hallway geometry, right foreground door and handle, reception desk position, distant waiting sofa, window positions, and all existing ELVITHA lettering correctly spelled and in the same locations. Preserve architectural identity and the cream/blush/champagne relationship so this still can fade into the existing film.\nRephotograph it as a skilled architectural photographer on a real day: soft afternoon side daylight with slightly cooler window illumination and restrained warm wall practical lights, tactile paint and upholstery, believable subtle irregularity in stone, physically plausible less mirror-polished floor reflections and retained highlight detail. Moderate editorial contrast, clean natural color, inviting and alive.\nIntroduce only small mineral-teal and dusty rose accent cushions on the distant sofa and a restrained darker green plant detail; stay mostly cream, ivory and stone, blush secondary, very limited brass. Color guide for art-directed surfaces roughly65%neutral25%supporting8%complementary2%metal, flexible for this continuity image. Do not repaint the corridor or change furniture architecture. Keep floor and reception surfaces uncluttered.\nDo not add people, medical devices, new signs, logos, typography, watermark, impossible reflections, oversized floral bouquets, glossy CGI material, lens flare, artificial orange cast or dramatic luxury staging. This is a conceptual interior image, not documentation of an operational clinic. Preserve the existing visible lettering rather than adding text. Natural professional editorial finish, one coherent real photographic exposure.",
+      "references": [
+        "public/media/corridor-elvitha.webp",
+        "public/media/entrance-elvitha-poster.webp"
+      ],
+      "alt": "نمای مفهومی راهروی روشن الویتا با پذیرش در سمت راست و فضای نشستن کنار پنجره در انتها",
+      "position": "53% 50%",
+      "review": null,
+      "tool": "built-in image_gen",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/environment/corridor.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس شعبه فعال نیست."
+    },
+    {
+      "id": "environment-lounge",
+      "kind": "environment",
+      "slug": "lounge",
+      "topicSummary": "Invitation and contact imagery: approachable, quiet space for a future conversation; explicitly conceptual.",
+      "concepts": [
+        "A closer conversational corner with slate-blue chair, muted rose cushion and warm oak, cool open daylight.",
+        "An airy reception-adjacent alcove with cream linen seats, mineral-green painted wood and a plum textile.",
+        "A long quiet bench by a frosted window with a single ivory chair and terracotta floor, late afternoon sun."
+      ],
+      "selectionReason": "A tighter conversational composition differs from the wide entrance and about image while a slate-blue/rose pair provides cooler rhythm.",
+      "scene": {
+        "setting": "contemporary clinic conversation corner",
+        "light": "cool open-shade window daylight and soft neutral fill",
+        "temperature": "cool",
+        "palette": "65% ivory/stone,25%slate blue,8%dusty rose,2%champagne hardware",
+        "framing": "environmental three-quarter view, generous vertical crop safe center",
+        "action": "two empty chairs angled for a calm conversation",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "conceptual space"
+      },
+      "prompt": "Use case: photorealistic-natural. One professional architectural editorial photograph for the ELVITHA Persian skin/hair clinic invitation and contact section. A believable small contemporary conversation corner in a thoughtfully renovated Tehran apartment office, not a palace lobby: two comfortable individual chairs angled naturally for a conversation, one ivory woven fabric, one restrained slate-blue wool, a small muted dusty-rose cushion, modest warm oak side table with a closed plain paper notebook, off-white painted walls and a partial tall window with sheer linen. Photograph slightly to the side at seated eye level, allowing pleasing negative space and breathing room around furniture, wide enough to see feet and believable floor contact. Cool open-shade daylight, neutral reflected fill, true fabric weave and a little casual unevenness in the cushion, subdued believable reflections, deep but open shadows. Approximately65%neutral,25%slateblue,8%dustyrose,2%champagnehardware, no metallic excess. Sophisticated restrained editorial styling, real-world perspective, attractive but believable. Crop-safe composition: important furniture clustered in central60%, generous top/bottom and sides for portrait, square and landscape crops. No people, no branded signs or text, no phones or devices, no medical equipment, no fountains, decorative flower arrangements, oversize marble, CGI gloss, excessive symmetry, staged luxury props, fake sun flares or watermark. One coherent high-resolution photograph, not a collage. Conceptual proposed interior, not documentation of a real clinic.",
+      "references": [],
+      "alt": "تصویر مفهومی گوشه‌ای آرام برای گفت‌وگو با صندلی‌های کرم و آبی‌خاکستری، میز چوبی و نور پنجره",
+      "position": "50% 50%",
+      "review": null,
+      "tool": "built-in image_gen",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/environment/lounge.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس شعبه فعال نیست."
+    },
+    {
+      "id": "environment-brand-space",
+      "kind": "environment",
+      "slug": "brand-space",
+      "topicSummary": "About-page conceptual interior: attentive contemporary clinic atmosphere, distinct from reception.",
+      "concepts": [
+        "A quiet reading alcove with ivory plaster, mineral-teal wall panel and rose fabric chair beside an open oak shelf.",
+        "A window-lit consultation preparation desk with cream linen, olive upholstery and a muted plum folder.",
+        "An architectural threshold joining a warm oak wall and pale rose seating alcove, directional neutral daylight."
+      ],
+      "selectionReason": "A composition centered on an attentive reading corner conveys the brand atmosphere without repeating the corridor or lounge arrangement.",
+      "scene": {
+        "setting": "quiet clinic preparation/reading alcove",
+        "light": "balanced natural daylight with gentle directional shadow",
+        "temperature": "balanced",
+        "palette": "ivory/stone neutrals, muted mineral teal, dusty rose accent, restrained champagne",
+        "framing": "eye-level architectural detail/environment, central portrait-safe composition",
+        "action": "empty restful reading corner",
+        "hair": "not applicable",
+        "wardrobe": "not applicable",
+        "expression": "not applicable",
+        "appearance": "conceptual interior"
+      },
+      "prompt": "Use case: photorealistic-natural. Create one realistic high-resolution architectural editorial photograph for the about page of ELVITHA, a contemporary Persian skin and hair clinic. A small thoughtful consultation-preparation reading alcove: ivory matte wall meeting a broad muted mineral-teal painted wood panel, a single beautifully made dusty-rose upholstered chair, a low narrow warm-oak shelf with two plain closed books with no visible lettering, a soft off-white linen curtain at the edge of a window. Practical modest architecture and construction details, clean joints, real grain, fabric weave, understated small champagne hinge or handle only if naturally needed. Balanced soft daylight across the chair with gentle directional shadows and believable depth, neutral white balance, subtle tactile imperfection, attractive refined composition seen from an oblique standing camera angle, not symmetrical real-estate CGI. 65%ivory stone and oak neutrals,25%mineralteal,8%rose,2%brass at most; these are scene-color guides, not a uniform tint. Compose chair and panel in central safe area with generous headroom and side space, works as 4:5 portrait, square and landscape crops. No people, no medical tools, no signage, no logos or text, no flower arrangements, arched niche cliché, glossy marble, fake miniature-scale furniture, impossible shadows, watermark or collage. A plausible photographed proposed space, not a claim this clinic interior exists.",
+      "references": [],
+      "alt": "تصویر مفهومی فضای آرام الویتا با صندلی صورتی، صفحه دیواری سبزآبی و قفسه چوبی کنار نور روز",
+      "position": "50% 50%",
+      "review": null,
+      "tool": "built-in image_gen",
+      "status": "planned",
+      "intendedOriginal": "assets/clinic-photography/environment/brand-space.png",
+      "caption": "تصویر مفهومی ساخته‌شده با هوش مصنوعی؛ عکس شعبه فعال نیست."
+    }
+  ],
+  "generationFailures": [
+    {
+      "id": "environment-corridor",
+      "tool": "built-in image_gen",
+      "error": "image generation failed: network error: error sending request",
+      "attempts": 1,
+      "outputCreated": false
+    },
+    {
+      "id": "environment-brand-space",
+      "tool": "built-in image_gen",
+      "error": "image generation failed: network error: error sending request",
+      "attempts": 1,
+      "outputCreated": false
+    },
+    {
+      "id": "environment-corridor",
+      "tool": "built-in image_gen",
+      "error": "image generation failed: network error: error sending request",
+      "attempts": 1,
+      "outputCreated": false,
+      "timestamp": "2026-10-13T13:46:43.5054305Z",
+      "phase": "user-requested-resume"
+    }
+  ],
+  "status": "awaiting-image-generation"
+}

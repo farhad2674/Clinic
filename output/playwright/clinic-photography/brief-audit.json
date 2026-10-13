@@ -1,0 +1,553 @@
+{
+  "checkedAt": "2026-10-13T13:24:16.112Z",
+  "planned": 42,
+  "accepted": 42,
+  "temperature": {
+    "warm": 17,
+    "cool": 15,
+    "balanced": 10
+  },
+  "checks": [
+    {
+      "name": "42 unique briefs",
+      "pass": true,
+      "details": 42
+    },
+    {
+      "name": "Exact service coverage",
+      "pass": true,
+      "details": {
+        "expected": 16,
+        "actual": 16
+      }
+    },
+    {
+      "name": "Exact journal coverage",
+      "pass": true,
+      "details": {
+        "expected": 23,
+        "actual": 23
+      }
+    },
+    {
+      "name": "Exact environment coverage",
+      "pass": true,
+      "details": {
+        "expected": 3,
+        "actual": 3
+      }
+    },
+    {
+      "name": "Three materially distinct concepts: service-prp",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-prp",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-prp",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-mesogel",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-mesogel",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-mesogel",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-acne",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-acne",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-acne",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-acne-scars",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-acne-scars",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-acne-scars",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-pigmentation",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-pigmentation",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-pigmentation",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-scalp-health",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-scalp-health",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-scalp-health",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-rejuvenation-45",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-rejuvenation-45",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-rejuvenation-45",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-botox",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-botox",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-botox",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-fillers",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-fillers",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-fillers",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-microneedling",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-microneedling",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-microneedling",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-prf",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-prf",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-prf",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-exosomes",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-exosomes",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-exosomes",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-cell-based",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-cell-based",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-cell-based",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: service-regenerative",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: service-regenerative",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: service-regenerative",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-teen-acne",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-teen-acne",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-teen-acne",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-prp-vs-prf",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-prp-vs-prf",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-prp-vs-prf",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-prp-for-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-prp-for-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-prp-for-hair-loss",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-acne-marks-vs-scars",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-acne-marks-vs-scars",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-acne-marks-vs-scars",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-natural-rejuvenation",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-exosomes-evidence",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-exosomes-evidence",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-exosomes-evidence",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-different-treatment-results",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-different-treatment-results",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-different-treatment-results",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-questions-before-fillers",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-questions-before-fillers",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-questions-before-fillers",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-before-after-photos",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-before-after-photos",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-before-after-photos",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-skin-after-45",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-skin-after-45",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-skin-after-45",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-regenerative-medicine",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-regenerative-medicine",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-regenerative-medicine",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-cell-therapy-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-cell-therapy-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-cell-therapy-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-prp-skin-evidence",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-prp-skin-evidence",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-prp-skin-evidence",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-mesogel-skin-quality",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-mesogel-skin-quality",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-mesogel-skin-quality",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-novel-cellular-methods",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-novel-cellular-methods",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-novel-cellular-methods",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-vitiligo-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-vitiligo-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-vitiligo-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-psoriasis-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-psoriasis-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-psoriasis-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-lichen-planus-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-lichen-planus-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-lichen-planus-cell-therapy",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-autoimmunity-after-covid",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-autoimmunity-after-covid",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-autoimmunity-after-covid",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-exosomes-vs-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-exosomes-vs-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-exosomes-vs-stem-cells",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-consultation-preparation",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-consultation-preparation",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-consultation-preparation",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-elvitha-natural-beauty",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-elvitha-natural-beauty",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-elvitha-natural-beauty",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: journal-everyday-skin-care",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: journal-everyday-skin-care",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: journal-everyday-skin-care",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: environment-corridor",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: environment-corridor",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: environment-corridor",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: environment-lounge",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: environment-lounge",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: environment-lounge",
+      "pass": true
+    },
+    {
+      "name": "Three materially distinct concepts: environment-brand-space",
+      "pass": true
+    },
+    {
+      "name": "Actionable prompt and scene: environment-brand-space",
+      "pass": true
+    },
+    {
+      "name": "Persian alt and caption: environment-brand-space",
+      "pass": true
+    },
+    {
+      "name": "Accepted jobs are reviewed known topics",
+      "pass": true
+    },
+    {
+      "name": "Accepted topics are unique",
+      "pass": true
+    }
+  ]
+}

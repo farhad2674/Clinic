@@ -1,3 +1,5 @@
+import {environmentPhotography} from '@/lib/clinic-photography';
+import {JournalImage} from './journal-image';
 import {CTA} from './shell';
 import {careHref} from '@/lib/care-content';
 
@@ -5,7 +7,7 @@ import {careHref} from '@/lib/care-content';
 export function Invitation({home=false,category,service}:{home?:boolean;category?:string;service?:string}){
   return <section id="invitation" className={'invitation section-space '+(home?'cover-chapter':'site-invitation')} data-cover-chapter={home||undefined} data-chapter={home||undefined} aria-labelledby="invitation-title">
     <div className="cover-stage"><div className="page-width invitation-grid">
-      <figure className="invitation-image" data-parallax data-depth-box="visual"><img src="/media/lounge-elvitha.webp" alt="تصویر مفهومی سالن انتظار الویتا" loading="lazy" width="1672" height="941"/><figcaption>تصویر مفهومی فضای الویتا</figcaption></figure>
+      <figure className="invitation-image" data-parallax data-depth-box="visual"><JournalImage image={environmentPhotography.lounge} sizes="(max-width: 767px) 90vw, 44vw"/><figcaption>تصویر مفهومی فضای الویتا</figcaption></figure>
       <div className="invitation-copy" data-depth-box="near"><h2 id="invitation-title" data-cover-title>
         <span className="cover-title-line"><span>از دغدغهٔ خود</span></span>
         <span className="cover-title-line"><span><em>شروع کنید.</em></span></span>

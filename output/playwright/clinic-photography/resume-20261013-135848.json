@@ -1,0 +1,24 @@
+{
+  "recordedAt": "2026-10-13T14:03:18.073Z",
+  "tool": "built-in image_gen",
+  "attempts": [
+    {
+      "job": "service-prp",
+      "started": "2026-10-13T13:58:48.273Z",
+      "ended": "2026-10-13T13:59:44.283Z",
+      "error": "image generation failed: network error: error sending request"
+    },
+    {
+      "job": "journal-teen-acne",
+      "started": "2026-10-13T14:00:18.733Z",
+      "ended": "2026-10-13T14:01:14.722Z",
+      "error": "image generation failed: network error: error sending request"
+    }
+  ],
+  "generated": 0,
+  "accepted": 0,
+  "liveMappingsChanged": false,
+  "userPreference": "Keep the built-in generator",
+  "apiFallbackUsed": false,
+  "protectedAudit": "output/playwright/clinic-photography/protected-audit.json"
+}

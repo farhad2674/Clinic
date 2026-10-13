@@ -1,0 +1,1163 @@
+[
+  {
+    "width": 517.954345703125,
+    "route": "/skin",
+    "src": "/media/clinic-photography-v1/service/pigmentation.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/acne",
+    "src": "/media/clinic-photography-v1/service/acne.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/acne-scars",
+    "src": "/media/clinic-photography-v1/service/acne-scars.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/pigmentation",
+    "src": "/media/clinic-photography-v1/service/pigmentation.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/microneedling",
+    "src": "/media/clinic-photography-v1/service/microneedling.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/hair",
+    "src": "/media/clinic-photography-v1/service/hair-loss.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/hair-loss",
+    "src": "/media/clinic-photography-v1/service/hair-loss.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/scalp-health",
+    "src": "/media/clinic-photography-v1/service/scalp-health.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/rejuvenation",
+    "src": "/media/clinic-photography-v1/service/natural-rejuvenation.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/natural-rejuvenation",
+    "src": "/media/clinic-photography-v1/service/natural-rejuvenation.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/rejuvenation-45",
+    "src": "/media/clinic-photography-v1/service/rejuvenation-45.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/botox",
+    "src": "/media/clinic-photography-v1/service/botox.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 648,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/fillers",
+    "src": "/media/clinic-photography-v1/service/fillers.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/advanced",
+    "src": "/media/clinic-photography-v1/service/regenerative.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/prp",
+    "src": "/media/clinic-photography-v1/service/prp.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/prf",
+    "src": "/media/clinic-photography-v1/service/prf.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/exosomes",
+    "src": "/media/clinic-photography-v1/service/exosomes.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/cell-based",
+    "src": "/media/clinic-photography-v1/service/cell-based.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/mesogel",
+    "src": "/media/clinic-photography-v1/service/mesogel.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/services/regenerative",
+    "src": "/media/clinic-photography-v1/service/regenerative.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/regenerative-medicine",
+    "src": "/media/clinic-photography-v1/journal/regenerative-medicine.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/cell-therapy-stem-cells",
+    "src": "/media/clinic-photography-v1/journal/cell-therapy-stem-cells.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/prp-skin-evidence",
+    "src": "/media/clinic-photography-v1/journal/prp-skin-evidence.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/mesogel-skin-quality",
+    "src": "/media/clinic-photography-v1/journal/mesogel-skin-quality.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/novel-cellular-methods",
+    "src": "/media/clinic-photography-v1/journal/novel-cellular-methods.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/vitiligo-cell-therapy",
+    "src": "/media/clinic-photography-v1/journal/vitiligo-cell-therapy.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/psoriasis-cell-therapy",
+    "src": "/media/clinic-photography-v1/journal/psoriasis-cell-therapy.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/lichen-planus-cell-therapy",
+    "src": "/media/clinic-photography-v1/journal/lichen-planus-cell-therapy.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/autoimmunity-after-covid",
+    "src": "/media/clinic-photography-v1/journal/autoimmunity-after-covid.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/exosomes-vs-stem-cells",
+    "src": "/media/clinic-photography-v1/journal/exosomes-vs-stem-cells.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/prp-for-hair-loss",
+    "src": "/media/clinic-photography-v1/journal/prp-for-hair-loss.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/acne-marks-vs-scars",
+    "src": "/media/clinic-photography-v1/journal/acne-marks-vs-scars.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/teen-acne",
+    "src": "/media/clinic-photography-v1/journal/teen-acne.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/natural-rejuvenation",
+    "src": "/media/clinic-photography-v1/journal/natural-rejuvenation.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/prp-vs-prf",
+    "src": "/media/clinic-photography-v1/journal/prp-vs-prf.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/exosomes-evidence",
+    "src": "/media/clinic-photography-v1/journal/exosomes-evidence.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/different-treatment-results",
+    "src": "/media/clinic-photography-v1/journal/different-treatment-results.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/questions-before-fillers",
+    "src": "/media/clinic-photography-v1/journal/questions-before-fillers.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/before-after-photos",
+    "src": "/media/clinic-photography-v1/journal/before-after-photos.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/skin-after-45",
+    "src": "/media/clinic-photography-v1/journal/skin-after-45.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/consultation-preparation",
+    "src": "/media/clinic-photography-v1/journal/consultation-preparation.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/elvitha-natural-beauty",
+    "src": "/media/clinic-photography-v1/journal/elvitha-natural-beauty.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 35%"
+  },
+  {
+    "width": 517.954345703125,
+    "route": "/journal/everyday-skin-care",
+    "src": "/media/clinic-photography-v1/journal/everyday-skin-care.webp",
+    "naturalWidth": 518,
+    "naturalHeight": 518,
+    "height": 647.4429931640625,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/skin",
+    "src": "/media/clinic-photography-v1/service/pigmentation.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/acne",
+    "src": "/media/clinic-photography-v1/service/acne.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/acne-scars",
+    "src": "/media/clinic-photography-v1/service/acne-scars.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/pigmentation",
+    "src": "/media/clinic-photography-v1/service/pigmentation.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/microneedling",
+    "src": "/media/clinic-photography-v1/service/microneedling.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/hair",
+    "src": "/media/clinic-photography-v1/service/hair-loss.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/hair-loss",
+    "src": "/media/clinic-photography-v1/service/hair-loss.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/scalp-health",
+    "src": "/media/clinic-photography-v1/service/scalp-health.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/rejuvenation",
+    "src": "/media/clinic-photography-v1/service/natural-rejuvenation.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/natural-rejuvenation",
+    "src": "/media/clinic-photography-v1/service/natural-rejuvenation.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/rejuvenation-45",
+    "src": "/media/clinic-photography-v1/service/rejuvenation-45.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/botox",
+    "src": "/media/clinic-photography-v1/service/botox.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 438,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/fillers",
+    "src": "/media/clinic-photography-v1/service/fillers.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/advanced",
+    "src": "/media/clinic-photography-v1/service/regenerative.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/prp",
+    "src": "/media/clinic-photography-v1/service/prp.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/prf",
+    "src": "/media/clinic-photography-v1/service/prf.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/exosomes",
+    "src": "/media/clinic-photography-v1/service/exosomes.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/cell-based",
+    "src": "/media/clinic-photography-v1/service/cell-based.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/mesogel",
+    "src": "/media/clinic-photography-v1/service/mesogel.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/services/regenerative",
+    "src": "/media/clinic-photography-v1/service/regenerative.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/regenerative-medicine",
+    "src": "/media/clinic-photography-v1/journal/regenerative-medicine.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/cell-therapy-stem-cells",
+    "src": "/media/clinic-photography-v1/journal/cell-therapy-stem-cells.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/prp-skin-evidence",
+    "src": "/media/clinic-photography-v1/journal/prp-skin-evidence.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/mesogel-skin-quality",
+    "src": "/media/clinic-photography-v1/journal/mesogel-skin-quality.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/novel-cellular-methods",
+    "src": "/media/clinic-photography-v1/journal/novel-cellular-methods.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/vitiligo-cell-therapy",
+    "src": "/media/clinic-photography-v1/journal/vitiligo-cell-therapy.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/psoriasis-cell-therapy",
+    "src": "/media/clinic-photography-v1/journal/psoriasis-cell-therapy.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/lichen-planus-cell-therapy",
+    "src": "/media/clinic-photography-v1/journal/lichen-planus-cell-therapy.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/autoimmunity-after-covid",
+    "src": "/media/clinic-photography-v1/journal/autoimmunity-after-covid.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/exosomes-vs-stem-cells",
+    "src": "/media/clinic-photography-v1/journal/exosomes-vs-stem-cells.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/prp-for-hair-loss",
+    "src": "/media/clinic-photography-v1/journal/prp-for-hair-loss.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/acne-marks-vs-scars",
+    "src": "/media/clinic-photography-v1/journal/acne-marks-vs-scars.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/teen-acne",
+    "src": "/media/clinic-photography-v1/journal/teen-acne.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/natural-rejuvenation",
+    "src": "/media/clinic-photography-v1/journal/natural-rejuvenation.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/prp-vs-prf",
+    "src": "/media/clinic-photography-v1/journal/prp-vs-prf.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/exosomes-evidence",
+    "src": "/media/clinic-photography-v1/journal/exosomes-evidence.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/different-treatment-results",
+    "src": "/media/clinic-photography-v1/journal/different-treatment-results.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/questions-before-fillers",
+    "src": "/media/clinic-photography-v1/journal/questions-before-fillers.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/before-after-photos",
+    "src": "/media/clinic-photography-v1/journal/before-after-photos.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/skin-after-45",
+    "src": "/media/clinic-photography-v1/journal/skin-after-45.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/consultation-preparation",
+    "src": "/media/clinic-photography-v1/journal/consultation-preparation.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/elvitha-natural-beauty",
+    "src": "/media/clinic-photography-v1/journal/elvitha-natural-beauty.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 35%"
+  },
+  {
+    "width": 372.780029296875,
+    "route": "/journal/everyday-skin-care",
+    "src": "/media/clinic-photography-v1/journal/everyday-skin-care.webp",
+    "naturalWidth": 351,
+    "naturalHeight": 351,
+    "height": 372.77996826171875,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/skin",
+    "src": "/media/clinic-photography-v1/service/pigmentation.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/acne",
+    "src": "/media/clinic-photography-v1/service/acne.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/acne-scars",
+    "src": "/media/clinic-photography-v1/service/acne-scars.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/pigmentation",
+    "src": "/media/clinic-photography-v1/service/pigmentation.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/microneedling",
+    "src": "/media/clinic-photography-v1/service/microneedling.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/hair",
+    "src": "/media/clinic-photography-v1/service/hair-loss.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/hair-loss",
+    "src": "/media/clinic-photography-v1/service/hair-loss.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/scalp-health",
+    "src": "/media/clinic-photography-v1/service/scalp-health.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/rejuvenation",
+    "src": "/media/clinic-photography-v1/service/natural-rejuvenation.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/natural-rejuvenation",
+    "src": "/media/clinic-photography-v1/service/natural-rejuvenation.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/rejuvenation-45",
+    "src": "/media/clinic-photography-v1/service/rejuvenation-45.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/botox",
+    "src": "/media/clinic-photography-v1/service/botox.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 405,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/fillers",
+    "src": "/media/clinic-photography-v1/service/fillers.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/advanced",
+    "src": "/media/clinic-photography-v1/service/regenerative.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/prp",
+    "src": "/media/clinic-photography-v1/service/prp.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/prf",
+    "src": "/media/clinic-photography-v1/service/prf.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/exosomes",
+    "src": "/media/clinic-photography-v1/service/exosomes.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/cell-based",
+    "src": "/media/clinic-photography-v1/service/cell-based.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/mesogel",
+    "src": "/media/clinic-photography-v1/service/mesogel.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/services/regenerative",
+    "src": "/media/clinic-photography-v1/service/regenerative.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/regenerative-medicine",
+    "src": "/media/clinic-photography-v1/journal/regenerative-medicine.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/cell-therapy-stem-cells",
+    "src": "/media/clinic-photography-v1/journal/cell-therapy-stem-cells.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/prp-skin-evidence",
+    "src": "/media/clinic-photography-v1/journal/prp-skin-evidence.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/mesogel-skin-quality",
+    "src": "/media/clinic-photography-v1/journal/mesogel-skin-quality.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/novel-cellular-methods",
+    "src": "/media/clinic-photography-v1/journal/novel-cellular-methods.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/vitiligo-cell-therapy",
+    "src": "/media/clinic-photography-v1/journal/vitiligo-cell-therapy.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/psoriasis-cell-therapy",
+    "src": "/media/clinic-photography-v1/journal/psoriasis-cell-therapy.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/lichen-planus-cell-therapy",
+    "src": "/media/clinic-photography-v1/journal/lichen-planus-cell-therapy.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/autoimmunity-after-covid",
+    "src": "/media/clinic-photography-v1/journal/autoimmunity-after-covid.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/exosomes-vs-stem-cells",
+    "src": "/media/clinic-photography-v1/journal/exosomes-vs-stem-cells.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/prp-for-hair-loss",
+    "src": "/media/clinic-photography-v1/journal/prp-for-hair-loss.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/acne-marks-vs-scars",
+    "src": "/media/clinic-photography-v1/journal/acne-marks-vs-scars.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/teen-acne",
+    "src": "/media/clinic-photography-v1/journal/teen-acne.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/natural-rejuvenation",
+    "src": "/media/clinic-photography-v1/journal/natural-rejuvenation.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/prp-vs-prf",
+    "src": "/media/clinic-photography-v1/journal/prp-vs-prf.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/exosomes-evidence",
+    "src": "/media/clinic-photography-v1/journal/exosomes-evidence.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/different-treatment-results",
+    "src": "/media/clinic-photography-v1/journal/different-treatment-results.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/questions-before-fillers",
+    "src": "/media/clinic-photography-v1/journal/questions-before-fillers.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/before-after-photos",
+    "src": "/media/clinic-photography-v1/journal/before-after-photos.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/skin-after-45",
+    "src": "/media/clinic-photography-v1/journal/skin-after-45.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/consultation-preparation",
+    "src": "/media/clinic-photography-v1/journal/consultation-preparation.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/elvitha-natural-beauty",
+    "src": "/media/clinic-photography-v1/journal/elvitha-natural-beauty.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 35%"
+  },
+  {
+    "width": 340.08001708984375,
+    "route": "/journal/everyday-skin-care",
+    "src": "/media/clinic-photography-v1/journal/everyday-skin-care.webp",
+    "naturalWidth": 324,
+    "naturalHeight": 324,
+    "height": 340.08001708984375,
+    "position": "50% 50%"
+  }
+]

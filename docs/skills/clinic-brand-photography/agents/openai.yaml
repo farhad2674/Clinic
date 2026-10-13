@@ -1,0 +1,5 @@
+interface:
+  display_name: "Clinic Brand Photography"
+  short_description: "Distinctive, natural ELVITHA editorial photography"
+  default_prompt: "Use $clinic-brand-photography to create a varied, realistic ELVITHA photo collection grounded in the page topics and brand palette."
+

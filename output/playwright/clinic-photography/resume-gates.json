@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-13T13:22:07.609Z",
+  "gates": [
+    {
+      "script": "scripts/prepare-clinic-photography.mjs",
+      "exitCode": 1,
+      "rejectedIncompleteBatch": true,
+      "diagnostic": "Error: Incomplete or duplicated service topic coverage.\r"
+    },
+    {
+      "script": "scripts/integrate-clinic-photography.mjs",
+      "exitCode": 1,
+      "rejectedIncompleteBatch": true,
+      "diagnostic": "Error: Prepare and review the complete collection before integration.\r"
+    }
+  ],
+  "mappingsUnchanged": true,
+  "noGeneratedRegistry": true,
+  "syntax": [
+    {
+      "name": "prepare-clinic-photography",
+      "pass": true
+    },
+    {
+      "name": "integrate-clinic-photography",
+      "pass": true
+    },
+    {
+      "name": "check-clinic-photography",
+      "pass": true
+    },
+    {
+      "name": "check-clinic-photography-plan",
+      "pass": true
+    },
+    {
+      "name": "clinic-photography-contract",
+      "pass": true
+    },
+    {
+      "name": "clinic-photography-baseline",
+      "pass": true
+    },
+    {
+      "name": "qa-clinic-photography",
+      "pass": true
+    }
+  ]
+}

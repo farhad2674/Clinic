@@ -108,8 +108,8 @@ export const homeJourney = [
   {
     "title": "دغدغهٔ شما",
     "body": "از تغییرات پوست یا مو و چیزی که برایتان مهم است بگویید.",
-    "image": "/media/journal-elvitha/consultation-preparation.webp",
-    "alt": "دفترچه بسته، کارت‌های یادداشت بدون نوشته و مداد روی میز"
+    "image": journalImages["consultation-preparation"].src,
+    "alt": journalImages["consultation-preparation"].alt
   },
   {
     "title": "بررسی گزینه‌ها",
@@ -120,7 +120,7 @@ export const homeJourney = [
   {
     "title": "تصمیم و پیگیری",
     "body": "با تصمیم آگاهانه، برنامهٔ مراقبت و زمان بازبینی مشخص می‌شود.",
-    "image": "/media/journal-elvitha/everyday-skin-care.webp",
-    "alt": "سه ظرف ساده مراقبت پوست کنار حوله پنبه‌ای روشن"
+    "image": journalImages["everyday-skin-care"].src,
+    "alt": journalImages["everyday-skin-care"].alt
   }
 ];
