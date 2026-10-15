@@ -2,8 +2,8 @@
 import {homeArticles,homeFaq} from '@/lib/home-content';
 import {Arrow} from './shell';
 import {Invitation} from './invitation';
-import {journalImages} from '@/lib/journal-images';
 import {JournalImage} from './journal-image';
+import {homepageFeedbackImages} from '@/lib/homepage-feedback-images';
 
 
 const carePrinciples=[
@@ -44,7 +44,7 @@ export function LateChapters(){
 
           <h2 data-cover-title><span className="cover-title-line"><span>مجلهٔ</span></span><span className="cover-title-line"><span><em>پزشکی بازساختی.</em></span></span></h2>
         </div><a className="text-link" href="/journal">همهٔ مقاله‌ها <Arrow/></a></div>
-        <div className="journal-layout cover-body"><div className="journal-feature" data-parallax data-depth-box="visual"><JournalImage image={journalImages[homeArticles[0].slug as keyof typeof journalImages]} sizes="(max-width: 767px) 90vw, 42vw"/><div><h3><a href={'/journal/'+homeArticles[0].slug}>{homeArticles[0].title}</a></h3></div></div><div className="journal-list">{homeArticles.slice(1).map(a=><article data-depth-box="row" key={a.slug}><div><h3 data-text-reveal><a href={'/journal/'+a.slug}>{a.title}</a></h3></div></article>)}<p className="journal-disclaimer" data-text-reveal>راهنماهای روشن برای شناخت روش‌ها و انتخاب آگاهانه.</p></div></div>
+        <div className="journal-layout cover-body"><div className="journal-feature" data-parallax data-depth-box="visual"><JournalImage image={homepageFeedbackImages['journal-regenerative']} sizes="(max-width: 767px) 90vw, 42vw"/><div><h3><a href={'/journal/'+homeArticles[0].slug}>{homeArticles[0].title}</a></h3></div></div><div className="journal-list">{homeArticles.slice(1).map(a=><article data-depth-box="row" key={a.slug}><div><h3 data-text-reveal><a href={'/journal/'+a.slug}>{a.title}</a></h3></div></article>)}<p className="journal-disclaimer" data-text-reveal>راهنماهای روشن برای شناخت روش‌ها و انتخاب آگاهانه.</p></div></div>
       </div></div>
     </section>
 

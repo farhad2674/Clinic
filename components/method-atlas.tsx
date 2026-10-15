@@ -36,7 +36,7 @@ export function MethodAtlas(){
       <div className="method-atlas-intro">
         <span className="eyebrow">تفاوت‌ها، کنار هم</span>
         <h2 id="method-atlas-title" data-reveal>این روش‌ها<br/><em>چه تفاوتی دارند؟</em></h2>
-        <p>از مادهٔ پایه تا پرسش پیش از انتخاب؛ چهار روش را کنار هم بشناسید.</p>
+        <p>چهار روش را بر اساس نوع ماده، کاربرد و پرسش‌های مهم با هم مقایسه کنید.</p>
         <div className="method-atlas-index" aria-hidden="true"><span data-method-current>۰۱</span><span>/ ۰۴</span><i/></div>
         <span className="method-atlas-note">هر راهنما، یک قدم برای گفت‌وگویی روشن‌تر.</span>
       </div>

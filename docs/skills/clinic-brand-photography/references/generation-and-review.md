@@ -12,9 +12,9 @@ Use only useful fields:
 - Primary request: one independent professional clinic editorial photograph.
 - Scene/action: concrete believable moment tied to topic.
 - Subject: clearly adult Persian woman 23–32 for service, or relevant unbranded objects/interior.
-- Casting/styling: distinct face/hair/garment; independent lip, cheek, and makeup descriptions.
+- Casting/styling: distinct face/hair/garment and explicit complexion; independent lip, cheek, brow, lash, eye-makeup and skin-finish descriptions; name the natural, polished, moderate or high-enhancement tier.
 - Composition: framing, camera distance, gaze, safe subject placement for crops.
-- Light/palette: plausible source/direction, warm/cool/balanced class, neutral base and complementary relationship, credible skin.
+- Light/palette: name the physical source, direction, hardness, temperature and falloff; describe visible highlight/shadow/catchlight/hair-rim effects; include warm/cool/balanced class, neutral base and complementary relationship, and protect the intended complexion.
 - Texture/finish: pores, small asymmetries, flyaways, tactile cloth, realistic lens perspective and careful editing.
 - Constraints/avoid: actual protected features, no fabricated treatment result/branding/watermark, no grid or captions.
 
@@ -36,9 +36,9 @@ Built-in imagegen outputs normally live under Codex generated_images. Obtain the
 Inspect full resolution and intended crops:
 - Topic/honesty: relevant image, no fictional patient result, clinician identity, endorsement, or diagnostic authority.
 - People: believable anatomy, hands, ears, pupils, teeth, hairline, neck/shoulders, jewelry, and clothing; relaxed posture.
-- Retouching: pores/asymmetry survive, no waxy skin or improbable glow.
+- Retouching: pores/asymmetry survive, no waxy skin or improbable glow; intended complexion, makeup, brow/lash treatment and enhancement tier remain visibly distinct.
 - Objects/interiors: plausible scale, joints, lids, reflections, furniture clearance, shadow/contact; no unwanted lettering.
-- Color: chosen family appears while skin remains credible; enough color variation to avoid beige repetition.
+- Color and light: chosen family appears while skin remains credible; highlights and shadows clearly follow the named source; the collection shows real complexion and exposure variety rather than uniformly pale, flat faces.
 - Crops: eyes, hair, hands, and topic cue survive real masks and small cards.
 - Collection: no repeated identities, gaze, silhouettes, rooms, or props dominating the set.
 

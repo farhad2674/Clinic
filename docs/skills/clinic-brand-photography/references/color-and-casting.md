@@ -22,26 +22,29 @@ These complementary or near-complementary relationships need not be exact opposi
 
 Lighting target across 42 masters: approximately 17 warm, 15 cool, 10 balanced (40/35/25). Coordinate the collection ledger across agents. Warm/cool means a plausible lighting environment and color relationship, not global skin tint.
 
+Do not stop at a warm/cool label. Every portrait records a physical source—sun, window, studio key/fill/rim, room practical, or mixed light—plus direction, hardness, falloff, and visible effect on the face, body, and hair. Use meaningful variety: hard late sun with crisp shadow edges and hair rim; large-window light with soft cheek falloff; controlled studio beauty light with catchlights and deliberate fill; warm room light with cooler window spill. Preserve local complexion and avoid uniform exposure that makes every person equally pale.
+
 ## Individual adult casting
 
 For the approved 2026-10-13 refresh, all 16 service models are adult Persian women approximately 23–32, including the 45+ service. This is an editorial choice, not a treatment recommendation. Teen and 45+ article images use relevant skincare/preparation objects. Explicit later user casting instructions supersede these project defaults.
 
-Vary longer/rounder/oval faces, nose shapes, brows, complexion undertones and depth, hairstyle, and expression. Do not treat Persian identity as one face preset or an ethnic beauty hierarchy.
+Vary longer/rounder/oval faces, nose shapes, brows, complexion undertones and depth, hairstyle, and expression. Plan a visible collection range that may include bright/light skin, light-medium neutral skin, medium olive skin, and warm or deeper bronze/brown skin. Skin depth and undertone should remain credible under the chosen source; highlights and shadow color may change with light, but identity should not be bleached or artificially bronzed. Do not treat Persian identity as one face preset or an ethnic beauty hierarchy.
 
 Hair ideas: near-black blunt bob; chestnut curls; long dark waves; shoulder-length straight hair; loose low bun with flyaways; cropped curls; dark braid; layered fringe; half-up textured hair. Occasional realistic hair color is welcome. Avoid recycling a slick bun or glossy long waves throughout.
 
 Wardrobe ideas: fitted but comfortable cotton shirt, soft jacket, textured knit, fluid blouse, linen overshirt, relaxed long-sleeve dress, understated waistcoat. Vary construction, neckline, sleeve, fabric weight, and silhouette. Scarves/headbands may appear occasionally; they are not a compulsory symbol.
 
-## Balanced enhancement continuum
+## Beauty styling and enhancement spectrum
 
-Most models are understated; a smaller group can have moderately fuller lips or more deliberate contours. For 16 service portraits, about 11 understated and 5 moderate is a practical starting mix.
+Make differences visible at collection scale. Use a mix of natural faces, polished beauty styling, moderately enhanced features, and an occasional deliberately high-enhancement look when relevant. Do not turn one tier into the default or imply that enhancement is superior.
 
 Specify these independently:
 - Lips: restrained volume, gently fuller lower lip, or moderately full proportional lips; plausible edges and philtrum.
 - Cheeks: soft planes, modest definition, or moderately defined cheekbones; preserve softness and asymmetry.
-- Makeup: almost bare, light everyday makeup, or polished but restrained color.
+- Brows and lashes: untouched natural brows/lashes; groomed brows with mascara; or clearly defined brows, eyeliner and visible lash styling.
+- Makeup: almost bare, light everyday makeup, polished color, or a deliberate high-glam treatment when the placement calls for it.
 
-A face may combine full lips with soft cheeks and minimal makeup, or restrained lips with defined cheeks and a warmer lip color. Do not maximize all three together or assert actual injection history. Avoid swollen-looking lips, rigid symmetry, tiny identical noses, and a repeated influencer template.
+A face may combine full lips with soft cheeks and minimal eye makeup, or restrained lips with defined cheeks, shaped brows and visible lashes. A high-enhancement portrait may combine noticeably fuller lips and stronger contour only when anatomy remains plausible; do not assert actual injection history. Avoid swollen-looking lips, rigid symmetry, tiny identical noses, and a repeated influencer template.
 
 Retouch with character: pores, normal tone variation, subtle under-eye tone, expression lines, flyaways, and realistic catchlights remain. Beautiful editing should still look like a photograph of a person.
 

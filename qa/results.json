@@ -1,7 +1,67 @@
 {
   "checks": [
     {
-      "name": "Entrance video scrubs backwards",
+      "name": "Homepage uses home-service-prp-young-adult.webp",
+      "pass": true
+    },
+    {
+      "name": "Homepage uses home-service-mesogel-curly-headband.webp",
+      "pass": true
+    },
+    {
+      "name": "Homepage uses home-service-cell-based-happy-teen.webp",
+      "pass": true
+    },
+    {
+      "name": "Homepage uses home-service-regenerative-beauty.webp",
+      "pass": true
+    },
+    {
+      "name": "Homepage uses home-method-prp-platelets.webp",
+      "pass": true
+    },
+    {
+      "name": "Homepage uses home-method-cell-therapy.webp",
+      "pass": true
+    },
+    {
+      "name": "Homepage uses home-method-exosomes.webp",
+      "pass": true
+    },
+    {
+      "name": "Homepage uses home-journey-concern.webp",
+      "pass": true
+    },
+    {
+      "name": "Homepage uses home-journey-options-doctor.webp",
+      "pass": true
+    },
+    {
+      "name": "Homepage uses home-journey-decision-followup.webp",
+      "pass": true
+    },
+    {
+      "name": "Homepage uses home-journal-regenerative.webp",
+      "pass": true
+    },
+    {
+      "name": "WhatsApp booking shown active",
+      "pass": true
+    },
+    {
+      "name": "Exact Elahieh address shown",
+      "pass": true
+    },
+    {
+      "name": "Method comparison intro is clear",
+      "pass": true
+    },
+    {
+      "name": "No low-authenticity homepage labels",
+      "pass": true
+    },
+    {
+      "name": "Entrance video scrubs forward",
       "pass": true,
       "detail": {
         "entranceLater": 4.229166,
@@ -9,11 +69,11 @@
       }
     },
     {
-      "name": "Portrait video scrubs backwards",
+      "name": "Portrait video scrubs forward",
       "pass": true,
       "detail": {
-        "portraitLater": 6.026782,
-        "portraitEarlier": 1.603865
+        "portraitLater": 5.992,
+        "portraitEarlier": 1.592
       }
     },
     {
@@ -33,14 +93,6 @@
       "pass": true
     },
     {
-      "name": "Reduced motion removes long scenes",
-      "pass": true
-    },
-    {
-      "name": "Reduced motion restores all six stages",
-      "pass": true
-    },
-    {
       "name": "Menu opens as modal",
       "pass": true
     },
@@ -49,7 +101,7 @@
       "pass": true
     },
     {
-      "name": "Audience content updates",
+      "name": "Method atlas focus updates index",
       "pass": true
     },
     {
@@ -58,42 +110,42 @@
     },
     {
       "name": "No horizontal overflow at 360",
-      "pass": false,
+      "pass": true,
       "detail": {
         "viewport": 360,
-        "document": 388
+        "document": 360
       }
     },
     {
       "name": "No horizontal overflow at 390",
-      "pass": false,
+      "pass": true,
       "detail": {
         "viewport": 390,
-        "document": 415
+        "document": 390
       }
     },
     {
       "name": "No horizontal overflow at 768",
-      "pass": false,
+      "pass": true,
       "detail": {
         "viewport": 768,
-        "document": 825
+        "document": 768
       }
     },
     {
       "name": "No horizontal overflow at 1024",
-      "pass": false,
+      "pass": true,
       "detail": {
         "viewport": 1024,
-        "document": 1079
+        "document": 1024
       }
     },
     {
       "name": "No horizontal overflow at 1440",
-      "pass": false,
+      "pass": true,
       "detail": {
         "viewport": 1440,
-        "document": 1465
+        "document": 1440
       }
     },
     {
@@ -105,7 +157,11 @@
       "pass": true
     },
     {
-      "name": "Advanced service availability explicit",
+      "name": "Advanced service avoids placeholder availability copy",
+      "pass": true
+    },
+    {
+      "name": "Advanced service retains evidence guidance",
       "pass": true
     },
     {
@@ -126,9 +182,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /",
+      "pass": true
+    },
+    {
       "name": "Route /services",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /services",
+      "pass": true
     },
     {
       "name": "Route /skin",
@@ -136,9 +200,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /skin",
+      "pass": true
+    },
+    {
       "name": "Route /hair",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /hair",
+      "pass": true
     },
     {
       "name": "Route /rejuvenation",
@@ -146,9 +218,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /rejuvenation",
+      "pass": true
+    },
+    {
       "name": "Route /advanced",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /advanced",
+      "pass": true
     },
     {
       "name": "Route /about",
@@ -156,9 +236,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /about",
+      "pass": true
+    },
+    {
       "name": "Route /care",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /care",
+      "pass": true
     },
     {
       "name": "Route /journal",
@@ -166,9 +254,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /journal",
+      "pass": true
+    },
+    {
       "name": "Route /faq",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /faq",
+      "pass": true
     },
     {
       "name": "Route /contact",
@@ -176,9 +272,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /contact",
+      "pass": true
+    },
+    {
       "name": "Route /privacy",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /privacy",
+      "pass": true
     },
     {
       "name": "Route /services/acne",
@@ -186,9 +290,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /services/acne",
+      "pass": true
+    },
+    {
       "name": "Route /services/acne-scars",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /services/acne-scars",
+      "pass": true
     },
     {
       "name": "Route /services/pigmentation",
@@ -196,9 +308,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /services/pigmentation",
+      "pass": true
+    },
+    {
       "name": "Route /services/hair-loss",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /services/hair-loss",
+      "pass": true
     },
     {
       "name": "Route /services/scalp-health",
@@ -206,9 +326,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /services/scalp-health",
+      "pass": true
+    },
+    {
       "name": "Route /services/natural-rejuvenation",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /services/natural-rejuvenation",
+      "pass": true
     },
     {
       "name": "Route /services/rejuvenation-45",
@@ -216,9 +344,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /services/rejuvenation-45",
+      "pass": true
+    },
+    {
       "name": "Route /services/botox",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /services/botox",
+      "pass": true
     },
     {
       "name": "Route /services/fillers",
@@ -226,9 +362,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /services/fillers",
+      "pass": true
+    },
+    {
       "name": "Route /services/microneedling",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /services/microneedling",
+      "pass": true
     },
     {
       "name": "Route /services/prp",
@@ -236,9 +380,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /services/prp",
+      "pass": true
+    },
+    {
       "name": "Route /services/prf",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /services/prf",
+      "pass": true
     },
     {
       "name": "Route /services/exosomes",
@@ -246,9 +398,17 @@
       "detail": 200
     },
     {
+      "name": "No placeholder copy on /services/exosomes",
+      "pass": true
+    },
+    {
       "name": "Route /services/cell-based",
       "pass": true,
       "detail": 200
+    },
+    {
+      "name": "No placeholder copy on /services/cell-based",
+      "pass": true
     },
     {
       "name": "Unknown route returns 404",
@@ -266,12 +426,6 @@
       "detail": []
     }
   ],
-  "failures": [
-    "No horizontal overflow at 360",
-    "No horizontal overflow at 390",
-    "No horizontal overflow at 768",
-    "No horizontal overflow at 1024",
-    "No horizontal overflow at 1440"
-  ],
+  "failures": [],
   "errors": []
 }

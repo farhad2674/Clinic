@@ -1,4 +1,4 @@
-import {serviceImages} from './service-images';
+import {homepageFeedbackImages} from './homepage-feedback-images';
 import {journalImages} from './journal-images';
 // Featured service portraits match the corresponding service detail pages.
 export const homeServices = [
@@ -8,7 +8,7 @@ export const homeServices = [
     "title": "PRP پوست و مو",
     "body": "کاربردهای پلاکت‌های خون خود فرد در پوست و مو را بشناسید.",
     "href": "/services/prp",
-    "image": serviceImages["prp"]!
+    "image": homepageFeedbackImages["service-prp"]!
   },
   {
     "slug": "hair",
@@ -16,7 +16,7 @@ export const homeServices = [
     "title": "مزوژل",
     "body": "محصولات تزریقی با هدف بهبود کیفیت پوست، با ترکیب‌هایی متفاوت.",
     "href": "/services/mesogel",
-    "image": serviceImages["mesogel"]!
+    "image": homepageFeedbackImages["service-mesogel"]!
   },
   {
     "slug": "rejuvenation",
@@ -24,7 +24,7 @@ export const homeServices = [
     "title": "روش‌های نوین سلولی",
     "body": "روش‌هایی با استفاده از سلول زنده؛ از پیوند سلول‌های پوست تا پژوهش‌های سلول بنیادی.",
     "href": "/services/cell-based",
-    "image": serviceImages["cell-based"]!
+    "image": homepageFeedbackImages["service-cell-based"]!
   },
   {
     "slug": "advanced",
@@ -32,7 +32,7 @@ export const homeServices = [
     "title": "پزشکی بازساختی (Regenerative)",
     "body": "از فرآورده‌های پلاکتی و سلولی تا مهندسی بافت؛ با مسیرهای این حوزه آشنا شوید.",
     "href": "/services/regenerative",
-    "image": serviceImages["regenerative"]!
+    "image": homepageFeedbackImages["service-regenerative"]!
   }
 ];
 
@@ -42,7 +42,7 @@ export const methodComparisons = [
     "title": "پلاکت‌های خون خودتان",
     "body": "PRP فرآورده‌ای غنی از پلاکت است که از خون خود فرد تهیه می‌شود.",
     "link": "/journal/prp-skin-evidence",
-    "image": journalImages["prp-skin-evidence"],
+    "image": homepageFeedbackImages["method-prp"],
     "question": "برای مشکل من چه شواهدی دارد؟"
   },
   {
@@ -58,7 +58,7 @@ export const methodComparisons = [
     "title": "سلول زنده، با کاربرد مشخص",
     "body": "سلول‌درمانی می‌تواند از سلول‌های تخصص‌یافته، مانند سلول‌های رنگدانه‌ساز پوست، استفاده کند.",
     "link": "/journal/cell-therapy-stem-cells",
-    "image": journalImages["cell-therapy-stem-cells"],
+    "image": homepageFeedbackImages["method-cell-therapy"],
     "question": "کدام سلول و برای چه کاربردی؟"
   },
   {
@@ -66,7 +66,7 @@ export const methodComparisons = [
     "title": "ذرات آزادشده از سلول",
     "body": "اگزوزوم ذره‌ای آزادشده از سلول است؛ ماهیت آن با سلول زنده تفاوت دارد.",
     "link": "/journal/exosomes-vs-stem-cells",
-    "image": journalImages["exosomes-vs-stem-cells"],
+    "image": homepageFeedbackImages["method-exosomes"],
     "question": "منبع فرآورده و وضعیت مجوز چیست؟"
   }
 ];
@@ -96,11 +96,11 @@ export const homeFaq = [
   },
   {
     "question": "هزینه و تعداد جلسات چگونه مشخص می‌شود؟",
-    "answer": "به روش، محصول و برنامهٔ پیگیری بستگی دارد. تعرفه‌های الویتا هنوز اعلام نشده‌اند."
+    "answer": "به روش، محصول و برنامهٔ پیگیری بستگی دارد. هزینه و تعداد جلسات پس از ارزیابی نیاز شما و انتخاب برنامه روشن می‌شود."
   },
   {
     "question": "چه خدماتی در الویتا ارائه خواهد شد؟",
-    "answer": "فهرست نهایی خدمات هنوز تأیید نشده است. صفحات سلول‌درمانی و اگزوزوم در حال حاضر برای آشنایی با روش‌ها هستند."
+    "answer": "خدمات الویتا حوزه‌های پوست، مو، جوان‌سازی و پزشکی بازساختی را پوشش می‌دهند. مناسب‌بودن هر روش در مشاوره بررسی می‌شود."
   }
 ];
 
@@ -108,19 +108,19 @@ export const homeJourney = [
   {
     "title": "دغدغهٔ شما",
     "body": "از تغییرات پوست یا مو و چیزی که برایتان مهم است بگویید.",
-    "image": journalImages["consultation-preparation"].src,
-    "alt": journalImages["consultation-preparation"].alt
+    "image": homepageFeedbackImages["journey-concern"].src,
+    "alt": homepageFeedbackImages["journey-concern"].alt
   },
   {
     "title": "بررسی گزینه‌ها",
     "body": "پس از ارزیابی، گزینه‌ها، هزینه و انتظار از نتیجه روشن می‌شود.",
-    "image": journalImages["different-treatment-results"].src,
-    "alt": journalImages["different-treatment-results"].alt
+    "image": homepageFeedbackImages["journey-options"].src,
+    "alt": homepageFeedbackImages["journey-options"].alt
   },
   {
     "title": "تصمیم و پیگیری",
     "body": "با تصمیم آگاهانه، برنامهٔ مراقبت و زمان بازبینی مشخص می‌شود.",
-    "image": journalImages["everyday-skin-care"].src,
-    "alt": journalImages["everyday-skin-care"].alt
+    "image": homepageFeedbackImages["journey-followup"].src,
+    "alt": homepageFeedbackImages["journey-followup"].alt
   }
 ];

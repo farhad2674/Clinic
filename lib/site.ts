@@ -13,12 +13,12 @@ hair:{...servicePhotography['hair-loss'],concept:true},
 mature:{...servicePhotography['rejuvenation-45'],concept:true}
 };
 // Populate only after the clinic confirms these public contact details.
-export const contact:{phone:string|null;messagingUrl:string|null;address:string|null;hours:string|null;mapUrl:string|null}={phone:null,messagingUrl:null,address:null,hours:null,mapUrl:null};
+export const contact:{phone:string|null;messagingUrl:string|null;address:string|null;hours:string|null;mapUrl:string|null}={phone:null,messagingUrl:null,address:'تهران، الهیه، خیابان بوسنی و هرزگوین، خیابان کتابی، خیابان دکتر حسابی، بن‌بست نفیسی، بن‌بست پولاد، پلاک ۲',hours:null,mapUrl:null};
 export const categories=[
 {slug:'skin',number:'01',label:'پوست',title:'خدمات پوست؛ آکنه، جای جوش و لک',heading:'برای پوستتان از کجا شروع کنید؟',body:'جوش فعال، جای جوش و لک، پرسش‌های متفاوتی دارند. با بررسی نوع پوست، نشانه‌ها و درمان‌های قبلی، گزینه‌های مرتبط با هر کدام را بشناسید.',image:servicePhotography.pigmentation.src,tag:'آکنه، لک و بافت پوست'},
 {slug:'hair',number:'02',label:'مو و پوست سر',title:'ریزش مو و سلامت پوست سر',heading:'از ریزش مو تا خارش پوست سر',body:'زمان شروع ریزش، الگوی کم‌پشتی و وضعیت پوست سر در ارزیابی بررسی می‌شوند. درباره ریزش مو، شوره و گزینه‌های مراقبت بیشتر بخوانید.',image:servicePhotography['hair-loss'].src,tag:'ریزش، کم‌پشتی و شوره'},
 {slug:'rejuvenation',number:'03',label:'جوان‌سازی',title:'جوان‌سازی و زیبایی طبیعی',heading:'رسیدگی به پوست، با حفظ ویژگی‌های چهره',body:'بهبود کیفیت پوست، خطوط و تغییرات حجم را با هم بررسی کنید. بوتاکس، فیلر یا روش‌های دیگر باید با ساختار چهره و انتظار شما متناسب باشند.',image:servicePhotography['natural-rejuvenation'].src,tag:'کیفیت پوست و تناسب چهره'},
-{slug:'advanced',number:'04',label:'روش‌های نوین',title:'پزشکی بازساختی و روش‌های سلولی',heading:'PRP، مزوژل و روش‌های سلولی را بشناسید',body:'کاربرد و محدودیت روش‌های نوین را بخوانید. پیشنهاد هر روش به شواهد، ایمنی، مجوز و شرایط شما وابسته است؛ ارائه اگزوزوم و فرآورده‌های سلولی هنوز تأیید نشده است.',image:servicePhotography.regenerative.src,tag:'کاربرد، شواهد و محدودیت‌ها'}
+{slug:'advanced',number:'04',label:'روش‌های نوین',title:'پزشکی بازساختی و روش‌های سلولی',heading:'PRP، مزوژل و روش‌های سلولی را بشناسید',body:'کاربرد، شواهد، ایمنی و تفاوت روش‌های نوین را بشناسید و پرسش‌های مهم هر مسیر را برای جلسه مشاوره آماده کنید.',image:servicePhotography.regenerative.src,tag:'کاربرد، شواهد و محدودیت‌ها'}
 ];
 export const pages = [
 {slug:'services',title:'راهنمای خدمات'},...categories.map(c=>({slug:c.slug,title:c.title})),
